@@ -1,0 +1,112 @@
+{
+    "Description": {
+        "TimeCreated": "21.07.2021 5:59:54",
+        "Comment": ""
+    },
+    "HeaderColor": "Yellow",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "I'm about to get ready for my shift at work when I find out our shower is broken and I need to shower still!",
+    "Question": "What should I do?",
+    "OptionText": [
+        {
+            "Text": "Just go into work anyway."
+        },
+        {
+            "Text": "Call out sick"
+        },
+        {
+            "Text": "Take a \"deodorant shower\" and go into work."
+        },
+        {
+            "Text": "Jump in the pool and try to bathe in there."
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I get to work early but no one wants to work near me because I smell. But I get a lot of work done.",
+            "DiaryEntry": "No one wants to work anywhere near me because I stink and they're all making fun of me. Oh, I am so embarrassed and depressed now. But I got to work early since I skipped a shower and since no one worked anywhere near me I ended up being very productive at work. If that makes it worth it... not sure it does."
+        },
+        {
+            "Result": "I call out sick, stay home and watch movies all day.",
+            "DiaryEntry": "I wasn't about to go into work stinking to High Heavens. I call out sick and just stay home and watch movies all day. It was actually really nice to just have a day off, but I probably ate too much junk food in the process."
+        },
+        {
+            "Result": "The deodorant masks the fact I didn't shower pretty well but I am paranoid all shift someone will start to smell me.",
+            "DiaryEntry": "No one seemed to notice I didn't shower and the deodorant does the trick. But all shift I'm so nervous, I keep going to the bathroom to use the sink and try to clean myself little by little. I end up being so unproductive at work, I hardly get any work done at all. I also leave work early before I start stinking too much."
+        },
+        {
+            "Result": "The pool definitely masks the fact I didn't shower and the chlorine gives me a cool little hairdo.",
+            "DiaryEntry": "The pool did the trick. Who knew?! And in addition to masking the fact that I didn't shower, the chlorine from the pool did something cool to my hair and everyone is asking about my new look and if I got a haircut and being so complimenting. Maybe I shower in the pool before every shift now!"
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:-",
+                    "Wealth": "50"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Wealth": "30"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Appearance": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:+",
+                    "Wealth": "50"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College",
+                "MinAge": "16",
+                "MaxAge": "22",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

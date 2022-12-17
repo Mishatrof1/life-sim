@@ -1,0 +1,86 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 15:46:00",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "History test",
+    "Question": "I have this question on my History test, 'Who was the 16th president of the United States?'",
+    "OptionText": [
+        {
+            "Text": "James Buchanan"
+        },
+        {
+            "Text": "Abraham Lincoln"
+        },
+        {
+            "Text": "Ulysses S. Grant"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "James Buchanan is the wrong answer",
+            "DiaryEntry": "James Buchanan was the wrong answer, it turns out he was the 15th president. So close!"
+        },
+        {
+            "Result": "Abraham Lincoln is the right answer!",
+            "DiaryEntry": "Abraham Lincoln is the right answer! I guess my studying paid off."
+        },
+        {
+            "Result": "Ulysses S. Grant is the wrong answer.",
+            "DiaryEntry": "So, Ulysses S. Grant was the wrong answer, but I checked afterwards. He was the 18th president. Close enough! "
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {},
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ]
+        },
+        {},
+        {}
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "13",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

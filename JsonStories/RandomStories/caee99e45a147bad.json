@@ -1,0 +1,113 @@
+{
+    "Description": {
+        "TimeCreated": "15.07.2021 15:24:40",
+        "Comment": ""
+    },
+    "Category": "Blue",
+    "StoryText": "%FullName:NPC:1% and I want to do a race this weekend and are trying to decide which one we should sign up for.",
+    "Question": "What should we do?",
+    "OptionText": [
+        {
+            "Text": "Do the 5K."
+        },
+        {
+            "Text": "Do the half marathon."
+        },
+        {
+            "Text": "Run a full marathon."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "We run the 5K and both place really well, it isn't too bad since it's not all that long.",
+            "DiaryEntry": "Me and %FullName:NPC:1% both place really well in the 5K and because of this we win prizes and win our money back and break even. Plus, it was a good workout. 5K's might be right up my alley for the future!"
+        },
+        {
+            "Result": "We run the half marathon and it is a lot, but we make it and we do pretty well. It is such an amazing workout.",
+            "DiaryEntry": "Well, running a half marathon was a bit more than I had ever done all at once but it went really well. We both managed to make it and place decently, it only cost about $30 but it was definitely an excellent workout."
+        },
+        {
+            "Result": "Some point after halfway through I can't do it anymore. I collapse and pass out. Maybe it was the heat or just that it was too much for me.",
+            "DiaryEntry": "After collapsing doing this marathon, %FullName:NPC:1% helps me out, but apparently this full marathon was too much for %Pron:1:2% as well. We realized we have to start much smaller next time. We can't just go right into a marathon... so stupid!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:1:+",
+                    "Endurance": "ValueRef:1:+",
+                    "Athleticism": "ValueRef:0:+",
+                    "Wealth": "-30"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-",
+                    "Athleticism": "ValueRef:0:+",
+                    "Wealth": "-50"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": null
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": "Same"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College:PartTimeJob:FullTimeJob",
+                "MinAge": "16",
+                "MaxAge": "45",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

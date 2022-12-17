@@ -1,0 +1,126 @@
+{
+    "Description": {
+        "TimeCreated": "19.07.2021 13:28:46",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "My father gives me $30 to go buy lunch for the family.",
+    "Question": "What do I get?",
+    "OptionText": [
+        {
+            "Text": "Spend the $30 at the taco place"
+        },
+        {
+            "Text": "Spend the $30 at the popular French restaurant"
+        },
+        {
+            "Text": "Spend $20 on sandwiches, return the $10"
+        },
+        {
+            "Text": "Spend $20 on sandwiches, keep the $10"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "My father is proud I made a good decision and got a lot of food for the money, he gives me $10 to keep.",
+            "DiaryEntry": "Hey, my father was proud of me for making a good economical decision, we had plenty to eat AND I got some extra money from him! I might always choose tacos now."
+        },
+        {
+            "Result": "My father is upset I wasted the money and brought home barely any food. But it’s so delicious.",
+            "DiaryEntry": "That French food was so good, but we didn’t quite have enough to fill us all up, I definitely see why my father got so mad at me. Whoops! At least it was tasty food."
+        },
+        {
+            "Result": "My father is proud I spent the money wisely and returned the money. But I got food poisoning from my sandwich.",
+            "DiaryEntry": "My father was happy with my decision on lunch and I guess I did feel responsible bringing the money back. But I don’t feel so hot after that sandwich..."
+        },
+        {
+            "Result": "My father doesn’t say it, but he knows I kept money and is upset. Also he gets food poisoning from his sandwich and I feel guilty.",
+            "DiaryEntry": "This went terribly, my father was visibly annoyed, I think he knew I kept extra money and he got sick! I feel like it’s all my fault... at least I got some extra cash I guess?"
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wealth": "10"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Wealth": "10"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Parent:StepParent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Male",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "",
+                "MaxAge": "16",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

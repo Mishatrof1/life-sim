@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "b468badcfa7d28c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "67edec8000f79f3c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Ending A0.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "63ddde56afbf37bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6b68f7c265ec1ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e43cc0ea009cdb77",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "32d3896a3969a20d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#testtag2",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3f6438e11aeba81a",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb200e83d3c32723",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c9c18b3c0f149b8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Ending A0.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "67edec8000f79f3c",
+  "lastOpenFiles": [
+    "Ending A0.md",
+    "Ask my friends.md",
+    "Keep silence.md",
+    "Сlockwise (1).md",
+    "Start the mission (1).md",
+    "The day (1).md",
+    "Skip (3).md",
+    "Buy.md",
+    "Accept.md",
+    "Reunion.md"
+  ]
+}

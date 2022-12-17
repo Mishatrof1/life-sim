@@ -1,0 +1,104 @@
+{
+    "Description": {
+        "TimeCreated": "15.07.2021 10:20:29",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "Me and %FullName:NPC:1% are going to play football with his friends and we are trying to decide on how to play.",
+    "Question": "What should we do?",
+    "OptionText": [
+        {
+            "Text": "Play touch football."
+        },
+        {
+            "Text": "Play tackle football."
+        },
+        {
+            "Text": ""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "We play touch football and have a great time, get in a great workout and me and %FullName:NPC:1% bond as we play on the same team together.",
+            "DiaryEntry": "Me and %FullName:NPC:1% have a great time as we play on the same team and strategize together and do really well in our games. Plus, it's a great workout. I think touch football was the right choice."
+        },
+        {
+            "Result": "Well, it was a good workout for a bit and I was really having to use my strength to take some people down until someone tackles me and I get really hurt.",
+            "DiaryEntry": "It's pretty fun playing tackle football for awhile and it's a great workout until I get knocked down and have trouble getting back up. I am really banged up. %FullName:NPC:1% even had to help me off the field."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-",
+                    "Strength": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Sibling",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Male"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PrimarySchool:MiddleSchool:HighSchool:College",
+                "MinAge": "10",
+                "MaxAge": "22",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,117 @@
+{
+    "Description": {
+        "TimeCreated": "19.07.2021 3:39:15",
+        "Comment": ""
+    },
+    "Category": "Blue",
+    "StoryText": "I'm at the beach with %FullName:NPC:1% and I am in the water and a wave comes, tosses me upside down and pulls my bathing suit off!",
+    "Question": "What should I do?",
+    "OptionText": [
+        {
+            "Text": "Run to our spot on the beach and try to cover up"
+        },
+        {
+            "Text": "Try to grab my bathing suit in the water"
+        },
+        {
+            "Text": "Grab some seaweed to cover myself up"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I sprint through the beach and only a few people notice me before I get to our spot and %FullName:NPC:1 gives me clothes to cover up with.",
+            "DiaryEntry": "That was the fastest I ever ran on the beach and only a few people noticed I was naked. And %FullName:NPC:1% reacted so quickly by giving me clothes to cover up with, this crisis was mostly averted. Thank goodness for %Pron:1:2%."
+        },
+        {
+            "Result": "I try to grab my suit and more waves come in and flip me upside down again and toss me out onto the beach while I'm naked.",
+            "DiaryEntry": "I thought I could quickly grab my suit but staying the water longer just made things worse. The ocean tossed me out onto the sand naked! I even tweaked my wrist when I landed. Then, I had to try to run back to our spot and get something to cover up with but so many people on the beach saw me. I'm so embarrassed."
+        },
+        {
+            "Result": "I manage to grab a lot of seaweed and walk myself back to our spot and everyone on the beach notices me but I am completely covered.",
+            "DiaryEntry": "Everyone on the beach is laughing and watching me. I'm not bothered though, I would stare if I was them too. I'm just glad I got enough seaweed to cover myself up and was able to walk back to our spot so I could properly cover myself up. Also, word of my seaweed ways spreads like wildfire."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-",
+                    "Endurance": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+",
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": "Same",
+                "MinAge": "16",
+                "MaxAge": "22"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College",
+                "MinAge": "16",
+                "MaxAge": "22",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

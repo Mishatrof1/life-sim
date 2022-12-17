@@ -1,0 +1,137 @@
+{
+    "Description": {
+        "TimeCreated": "15.07.2021 6:06:46",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "%FullName:NPC:1% and I are going to go for a run but aren't sure where we should run.",
+    "Question": "Where should we choose to go?",
+    "OptionText": [
+        {
+            "Text": "Run through the trails in the woods."
+        },
+        {
+            "Text": "Run through our neighborhood."
+        },
+        {
+            "Text": "Run all the way to the school and back."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FullName:NPC:1% tells me to go ahead without her when she starts to get tired. I do so and lose her and she gets lost in the woods.",
+            "DiaryEntry": "I get home and my parents ask me where %FullName:NPC:1% is and I don't know. We all have to go out and look for her and eventually find her. She was lost in the woods. I am in so much trouble now. Pretty sure everyone hates my guts now."
+        },
+        {
+            "Result": "%FullName:NPC:1% and I get a pretty good run in but the weirdest thing is that a cop car and another car speed by and a bag of money is thrown from the window filled with money.",
+            "DiaryEntry": "Our run was cut short because as we're passing through the neighborhood, a cop car was chasing another car right past us and a bag of money flew out the window! We picked it up and counted it, $2,000! We brought it home and kept $500 each and gave $500 to each of our parents. I feel a shopping spree coming on!"
+        },
+        {
+            "Result": "This ends up being the perfect run. Me and %FullName:NPC:1% are tired by the end of it, but we make it. ",
+            "DiaryEntry": "This was a great run, we're going to remember this route. It was perfect for us, just the right distance. I mean, I could've gone a little longer, but it was perfect for %FullName:NPC:1% so it works for me. I am feeling great now!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Relationship": "ValueRef:1:-"
+                },
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Relationship": "ValueRef:1:-"
+                },
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Relationship": "ValueRef:1:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Health": "ValueRef:0:+",
+                    "Wealth": "500"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:1:+"
+                },
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:1:+"
+                },
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": null,
+                    "Relationship": null
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Sibling",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Female"
+            },
+            {
+                "Relatives": "Parent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Female"
+            },
+            {
+                "Relatives": "Parent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Male"
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PrimarySchool:MiddleSchool:HighSchool",
+                "MinAge": "9",
+                "MaxAge": "16",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

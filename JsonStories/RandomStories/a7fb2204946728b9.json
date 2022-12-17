@@ -1,0 +1,120 @@
+{
+    "Description": {
+        "TimeCreated": "21.07.2021 6:17:37",
+        "Comment": ""
+    },
+    "HeaderColor": "Yellow",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "I'm at work and I see some guy with a gun robbing the store.",
+    "Question": "He doesn't see me. What should I do?",
+    "OptionText": [
+        {
+            "Text": "Charge him."
+        },
+        {
+            "Text": "Put my hands up and don't move."
+        },
+        {
+            "Text": "Drop to the floor with my hands out."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I run at the guy, try to tackle him, he turns and shoots me!",
+            "DiaryEntry": "I charged this guy and before I could get to him, he shot me! Luckily, the bullet didn't hit any organs or anything and the guy ended up running out of the store. I am rushed to the hospital and was worried I was going to die, but I make it out alright. That was so stupid of me. I am not ever trying to be the hero ever again!"
+        },
+        {
+            "Result": "The guy turns around, sees me with my hands up and shoots at me, but ends up getting tackled by %FullName:NPC:1% in the process.",
+            "DiaryEntry": "I guess the guy thought I was attacking and shot at me. Luckily he missed right past my head but as he was distracted, %FullName:NPC:1% tackled him to the ground and the cops came and took him away. And everyone thanks me because they think I was purposely distracting him. I'm just still in shock after a bullet passed right by me!"
+        },
+        {
+            "Result": "Everyone wonders why I dropped to the floor even if the guy didn't see me and they think I am a coward.",
+            "DiaryEntry": "%FullName:NPC:1% says I did the right thing and made the right choice but so many other people are making fun of me for how I acted. All I care about is being safe. Someone is in there with a gun, I am taking NO chances."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:1:-",
+                    "Wisdom": "ValueRef:3:+",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Sympathy": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wisdom": "ValueRef:2:+",
+                    "Popularity": "ValueRef:1:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Wisdom": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "Colleague",
+                "Gender": "",
+                "MinAge": "16",
+                "MaxAge": "30"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College",
+                "MinAge": "16",
+                "MaxAge": "22",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

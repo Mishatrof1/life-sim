@@ -1,0 +1,127 @@
+{
+    "Description": {
+        "TimeCreated": "19.07.2021 2:40:58",
+        "Comment": ""
+    },
+    "Category": "Pink",
+    "StoryText": "At a party me and %FullName:NPC:1% are throwing, our friend %FullName:NPC:2% comes up and kisses me on the lips in front of everyone.",
+    "Question": "What should I do?",
+    "OptionText": [
+        {
+            "Text": "Push %FullName:NPC:2% away."
+        },
+        {
+            "Text": "Pull away from %FullName:NPC:2%"
+        },
+        {
+            "Text": "Just let her do it."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FullName:NPC:2% is embarrassed and %FullName:NPC:1% gets mad at me for treating %Pron:2:2% that way.",
+            "DiaryEntry": "I was just trying to stop %FullName:NPC:2% from kissing me, clearly %Pron:2:1% had a few too many drinks. I thought %FullName:NPC:1% would be mad if I just let %Pron:2:2% do it, so I don't know what the right thing to do was!"
+        },
+        {
+            "Result": "%FullName:NPC:2% keeps trying to kiss me and so %FullName:NPC:1% has to step in and stop %Pron:2:2%.",
+            "DiaryEntry": "Well, I tried to pull away but %FullName:NPC:2% kept trying to kiss me. %Pron:2:1% definitely had too many drinks. Then, %FullName:NPC:1% had to step in and separate %FullName:NPC:2% from me and then they get into an argument. %FullName:NPC:1% is happy with me for how I tried to handle it, but mad at %FullName:NPC:2%."
+        },
+        {
+            "Result": "Letting %FullName:NPC:2% kiss me encourages %Pron:2:2% to keep going and %FullName:NPC:1% is furious with me.",
+            "DiaryEntry": "I could tell %FullName:NPC:2% had too much to drink and I was trying to let %Pron:2:2% get it out of %Pron:2:2% system but then %FullName:NPC:1% thought I wanted to be kissing %Pron:2:2% and is furious with me. Also, now %FullName:NPC:2% thinks we have something going on or something. I don't know. What a disaster!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Relationship": "ValueRef:1:-"
+                },
+                {
+                    "Relationship": "ValueRef:0:+",
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Partner",
+                "Occupation": "",
+                "Gender": "Opposite",
+                "MinAge": "30",
+                "MaxAge": "50"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": "Opposite"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PartTimeJob:FullTimeJob",
+                "MinAge": "30",
+                "MaxAge": "50",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

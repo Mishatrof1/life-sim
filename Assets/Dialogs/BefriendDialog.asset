@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8225261534166110927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58fa1190eae693d4dbccd3bc88a756c9, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1464, y: -1816}
+  ports:
+    keys:
+    - Enter
+    - Responses
+    - Responses 0
+    values:
+    - _fieldName: Enter
+      _node: {fileID: -8225261534166110927}
+      _typeQualifiedName: Other.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses
+      _node: {fileID: -8225261534166110927}
+      _typeQualifiedName: System.Collections.Generic.List`1[[Other.DialogSystem.Response,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses 0
+      _node: {fileID: -8225261534166110927}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Enter
+        node: {fileID: 3523653595720171637}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Label: 
+  MessageText: 
+  Responses:
+  - Label: 
+  ListConditions: 
+  AgeCondition: 0
+  RelationMin: 0
+  RelationMax: 0
+  SexualityCondition: 0
+  Results: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e64f25e764a6f241970354049f629f8, type: 3}
+  m_Name: BefriendDialog
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 8234584371281301203}
+  - {fileID: 4379959125588584663}
+  - {fileID: 3523653595720171637}
+  - {fileID: -8225261534166110927}
+  CharacterGender: 3
+  CharacterMinAge: 1
+  CharacterMaxAge: 100
+  ParticipantGender: 3
+  ParticipantMinAge: 1
+  ParticipantMaxAge: 100
+--- !u!114 &3523653595720171637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58fa1190eae693d4dbccd3bc88a756c9, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1064, y: -1688}
+  ports:
+    keys:
+    - Enter
+    - Responses
+    - Responses 0
+    values:
+    - _fieldName: Enter
+      _node: {fileID: 3523653595720171637}
+      _typeQualifiedName: Other.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Responses 0
+        node: {fileID: -8225261534166110927}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses
+      _node: {fileID: 3523653595720171637}
+      _typeQualifiedName: System.Collections.Generic.List`1[[Other.DialogSystem.Response,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses 0
+      _node: {fileID: 3523653595720171637}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Label: No
+  MessageText: Your {NpcType}, {NpcName}, does not want to become your friend.
+  Responses:
+  - Label: ok
+  ListConditions: 
+  AgeCondition: 0
+  RelationMin: 0
+  RelationMax: 0
+  SexualityCondition: 0
+  Results: []
+--- !u!114 &4379959125588584663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58fa1190eae693d4dbccd3bc88a756c9, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1080, y: -2232}
+  ports:
+    keys:
+    - Enter
+    - Responses
+    - Responses 0
+    values:
+    - _fieldName: Enter
+      _node: {fileID: 4379959125588584663}
+      _typeQualifiedName: Other.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Responses 0
+        node: {fileID: 8234584371281301203}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses
+      _node: {fileID: 4379959125588584663}
+      _typeQualifiedName: System.Collections.Generic.List`1[[Other.DialogSystem.Response,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses 0
+      _node: {fileID: 4379959125588584663}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Label: Yes
+  MessageText: You are now friends with {NpcName}
+  Responses:
+  - Label: ok
+  ListConditions: 
+  AgeCondition: 0
+  RelationMin: 0
+  RelationMax: 0
+  SexualityCondition: 0
+  Results:
+  - ResultType: 5
+    ParticipantIndex: 0
+    HappinessChange: 0
+    LookChange: 0
+    SmartChange: 0
+    HealthChange: 0
+    TypeOfOccupation: 0
+    relationshipType: 2
+--- !u!114 &8234584371281301203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58fa1190eae693d4dbccd3bc88a756c9, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1464, y: -2248}
+  ports:
+    keys:
+    - Enter
+    - Responses
+    - Responses 0
+    values:
+    - _fieldName: Enter
+      _node: {fileID: 8234584371281301203}
+      _typeQualifiedName: Other.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses
+      _node: {fileID: 8234584371281301203}
+      _typeQualifiedName: System.Collections.Generic.List`1[[Other.DialogSystem.Response,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses 0
+      _node: {fileID: 8234584371281301203}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Enter
+        node: {fileID: 4379959125588584663}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Label: Befriend
+  MessageText: 'Befriend your {NpcType}, {NpcName} today!
+
+
+    Name: {NpcName}
+
+    Gender:
+    {NpcGender}
+
+    Age: {NpcAge}'
+  Responses:
+  - Label: Befriend
+  ListConditions: 01000000
+  AgeCondition: 1
+  RelationMin: 0
+  RelationMax: 0
+  SexualityCondition: 0
+  Results: []

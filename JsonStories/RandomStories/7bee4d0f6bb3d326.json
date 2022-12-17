@@ -1,0 +1,134 @@
+{
+    "Description": {
+        "TimeCreated": "29.07.2021 3:39:14",
+        "Comment": ""
+    },
+    "HeaderColor": "Pink",
+    "Category": "Love",
+    "Sentiment": "",
+    "StoryText": "I win a free vacation for two off of a radio contest.",
+    "Question": "Now, I get to choose where it will be. Where do I choose?",
+    "OptionText": [
+        {
+            "Text": "Cancun"
+        },
+        {
+            "Text": "Madrid"
+        },
+        {
+            "Text": "Berlin"
+        },
+        {
+            "Text": "Paris"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "Me and %FullName:NPC:1% have a great time relaxing in the sun, but I get pretty sunburnt.",
+            "DiaryEntry": "%FullName:NPC:1% was happy with me for choosing Cancun because we got to relax in the sun most of the time. This was nice to have a vacation with no \"things\" to do. Most of the time we just relaxed and enjoyed the sun and the beach. Other than my really bad sun burn from the end of the trip I had a great time."
+        },
+        {
+            "Result": "For some reason I have to pay an extra $100 for this trip because of the flight but overall we had a fantastic time",
+            "DiaryEntry": "Me and %FullName:NPC:1% had been talking for a while about wanting to go to Madrid some day and I was so happy to be able to finally get a trip for us to go there. It was fantastic. We did a lot of sightseeing, a lot of relaxing and loved every minute. It turned out to be the one option that wasn't totally free, but whatever."
+        },
+        {
+            "Result": "%FullName:NPC:1% is upset with me for choosing Berlin",
+            "DiaryEntry": "I thought we would have a great time, learning about the culture and visiting museums but %FullName:NPC:1% tells me that isn't really what %Pron:1:1% wanted to do with a vacation. I really thought it would be enjoyable. Now, I am bummed out too, but we still go to some museums and learn quite a bit. But I am regretting this decision."
+        },
+        {
+            "Result": "%FullName:NPC:1% is thrilled with this choice and we have a fantastic time.",
+            "DiaryEntry": "Me and %FullName:NPC:1% have always talked about wanting to visit Paris. It's been at the top of our list and it did not disappoint. We had an amazing time, relaxing, eating good food, we even took in a few museums and learned quite a bit. Paris really does have a little of everything that we wanted. Perfect trip!"
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Wealth": "-100"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Partner",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "25",
+                "MaxAge": "60"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PartTimeJob:FullTimeJob",
+                "MinAge": "25",
+                "MaxAge": "60",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

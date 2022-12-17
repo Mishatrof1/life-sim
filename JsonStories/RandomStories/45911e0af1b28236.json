@@ -1,0 +1,124 @@
+{
+    "Description": {
+        "TimeCreated": "19.07.2021 15:13:19",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "My father asks me what I am going to contribute from my paychecks into my retirement fund.",
+    "Question": "What do I tell him?",
+    "OptionText": [
+        {
+            "Text": "“I don’t know, I’ll figure it out.”"
+        },
+        {
+            "Text": "“Retirement fund? I don’t need that yet.”"
+        },
+        {
+            "Text": "“Just 3% is fine.”"
+        },
+        {
+            "Text": "“I think probably 5% or so.”"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "My father laughs and tells me we’ll figure it out together and he teaches me about finances.",
+            "DiaryEntry": "I’m glad my father taught me so much about finances and retirement funds because I had no idea! But I might be ready to plan some big time stuff out now!"
+        },
+        {
+            "Result": "My father is livid and tells me I absolutely need to start one and tells me I need to look into this. But I’m not going to.",
+            "DiaryEntry": "My father is annoyed with me now but I don’t see the big deal. I’m still young and I am keeping more of my money I’m earning so this seems better."
+        },
+        {
+            "Result": "My father gets annoyed at my casual response, he tells me 3% isn’t enough and then teaches me about finances.",
+            "DiaryEntry": "My father got irritated with me, which at first annoyed me too, but he actually did teach me a lot about retirement funds and I think I realized he’s just trying to help. Even when he puts me in a bad mood."
+        },
+        {
+            "Result": "My father is happy with my answer. He decides to take me out for a nice dinner.",
+            "DiaryEntry": "Well, I’m glad I shot for 5% because my father was happy with that and it got me a free dinner! Next time he asks I might say 10% and go for dessert!"
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Parent:StepParent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Male",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "FullTimeJob",
+                "MinAge": "",
+                "MaxAge": "",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 3:33:46",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "My boss %FullName:NPC:1% wants to go to lunch with me but %Pron:1:1% eats terribly and I want to eat healthy.",
+    "Question": "What should I do?",
+    "OptionText": [
+        {
+            "Text": "Suggest we eat at the healthy restaurant that I like."
+        },
+        {
+            "Text": "Let my boss choose the restaurant."
+        },
+        {
+            "Text": "Choose a restaurant that has healthy and unhealthy options."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I enjoy my food but %FullName:NPC:1% is upset because %Pron:1:1% doesn't want healthy food. %Pron:1:1% wants something greasy. But at least I can focus the rest of the work day.",
+            "DiaryEntry": "%FullName:NPC:1% is mad that I picked this place, but I really thought there would be something %Pron:1:1% would enjoy. I guess not. Well, we ate healthy and I have a productive rest of my day, even if %FullName:NPC:1% is angry at me for \"ruining lunch.\""
+        },
+        {
+            "Result": "%FullName:NPC:1% chooses a terribly unhealthy restaurant and everything on the menu is greasy and terrible. It tastes great, but I feel awful after.",
+            "DiaryEntry": "%FullName:NPC:1% is happy I let %Pron:1:2% pick because %Pron:1:1% knows I would've picked a different place if I was making the choice. So, I'm glad to have a solid relationship with my boss. But oh, I feel so awful now. Where are the antacids??"
+        },
+        {
+            "Result": "This ends up being a good compromise. %FullName:NPC:1% gets some greasy, unhealthy dish and I get something pretty healthy! But it's so expensive!",
+            "DiaryEntry": "Well, %FullName:NPC:1% and I are good after this choice. We both got the food we wanted. And I feel great after eating my healthy dish. But that restaurant was expensive! Wow, was it worth it to keep my boss happy?"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:+",
+                    "Wealth": "-25"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-",
+                    "Wealth": "-20"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:+",
+                    "Wealth": "-40"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": null
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PartTimeJob:FullTimeJob",
+                "MinAge": "23",
+                "MaxAge": "45",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

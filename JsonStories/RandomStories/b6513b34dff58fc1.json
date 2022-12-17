@@ -1,0 +1,152 @@
+{
+    "Description": {
+        "TimeCreated": "23.07.2021 19:10:36",
+        "Comment": ""
+    },
+    "HeaderColor": "Beige",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "I just saw the new Robotron Attack Blaster in the shop window, but I haven't got enough pocket money... I need an advance on next week's!",
+    "Question": "Do I ask Mom or Dad... or both?",
+    "OptionText": [
+        {
+            "Text": "Ask Mom. She's always a big softie if I say 'Pretty please.\""
+        },
+        {
+            "Text": "Ask Dad - I drew him a lovely picture this morning, so I think he'll say yes!"
+        },
+        {
+            "Text": "Ask them both - they like to make decisions together!"
+        },
+        {
+            "Text": "Borrow' the extra cash from Mom's purse. "
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I asked Mom for an advance on next week's pocket money, and she said yes! I bought the new Robotron Attack Blaster. But Dad was not happy: he likes to be consulted. They had a squabble!",
+            "DiaryEntry": "I made my mom and dad have a fight... I asked my Mom for extra pocket money to get a new toy, and Mom and Dad ended up squabbling about it. Whoops!"
+        },
+        {
+            "Result": "Dad gave me a really long talk about something called 'Finances', which was complicated. It made Mom laugh! And then he finally said yes, and I now have a Robotron Attack Blaster! ",
+            "DiaryEntry": "Dad lent me an advance on next week's pocket money, and so I now have a Robotron Attack Blaster! Mom found Dad's boring talk about Finances really funny for some reason. "
+        },
+        {
+            "Result": "I asked Mom and Dad at the same time, and they simultaneously both gave opposite answers. Then they smiled and laughed. Finally, they agreed and let me get my Robotron Attack Blaster!",
+            "DiaryEntry": "I asked both my parents for extra pocket money to buy the Robotron Attack Blaster. They loved both being asked, it turned out. Yay!"
+        },
+        {
+            "Result": "I was so close, but Mom's handbag is really messy, and I couldn't find the money I needed. Instead, I got caught, got a telling off, and got last week's pocket money taken too. Crime doesn't pay. ",
+            "DiaryEntry": "I got caught trying to 'borrow' some money from Mom's purse. I learned my lesson and I feel sad. The Robotron Attack Blaster will have to wait, but at least I've learnt that crime doesn't pay. "
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Popularity": "ValueRef:1:+",
+                    "Wealth": "-5"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Popularity": "ValueRef:1:+",
+                    "Wealth": "-5"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Popularity": "ValueRef:1:+",
+                    "Wealth": "-5"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Wisdom": "ValueRef:0:+",
+                    "Wealth": "-5"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Relationship": "ValueRef:1:-"
+                },
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Relationship": "ValueRef:1:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Parent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Male"
+            },
+            {
+                "Relatives": "Parent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Female"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "Kid",
+                "MinAge": "3",
+                "MaxAge": "5",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

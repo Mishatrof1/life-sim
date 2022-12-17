@@ -1,0 +1,97 @@
+{
+    "Description": {
+        "TimeCreated": "17.07.2021 13:54:44",
+        "Comment": ""
+    },
+    "Category": "Blue",
+    "StoryText": "I'm going to the beach with some classmates.",
+    "Question": "What should I wear, shoes or sandals?",
+    "OptionText": [
+        {
+            "Text": "Sandals"
+        },
+        {
+            "Text": "Shoes"
+        },
+        {
+            "Text": ""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "As I'm walking on the beach my sandals break and I step on a shell and cut my foot.",
+            "DiaryEntry": "I was so mad, I couldn't believe it! I guess my sandals were pretty old and they just completely broke, After I cut my foot I had to hobble off the beach and all my classmates were talking about how tough I was. I wanted to cry but there were so many people around, I just held it in."
+        },
+        {
+            "Result": "Everyone makes fun of me for wearing shoes but when we play frisbee I am zooming all around on the beach.",
+            "DiaryEntry": "Everyone is making fun of me for wearing shoes to the beach. Whatever, when we played frisbee I was having a way easier time than everyone else. Running all around, grabbing the frisbee, tossing it around. I was able to move through the sand better than everyone else. Maybe shoes weren't so dumb after all, huh?"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ]
+        },
+        {},
+        {}
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "13",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "Description": {
+        "TimeCreated": "23.07.2021 18:51:43",
+        "Comment": ""
+    },
+    "HeaderColor": "Blue",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "%FirstName:NPC:1% has exactly the same lunch pail as me!",
+    "Question": "What are we, twins?",
+    "OptionText": [
+        {
+            "Text": "Tell %FirstName:NPC:1% to get a different lunch pail - and stop copying you!"
+        },
+        {
+            "Text": "Compliment %Pron:1:2% on his taste in lunch accessories!"
+        },
+        {
+            "Text": "Time to prank %FirstName:NPC:1%. Swap the lunch pails around in the fridge!"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FirstName:NPC:1% pushed me over and I grazed my elbow. I suppose I shouldn't boss people around. ",
+            "DiaryEntry": "I was annoyed that %FirstName:NPC:1% had the same lunch pail as me but when I tried to boss %Pron:1:2% around, he pushed me over. Fair enough, I guess. "
+        },
+        {
+            "Result": "%FirstName:NPC:1% was happy that I was so nice about his lunch pail. Then we went to play superheroes together! Yippee!",
+            "DiaryEntry": "It turns out that if you're nice to your friends, they'll pay you back a million times over! %FirstName:NPC:1% and I have the same lunch pail, and you know what? That means we're best buds. "
+        },
+        {
+            "Result": "I swapped %FirstName:NPC:1% and I's identical lunch pails around in the fridge. I ended up having to eat his gross guerkin sandwiches, though. But it was really funny! It was worth it!",
+            "DiaryEntry": "%FirstName:NPC:1% saw the funny side to swapping our packed lunches over, luckily. But he has a horrible taste in sandwiches, I have to say! It was hilarious though!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Appearance": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:1:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Popularity": "ValueRef:1:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "Classmate",
+                "Gender": "Male"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PrimarySchool",
+                "MinAge": "4",
+                "MaxAge": "5",
+                "Gender": "Male",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

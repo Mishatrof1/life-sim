@@ -1,0 +1,110 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 4:42:46",
+        "Comment": ""
+    },
+    "Category": "Blue",
+    "StoryText": "Me and %FullName:NPC:1% are at the gym and they're offering some different classes.",
+    "Question": "Which one should we take?",
+    "OptionText": [
+        {
+            "Text": "The regular boxing class."
+        },
+        {
+            "Text": "Bare knuckle boxing classes."
+        },
+        {
+            "Text": ""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "We take the class, they give us boxing gloves and have us spar with one another and it turns out to be fun and great exercise.",
+            "DiaryEntry": "Me and %FullName:NPC:1% have fun sparring with each other with the gloves on. We get in a great workout too! I feel very energized and we keep talking about it afterwards and might be planning on going back again."
+        },
+        {
+            "Result": "We choose this and it's a good workout until we end up hitting each other too hard and then it turns into us trying to hurt one another.",
+            "DiaryEntry": "Me and %FullName:NPC:1% both got annoyed with one another when we hit each other too hard and then it turned into a personal thing. We were actually trying to hurt one another. %Pron:1:1% started it though, I was just retaliating. I'm so mad at %Pron:1:2% I leave by myself, but I suppose it was a good workout. Was the black eye worth it though?"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+",
+                    "Wealth": "-50"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Appearance": "ValueRef:0:-",
+                    "Health": "ValueRef:1:+",
+                    "Strength": "ValueRef:0:+",
+                    "Endurance": "ValueRef:1:+",
+                    "Athleticism": "ValueRef:1:+",
+                    "Wealth": "-40"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": "Same"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool:College",
+                "MinAge": "13",
+                "MaxAge": "23",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

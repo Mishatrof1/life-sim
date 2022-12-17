@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b1f4e9e4da47f8ba6bbbb3c586b254, type: 3}
+  m_Name: Eyes
+  m_EditorClassIdentifier: 
+  SlotList:
+  - Slots:
+    - Name: eyeballs
+      Attachment: eyeballs
+      Region: eyeballs
+      ColorGroup: {fileID: 11400000, guid: 703314cf61947e6449acc30ec98ba70e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: blink
+      Attachment: blink
+      Region: blink
+      ColorGroup: {fileID: 11400000, guid: 9d04a1b07b19f934482b6f1e140e1be9, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: anger_eyes
+      Attachment: anger_eyes
+      Region: anger_eyes
+      ColorGroup: {fileID: 11400000, guid: 9d04a1b07b19f934482b6f1e140e1be9, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: laugh_eyes
+      Attachment: laugh_eyes
+      Region: laugh_eyes
+      ColorGroup: {fileID: 11400000, guid: 9d04a1b07b19f934482b6f1e140e1be9, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: eyelids_top
+      Attachment: eyelids_top
+      Region: eyelids_top
+      ColorGroup: {fileID: 11400000, guid: 9d04a1b07b19f934482b6f1e140e1be9, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: suffering_eyelids_bottom
+      Attachment: suffering_eyelids_bottom
+      Region: suffering_eyelids_bottom
+      ColorGroup: {fileID: 11400000, guid: 9d04a1b07b19f934482b6f1e140e1be9, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: smile_eyelids_bottom
+      Attachment: smile_eyelids_bottom
+      Region: smile_eyelids_bottom
+      ColorGroup: {fileID: 11400000, guid: 9d04a1b07b19f934482b6f1e140e1be9, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: pupil_L
+      Attachment: pupil_L
+      Region: pupil_L
+      ColorGroup: {fileID: 11400000, guid: 72844a823af67d849acb8fd66cd9a4e0, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: pupil_R
+      Attachment: pupil_R
+      Region: pupil_R
+      ColorGroup: {fileID: 11400000, guid: 72844a823af67d849acb8fd66cd9a4e0, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: laugh_eyelids_bottom
+      Attachment: laugh_eyelids_bottom
+      Region: laugh_eyelids_bottom
+      ColorGroup: {fileID: 11400000, guid: 9d04a1b07b19f934482b6f1e140e1be9, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: eyelines_bottom
+      Attachment: eyelines_bottom
+      Region: eyelines_bottom
+      ColorGroup: {fileID: 11400000, guid: 703314cf61947e6449acc30ec98ba70e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: laugh_cheeks
+      Attachment: laugh_cheeks
+      Region: laugh_cheeks
+      ColorGroup: {fileID: 11400000, guid: 9d04a1b07b19f934482b6f1e140e1be9, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: eyelines_top
+      Attachment: eyelines_top
+      Region: eyelines_top
+      ColorGroup: {fileID: 11400000, guid: 703314cf61947e6449acc30ec98ba70e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1

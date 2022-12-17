@@ -1,0 +1,129 @@
+{
+    "Description": {
+        "TimeCreated": "21.07.2021 5:40:43",
+        "Comment": ""
+    },
+    "HeaderColor": "Yellow",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "Me and my coworker %FullName:NPC:1% are fooling around in the break room and accidentally break the table.",
+    "Question": "What should we do?",
+    "OptionText": [
+        {
+            "Text": "Leave the break room, pretend we know nothing"
+        },
+        {
+            "Text": "Try to buy a new table to replace it"
+        },
+        {
+            "Text": "Tell our boss we'll work to replace the table."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "We try to sneak out of the break room but someone sees us and tells our boss %FullName:NPC:2% what we did.",
+            "DiaryEntry": "%FullName:NPC:2% is so mad at us, we get yelled at for about an hour. Afterwards me and %FullName:NPC:1% get in an argument about whose fault it was. I am so annoyed, so angry, but everyone else at work thinks we are hilarious and called us \"The Table Breakers\" which isn't the worst nickname I guess."
+        },
+        {
+            "Result": "We find a table online for $100 that we split and bring into the break room.",
+            "DiaryEntry": "Thanks to our quick thinking, %FullName:NPC:1% were able to find a similar table, get the seller to bring it to us and sneak it up into the break room when our boss %FullName:NPC:2% isn't paying attention. %Pron:2:1% never even finds out! But we're each out $50."
+        },
+        {
+            "Result": "Our boss %FullName:2% has us work on our next day off and takes the money for a new table out of our checks.",
+            "DiaryEntry": "%FullName:NPC:2% is happy we told %Pron:2:2% the truth. We work on our next day off and %FullName:NPC:2% takes the money out of our checks to pay for a table, however, we still end up earning some extra money. It was a long day, a lot of physical labor, but at least we didn't get in trouble!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Relationship": "ValueRef:1:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Strength": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:+",
+                    "Wealth": "-50"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Strength": "ValueRef:0:+",
+                    "Wealth": "25"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "Colleague",
+                "Gender": "",
+                "MinAge": "16",
+                "MaxAge": "22"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College",
+                "MinAge": "16",
+                "MaxAge": "22",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

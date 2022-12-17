@@ -1,0 +1,143 @@
+{
+    "Description": {
+        "TimeCreated": "26.07.2021 22:19:31",
+        "Comment": ""
+    },
+    "HeaderColor": "Beige",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "My mom had dreams of being a gymnast and is really happy that I'm so good at it. But I don't really want to go anymore. I'm more interested in soccer.",
+    "Question": "Would it be letting her down to quit and take up soccer instead?",
+    "OptionText": [
+        {
+            "Text": "Carry on going to gym. I usually like it when I get there. "
+        },
+        {
+            "Text": "Give gym a break. Soccer looks really cool."
+        },
+        {
+            "Text": "Pretend I'm injured, and slowly get Mom used to the idea of soccer. "
+        },
+        {
+            "Text": "Try and do both gym and soccer!"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I decided to keep going to gym and it did get better. It's fun being so good at something. Plus, my mom is always so proud. I'll stick with it for now. ",
+            "DiaryEntry": "I stuck with gym and now I'm enjoying it again. I love making my mom proud too. "
+        },
+        {
+            "Result": "I told my mom that I wanted to give gym a break and take up soccer. She looked a little sad, but then smiled. Football is great and I think my mom is proof I want to try new things. ",
+            "DiaryEntry": "I decided to just give gym a break and play soccer instead. I doubt I'll go back!"
+        },
+        {
+            "Result": "It didn't work. I kept forgetting which shoulder I'd 'hurt' and Mom saw right through the trick. Now she forces me to go to gym!",
+            "DiaryEntry": "My mom knows what's good for me, I guess. She also smells a lie from a hundred yards. I guess I'm not quitting gym anytime soon. "
+        },
+        {
+            "Result": "I love soccer and gym got better after a while too. Sometimes I just get a little tired. Ok, a lot tired. ",
+            "DiaryEntry": "I'm either going to be a gymnast, a soccer player or a zombie! I didn't quite gym but I did take up soccer! Bring it on... But, so tired right now! "
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:+",
+                    "Strength": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:+",
+                    "Strength": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Strength": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:1:+",
+                    "Strength": "ValueRef:0:-",
+                    "Endurance": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Parent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Female"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "Kid:PrimarySchool",
+                "MinAge": "4",
+                "MaxAge": "5",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

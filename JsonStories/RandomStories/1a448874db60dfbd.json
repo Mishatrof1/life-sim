@@ -1,0 +1,141 @@
+{
+    "Description": {
+        "TimeCreated": "21.07.2021 5:51:38",
+        "Comment": ""
+    },
+    "HeaderColor": "Yellow",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "I am supposed to work today but I am feeling a bit sick.",
+    "Question": "What should I do?",
+    "OptionText": [
+        {
+            "Text": "Take some medicine and go into work."
+        },
+        {
+            "Text": "Call out sick"
+        },
+        {
+            "Text": "Ask %FullName:NPC:1% to cover my shift."
+        },
+        {
+            "Text": "Ask %FullName:NPC:2% to cover my shift."
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "My boss %FullName:NPC:3% sees I am sick and gets mad at me for showing up and sends me home.",
+            "DiaryEntry": "%FullName:NPC:3% tells me I shouldn't try coming into work when I'm sick, I can get others sick. %Pron:3:1% sends me home. I get home and after all that moving around, going to work, coming back, I am out of breath. It's too much for me in this state and I am worse off than before."
+        },
+        {
+            "Result": "%FullName:NPC:3% gets mad at me for calling out and not trying to cover my shift.",
+            "DiaryEntry": "Wow, I didn't think %FullName:NPC:3% would actually get mad at me for not covering my shift. I called out and wasn't thinking too clearly, it wasn't on the top of my priority list to call someone to cover me. What is %Pron:3:3% problem?!"
+        },
+        {
+            "Result": "%FullName:NPC:1% covers my shift and I stay home and rest.",
+            "DiaryEntry": "%FullName:NPC:3% is happy I got someone to cover my shift and views me as being very responsible. %FullName:NPC:1% is happy to take the shift too since %Pron:1:1% was looking to work more. And I'm happy to just rest at home and try to sleep this sickness away. I'm already feeling better."
+        },
+        {
+            "Result": "%FullName:NPC:2% can't work the shift so I go into work anyway.",
+            "DiaryEntry": "After %FullName:NPC:2% can't work my shift I just go into work. I tell my boss %FullName:NPC:3% and %Pron:3:1% appreciates me trying but tells me I should just go home and rest. Everyone is impressed that I still tried to go into work feeling the way I do, but now I feel worse than before."
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {},
+                {},
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {},
+                {},
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                },
+                {},
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {},
+                {},
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "Colleague",
+                "Gender": "",
+                "MinAge": "16",
+                "MaxAge": "22"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "Colleague",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College",
+                "MinAge": "16",
+                "MaxAge": "22",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

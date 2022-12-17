@@ -1,0 +1,128 @@
+{
+    "Description": {
+        "TimeCreated": "20.07.2021 10:39:10",
+        "Comment": ""
+    },
+    "HeaderColor": "Yellow",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "My boss %FullName:NPC:1% is offering me overtime for Saturday or Sunday this weekend.",
+    "Question": "I did have plans to play basketball both days. What should I do?",
+    "OptionText": [
+        {
+            "Text": "Don't work any overtime"
+        },
+        {
+            "Text": "Work overtime on Saturday"
+        },
+        {
+            "Text": "Work overtime on Sunday"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "My boss %FullName:NPC:1% actually gets mad at me but I have a great weekend.",
+            "DiaryEntry": "I don't know why %FullName:NPC:1% even gets mad at me. It's not like I have to work, it's overtime. Oh well. I had a great weekend and got in a lot of basketball."
+        },
+        {
+            "Result": "I work on Saturday helping my boss %FullName:NPC:1% organize a ton of furniture and boxes and still play basketball Sunday.",
+            "DiaryEntry": "Working Saturday wasn't too bad, organizing furniture and boxes. A lot of physical labor, but I got paid pretty well for it. And I still got to play basketball on Sunday, so that was great."
+        },
+        {
+            "Result": "I play basketball on Saturday and help my boss organize some spreadsheets on Sunday.",
+            "DiaryEntry": "I still got to play basketball on Saturday so that's great. And on Sunday my boss %FullName:NPC:1% needed help with the spreadsheets. In fact, %Pron:1:1% had no idea how to do anything with spreadsheets so I had to teach %Pron:1:2%, but I got paid quite well for it!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:1:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:+",
+                    "Strength": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+",
+                    "Wealth": "75"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:+",
+                    "Wealth": "100"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": "",
+                "MinAge": "30",
+                "MaxAge": "60"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College",
+                "MinAge": "15",
+                "MaxAge": "22",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

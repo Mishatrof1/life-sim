@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a64de933d4450faeaf4f491f5d5fac, type: 3}
+  m_Name: nurse
+  m_EditorClassIdentifier: 
+  NameDefault: nurse
+  Icon: {fileID: 0}
+  Salary: 67446
+  HoursPerWeek: 40
+  Difficulty: 0
+  CountYear: 5
+  PossibleOrganizations:
+  - {fileID: 11400000, guid: 19b4422ad26d60c49b9f15db323d7ddc, type: 2}
+  PersonRequirement:
+    Age: 21
+    TotalWorkExperience: 0
+    Conviction: 0
+  PositionChainRequirement:
+    Experience: 0
+  ParametersRequirements:
+  - Parameter: 24
+    Value: 1
+  - Parameter: 26
+    Value: 2
+  - Parameter: 27
+    Value: 1
+  PositionsRequirementGroups: []
+  EducationRequirementGroups:
+  - Requirements:
+    - GraduationResult: 4
+      PercentGrade: 100
+      StudyDirection: 24
+    CheckType: 0
+  PromotionsDefault:
+  - {fileID: 11400000, guid: 14c59e3f1ba54b7408772492d58a323a, type: 2}
+  SpecialPromotions: []

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b1f4e9e4da47f8ba6bbbb3c586b254, type: 3}
+  m_Name: Other
+  m_EditorClassIdentifier: 
+  SlotList:
+  - Slots:
+    - Name: sick_colour
+      Attachment: sick_colour
+      Region: sick_colour
+      ColorGroup: {fileID: 11400000, guid: 703314cf61947e6449acc30ec98ba70e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: angry_red_face
+      Attachment: angry_red_face
+      Region: angry_red_face
+      ColorGroup: {fileID: 11400000, guid: 703314cf61947e6449acc30ec98ba70e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: blick_L
+      Attachment: blick_L
+      Region: blick_L
+      ColorGroup: {fileID: 11400000, guid: 703314cf61947e6449acc30ec98ba70e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: blick_R
+      Attachment: blick_R
+      Region: blick_L
+      ColorGroup: {fileID: 11400000, guid: 703314cf61947e6449acc30ec98ba70e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: tear
+      Attachment: tear
+      Region: tear
+      ColorGroup: {fileID: 11400000, guid: 703314cf61947e6449acc30ec98ba70e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: tear2
+      Attachment: tear
+      Region: tear
+      ColorGroup: {fileID: 11400000, guid: 703314cf61947e6449acc30ec98ba70e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: tears_in_eyes
+      Attachment: tears_in_eyes
+      Region: tears_in_eyes
+      ColorGroup: {fileID: 11400000, guid: 703314cf61947e6449acc30ec98ba70e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1

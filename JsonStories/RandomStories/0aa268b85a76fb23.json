@@ -1,0 +1,119 @@
+{
+    "Description": {
+        "TimeCreated": "23.07.2021 5:36:48",
+        "Comment": ""
+    },
+    "HeaderColor": "Pink",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "I head downstairs in the middle of the night because I hear noises and see a spirit rummaging through our kitchen.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Run back into the bedroom."
+        },
+        {
+            "Text": "Go yell to the spirit that I command it to leave"
+        },
+        {
+            "Text": "Grab some leftovers from the fridge and pull them out"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I hide out in the bedroom and the next morning %FullName:NPC:1% gets mad at me and blames me for leaving the fridge open and letting all our food go bad.",
+            "DiaryEntry": "I did not want to deal with that spirit, it seemed hungry and who knows what else. I hid in the bedroom and eventually fell asleep. But the next morning %FullName:NPC:1% gets mad at me because %Pron:1:1% thinks I left the fridge open in the middle of the night and let all the food go bad. Now, we need to buy all new food... and it wasn't even me!"
+        },
+        {
+            "Result": "The spirit is angered and lashes out and attacks me and then vanishes.",
+            "DiaryEntry": "%FullName:NPC:1% comes downstairs to see me injured and bleeding and has to take me to the hospital. I tell %Pron:1:2% what happened and %Pron:1:1% is stunned. I thought I could command the spirit to leave but it didn't work... and it actually was able to touch me... and hurt me. I'm still in such shock."
+        },
+        {
+            "Result": "The spirit sees the food in my hands and follows me. I walk outside and set the food out there and the spirit leaves our place.",
+            "DiaryEntry": "I originally was just trying to help this spirit which seemed to want food. Then as it followed me I decided to lead it outside. It actually followed me outside and I left the food out there, ran inside and shut the door. And I haven't seen or heard this spirit since then. I guess all it wanted was some food. But then %FullName:NPC:1% gets mad at me for \"eating all the leftovers.\" Oh well."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Wealth": "-50"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:1:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+",
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wisdom": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Partner",
+                "Occupation": "",
+                "Gender": "Opposite",
+                "MinAge": "25",
+                "MaxAge": "55"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PartTimeJob:FullTimeJob",
+                "MinAge": "25",
+                "MaxAge": "55",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

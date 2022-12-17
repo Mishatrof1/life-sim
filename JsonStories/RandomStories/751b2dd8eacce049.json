@@ -1,0 +1,133 @@
+{
+    "Description": {
+        "TimeCreated": "19.07.2021 11:42:53",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "My sister wants me to try to get her a job at my office but she isn’t really qualified.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Tell her I’m not going to"
+        },
+        {
+            "Text": "Tell her she isn’t qualified but I know of another job she would be good for"
+        },
+        {
+            "Text": "Give her resume to my boss"
+        },
+        {
+            "Text": "Tell my boss she isn’t qualified but ask if %Pron:1:1% will interview her as a favor"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "My sister gets annoyed with me. I feel badly and end up staying at work late to work overtime because I don’t feel like going home.",
+            "DiaryEntry": "I guess I shouldn’t have been so blunt with my sister, but she isn’t qualified I didn’t want to give her resume to my boss! Anyway, I stayed late tonight and got on my boss’s good side. That’s not bad."
+        },
+        {
+            "Result": "My sister is thankful for my honesty and that I want to help her and she takes me out to dinner as a thank you.",
+            "DiaryEntry": "My sister was happy with my honesty and I am definitely going to try to land her a different job. She took me out to dinner and we had a fantastic time!"
+        },
+        {
+            "Result": "My sister is thankful but my boss is annoyed at me for wasting %Pron:1:3% time. I work overtime to try to make it up to my boss.",
+            "DiaryEntry": "My sister is appreciative of me trying but my boss is annoyed I wasted %Pron:1:3% time. Here I go working overtime to try to get back on %Pron:1:3% good side!"
+        },
+        {
+            "Result": "My boss doesn’t mind and does the interview but my sister finds out that I said she wasn’t qualified and gets angry with me.",
+            "DiaryEntry": "It was really nice of my boss to do all of this for me, we definitely got closer. But I don’t know how my sister found out but she is so angry with me! Jeez, I was trying to spare her feelings!"
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Wealth": "100"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Wealth": "100"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Sibling:StepSibling",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "FullTimeJob",
+                "MinAge": "",
+                "MaxAge": "",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

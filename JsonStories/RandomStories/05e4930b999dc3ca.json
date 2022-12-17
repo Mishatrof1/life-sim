@@ -1,0 +1,114 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 12:21:49",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "I'm taking a Geography quiz in school and I am trying to figure out the answer to this last question.",
+    "Question": "'What is the capital of South Dakota?'",
+    "OptionText": [
+        {
+            "Text": "Pierre"
+        },
+        {
+            "Text": "Sioux Falls"
+        },
+        {
+            "Text": "Rapid City"
+        },
+        {
+            "Text": "Bastien"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "That's the right answer! And my teacher %FullName:NPC:1% is happy with me because %Pron:1:1% is from South Dakota and talks about it all the time.",
+            "DiaryEntry": "%FullName:NPC:1% was happy I got that one right since %Pron:1:1% always talks about South Dakota. I'm glad I got it right because it helped my grade!"
+        },
+        {
+            "Result": "This is the wrong answer and my teacher %FullName:NPC:1% is upset I didn't remember because %Pron:1:1% talks about being from South Dakota all the time.",
+            "DiaryEntry": "Well, %FullName:NPC:1% felt like I should've gotten that one right, since %Pron:1:1% always talks about being from South Dakota. Oh well."
+        },
+        {
+            "Result": "This is the wrong answer and my teacher %FullName:NPC:1% is upset I didn't remember because %Pron:1:1% talks about being from South Dakota all the time.",
+            "DiaryEntry": "Well, %FullName:NPC:1% felt like I should've gotten that one right, since %Pron:1:1% always talks about being from South Dakota. Oh well."
+        },
+        {
+            "Result": "My teacher %FullName:NPC:1% is really upset with me because this isn't even a city in South Dakota.",
+            "DiaryEntry": "%FullName:NPC:1% tells me I am lucky that %Pron:1:1% can't mark me down a whole letter grade for choosing that answer because I wasn't only wrong... I was very wrong. Whoops!"
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:1:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PrimarySchool:MiddleSchool:HighSchool",
+                "MinAge": "8",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

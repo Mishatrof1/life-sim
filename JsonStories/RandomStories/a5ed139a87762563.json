@@ -1,0 +1,97 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 16:10:01",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "English test",
+    "Question": "I have this question on my test, 'Eyes are to sight as tongue is to what?'",
+    "OptionText": [
+        {
+            "Text": "Taste"
+        },
+        {
+            "Text": "Speech"
+        },
+        {
+            "Text": "Kiss"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "Taste is the right answer and the \"best\" answer.",
+            "DiaryEntry": "As my teacher %FullName:NPC:1% tells me this was one of two acceptable answers, but it was the best answer so it counted for more points on my test. Alright! I am happy with that."
+        },
+        {
+            "Result": "Speech is an acceptable answer.",
+            "DiaryEntry": "As my teacher %FullName:NPC:1% explains to me, this counts as an acceptable answer. So, it is technically right, though the answer that was better than speech was taste. I guess that makes sense."
+        },
+        {
+            "Result": "Kiss is the wrong answer.",
+            "DiaryEntry": "Kiss is the wrong answer and my teacher %FullName:NPC:1% even tells me it was the only unacceptable choice. So, that makes me feel even worse..."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {},
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:-"
+                }
+            ]
+        },
+        {}
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": "",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "13",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

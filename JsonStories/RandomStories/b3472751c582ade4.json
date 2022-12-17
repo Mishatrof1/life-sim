@@ -1,0 +1,116 @@
+{
+    "Description": {
+        "TimeCreated": "22.07.2021 6:19:41",
+        "Comment": ""
+    },
+    "HeaderColor": "Blue",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "Me and %FullName:NPC:1% are hiking deep in the woods.",
+    "Question": "Up ahead we see something about 10 feet tall walking through the trees. What should we do?",
+    "OptionText": [
+        {
+            "Text": "Approach and try to film it with our phones"
+        },
+        {
+            "Text": "Run back the direction we came from."
+        },
+        {
+            "Text": "Walk slowly in another direction"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "We get close but our phones get all screwy and shut down but we get a good glimpse of this thing before it vanishes.",
+            "DiaryEntry": "Me and %FullName:NPC:1% both know we saw some giant being that we'd never seen before and we literally saw it disappear into thin air. We can't believe it and something happened with our phones, as if this being wouldn't let us film it. We tell our friends and no one believes us and thinks we're crazy, but we know we saw something... different."
+        },
+        {
+            "Result": "This thing hears us running and roars at us and we trip and fall on some rocks.",
+            "DiaryEntry": "We forgot the way we came from was littered with rocks and stones and when this thing heard us running and roared it scared us so badly we tripped and fell and got all scraped up. It sounded like it was pursuing us so we got up and kept running out of there and eventually made it out of the woods. That was scary!"
+        },
+        {
+            "Result": "We walk off slowly in another direction but the thing hears us and roars and we end up taking off.",
+            "DiaryEntry": "This thing still hears us and roared so we took off running, but we realized after a bit that we couldn't hear it anymore so we stop running. We end up being way off the path and have to hike awhile before we get back to where we need to be. But we both know... that was not something we had ever seen or heard before. Something... otherworldly."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wisdom": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-",
+                    "Endurance": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "17",
+                "MaxAge": "30"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College:PartTimeJob:FullTimeJob",
+                "MinAge": "17",
+                "MaxAge": "30",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

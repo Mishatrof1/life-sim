@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a7a36104385ef3408a532ecca030c5d, type: 3}
+  m_Name: PartTimeJob 5
+  m_EditorClassIdentifier: 
+  NameDefault: 'Dance Instructor (Dance Company)  '
+  Icon: {fileID: 21300000, guid: b1dd95ad824e6a8479dad6b6e4266482, type: 3}
+  HoursPerWeek: 27
+  HourlyRate: 21
+  PossibleOrganizations: {fileID: 11400000, guid: e4ce2ecbd4505bd42a51923e663effd2,
+    type: 2}
+  Age: 14
+  Conditions: []
+  Education: []

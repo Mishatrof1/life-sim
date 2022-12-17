@@ -1,0 +1,115 @@
+{
+    "Description": {
+        "TimeCreated": "23.07.2021 18:41:14",
+        "Comment": ""
+    },
+    "HeaderColor": "Yellow",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "It's a 'wear what you like day' and %FirstName:NPC:1% is wearing exactly the same shoes as me!",
+    "Question": "What should I do?",
+    "OptionText": [
+        {
+            "Text": "Say nothing - they're just shoes, aren't they?"
+        },
+        {
+            "Text": "Politely ask %FirstName:NPC:1% why %Pron:1:1% chose those shoes to wear. "
+        },
+        {
+            "Text": "Accuse %FirstName:NPC:1% of copying you!"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FirstName:NPC:1% mentions that we have the same shoes... and smiles. We both have great taste, don't we?",
+            "DiaryEntry": "%FirstName:NPC:1% and I wore the same shoes to the 'wear what you like' day. Now we're bestest besties! "
+        },
+        {
+            "Result": "%FirstName:NPC:1% says %Pron:1:1% likes them. Oh yeah... well duh! You feel a little bit stupid! But if %FirstName:NPC:1% likes them, it proves that they are lovely shoes!",
+            "DiaryEntry": "I asked %FirstName:NPC:1% why %Pron:1:1% wore her shoes. The amazing revelation was that %Pron:1:1% likes them! Still, it means we are more alike than I thought!"
+        },
+        {
+            "Result": "%FirstName:NPC:1% is really upset - %Pron:1:1% didn't copy you, and now she's upset! Why did you do that?",
+            "DiaryEntry": "Me and my big mouth - I upset my friend by accusing her of copying me. "
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Appearance": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Appearance": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Appearance": "ValueRef:0:+",
+                    "Popularity": "ValueRef:1:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:1:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "Classmate",
+                "Gender": "Female"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PrimarySchool",
+                "MinAge": "5",
+                "MaxAge": "4",
+                "Gender": "Female",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

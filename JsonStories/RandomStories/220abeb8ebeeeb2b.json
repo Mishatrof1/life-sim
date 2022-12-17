@@ -1,0 +1,117 @@
+{
+    "Description": {
+        "TimeCreated": "22.07.2021 5:27:22",
+        "Comment": ""
+    },
+    "HeaderColor": "Blue",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "I go to a haunted graveyard with my friends %FullName:NPC:1% and %FullName:NPC:2%.",
+    "Question": "What should we do?",
+    "OptionText": [
+        {
+            "Text": "Look for the tombstone of The Blue Lady"
+        },
+        {
+            "Text": "Look for the tombstone of The Brookline Butcher"
+        },
+        {
+            "Text": "All three of us hold hands and explore"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "We find the tombstone and suddenly all get sick to our stomachs and have to leave",
+            "DiaryEntry": "This was so strange. We found the famed tombstone of The Blue Lady and once we get near it we all get sick to our stomachs. Vomiting uncontrollably. We all have to leave and once we're out of the graveyard we stop throwing up. We all decided that was a sign, there is stuff we don't understand but we shouldn't mess with that type of stuff anymore."
+        },
+        {
+            "Result": "We find the tombstone when suddenly a butcher's knife lands on %FullName:NPC:1%'s foot.",
+            "DiaryEntry": "After a butcher's knife falls on %FullName:NPC:1%'s foot, we decide to get out of there, but %Pron:1:1% is hurt so we need to help %Pron:1:2% out. By the time we get out of the graveyard %FullName:NPC:1% is mad at both of us for bringing %Pron:1:2% even though it was all of our idea."
+        },
+        {
+            "Result": "We're holding hands one minute, suddenly, we're not, and we're all separated.",
+            "DiaryEntry": "If it wasn't bad enough that we suddenly all get separated and spread out across the graveyard, we each here a voice whisper in our ear \"Get out!\" and we all sprint out of there and vow to never return! If any of us had doubt about if ghosts were real or not, we got a big ol' helping of proof right there!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-",
+                    "Wisdom": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Strength": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Endurance": "ValueRef:0:+",
+                    "Wisdom": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "16",
+                "MaxAge": "22"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College",
+                "MinAge": "16",
+                "MaxAge": "22",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

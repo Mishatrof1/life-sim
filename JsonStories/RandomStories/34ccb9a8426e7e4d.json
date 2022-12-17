@@ -1,0 +1,114 @@
+{
+    "Description": {
+        "TimeCreated": "15.07.2021 5:43:43",
+        "Comment": ""
+    },
+    "Category": "Blue",
+    "StoryText": "My friend %FullName:NPC:1% are trying to decide where to play basketball.",
+    "Question": "Where should we choose?",
+    "OptionText": [
+        {
+            "Text": "The basketball court closest to us."
+        },
+        {
+            "Text": "The basketball court close to the school."
+        },
+        {
+            "Text": "Go to the basketball court on the other side of town."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "This court is in such bad shape, it has cracks and holes in the pavement and we both end up hurting ourselves.",
+            "DiaryEntry": "We totally forgot that the court closest to us is always in bad condition, but this time it seemed even worse. We only got a little bit into our first game before we both got caught up in a hole in the pavement and hurt ourselves. What a bust!"
+        },
+        {
+            "Result": "It costs money to come use this court but they keep it in good shape and there are a lot of people to play with and we have a good time.",
+            "DiaryEntry": "Me and %FullName:NPC:1% have to pay to get in to this court but it's worth it. We team up and play games against some of the other people there and we play really well together! Ended up winning all of our games!"
+        },
+        {
+            "Result": "No one else is at this court so me and %FullName:NPC:1% have the court all to ourselves and play some great one-on-one.",
+            "DiaryEntry": "This is a good court to keep in mind if me and %FullName:NPC:1% want to play one-on-one in the future and not be bothered by anyone else. We had the court all to ourselves, didn't have to wait for other people, the court is in good shape, not a bad day at all!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-",
+                    "Endurance": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+",
+                    "Wealth": "-10"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": "Same"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool:College",
+                "MinAge": "13",
+                "MaxAge": "23",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

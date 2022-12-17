@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b20e95853b2c49a294114a71b99c8c71, type: 3}
+  m_Name: Hat
+  m_EditorClassIdentifier: 
+  MinAge: 0
+  MaxAge: 100
+  SlotLists:
+  - Slots:
+    - Name: hat_back
+      Attachment: hat_back
+      Region: hat_back
+      ColorGroup: {fileID: 11400000, guid: 33543b73061b5a24bb3008ea092ea166, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 83, y: -54.43}
+      Scale: 1
+    - Name: hat
+      Attachment: hat
+      Region: hat
+      ColorGroup: {fileID: 11400000, guid: 33543b73061b5a24bb3008ea092ea166, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 26, y: 50}
+      Scale: 1

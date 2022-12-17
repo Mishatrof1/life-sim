@@ -1,0 +1,93 @@
+{
+    "Description": {
+        "TimeCreated": "17.07.2021 8:16:20",
+        "Comment": ""
+    },
+    "Category": "Gold",
+    "StoryText": "I'm at a White Elephant Christmas party and am about to choose a gift.",
+    "Question": "Which gift should I choose?",
+    "OptionText": [
+        {
+            "Text": "The present in blue gift wrapping paper."
+        },
+        {
+            "Text": "The present in yellow gift wrapping paper."
+        },
+        {
+            "Text": ""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I open it up and it is a set of resistance fitness bands.",
+            "DiaryEntry": "These resistance bands are great! I started using them as soon as I got home and they really help me to get in better shape pretty quickly."
+        },
+        {
+            "Result": "It's an assortment of different flavored potato chips.",
+            "DiaryEntry": "I actually love this! It has so many great flavors of potato chips! I start eating some of them as soon as I get home and keep eating them all through the week. It definitely makes me happy but it also makes me feel... slow... and out of shape."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:+",
+                    "Strength": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool:College",
+                "MinAge": "11",
+                "MaxAge": "22",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

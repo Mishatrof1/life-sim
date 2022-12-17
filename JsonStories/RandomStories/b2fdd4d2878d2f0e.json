@@ -1,0 +1,118 @@
+{
+    "Description": {
+        "TimeCreated": "15.07.2021 12:26:44",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "Me and %FullName:NPC:1% are looking for a class down at the community center we can take together.",
+    "Question": "What should we do?",
+    "OptionText": [
+        {
+            "Text": "Take a cooking class."
+        },
+        {
+            "Text": "Take a karate class together."
+        },
+        {
+            "Text": "Take swing dancing classes."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "We learn all sorts of great new dishes to make and really enjoy it. Everything we end up making is delicious and very fatty.",
+            "DiaryEntry": "Me and %FullName:NPC:1% are basically gourmet chefs now. After many, many cooking classes we've nailed so many great dishes. We're having a great time together, but we're really packing on the pounds..."
+        },
+        {
+            "Result": "The karate class is a lot of work but it really helps us to get into good shape. And we learn a lot about self-defense too.",
+            "DiaryEntry": "I'm glad that %FullName:NPC:1% and I took the karate class, we really got to be quite good at it and learned a lot. And we both feel like we're in such better shape now. Plus, no attackers can get to us now!"
+        },
+        {
+            "Result": "This is absolutely so much fun! It's more of a workout than I expected and %FullName:NPC:1% and I are really connecting more.",
+            "DiaryEntry": "Taking these classes not only was fun and a good workout, but %FullName:NPC:1% and I really connected deeper than we have in a long time. This was so good for us and I am so happy. Of course, it was pricey!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Appearance": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-",
+                    "Wealth": "-50"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:+",
+                    "Wealth": "-100"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Health": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+",
+                    "Wealth": "-200"
+                }
+            ],
+            "NPC": [
+                {
+                    
+                }
+            ]
+        },
+        {}
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Partner",
+                "Occupation": "",
+                "Gender": "Opposite"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PartTimeJob:FullTimeJob",
+                "MinAge": "25",
+                "MaxAge": "55",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

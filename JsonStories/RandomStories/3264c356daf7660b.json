@@ -1,0 +1,104 @@
+{
+    "Description": {
+        "TimeCreated": "18.07.2021 11:08:42",
+        "Comment": ""
+    },
+    "Category": "Cyan",
+    "StoryText": "It's my birthday party and %FullName:NPC:1% is trying to hand feed me a piece of cake.",
+    "Question": "What should I do?",
+    "OptionText": [
+        {
+            "Text": "Just eat it, the cake looks delicious."
+        },
+        {
+            "Text": "Tell %FullName:NPC:1% no."
+        },
+        {
+            "Text": ""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "The cake is delicious and my %FullName:NPC:1% is having a good time but my friends capture this on video and now I am a laughingstock.",
+            "DiaryEntry": "At the sake of doing something to not upset %FullName:NPC:1% I have now jeopardized my whole school career. Everyone is making fun of me now... and I totally understand why! This video is awful!"
+        },
+        {
+            "Result": "%FullName:NPC:1% gets offended but all my friends think it's hilarious the way I talk to %Pron:1:2%.",
+            "DiaryEntry": "I'm happy my friends thought I was hilarious and also I think I avoided a really awkward looking situation at my own birthday party. But %FullName:NPC:1% is really upset with me now. But whatever! I'm not 2 years old, that was really weird!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Parent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Opposite",
+                "MinAge": "40",
+                "MaxAge": "65"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "13",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

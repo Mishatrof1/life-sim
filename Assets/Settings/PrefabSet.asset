@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5797b793b04ae49af0ce33a6b11f4b, type: 3}
+  m_Name: PrefabSet
+  m_EditorClassIdentifier: 
+  InformationFieldPrefab: {fileID: 306332478526243276, guid: d6341c8158474334e8dc58f8a6df5091,
+    type: 3}
+  ProgressPrefab: {fileID: 4551908968508080442, guid: a6018137f7dc778459692f526c6dc3b1,
+    type: 3}
+  ActionButtonPrefab: {fileID: 3928490397751480839, guid: 027becf46e605d84f890bbff3ae20373,
+    type: 3}
+  GroupSplitterPrefab: {fileID: 2613114120707202852, guid: 9739e14fadf53bd4ba141362e48ebbd6,
+    type: 3}
+  BackPartPrefab: {fileID: 6290657701120636392, guid: f70e60bd8c3af4745b031a6c481defa5,
+    type: 3}
+  BackPartBotPrefab: {fileID: 7370472322919375632, guid: ab04b12d68410b845bd02315f9e4bd97,
+    type: 3}
+  BackPartTopPrefab: {fileID: 8209269490733174426, guid: 988e2247222a2974087ca74765a8447e,
+    type: 3}
+  DialogResponseButton: {fileID: 6106703412451253619, guid: f310a2dca9f0b5d42acec13601913405,
+    type: 3}
+  AnimatedIconCamera: {fileID: 3045143245667986844, guid: a4ee208076ef6b84da8108df0541da79,
+    type: 3}
+  ScreenPrefabs:
+  - {fileID: 2600376322042968912, guid: 59cc591c2e2b0da4aa806344b69a447a, type: 3}
+  - {fileID: -1946428819052660299, guid: 5471039f317e87140a7de4cb6338b50b, type: 3}
+  - {fileID: 3371195142102624597, guid: fdc1a999f6c61034e9d19ecd6bad625c, type: 3}
+  - {fileID: 6171230774218702667, guid: 18b66ef55c8376848ba18be815dd4c28, type: 3}
+  - {fileID: -3854722968706530721, guid: ca450a957dc32354e96bdc72bcbdd78e, type: 3}
+  PopupsDarkBack: {fileID: 222666500350644987, guid: 4f69e480e67bb0341b8656a2e3f69cb0,
+    type: 3}
+  PopupPrefabs:
+  - {fileID: 3335416850163177066, guid: b65a37bdc6dcfa54c868c7fdf2c99422, type: 3}
+  - {fileID: 7947874203956499343, guid: 2a9e319dd1a9db54ca0cfd62fa370ecf, type: 3}
+  - {fileID: 2368245760365286756, guid: 667c89bda0469fc47be5d650fac9c355, type: 3}
+  ActivityButtonPrefabs:
+  - ButtonType: 0
+    Prefab: {fileID: 459554241421264055, guid: 44d69f82bcf4b394facd757254cfe3a6, type: 3}
+  - ButtonType: 1
+    Prefab: {fileID: 1233248950476517900, guid: 6723e06258a701f4fa4ce1ce28ddc0a6,
+      type: 3}
+  - ButtonType: 2
+    Prefab: {fileID: 133032685845551296, guid: 682578813af33504eaae2b2ae82a05e5, type: 3}
+  - ButtonType: 3
+    Prefab: {fileID: 7569542896084903108, guid: ef7a7e6567359024e84a41bbd297ab2f,
+      type: 3}
+  FacePrefabs:
+  - AgeStage: 4
+    FaceAnimPrefab: {fileID: 9023878309401281042, guid: 8ec25341096f7df4b8453ceb7a30399c,
+      type: 3}

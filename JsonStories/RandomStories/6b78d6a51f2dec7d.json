@@ -1,0 +1,119 @@
+{
+    "Description": {
+        "TimeCreated": "28.07.2021 4:36:24",
+        "Comment": ""
+    },
+    "HeaderColor": "Pink",
+    "Category": "Love",
+    "Sentiment": "",
+    "StoryText": "It's Thursday and %FullName:NPC:1% asks me, \"What's going on for Saturday morning?\"",
+    "Question": "What do I say?",
+    "OptionText": [
+        {
+            "Text": "\"Let’s go see that new action comedy movie.\""
+        },
+        {
+            "Text": "\"We should do whatever you want to do.\""
+        },
+        {
+            "Text": "\"Waking up early.\""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FullName:NPC:1% gets angry with me because we already had plans to visit %Pron:1:2% family on Saturday.",
+            "DiaryEntry": "%FullName:NPC:1% is so mad at me because I clearly forgot the plans we already made for Saturday but on top of that I was being selfish and picking something that I was interested in but that %Pron:1:1% wasn't interested in. Yeah, I can't blame %Pron:1:2%. That was so dumb! Why did I say that?!"
+        },
+        {
+            "Result": "%FullName:NPC:1% is mad at me because we already made plans and now it is clear I forgot.",
+            "DiaryEntry": "%FullName:NPC:1% wasn't asking me what we should do, %Pron:1:1% wanted to know when we should plan on leaving for the plans we already made. And here I thought I was being sly and letting %FullName:NPC:1% pick what we do. %Pron:1:1% already picked our plans a week ago! Oh man, I'm going to pay for this one."
+        },
+        {
+            "Result": "%FullName:NPC:1% is glad I want to wake up early because apparently we already made plans for Saturday that I forgot about.",
+            "DiaryEntry": "I dodged a bullet! I totally forgot we made plans for Saturday already. And I couldn't think of anything to say besides, \"Waking up early\" but %FullName:NPC:1% was very happy that I planned to wake up early in order to get ready and leave the house early! In actuality, I assumed we would make some other plans and I didn't remember these plans we made. Will I tell %FullName:NPC:1% this? NO WAY!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Intelligence": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Relationship": "ValueRef:1:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Partner",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "25",
+                "MaxAge": "55"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "FullTimeJob",
+                "MinAge": "25",
+                "MaxAge": "55",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

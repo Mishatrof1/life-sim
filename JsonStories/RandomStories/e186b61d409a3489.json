@@ -1,0 +1,102 @@
+{
+    "Description": {
+        "TimeCreated": "17.07.2021 9:53:39",
+        "Comment": ""
+    },
+    "Category": "Cyan",
+    "StoryText": "I am at the zoo at a bird exhibit and the employees tell me I can feed one of the birds.",
+    "Question": "Which bird should I feed?",
+    "OptionText": [
+        {
+            "Text": "The blue bird"
+        },
+        {
+            "Text": "The green bird"
+        },
+        {
+            "Text": "The yellow bird"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "The blue bird eats the food from my hand and then starts pecking at me and biting my face!",
+            "DiaryEntry": "The bird goes crazy for some reason and starts to attack me! It pecks me all over and some random person films it and posts it online and now I am a recurring GIF that people laugh about. The zoo felt badly and gave me a $100 gift card."
+        },
+        {
+            "Result": "The green bird comes by and eats from my hand and then it hangs out on top of me for so long singing and squawking.",
+            "DiaryEntry": "Someone films the whole thing and posts the video online and it becomes a hit! This bird just wanted to hang out with me and sing and squawk while sitting on my shoulder all day long! It was so hilarious!"
+        },
+        {
+            "Result": "The yellow bird eats the food and then is walking all around on me and grabs my wallet and flies away!",
+            "DiaryEntry": "Well, that was an expensive feeding. It was fun for a moment until the bird flew off with my wallet. I had $50 in there! Plus, it was a pretty nice wallet... while it lasted."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Appearance": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:+",
+                    "Wealth": "100"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Wealth": "-50"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "",
+                "MinAge": "",
+                "MaxAge": "",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

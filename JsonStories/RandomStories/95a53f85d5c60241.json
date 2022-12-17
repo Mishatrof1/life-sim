@@ -1,0 +1,124 @@
+{
+    "Description": {
+        "TimeCreated": "19.07.2021 14:56:38",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "My father is working on a project in the garage and needs my help. He says he needs to get a nail into the wall.",
+    "Question": "What do I give him?",
+    "OptionText": [
+        {
+            "Text": "Hand him a hammer"
+        },
+        {
+            "Text": "Hand him pliers"
+        },
+        {
+            "Text": "Hand him a screwdriver"
+        },
+        {
+            "Text": "Hand him the whole toolbox"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "He thanks me for the hammer and is glad I knew the right tool that he needed. He shows me what he’s working on and we bond.",
+            "DiaryEntry": "My father and I have a great time bonding while he worked on his project and it was a great way to spend a few hours."
+        },
+        {
+            "Result": "He gets mad at me because it’s the wrong tool and tells me I need to stay and watch him work to learn a thing or two.",
+            "DiaryEntry": "My father definitely got annoyed with me and I got annoyed with him, but I did actually learn a bit about what he was doing. So, it wasn’t a total loss of a day."
+        },
+        {
+            "Result": "He sighs because it’s the wrong tooL. He is annoyed but tells me to go back in the house. I go in and watch TV.",
+            "DiaryEntry": "My father was irritated I could tell, but it’s not my fault I don’t know about this stuff. Anyway, I was happy to not have to help him and be able to watch TV."
+        },
+        {
+            "Result": "He laughs and tells me he needs a hammer and then decides to teach me some things about what he’s doing.",
+            "DiaryEntry": "My father and I had a good time actually even though I had no idea what he was doing at first. But he taught me a lot!"
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Parent:StepParent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Male",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PrimarySchool:MiddleSchool:HighSchool",
+                "MinAge": "",
+                "MaxAge": "",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

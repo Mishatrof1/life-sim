@@ -1,0 +1,126 @@
+{
+    "Description": {
+        "TimeCreated": "21.07.2021 4:06:42",
+        "Comment": ""
+    },
+    "HeaderColor": "Yellow",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "%FullName:NPC:1% is working Saturday and I am not, but I want to try to ask %Pron:1:2% out that day.",
+    "Question": "What should I do?",
+    "OptionText": [
+        {
+            "Text": "Ask %FullName:NPC:2% if I can take %Pron:2:3% Saturday shift."
+        },
+        {
+            "Text": "Ask %FullName:NPC:3% if I can take %Pron:3:3% Saturday shift."
+        },
+        {
+            "Text": "Just go into work and try to ask %FullName:NPC:1% out."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "This shift doesn't line up with %FullName:NPC:1%'s shift and I don't get a chance to ask %Pron1:2% out.",
+            "DiaryEntry": "%FullName:NPC:2% is happy I take %Pron:2:3% shift but I'm not happy when I realize this shift isn't really the same time as %FullName:NPC:1%'s shift. I get no time to work with %Pron:1:2% or talk to %Pron:1:2% and I just end up working a day I was supposed to be off as %Pron:1:1% leaves soon after I start work."
+        },
+        {
+            "Result": "My shift lines up perfectly with %FullName:NPC:1% and I am able to ask %Pron:1:2% out.",
+            "DiaryEntry": "The shift I take lines up perfectly with %FullName:NPC:1%'s shift. We have a good time working together and I eventually get an opportunity to ask %Pron:1:2% out and %Pron:1:1% says yes! We have a date tomorrow night!"
+        },
+        {
+            "Result": "I go into work but it winds up being so awkward, everyone is confused why I'm there, I just end up leaving.",
+            "DiaryEntry": "I was trying to talk to %FullName:NPC:1% but %FullName:NPC:3% was there working with %Pron:1:2% and was making everything awkward and kept asking why I was there if I wasn't supposed to be working. I couldn't get a moment to ask %FullName:NPC:1% out so I just left. Waste of my Saturday."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Wealth": "60"
+                }
+            ],
+            "NPC": [
+                {},
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wealth": "50"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                },
+                {},
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {},
+                {},
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "Colleague",
+                "Gender": "Opposite",
+                "MinAge": "16",
+                "MaxAge": "22"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "Colleague",
+                "Gender": "Same"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "Colleague",
+                "Gender": "Same"
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College",
+                "MinAge": "16",
+                "MaxAge": "22",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

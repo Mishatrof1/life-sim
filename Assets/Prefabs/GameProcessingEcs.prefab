@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9027207584314918759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8404019925609724380}
+  - component: {fileID: 5362821344330699020}
+  m_Layer: 0
+  m_Name: GameProcessingEcs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8404019925609724380
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9027207584314918759}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.032890372, y: -0.057549886, z: 53.280514}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5362821344330699020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9027207584314918759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad1da971aaf14b0db47fb1dcc167928d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _globalSettings: {fileID: 11400000, guid: 325b121b508d7f24a85b6f6eda5ab130, type: 2}
+  _worldGenerationSettings: {fileID: 11400000, guid: bdcbc5cd010a87040a4929ceedc62ae2,
+    type: 2}
+  _jobGenerationSettings: {fileID: 11400000, guid: 05b2359b74f1a6c40a6214abc4311f78,
+    type: 2}
+  _beFriendSettings: {fileID: 11400000, guid: c33ac037d66bc8641852352bb6ea4ac5, type: 2}
+  _beFriendRequestSettings: {fileID: 11400000, guid: 309fb5fc7aea0844db5f7586ec1a7ebd,
+    type: 2}
+  _unFriendSettings: {fileID: 11400000, guid: c2705450d810f3f40b7cac22c7b3fc25, type: 2}
+  _unFriendRequestSettings: {fileID: 11400000, guid: d65b395ad6db40c49a8695810c2fd387,
+    type: 2}
+  _askOutRequestSettings: {fileID: 11400000, guid: fd99aa1ac4d98ea4e870178eb045cd0e,
+    type: 2}
+  _complimentsSettings: {fileID: 11400000, guid: d366525a9d4c48247bf7edb8ae6ea9f7,
+    type: 2}
+  _insultsSettings: {fileID: 11400000, guid: 1a87a6c54c1173445ad0c6bd67f891c0, type: 2}
+  _flirtSettings: {fileID: 11400000, guid: b9bd03e9a592e7e40912faf55f4fac97, type: 2}
+  _dateSettings: {fileID: 11400000, guid: cfd815e94fda96440bd28c09023a691c, type: 2}
+  _askOutSettings: {fileID: 11400000, guid: 4b1f9501d9c18084084157e8f61fbdae, type: 2}
+  _giftSettings: {fileID: 11400000, guid: 7e6405490f2dc88429c4b5084293cefb, type: 2}
+  _spendTimeSettings: {fileID: 11400000, guid: 21bd39bfc520b3a41b26b0844a8eede6, type: 2}
+  _emptySettings: {fileID: 11400000, guid: 5b5bc36c188cae34481143bd2417c6a4, type: 2}
+  _reactionsSettings: {fileID: 11400000, guid: 285df29d795efd04a9b18a7714587bee, type: 2}
+  _giftReactionsSettings: {fileID: 11400000, guid: 30fe8a34801e0a645812a0678c561dbb,
+    type: 2}
+  _emptyReactionsSettings: {fileID: 11400000, guid: f82ca21ad87b3e347b7ef990f00c56a1,
+    type: 2}
+  _universityDirectionSettings: {fileID: 11400000, guid: c4e901c3fbeeb4c4b91b6a2697c06db9,
+    type: 2}
+  _positionsSettings: {fileID: 11400000, guid: 1543af860aa57cc46b32a203e6190d19, type: 2}
+  _facesSettings: {fileID: 11400000, guid: 808b8f82ae2d9564cb0056ae64007664, type: 2}
+  _accessorySettingsList: {fileID: 11400000, guid: 0011ba191f0e22d4fb0bdc49a47c0e1c,
+    type: 2}
+  _armySettings: {fileID: 11400000, guid: 7ea3ca5c2b498d24bbd3265188a60a42, type: 2}
+  _prefabSet: {fileID: 11400000, guid: 9acd17c293e692e4e83bf24e11195072, type: 2}
+  _navigationSettings: {fileID: 11400000, guid: ff6294962b00b3c44aa365c02665e3f9,
+    type: 2}
+  _dialogsSet: {fileID: 11400000, guid: bdbf22f1202bfe548a1a7df65eea3e58, type: 2}
+  _dialogInkSet: {fileID: 11400000, guid: 66fe3372b375c364fb5f604ea2c59841, type: 2}
+  _spriteSet: {fileID: 11400000, guid: 1c7839c65163c0947b8af7570a4d7ee7, type: 2}
+  _employerSet: {fileID: 11400000, guid: 6a0bcc71cced7234d89c7a1a7a895441, type: 2}
+  _positionChainSet: {fileID: 11400000, guid: ad91c7331d5b31742b6bbeff12f4335a, type: 2}
+  _gradeConfiguration: {fileID: 11400000, guid: 89ccf8cfc8f7c194b8cbf1c4f5680fd4,
+    type: 2}
+  _partTimeJobGenerate: {fileID: 11400000, guid: ef24dbedb964a5840bebb093d297f736,
+    type: 2}
+  _partTimePositionSettings: {fileID: 11400000, guid: ce5b18c9f5b2bc847abd75bcea13c0b7,
+    type: 2}
+  _ageStageSettings: {fileID: 11400000, guid: 7e3c5c74435aad947a2785ce2058d120, type: 2}
+  _askMoneySettings: {fileID: 11400000, guid: 193b4f972b1711742bfeabe7472c3686, type: 2}
+  _saveDataProvider: {fileID: 11400000, guid: 7d69a1f89ed2d5e438a6b62a921c5bbf, type: 2}

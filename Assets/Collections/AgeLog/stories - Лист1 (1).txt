@@ -1,0 +1,334 @@
+Идея игры:	Идея игры в том, что у игрока есть кнопка +age, по клику на нее происходит взросление на 1 год, а так же свплывающее сообщение с событием для этого возраста. Игрок видит перед собой несколько вариантов ответов, каждый из вариантов даёт разных исход именно в этом событии и меняет какие-то параметры (событие может влиять как на один параметр, так и на несколько).  Возможные параметры: - Отношения (если событие связано с другими людьми, то меняется отношение) - Здоровье (потерять в драке, при болезни. приобрести в отпуске, в пушествии) - Счастье  - Внешность (привлекательность)																							
+																								
+																								
+(1 - 3 age)																								
+интервал возраста - номер истории	stories (1-3 age) - 1				stories (1-3 age) - 2				stories (1-3 age) - 3				stories (1-3 age) - 4				stories (1-3 age) - 5				stories (1-3 age) - 6			
+текст игроку:	Мама предлагает тебе кашу, что будешь делать?				Мама ведет тебя на прививку, и вот вы уже в кабинете и ты видишь медсестру с ооогромной иглой!				stories				stories				stories				stories			
+Варианты ответа:	С удовольствием кушать	Капризничать	Плеваться кашей	option 4	Биться в истерике	Попробовать сбежать	Смириться	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	Ты с удовольствем скушал всю кашу которую давала мама.	Ты пытался капризничать, но мама была неприклонна и скормила тебе всю тарелку.	Ты набрал воздуха и сделал ппппрррррюююю, каша из твоего рта знатно забрызгала маме в лицо и майку.		Тебя привели на прививку. Ты закатил истерику, но это не сработало! Тебя обняли покрепче и сделали укол.	Тебя привели на прививку. Ты ловко выкрутился из рук матери, встал на ноги, рванул к двери, но она оказалсь закрыта, а до ручки допрыгнуть не хватило роста. Тебя поймали и сделали прививку.	Тебя привели на прививку. Ты смеренно выдержал укол и героически получил конфету от медсестры.		text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:	плюс 5 с мамой		минус 5 с мамой		минус 5 с мамой		плюс 5 с мамой																	
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(4 - 6 age)																								
+интервал возраста - номер истории	stories (4-6 age) - 1				stories (4-6 age) - 2				stories (4-6 age) - 3				stories (4-6 age) - 4				stories (4-6 age) - 5				stories (4-6 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(7 - 9 age)																								
+интервал возраста - номер истории	stories (7-9 age) - 1				stories (7-9 age) - 2				stories (7-9 age) - 3				stories (7-9 age) - 4				stories (7-9 age) - 5				stories (7-9 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(10 - 12 age)																								
+интервал возраста - номер истории	stories (10-12 age) - 1				stories (10-12 age) - 2				stories (10-12 age) - 3				stories (10-12 age) - 4				stories (10-12 age) - 5				stories (10-12 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(13 - 15 age)																								
+интервал возраста - номер истории	stories (13-15 age) - 1				stories (13-15 age) - 2				stories (13-15 age) - 3				stories (13-15 age) - 4				stories (13-15 age) - 5				stories (13-15 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(16 - 18 age)																								
+интервал возраста - номер истории	stories (16-17 age) - 1				stories (16-17 age) - 2				stories (16-17 age) - 3				stories (16-17 age) - 4				stories (16-17 age) - 5				stories (16-17 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(19 - 20 age)																								
+интервал возраста - номер истории	stories (19-20 age) - 1				stories (19-20 age) - 2				stories (19-20 age) - 3				stories (19-20 age) - 4				stories (19-20 age) - 5				stories (19-20 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(21 - 22 age)																								
+интервал возраста - номер истории	stories (21-22 age) - 1				stories (21-22 age) - 2				stories (21-22 age) - 3				stories (21-22 age) - 4				stories (21-22 age) - 5				stories (21-22 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(23 - 24 age)																								
+интервал возраста - номер истории	stories (23-24 age) - 1				stories (23-24 age) - 2				stories (23-24 age) - 3				stories (23-24 age) - 4				stories (23-24 age) - 5				stories (23-24 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(25 - 26 age)																								
+интервал возраста - номер истории	stories (25-26 age) - 1				stories (25-26 age) - 2				stories (25-26 age) - 3				stories (25-26 age) - 4				stories (25-26 age) - 5				stories (25-26 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(27 - 28 age)																								
+интервал возраста - номер истории	stories (27-28 age) - 1				stories (27-28 age) - 2				stories (27-28 age) - 3				stories (27-28 age) - 4				stories (27-28 age) - 5				stories (27-28 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(29 - 30 age)																								
+интервал возраста - номер истории	stories (29-30 age) - 1				stories (29-30 age) - 2				stories (29-30 age) - 3				stories (29-30 age) - 4				stories (29-30 age) - 5				stories (29-30 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(31 - 32 age)																								
+интервал возраста - номер истории	stories (31-32 age) - 1				stories (31-32 age) - 2				stories (31-32 age) - 3				stories (31-32 age) - 4				stories (31-32 age) - 5				stories (31-32 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(33 - 34 age)																								
+интервал возраста - номер истории	stories (33-34 age) - 1				stories (33-34 age) - 2				stories (33-34 age) - 3				stories (33-34 age) - 4				stories (33-34 age) - 5				stories (33-34 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(35 - 36 age)																								
+интервал возраста - номер истории	stories (35 - 36 age) - 1				stories (35 - 36 age) - 2				stories (35 - 36 age) - 3				stories (35 - 36 age) - 4				stories (35 - 36 age) - 5				stories (35 - 36 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(37 - 38 age)																								
+интервал возраста - номер истории	stories (37 - 38 age) - 1				stories (37 - 38 age) - 2				stories (37 - 38 age) - 3				stories (37 - 38 age) - 4				stories (37 - 38 age) - 5				stories (37 - 38 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(39 - 40 age)																								
+интервал возраста - номер истории	stories (39 - 40 age) - 1				stories (39 - 40 age) - 2				stories (39 - 40 age) - 3				stories (39 - 40 age) - 4				stories (39 - 40 age) - 5				stories (39 - 40 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(41 - 42 age)																								
+интервал возраста - номер истории	stories (41 - 42 age) - 1				stories (41 - 42 age) - 2				stories (41 - 42 age) - 3				stories (41 - 42 age) - 4				stories (41 - 42 age) - 5				stories (41 - 42 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(43 - 44 age)																								
+интервал возраста - номер истории	stories (43 - 44 age) - 1				stories (43 - 44 age) - 2				stories (43 - 44 age) - 3				stories (43 - 44 age) - 4				stories (43 - 44 age) - 5				stories (43 - 44 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(45 - 46 age)																								
+интервал возраста - номер истории	stories (45 - 46 age) - 1				stories (45 - 46 age) - 2				stories (45 - 46 age) - 3				stories (45 - 46 age) - 4				stories (45 - 46 age) - 5				stories (45 - 46 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(47 - 48 age)																								
+интервал возраста - номер истории	stories (47 - 48 age) - 1				stories (47 - 48 age) - 2				stories (47 - 48 age) - 3				stories (47 - 48 age) - 4				stories (47 - 48 age) - 5				stories (47 - 48 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(48 - 50 age)																								
+интервал возраста - номер истории	stories (48 - 50 age) - 1				stories (48 - 50 age) - 2				stories (48 - 50 age) - 3				stories (48 - 50 age) - 4				stories (48 - 50 age) - 5				stories (48 - 50 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(51 - 60 age)																								
+интервал возраста - номер истории	stories (51 - 60 age) - 1				stories (51 - 60 age) - 2				stories (51 - 60 age) - 3				stories (51 - 60 age) - 4				stories (51 - 60 age) - 5				stories (51 - 60 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+интервал возраста - номер истории	stories (51 - 60 age) - 7				stories (51 - 60 age) - 8				stories (51 - 60 age) - 9				stories (51 - 60 age) - 10				stories (51 - 60 age) - 11				stories (51 - 60 age) - 12			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+интервал возраста - номер истории	stories (51 - 60 age) - 13				stories (51 - 60 age) - 14				stories (51 - 60 age) - 15				stories (51 - 60 age) - 16				stories (51 - 60 age) - 17				stories (51 - 60 age) - 18			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(61 - 70 age)																								
+интервал возраста - номер истории	stories (61 - 70 age) - 1				stories (61 - 70 age) - 2				stories (61 - 70 age) - 3				stories (61 - 70 age) - 4				stories (61 - 70 age) - 5				stories (61 - 70 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+интервал возраста - номер истории	stories (61 - 70 age) - 7				stories (61 - 70 age) - 8				stories (61 - 70 age) - 9				stories (61 - 70 age) - 10				stories (61 - 70 age) - 11				stories (61 - 70 age) - 12			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+интервал возраста - номер истории	stories (61 - 70 age) - 13				stories (61 - 70 age) - 14				stories (61 - 70 age) - 15				stories (61 - 70 age) - 16				stories (61 - 70 age) - 17				stories (61 - 70 age) - 18			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(71 - 80 age)																								
+интервал возраста - номер истории	stories (71 - 80 age) - 1				stories (71 - 80 age) - 2				stories (71 - 80 age) - 3				stories (71 - 80 age) - 4				stories (71 - 80 age) - 5				stories (71 - 80 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+интервал возраста - номер истории	stories (71 - 80 age) - 7				stories (71 - 80 age) - 8				stories (71 - 80 age) - 9				stories (71 - 80 age) - 10				stories (71 - 80 age) - 11				stories (71 - 80 age) - 12			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+интервал возраста - номер истории	stories (71 - 80 age) - 13				stories (71 - 80 age) - 14				stories (71 - 80 age) - 15				stories (71 - 80 age) - 16				stories (71 - 80 age) - 17				stories (71 - 80 age) - 18			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+(81 - 120 age)																								
+интервал возраста - номер истории	stories (81 - 120 age) - 1				stories (81 - 120 age) - 2				stories (81 - 120 age) - 3				stories (81 - 120 age) - 4				stories (81 - 120 age) - 5				stories (81 - 120 age) - 6			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+интервал возраста - номер истории	stories (81 - 120 age) - 7				stories (81 - 120 age) - 8				stories (81 - 120 age) - 9				stories (81 - 120 age) - 10				stories (81 - 120 age) - 11				stories (81 - 120 age) - 12			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								
+																								
+интервал возраста - номер истории	stories (81 - 120 age) - 13				stories (81 - 120 age) - 14				stories (81 - 120 age) - 15				stories (81 - 120 age) - 16				stories (81 - 120 age) - 17				stories (81 - 120 age) - 18			
+текст игроку:	stories				stories				stories				stories				stories				stories			
+Варианты ответа:	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+текст в лог:	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Отношения:																								
+Здоровье:																								
+Счастье:																								
+Внешность:																								

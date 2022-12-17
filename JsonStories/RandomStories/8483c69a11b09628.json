@@ -1,0 +1,122 @@
+{
+    "Description": {
+        "TimeCreated": "22.07.2021 6:28:49",
+        "Comment": ""
+    },
+    "HeaderColor": "Pink",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "It's late at night and I am about to head down to the basement and hear laughing and muttering down there.",
+    "Question": "%FullName:NPC:1% is upstairs though. What should I do?",
+    "OptionText": [
+        {
+            "Text": "Go down to the basement with a knife"
+        },
+        {
+            "Text": "Go down with my phone and film"
+        },
+        {
+            "Text": "Go down with %FullName:NPC:1%"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I see someone down there who charges me, attacks me and vanishes!",
+            "DiaryEntry": "%FullName:NPC:1% comes down to check on me. I am injured and bleeding and tell %Pron:1:2% that there was a ghost down here. %Pron:1:1% doesn't believe me and is mad at me for blaming my clumsiness on ghosts that aren't real. But I know what I saw!"
+        },
+        {
+            "Result": "I am filming with my phone when I see someone who charges me, attacks me and vanishes.",
+            "DiaryEntry": "%FullName:NPC:1% comes down to check on me and I show %Pron:1:2% the video. We both agree, we just witnessed an aggressive ghost in our basement that attacked me. %Pron:1:1% helps get me bandaged up and we are both so scared, we're not sure if we can even sleep tonight. The evidence on my phone... it's taught us to think very differently."
+        },
+        {
+            "Result": "We both go down, see someone down there who sees us, looks around and vanishes.",
+            "DiaryEntry": "We cannot believe it even though we saw it with our own eyes. That was a ghost... or something. It had to be. We saw someone who just disappeared. But weirdly, after this incident, things seemed to just feel better and brighter around the house. The two of us had been feeling negative recently and now that's gone. What an interesting turn of events."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-",
+                    "Wisdom": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:+",
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wisdom": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Partner",
+                "Occupation": "",
+                "Gender": "Opposite",
+                "MinAge": "25",
+                "MaxAge": "50"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PartTimeJob:FullTimeJob",
+                "MinAge": "25",
+                "MaxAge": "50",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

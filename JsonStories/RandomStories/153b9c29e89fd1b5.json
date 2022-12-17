@@ -1,0 +1,124 @@
+{
+    "Description": {
+        "TimeCreated": "19.07.2021 15:58:45",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "My wife texts me and asks me to print something out for her at my office but I just left work.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Turn around and print her stuff out"
+        },
+        {
+            "Text": "Just print it out when I go into the office tomorrow"
+        },
+        {
+            "Text": "Stop by at an office supply store and print her stuff out there"
+        },
+        {
+            "Text": "Ask her to just print it out at the office supply store herself"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "My wife thanks me but I get stuck in traffic on the way back which is annoying. But I have time to listen to an audiobook of mine.",
+            "DiaryEntry": "My wife was very happy with me for actually turning back around to print her stuff out but I am annoyed with all the traffic I got stuck in. Took forever to get home, the plus side is that I got to listen to my audiobook finally."
+        },
+        {
+            "Result": "I print the stuff out the next day but my boss sees me and lectures me about using the company printer for personal things.",
+            "DiaryEntry": "I should’ve just printed her stuff out earlier! My wife is happy that I did this favor for her but things are rocky with my boss now after he caught me using the printer for personal reasons."
+        },
+        {
+            "Result": "When I get to the office store someone comes in and robs the place and me! My wife gets mad I didn’t print her stuff out.",
+            "DiaryEntry": "It’s bad enough I got robbed at the office supply store but then my wife actually is angry with me for not printing her stuff out! I was trying to, it’s not my fault I didn’t get to... unbelievable!"
+        },
+        {
+            "Result": "My wife is annoyed that I make her do it and doesn’t talk to me when I get home. But then I get a chance to listen to my audiobook.",
+            "DiaryEntry": "My wife gets annoyed that I make her print her own stuff out but I didn’t feel like turning around. It was quiet at home so I got to listen to my audiobook... but I hope it doesn’t stay this quiet in the house for too long..."
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Wealth": "-300"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Partner",
+                "Occupation": "",
+                "Gender": "Female",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "FullTimeJob",
+                "MinAge": "",
+                "MaxAge": "",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "Description": {
+        "TimeCreated": "17.07.2021 9:07:18",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "I have a date with %FullName:NPC:1% tonight but I am nervous.",
+    "Question": "What should I wear on the date?",
+    "OptionText": [
+        {
+            "Text": "Keep on the button down shirt that I am wearing."
+        },
+        {
+            "Text": "Put on my back-up sweater."
+        },
+        {
+            "Text": ""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FullName:NPC:1% tells me %Pron:1:1% loves my shirt and we have a great date.",
+            "DiaryEntry": "%FullName:NPC:1% liked the shirt I had on so I am glad I didn't change. And our date went amazingly!"
+        },
+        {
+            "Result": "As I put the sweater on I accidentally swing my arms and hit another kid who proceeds to fight me.",
+            "DiaryEntry": "I can't believe it! I am just trying to put the sweater on and accidentally hit some kid and now the kid is trying to fight me. We get into a whole fight before it's broken up and this kid definitely got plenty of shots in on my face! Right before my date!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Appearance": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-",
+                    "Strength": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Crush",
+                "Occupation": "",
+                "Gender": "Opposite",
+                "MinAge": "15",
+                "MaxAge": "18"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "15",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

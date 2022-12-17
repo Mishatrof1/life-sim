@@ -1,0 +1,129 @@
+{
+    "Description": {
+        "TimeCreated": "30.07.2021 4:00:34",
+        "Comment": ""
+    },
+    "HeaderColor": "Pink",
+    "Category": "Love",
+    "Sentiment": "",
+    "StoryText": "I'm leaving work and %FullName:NPC:1% calls me and asks me to get food for dinner.",
+    "Question": "What should I do?",
+    "OptionText": [
+        {
+            "Text": "Stop to get groceries so we can cook dinner"
+        },
+        {
+            "Text": "Get fast food take out"
+        },
+        {
+            "Text": "Get food from a nice restaurant"
+        },
+        {
+            "Text": "Get pre made food from grocery store"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I bring groceries home and we cook together and actually have a great time doing so.",
+            "DiaryEntry": "Me and %FulName:NPC:1% love to cook together, we always have fun and tend to create some amazing dishes together. This turned out to be a really fun night and we had a delicious and healthy dinner."
+        },
+        {
+            "Result": "Fast food take out is quick and cheap and fills us up... but slows us down too.",
+            "DiaryEntry": "%FullName:NPC:1% eat the fast food and get completely filled up on it, and as always, we then start to feel a little slowed down and weighed down. Oh ell, it's the best option for something fast and cheap when we don't want to spend a lot of time making something and don't want to spend a lot of money."
+        },
+        {
+            "Result": "%FullName:NPC:1% loves that I went out of my way to get us a nice meal.",
+            "DiaryEntry": "This is one of our favorite restaurants and it is a bit out of the way but %FullName:NPC:1% really appreciated the gesture from me. And we both just absolutely love this food. I think it was well worth the extra time and money. And we reminisce over one of our first dates here and have an amazing night."
+        },
+        {
+            "Result": "%FullName:NPC:1% is annoyed that I didn't just get something better at the grocery store.",
+            "DiaryEntry": "%FullName:NPC:1% doesn't understand why I didn't get groceries if I was at the grocery store but I felt like this made more sense because it was quicker and cheaper. We didn't have to make anything, it's all pre made. %Pron:1:1% is annoyed with my decision. And to be honest, the food wasn't so great. So, now I'm sort of annoyed with myself too."
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:+",
+                    "Wealth": "-25"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-",
+                    "Wealth": "-10"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Wealth": "-50"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Wealth": "-15"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Partner",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "22",
+                "MaxAge": "55"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PartTimeJob:FullTimeJob",
+                "MinAge": "22",
+                "MaxAge": "55",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

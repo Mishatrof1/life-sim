@@ -1,0 +1,101 @@
+{
+    "Description": {
+        "TimeCreated": "17.07.2021 10:07:16",
+        "Comment": ""
+    },
+    "Category": "Cyan",
+    "StoryText": "I am going to a pool party but need a new bathing suit.",
+    "Question": "What bathing suit should I buy from the store?",
+    "OptionText": [
+        {
+            "Text": "The red one"
+        },
+        {
+            "Text": "The blue one"
+        },
+        {
+            "Text": ""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "It turns out this is the exact same bathing suit that %FullName:NPC:1% has and we both get made fun of.",
+            "DiaryEntry": "I thought this bathing suit looked familiar. Turns out it's because %FullName:NPC:1% owns it. We get made fun of for looking like \"dorky twins\" and everyone thinks we did it on purpose. %FullName:NPC:1% is mad at me and I can't blame %Pron:1:3%."
+        },
+        {
+            "Result": "The blue bathing suit ends up being on a huge sale and I save a ton of money.",
+            "DiaryEntry": "This bathing suit was originally $30 and then was marked down to $5! Can't get any better than that, and I really like it a lot. It's still in good condition and everything. And the pool party goes great!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:-",
+                    "Wealth": "-30"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wealth": "-5"
+                }
+            ]
+        },
+        {},
+        {}
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": "Same",
+                "MinAge": "12",
+                "MaxAge": "18"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "12",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

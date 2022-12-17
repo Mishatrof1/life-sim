@@ -1,0 +1,123 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 11:59:32",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "I have loads of homework and my mother asks me to go to the grocery store with her to help her shop.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Go with her anyway."
+        },
+        {
+            "Text": "Tell her I have homework and stay home to do my homework."
+        },
+        {
+            "Text": "Tell her I have homework but go hang out with my friend %FirstName:NPC:2%"
+        },
+        {
+            "Text": "Tell her I want to hang out with my friend %FirstName:NPC:2%"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "We go to the store and have a good time talking and shopping and I also find $50 in the parking lot!",
+            "DiaryEntry": "My mother and I had a great time at the store together, talking and sharing stories, I even found $50! But I completely forgot about my homework and my grades were affected."
+        },
+        {
+            "Result": "My mother understands and I stay home and finish my homework. However, I forget to eat and faint.",
+            "DiaryEntry": "My mother was happy I was being responsible and I managed to finish all of my homework and learned a ton! Forgot to eat though, fainted in the bathroom and hit my head!"
+        },
+        {
+            "Result": "I play video games with %FirstName:NPC:2% at his place and when my mother comes home and I’m not there, she grounds me.",
+            "DiaryEntry": "%FirstName:NPC:2% and I had a blast doing nothing but playing video games. Might be the last time I get out of the house in awhile since my mother grounded me for lying."
+        },
+        {
+            "Result": "My mother tells me if I stay home I have to do my homework. I stay home and do most of my homework but spend a lot of time eating snacks and watching TV.",
+            "DiaryEntry": "My mother was mad and made me stay home and do homework. I did most of it but decided I needed to unwind with snacks and TV too. Not that I told her that, but it turned out pretty great!"
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:-",
+                    "Wealth": "50"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-",
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Parent:StepParent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Female"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "",
+                "MaxAge": "",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

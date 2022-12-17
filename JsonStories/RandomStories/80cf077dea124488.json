@@ -1,0 +1,123 @@
+{
+    "Description": {
+        "TimeCreated": "27.07.2021 2:37:22",
+        "Comment": "The sibling in this story must be younger than the player. "
+    },
+    "HeaderColor": "Beige",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "My brother, %FirstName:NPC:1%, keeps wrecking my papier mache castle. He either globs it with the paints I'm using, or grabs it with his bare hands. He's only tiny, but it's still driving me mad.",
+    "Question": "How do you defend a castle?",
+    "OptionText": [
+        {
+            "Text": "Tell Mom - she hates us squabbling, but at least she can do something!"
+        },
+        {
+            "Text": "Try to stop %FirstName:NPC:1% myself. My mom doesn't need the hassle. "
+        },
+        {
+            "Text": "Tell him off. Little kids need discipline. "
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "My mom wasn't best pleased - she's always annoyed when she sees us squabbling and never seems to care whose fault it is. %FirstName:NPC:1% started crying. At least I can get on with my project.  ",
+            "DiaryEntry": "I suppose there's not much point getting your parents involved in an everyday spat with your little brother. Still, at least I can carry on making my awesome castle model. "
+        },
+        {
+            "Result": "I tried to talk to him first, but that was not going to work. Instead, I erected a barricade more impregnable than the castle itself. I also lent him some of my toys. Off he went! Everyone's happy!",
+            "DiaryEntry": "I took control of my own problem today - my little brother was wrecking my stuff, so I distracted him away, lent him some toys, and he was happy. My mom just loved that we seemed to be getting on. I guess we kind of were, too!"
+        },
+        {
+            "Result": "I hardly even started yelling that loud, and %FirstName:NPC:1% just burst into tears. I heard Mom coming and tried to calm him down, but I swear he sensed advantage. Now my mom is super mad with me. ",
+            "DiaryEntry": "Little brothers are the worst, but maybe older siblings aren't much better. I should never have told my little brother off like that, since he was only trying to play with my papier mache castle. I guess I've learnt to be a little more patient. "
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Sibling",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "Parent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Female"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "Kid:PrimarySchool",
+                "MinAge": "3",
+                "MaxAge": "5",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

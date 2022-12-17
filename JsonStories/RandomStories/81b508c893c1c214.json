@@ -1,0 +1,114 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 3:25:14",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "I wake up late and now I am going to have to rush in order to get to work on time so that my boss isn't upset with me. But I am hungry too.",
+    "Question": "What should I do?",
+    "OptionText": [
+        {
+            "Text": "Have my usual coffee and breakfast before work."
+        },
+        {
+            "Text": "Skip my morning routine rush and try to stop off for a coffee on my way to work."
+        },
+        {
+            "Text": "Skip my morning routine, rush, stop off for a breakfast sandwich before work."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I do my usual routine, have my coffee and healthy breakfast that prepares me for the day. %FullName:NPC:1% is mad at me for being late but I still manage to be productive.",
+            "DiaryEntry": "%FullName:NPC:1% is pretty mad at me for being late, but I just wanted to still make the healthy choice and eat my usual breakfast and not skip a meal or anything. I'm still really productive at work, not that %FullName:NPC:1% cares."
+        },
+        {
+            "Result": "I get a coffee before work and actually end up getting to work early what with all the rushing. My boss is happy to see me arrive early, but I feel so weak having skipped breakfast.",
+            "DiaryEntry": "The coffee is really strong and keeps me awake and allows me to be productive and %FullName:NPC:1% is happy I am early. But I am feeling weaker and weaker as the day goes on and just waiting for lunch. I'm starving!"
+        },
+        {
+            "Result": "I stop and get a breakfast sandwich and manage to make it to work early with all the rushing. At least I ate something but this sandwich is so heavy and now I'm tired and slow.",
+            "DiaryEntry": "%FullName:NPC:1% is happy I arrived early but I don't know of how much use I'll be. I rushed to get ready, had no coffee, skipped my morning routine and had a fatty and heavy breakfast sandwich. This day can't END soon enough."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-",
+                    "Wealth": "-5"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-",
+                    "Wealth": "-7"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": null,
+                    "Relationship": null
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PartTimeJob:FullTimeJob",
+                "MinAge": "23",
+                "MaxAge": "45",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

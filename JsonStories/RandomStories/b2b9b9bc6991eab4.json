@@ -1,0 +1,105 @@
+{
+    "Description": {
+        "TimeCreated": "17.07.2021 6:10:21",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "I am taking an English test and this last question is really tough.",
+    "Question": "Only one of the following sentences is grammatically correct, which one is it?",
+    "OptionText": [
+        {
+            "Text": "I have traveled further than you."
+        },
+        {
+            "Text": "I have traveled further then you."
+        },
+        {
+            "Text": "I have traveled farther than you."
+        },
+        {
+            "Text": "I have traveled farther then you."
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "This is the wrong answer.",
+            "DiaryEntry": "This sentence is wrong. 'Than' is correct but 'Further' is not correct in this case."
+        },
+        {
+            "Result": "This is the wrong answer.",
+            "DiaryEntry": "This choice is definitely wrong. 'Further' is wrong and so is 'Then'. Apparently, I was the only one in class to choose this answer and my teacher %FullName:NPC:1% makes me feel bad about it but :FullName:NPC:2% makes me feel better about it and tries to comfort me."
+        },
+        {
+            "Result": "This is the right answer!",
+            "DiaryEntry": "I chose correctly because 'Farther' is used when describing a distance and 'Than' is used when comparing. My teacher %FullName:NPC:1% is proud of me, especially since I was one of only two students to get this tough question right. Me and %FullName:NPC:2% and so we're both happy for one another."
+        },
+        {
+            "Result": "This is the wrong answer.",
+            "DiaryEntry": "This answer was wrong. I guess 'Farther' was right but 'Then' is wrong. In this scenario it should have been 'Than.' It was a tough one though, at least I was only wrong on portion of the question."
+        }
+    ],
+    "Change": [
+        {},
+        {
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {}
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": "",
+                "MinAge": "25",
+                "MaxAge": "64"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "Crush",
+                "Occupation": "",
+                "Gender": "Opposite"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "11",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

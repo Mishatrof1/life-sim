@@ -1,0 +1,319 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6252acae7b8b4695b38dbe832d377584, type: 3}
+  m_Name: Npcs
+  m_EditorClassIdentifier: 
+  Npcs:
+  - Id: d51ecd56-c41e-4021-9d62-cc29ff3227a3
+    AvatarSpriteIndex: 0
+    BirthDate:
+      _totalMonths: -240
+    BirthAddress:
+      Country: 
+      State: 
+      City: 
+    FirstName: Garrett
+    LastName: Elliott
+    Gender: 0
+    MainStats:
+    - Id: Looks
+      Value: 0.48
+    - Id: Health
+      Value: 0.82
+    - Id: Smarts
+      Value: 0.69
+    - Id: Relationship
+      Value: 0.93
+    - Id: Happiness
+      Value: 0.83
+    Relationships:
+    - Id: 50b584d8-16e3-46d4-97ed-f63d3e6b0ec4
+      RelationshipType: 2
+    CurrentOccupation: 
+    GrayButtons: 110000001400000015000000
+  - Id: e5748d0a-8c03-4748-bd2e-d0ed1bdf01dd
+    AvatarSpriteIndex: 0
+    BirthDate:
+      _totalMonths: -204
+    BirthAddress:
+      Country: 
+      State: 
+      City: 
+    FirstName: Madilynn
+    LastName: Elliott
+    Gender: 1
+    MainStats:
+    - Id: Looks
+      Value: 0.62
+    - Id: Health
+      Value: 0.52
+    - Id: Smarts
+      Value: 0.93
+    - Id: Relationship
+      Value: 0.68
+    - Id: Happiness
+      Value: 0.96
+    Relationships:
+    - Id: 50b584d8-16e3-46d4-97ed-f63d3e6b0ec4
+      RelationshipType: 1
+    CurrentOccupation: 
+    GrayButtons: 
+  - Id: 00caf7f8-e792-4b8c-afcf-e24e2c577755
+    AvatarSpriteIndex: 0
+    BirthDate:
+      _totalMonths: 0
+    BirthAddress:
+      Country: 
+      State: 
+      City: 
+    FirstName: Eden
+    LastName: Donovan
+    Gender: 0
+    MainStats:
+    - Id: Looks
+      Value: 0.69
+    - Id: Health
+      Value: 0.47
+    - Id: Smarts
+      Value: 0.75
+    - Id: Relationship
+      Value: 0.55
+    - Id: Happiness
+      Value: 0.78
+    Relationships: []
+    CurrentOccupation: c9c1705e-320f-4340-8588-06d2aadae5ae
+    GrayButtons: 0d000000110000001400000015000000
+  - Id: 326e9a09-2e85-4df1-b85a-7607c5df537b
+    AvatarSpriteIndex: 0
+    BirthDate:
+      _totalMonths: 0
+    BirthAddress:
+      Country: 
+      State: 
+      City: 
+    FirstName: Jordan
+    LastName: Rivers
+    Gender: 0
+    MainStats:
+    - Id: Looks
+      Value: 0.84
+    - Id: Health
+      Value: 0.45
+    - Id: Smarts
+      Value: 0.93
+    - Id: Relationship
+      Value: 0.79999995
+    - Id: Happiness
+      Value: 0.62
+    Relationships: []
+    CurrentOccupation: c9c1705e-320f-4340-8588-06d2aadae5ae
+    GrayButtons: 
+  - Id: 3a73f968-b043-4939-8660-6d02cc840f14
+    AvatarSpriteIndex: 0
+    BirthDate:
+      _totalMonths: 0
+    BirthAddress:
+      Country: 
+      State: 
+      City: 
+    FirstName: Jack
+    LastName: Sparks
+    Gender: 0
+    MainStats:
+    - Id: Looks
+      Value: 0.62
+    - Id: Health
+      Value: 0.51
+    - Id: Smarts
+      Value: 0.52
+    - Id: Relationship
+      Value: 0.48
+    - Id: Happiness
+      Value: 0.57
+    Relationships: []
+    CurrentOccupation: c9c1705e-320f-4340-8588-06d2aadae5ae
+    GrayButtons: 
+  - Id: 0b4aea53-06bb-48c3-9a2c-131d5fecbfe7
+    AvatarSpriteIndex: 0
+    BirthDate:
+      _totalMonths: 0
+    BirthAddress:
+      Country: 
+      State: 
+      City: 
+    FirstName: Penny
+    LastName: McFadden
+    Gender: 1
+    MainStats:
+    - Id: Looks
+      Value: 0.82
+    - Id: Health
+      Value: 0.55
+    - Id: Smarts
+      Value: 0.45
+    - Id: Relationship
+      Value: 0.79999995
+    - Id: Happiness
+      Value: 0.84
+    Relationships: []
+    CurrentOccupation: c9c1705e-320f-4340-8588-06d2aadae5ae
+    GrayButtons: 
+  - Id: 72e516cd-dffd-480b-b95f-007c2ff0655e
+    AvatarSpriteIndex: 0
+    BirthDate:
+      _totalMonths: 0
+    BirthAddress:
+      Country: 
+      State: 
+      City: 
+    FirstName: Boden
+    LastName: Martin
+    Gender: 0
+    MainStats:
+    - Id: Looks
+      Value: 0.87
+    - Id: Health
+      Value: 0.53
+    - Id: Smarts
+      Value: 0.57
+    - Id: Relationship
+      Value: 0.5
+    - Id: Happiness
+      Value: 0.55
+    Relationships: []
+    CurrentOccupation: c9c1705e-320f-4340-8588-06d2aadae5ae
+    GrayButtons: 
+  - Id: 3b76af61-5a45-4644-b0df-2f629b59cba0
+    AvatarSpriteIndex: 0
+    BirthDate:
+      _totalMonths: 0
+    BirthAddress:
+      Country: 
+      State: 
+      City: 
+    FirstName: Corinne
+    LastName: Frye
+    Gender: 1
+    MainStats:
+    - Id: Looks
+      Value: 0.98999995
+    - Id: Health
+      Value: 0.98999995
+    - Id: Smarts
+      Value: 0.84999996
+    - Id: Relationship
+      Value: 0.93
+    - Id: Happiness
+      Value: 0.9
+    Relationships: []
+    CurrentOccupation: c9c1705e-320f-4340-8588-06d2aadae5ae
+    GrayButtons: 
+  - Id: 307a6eae-d8a5-4ab2-9561-3abe13f86b3b
+    AvatarSpriteIndex: 0
+    BirthDate:
+      _totalMonths: 0
+    BirthAddress:
+      Country: 
+      State: 
+      City: 
+    FirstName: Daniela
+    LastName: Sims
+    Gender: 1
+    MainStats:
+    - Id: Looks
+      Value: 0.51
+    - Id: Health
+      Value: 0.66999996
+    - Id: Smarts
+      Value: 0.51
+    - Id: Relationship
+      Value: 0.89
+    - Id: Happiness
+      Value: 0.47
+    Relationships: []
+    CurrentOccupation: c9c1705e-320f-4340-8588-06d2aadae5ae
+    GrayButtons: 
+  - Id: 2fc8fad3-4a0c-4c10-aa0a-a302d9a6a7e4
+    AvatarSpriteIndex: 0
+    BirthDate:
+      _totalMonths: 0
+    BirthAddress:
+      Country: 
+      State: 
+      City: 
+    FirstName: Archie
+    LastName: Carrillo
+    Gender: 0
+    MainStats:
+    - Id: Looks
+      Value: 0.59999996
+    - Id: Health
+      Value: 0.78
+    - Id: Smarts
+      Value: 0.74
+    - Id: Relationship
+      Value: 0.66999996
+    - Id: Happiness
+      Value: 0.7
+    Relationships: []
+    CurrentOccupation: c9c1705e-320f-4340-8588-06d2aadae5ae
+    GrayButtons: 
+  - Id: 233f8d42-d007-4753-b43e-d192d6b5e92a
+    AvatarSpriteIndex: 0
+    BirthDate:
+      _totalMonths: 0
+    BirthAddress:
+      Country: 
+      State: 
+      City: 
+    FirstName: Yadiel
+    LastName: Nunez
+    Gender: 0
+    MainStats:
+    - Id: Looks
+      Value: 0.48999998
+    - Id: Health
+      Value: 0.91999996
+    - Id: Smarts
+      Value: 0.93
+    - Id: Relationship
+      Value: 0.53
+    - Id: Happiness
+      Value: 0.95
+    Relationships: []
+    CurrentOccupation: c9c1705e-320f-4340-8588-06d2aadae5ae
+    GrayButtons: 
+  - Id: e82d09b8-8be9-4e56-a828-748464564462
+    AvatarSpriteIndex: 0
+    BirthDate:
+      _totalMonths: 0
+    BirthAddress:
+      Country: 
+      State: 
+      City: 
+    FirstName: Vanessa
+    LastName: Kane
+    Gender: 1
+    MainStats:
+    - Id: Looks
+      Value: 0.58
+    - Id: Health
+      Value: 0.58
+    - Id: Smarts
+      Value: 0.48999998
+    - Id: Relationship
+      Value: 0.58
+    - Id: Happiness
+      Value: 0.48
+    Relationships: []
+    CurrentOccupation: c9c1705e-320f-4340-8588-06d2aadae5ae
+    GrayButtons: 

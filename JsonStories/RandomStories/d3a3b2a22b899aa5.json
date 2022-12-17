@@ -1,0 +1,90 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 13:04:48",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "The last question on my Science quiz",
+    "Question": "'Which of the following big cats cannot roar?'",
+    "OptionText": [
+        {
+            "Text": "Lion"
+        },
+        {
+            "Text": "Tiger"
+        },
+        {
+            "Text": "Jaguar"
+        },
+        {
+            "Text": "Cheetah"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "Lion is the wrong answer.",
+            "DiaryEntry": "Lion was the wrong answer and I feel stupid. Everyone knows lions can roar, why did I choose that one?"
+        },
+        {
+            "Result": "Tiger is the wrong answer.",
+            "DiaryEntry": "Well, got that one wrong. And I'm pretty sure I did know tigers could roar. But I was just guessing."
+        },
+        {
+            "Result": "Jaguar is the wrong answer.",
+            "DiaryEntry": "Jaguar was a wrong guess, I wasn't really sure but it seemed like it might be the right answer."
+        },
+        {
+            "Result": "Cheetah is the right answer!",
+            "DiaryEntry": "Cheetah was the right answer! I remember reading that cheetahs can only purr and they cannot roar. Glad I retained that bit of information!"
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:-"
+                }
+            ]
+        },
+        {},
+        {},
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PrimarySchool:MiddleSchool:HighSchool",
+                "MinAge": "8",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

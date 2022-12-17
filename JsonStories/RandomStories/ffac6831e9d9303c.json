@@ -1,0 +1,119 @@
+{
+    "Description": {
+        "TimeCreated": "29.07.2021 3:58:37",
+        "Comment": ""
+    },
+    "HeaderColor": "Pink",
+    "Category": "Love",
+    "Sentiment": "",
+    "StoryText": "Mine and %FullName:NPC:1%'s anniversary is this Friday.",
+    "Question": "%Pron:1:1% asks when I think we should celebrate it. Which day should I pick?",
+    "OptionText": [
+        {
+            "Text": "Friday"
+        },
+        {
+            "Text": "Saturday"
+        },
+        {
+            "Text": "Sunday"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "It's nice to celebrate our anniversary on the actual day and we have a nice time but we're both so beat from having just worked all day.",
+            "DiaryEntry": "It's nice to celebrate an anniversary on the actual day of the anniversary, but I think we would've benefitted from celebrating on a day we didn't also work. It was still a nice time, but we ended the night early. On the plus side, we were so tired that we went to sleep early and got a great night's sleep!"
+        },
+        {
+            "Result": "We wait until Saturday when we have no work and are able to have an excellent anniversary celebration.",
+            "DiaryEntry": "I'm glad we waited for Saturday since %FullName:NPC:1% and I both worked Friday, we were pretty tired Friday night after work. But Saturday, we had the whole day off and were able to really celebrate the anniversary right. We had a nice, long celebration and had an excellent night together."
+        },
+        {
+            "Result": "We wait until Sunday but then I end up needing to do work and we have to cancel.",
+            "DiaryEntry": "I find out the work I did Friday wasn't completely saved and so Sunday I have to go into the office to redo some of my work. Not only is that horrible but %FullName:NPC:1% is obviously so mad at me for having to cancel and now I am just miserable. But I do get a bit of overtime pay... the one tiny silver lining in this dark, overcast cloud."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Wealth": "100"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Relationship": "ValueRef:1:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Partner",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "25",
+                "MaxAge": "60"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PartTimeJob:FullTimeJob",
+                "MinAge": "25",
+                "MaxAge": "60",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

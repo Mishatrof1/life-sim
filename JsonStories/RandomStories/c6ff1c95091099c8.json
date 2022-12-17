@@ -1,0 +1,148 @@
+{
+    "Description": {
+        "TimeCreated": "23.07.2021 2:56:04",
+        "Comment": ""
+    },
+    "HeaderColor": "Beige",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "I am home alone at night when I hear footsteps in the attic above me.",
+    "Question": "What should I do?",
+    "OptionText": [
+        {
+            "Text": "Call the police"
+        },
+        {
+            "Text": "Go into the attic and investigate"
+        },
+        {
+            "Text": "Go to the kitchen and grab a knife"
+        },
+        {
+            "Text": "It may be a ghost, sprinkle salt near the entrance to the attic"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "The police come and investigate the attic and find no one and also see that all the windows are locked.",
+            "DiaryEntry": "My parents come home to find the police here and the police tell them I made a false report even though I am insisting I heard something. My parents get mad at me and ground me because they don't believe me. And eventually all our neighbors and my classmates find out the police came over and the story gets out that I made a false report."
+        },
+        {
+            "Result": "I go up the attic stairs and see a spirit and get so scared I fall backwards down the stairs.",
+            "DiaryEntry": "When I got into the attic I saw a man, but then I noticed he was transparent. And he was fading in and out of the light in the attic. He turned and looked at me with this awful face and I got so scared I fell down the stairs. When my parents came home and saw I hurt myself they asked what happened and I just made up a lie that I fell on my own and they took me to the hospital."
+        },
+        {
+            "Result": "As I open the kitchen drawer all the knives fly out of it so I run as fast as I can out of the house.",
+            "DiaryEntry": "The way all those knives flew out of the drawer was insane! I ran out of the house and waited at a coffee shop a mile down the road until my parents got home. I told them the whole story but they didn't believe me and are mad that I \"threw the knives everywhere and left the house.\""
+        },
+        {
+            "Result": "I sprinkle the salt and shortly after I hear an attic window open and shut and then everything is silent.",
+            "DiaryEntry": "I read once that sprinkling salt in that way can rid your house of a spirit. I didn't know if I was doing it right, but after hearing the window open and shut, my guess is that I did. However, I forget to clean up the salt and later on my dad slips in it and gets angry with me for being messy."
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:1:-",
+                    "Wisdom": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+",
+                    "Sympathy": "ValueRef:0:+"
+                },
+                {
+                    "Relationship": "ValueRef:0:+",
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Endurance": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wisdom": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {},
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Parent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Female",
+                "MinAge": "40",
+                "MaxAge": "55"
+            },
+            {
+                "Relatives": "Parent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Male"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "11",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

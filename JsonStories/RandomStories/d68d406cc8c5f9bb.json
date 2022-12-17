@@ -1,0 +1,123 @@
+{
+    "Description": {
+        "TimeCreated": "19.07.2021 16:17:55",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "My boss offers me 4 hours of overtime today but my husband and I were supposed to watch a movie tonight.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Take the overtime and tell my husband I’ll be home late"
+        },
+        {
+            "Text": "Turn down the overtime and head home to watch the movie"
+        },
+        {
+            "Text": "Suggest to my husband we watch the movie tomorrow and take the overtime"
+        },
+        {
+            "Text": "Ask my boss to just do 2 hours of overtime so I don’t get home too late"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "My boss is glad I take the overtime and it’s good for my career but my husband is really mad.",
+            "DiaryEntry": "Things are looking really good at my job and with my boss but things are rocky with my husband since I cancelled our plans."
+        },
+        {
+            "Result": "My husband is happy we do our movie night together and we have a great time.",
+            "DiaryEntry": "There will probably be plenty of overtime in the future, me and my husband had a movie night planned and I’m glad I kept our plans, we had a fantastic night!"
+        },
+        {
+            "Result": "My husband is more than happy with this decision and my boss is happy with me too, but I forget to get myself dinner.",
+            "DiaryEntry": "My husband was alright with changing the night and was happy with me for communicating that with him, things are looking good at work too but I am starving! I forgot to eat!"
+        },
+        {
+            "Result": "My boss gets mad and says it’s 4 hours or nothing, so I take the 4 hours but my husband gets upset with me for ditching him.",
+            "DiaryEntry": "I didn’t realize my boss would get so angry with me so I just did the full 4 hours. My husband got mad at me too so I guess everyone just hates me... but it’s good for my career... I guess?"
+        }
+    ],
+    "Change": [
+        {
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Partner",
+                "Occupation": "",
+                "Gender": "Male",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "FullTimeJob",
+                "MinAge": "",
+                "MaxAge": "",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

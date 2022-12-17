@@ -1,0 +1,137 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 11:38:36",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "My mother’s birthday is coming up, I have $50.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Buy her a bag of her favorite cookies that cost $7."
+        },
+        {
+            "Text": "Buy her a nice scarf that costs $30."
+        },
+        {
+            "Text": "Buy her, her favorite perfume that costs $50."
+        },
+        {
+            "Text": "Spend $50 on a great jacket for myself, steal the perfume for her."
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "My mother is underwhelmed by her gift and seems sad the rest of the day. She doesn’t make dinner and goes to bed early.",
+            "DiaryEntry": "My mother liked the cookies and ate them all, but she was bummed out that’s all I got her. I was trying to save money for myself but now I feel like I should’ve splurged a bit more. Plus, she didn’t cook dinner and I’m starving!"
+        },
+        {
+            "Result": "My mother loves the scarf, she is ecstatic!",
+            "DiaryEntry": "The scarf was a great choice! My mother loved it and she seemed to have a good birthday. Also, I didn’t break the bank and saved a bit of my money. Not a bad choice."
+        },
+        {
+            "Result": "My mother screams with joy over her perfume. My father is proud of me and takes us all out for dinner.",
+            "DiaryEntry": "My mother was so happy with her perfume and my father told me I did a good job. Which was evident as he took us out for a delicious dinner! I’m glad to have given her a gift she loved, but now I’m flat broke!"
+        },
+        {
+            "Result": "I get caught stealing the perfume and my parents have pick me up at the store. They are livid, but I do have a sweet, new jacket.",
+            "DiaryEntry": "My parents were so upset with me they didn’t talk to me the whole car ride home. It was embarrassing getting caught stealing and for my parents to find out. But hey, I’ll be the kid with a sweet, new jacket at school. One which I know the other kids are sure to love."
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Wealth": "-7"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Relationship": "ValueRef:1:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Wealth": "-30"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Wealth": "-50"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:1:+"
+                },
+                {
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:+",
+                    "Wealth": "-50"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Parent:StepParent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Female"
+            },
+            {
+                "Relatives": "Parent:StepParent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Male"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "",
+                "MaxAge": "",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

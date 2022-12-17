@@ -1,0 +1,130 @@
+{
+    "Description": {
+        "TimeCreated": "19.07.2021 12:58:41",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "My brother says he sees my acquaintance %FirstName:Npc:2% wearing my missing shirt at school and thinks %Pron:1:1% stole it.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Tell my brother he’s wrong"
+        },
+        {
+            "Text": "Decide to ask %FirstName:Npc:2% where %Pron:1:1% got %Pron:1:3% shirt"
+        },
+        {
+            "Text": "Confront %FirstName:Npc:2% about stealing my shirt."
+        },
+        {
+            "Text": "Bring my brother to go beat up %FirstName:Npc:2%"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "My brother and I get in a big argument that turns into a fight. We both get grounded and I spend the rest of the night in my room doing homework.",
+            "DiaryEntry": "I can’t believe my brother accused %FirstName:Npc:2% of stealing my shirt, we got in a huge fight and our parents grounded us. I’m so annoyed. Plus, I still can’t find that shirt!"
+        },
+        {
+            "Result": "%FirstName:Npc:2% tells me the store %Pron:1:1% bought it at and we bond over the shirt. My brother calls to tell me he found my shirt and apologizes.",
+            "DiaryEntry": "I’m glad I went and talked to %FirstName:Npc:2% because it turns out %Pron:1:1% just bought the same shirt as me. And my brother found my shirt and apologized to me which was nice of him."
+        },
+        {
+            "Result": "Get in a fight with %FirstName:Npc:2% but %Pron:1:1% beats me up and a lot of kids at school make fun of me. My brother finds my shirt and we get in a big fight also.",
+            "DiaryEntry": "My stupid brother told me %FirstName:Npc:2% stole my shirt and it turns out my shirt was at home all along. I’m mad at my brother, %FirstName:Npc:2% is mad at me and I have a black eye!"
+        },
+        {
+            "Result": "My brother and I go beat up %FirstName:Npc:2% but the kids at school call it an unfair fight. Later on my brother and I find my shirt at home.",
+            "DiaryEntry": "My brother and I gang up on %FirstName:Npc:2% and then it turns out he didn’t steal the shirt. We aren’t the most popular kids at school now but we do bond over the event. Maybe next time I’ll be more careful though."
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-",
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Sibling:StepSibling",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Male",
+                "MinAge": "9",
+                "MaxAge": "16"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "Classmate",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "",
+                "MaxAge": "",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

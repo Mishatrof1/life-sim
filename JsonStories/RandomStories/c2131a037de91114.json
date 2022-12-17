@@ -1,0 +1,121 @@
+{
+    "Description": {
+        "TimeCreated": "15.07.2021 5:56:12",
+        "Comment": ""
+    },
+    "Category": "Blue",
+    "StoryText": "I'm at the gym with my friend %FullName:NPC:1% and we are about to do the bench press but I'm not sure of the amount that I can do.",
+    "Question": "What should I do?",
+    "OptionText": [
+        {
+            "Text": "75 pounds."
+        },
+        {
+            "Text": "100 pounds."
+        },
+        {
+            "Text": "130 pounds."
+        },
+        {
+            "Text": "175 pounds."
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FullName:NPC:1% spends the whole time making fun of me for doing so little and I get really annoyed with %Pron:1:2%.",
+            "DiaryEntry": "%FullName:NPC:1% was getting really annoying, making fun of how much weight I was benching. %Pron:1:1% was doing it loudly so everyone in the gym could hear too, so I was really mad at %Pron:1:2% by the end of it all. I wanted to start off easy! What's the crime here?!"
+        },
+        {
+            "Result": "This ends up being a pretty good amount, but not too much. I get a decent workout from it but I feel like I could've done more.",
+            "DiaryEntry": "100 pounds was a good place to start. It sounds like it's more than it really is, I could've done more. But I'm happy with my starting point. Got a pretty good workout in. Maybe next time I'll step up."
+        },
+        {
+            "Result": "This gives me such a good workout. I am sweating by the end of it and feel really good.",
+            "DiaryEntry": "Yeah, I think this might be my sweet spot. It felt really good to lift all this weight and get in a really good workout. I can feel the effects already! And maybe it's just me, but do my arms already look bigger? I think so."
+        },
+        {
+            "Result": "This is too much weight and I cannot do more than a couple lifts and then I drop it on myself and it gets stuck on me and I need %FullName:NPC:1% to get it off of me.",
+            "DiaryEntry": "Wow, if %FullName:NPC:1% wasn't there to spot me and help lift these weights off of me, I don't know what would've happened. I guess I would've been hoping someone else saw and helped me out but sheesh, I really learned a lesson there. Don't guess too high on your first try benching!"
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Appearance": "ValueRef:0:+",
+                    "Health": "ValueRef:0:+",
+                    "Strength": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-",
+                    "Wisdom": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:1:+",
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": "Same"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool:College",
+                "MinAge": "13",
+                "MaxAge": "23",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

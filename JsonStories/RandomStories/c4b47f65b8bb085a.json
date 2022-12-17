@@ -1,0 +1,91 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 13:15:38",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "I have this question on my quiz",
+    "Question": "'What is the fifth largest country by area?'",
+    "OptionText": [
+        {
+            "Text": "Russia"
+        },
+        {
+            "Text": "United States"
+        },
+        {
+            "Text": "Brazil"
+        },
+        {
+            "Text": "Australia"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "Russia is the wrong answer.",
+            "DiaryEntry": "Russia is not only the wrong answer but it is also the biggest country in the world so I feel a little dumb for picking that answer. So mad at myself!"
+        },
+        {
+            "Result": "United States is the wrong answer",
+            "DiaryEntry": "Well, I thought it was a pretty good guess but the United States was the wrong answer."
+        },
+        {
+            "Result": "Brazil is the right answer!",
+            "DiaryEntry": "Brazil was the right answer and I'm so happy because I was a little unsure of this one, but this question literally was the deciding factor of whether I got a B+ or an A-... and this right answer gets me a good ol' A-!"
+        },
+        {
+            "Result": "Australia is the wrong answer.",
+            "DiaryEntry": "Australia is the wrong answer... but it seemed like a good guess. I must have been close. You should get some points if you're close to the right answer. That's what I think."
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:-"
+                }
+            ]
+        },
+        {},
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ]
+        },
+        {}
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PrimarySchool:MiddleSchool:HighSchool",
+                "MinAge": "8",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,149 @@
+{
+    "Description": {
+        "TimeCreated": "22.07.2021 5:17:32",
+        "Comment": ""
+    },
+    "HeaderColor": "Beige",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "I'm home alone and suddenly I hear the pots and pans fall out of the cabinet in the kitchen and then I hear the stove turn on.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Ignore it, my mind must be playing tricks on me."
+        },
+        {
+            "Text": "Go in the kitchen and turn the stove off."
+        },
+        {
+            "Text": "Leave the house"
+        },
+        {
+            "Text": "Go in the kitchen and watch"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I ignore it and go nowhere near the kitchen. My parents come home later and thank me for making food.",
+            "DiaryEntry": "This is unsettling. I was alone in the house. But I was not alone in the house. My mind was not playing tricks on me. I didn't make any food, yet there was food prepared that my parents ate when they got home and they thanked me for it. Do we have a cooking ghost in the house?!"
+        },
+        {
+            "Result": "I turn the stove off and it turns back on. I get so scared, I turn to run but trip and hurt myself.",
+            "DiaryEntry": "My parents come home and find I injured myself and ask what happened. I lie and say I slipped and fell. I don't want to actually tell them what happened. They take care of me but I am more concerned with whatever was happening in the kitchen."
+        },
+        {
+            "Result": "I run out of the house and go to the library. My parents come home to find a fire in the kitchen.",
+            "DiaryEntry": "My parents are so mad when they come home to find a fire. They blame me! They think I left the stove on and left! I was just getting the heck out of there! I was not about to spend another second alone in our haunted house! That's ghost stuff happening! I just read books in the library until they came home, but they yelled at me and made me pay for the damages."
+        },
+        {
+            "Result": "I watch by the kitchen doorway to see pots and pans moving around on their own and cooking food.",
+            "DiaryEntry": "My parents come home and thank me for making food. But I wasn't the one who made the food. It was the strangest thing. There was no one there but I kept seeing flashes of arms and legs moving around. And food being prepared... on its own? I can't even explain, I think there is a ghost in our house... that likes to cook?"
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+",
+                    "Sympathy": "ValueRef:0:+"
+                },
+                {
+                    "Relationship": "ValueRef:0:+",
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Endurance": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:+",
+                    "Wealth": "-100"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wisdom": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Parent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Female",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "Parent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Male"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "11",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

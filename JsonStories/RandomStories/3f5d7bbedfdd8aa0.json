@@ -1,0 +1,121 @@
+{
+    "Description": {
+        "TimeCreated": "28.07.2021 4:28:12",
+        "Comment": ""
+    },
+    "HeaderColor": "Pink",
+    "Category": "Love",
+    "Sentiment": "",
+    "StoryText": "I'm looking to buy a gift for %FullName:NPC:1% and have it narrowed down to three options.",
+    "Question": "Which one should I go with?",
+    "OptionText": [
+        {
+            "Text": "The watch"
+        },
+        {
+            "Text": "The earrings"
+        },
+        {
+            "Text": "The necklace"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FullName:NPC:1% loves the watch... but it was the most expensive option.",
+            "DiaryEntry": "I'm glad %FullName:NPC:1% loved the watch, I figured I couldn't go wrong when I saw the price tag. It was the most expensive option but it was worth it to make her this happy. And she is VERY happy."
+        },
+        {
+            "Result": "These end up being the same earrings I got %FullName:NPC:1% and now she is mad.",
+            "DiaryEntry": "%FullName:NPC:1% is mad, not only because she didn't get a new gift but also because I can't even remember what I already bought for her. She thinks I'm not even paying attention to what I buy for her. That's not true! I looked at these earrings and thought she would really like them! It's just that... I had that same thought once before... at least I didn't spend too much money..."
+        },
+        {
+            "Result": "%FullName:NPC:1% really likes the necklace and is very happy.",
+            "DiaryEntry": "Alright, %FullName:NPC:1% is very happy with the necklace. I'm so glad. It wasn't the cheapest of the three options but it also wasn't the most expensive. So, I am very happy to be able to give %FullName:NPC:1% a gift she really liked but also save a bit of money. Not bad at all! This may have been the smartest choice."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Wealth": "-125"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Wealth": "-65"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:+",
+                    "Wealth": "-90"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Partner",
+                "Occupation": "",
+                "Gender": "Female",
+                "MinAge": "25",
+                "MaxAge": "55"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "FullTimeJob",
+                "MinAge": "25",
+                "MaxAge": "55",
+                "Gender": "Male",
+                "SexualPreferences": "Straight"
+            }
+        ]
+    }
+}

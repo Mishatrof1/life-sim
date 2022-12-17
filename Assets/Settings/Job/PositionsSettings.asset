@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f134b516068748bea2b636455a38d8ab, type: 3}
+  m_Name: PositionsSettings
+  m_EditorClassIdentifier: 
+  Configurations:
+  - {fileID: 11400000, guid: 1e231ff1d8a159142af89f124a22aa1b, type: 2}
+  - {fileID: 11400000, guid: 72ead77a00f2f0842b5934553b22945a, type: 2}

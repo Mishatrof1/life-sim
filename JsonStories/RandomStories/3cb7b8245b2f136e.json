@@ -1,0 +1,93 @@
+{
+    "Description": {
+        "TimeCreated": "17.07.2021 5:45:19",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "I'm taking a Geography quiz and am trying to answer this question.",
+    "Question": "Greenland is an autonomous territory belonging to which country?",
+    "OptionText": [
+        {
+            "Text": "Iceland"
+        },
+        {
+            "Text": "United States"
+        },
+        {
+            "Text": "Canada"
+        },
+        {
+            "Text": "Denmark"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "Iceland is the wrong answer.",
+            "DiaryEntry": "Iceland was the wrong answer... but it sounded like it could've been right. Plus, they're right next to each other on the map. I'll have to go double check this one."
+        },
+        {
+            "Result": "United States is the wrong answer.",
+            "DiaryEntry": "United States is the wrong answer and now I am annoyed because I actually did know it wasn't part of the U.S. and now I feel dumb for having guessed that over one of the other choices."
+        },
+        {
+            "Result": "Canada isn't technically right, but it also isn't technically wrong.",
+            "DiaryEntry": "I get partial credit for this answer because, though Greenland actually belongs to Denmark, Canada has been trying to claim it as their own for a while. Hey, I'll take partial credit! Definitely alright with that!"
+        },
+        {
+            "Result": "Denmark is the right answer!",
+            "DiaryEntry": "Denmark was the right answer! This was one of the tougher questions on the quiz so it was worth more which is great, because that really improved my overall score!"
+        }
+    ],
+    "Change": [
+        {},
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ]
+        },
+        {},
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "13",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

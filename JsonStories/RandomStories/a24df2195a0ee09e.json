@@ -1,0 +1,122 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 1:42:47",
+        "Comment": ""
+    },
+    "Category": "Blue",
+    "StoryText": "%FullName:NPC:1% gets a little injured during our basketball game and %Pron:1:1% is trying to decide if %Pron:1:1% can go back in and play.",
+    "Question": "What should I say?",
+    "OptionText": [
+        {
+            "Text": "\"Just rest if you need to. Don't hurt yourself.\""
+        },
+        {
+            "Text": "\"You're tough, I think you can play through it.\""
+        },
+        {
+            "Text": "\"Don't be a baby! Get in the game!\""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FullName:NPC:1% takes it easy and doesn't play the rest of the game which means I need to play more minutes and exert myself even more in the game. But we win!",
+            "DiaryEntry": "%FullName:NPC:1% was unsure if %Pron:1:1% should go back in so I told %Pron:1:2% to take it easy if %Pron:1:1% felt that %Pron:1:1% should and that's exactly what %Pron:1:1% did. %Pron:1:1% must have been in too much pain. Meanwhile, I end up playing way more minutes and it feels like such a long game but we manage to win!"
+        },
+        {
+            "Result": "My encouraging words get %FullName:NPC:1% ready to play the game and %Pron:1:1% does come in and is able to play well. We play together with great chemistry and win the game!",
+            "DiaryEntry": "I'm so happy that we won and that %FullName:NPC:1% came back in the game to help us win, but I am really most proud of myself for encouraging %Pron:1:2% to get back in and play. We grow closer and %Pron:1:1% really leans on me for support and encouragement throughout the game."
+        },
+        {
+            "Result": "I tried tough love but it didn't work with %FullName:NPC:1% at all. %Pron:1:1% and I get in an argument, %Pron:1:1% sits out and we lose the game.",
+            "DiaryEntry": "I thought the tough love approach would work with %FullName:NPC:1% but %Pron:1:1% had the opposite reaction I hoped for. We got in an argument and then %Pron:1:1% said %Pron:1:1% was too injured to play. Maybe that's the truth, I don't know. But without %Pron:1:2% we suffer and I have to play so many minutes but we wind up losing the game."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:1:+",
+                    "Strength": "ValueRef:0:+",
+                    "Endurance": "ValueRef:1:+",
+                    "Athleticism": "ValueRef:1:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Health": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:1:+",
+                    "Endurance": "ValueRef:1:+",
+                    "Athleticism": "ValueRef:1:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": null,
+                    "Relationship": null
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": "Same"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "13",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

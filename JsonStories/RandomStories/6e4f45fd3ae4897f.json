@@ -1,0 +1,105 @@
+{
+    "Description": {
+        "TimeCreated": "29.07.2021 11:55:43",
+        "Comment": ""
+    },
+    "HeaderColor": "Pink",
+    "Category": "Friends:Love",
+    "Sentiment": "",
+    "StoryText": "My birthday is coming up and %FullName:NPC:1% wants to plan my birthday outing and surprise me.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Let %FullName:NPC:1% plan it."
+        },
+        {
+            "Text": "Tell %FullName:NPC:1% I want to invite my friends to a bar I really like."
+        },
+        {
+            "Text": ""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FullName:NPC:1% picks an excellent venue and invites all my friends and it's a fantastic time.",
+            "DiaryEntry": "I got to hand it to %FullName:NPC:1%, she did an amazing job planning my birthday party. %Pron:1:1% invited all my friends that I wanted there, the place was amazing, I had never heard of it but every single one of us had an amazing time. And to think I was starting to doubt %Pron:1:2% a little bit. Never again!"
+        },
+        {
+            "Result": "I invite everyone and we have a really good time, except %FullName:NPC:1% is mad at me.",
+            "DiaryEntry": "Well, everyone enjoyed the spot I picked, except for %FullName:NPC:1%. Maybe it wasn't that %FullName:NPC:1% didn't enjoy it, %Pron:1:1% may have just been upset with me for not letting %Pron:1:2% plan the outing. But I didn't know what place %Pron:1:1% would pick. What if I didn't like it? I feel this was the safer approach. Where I know I'll enjoy myself."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "SignificantOther",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "21",
+                "MaxAge": "30"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "College:PartTimeJob:FullTimeJob",
+                "MinAge": "21",
+                "MaxAge": "30",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a64de933d4450faeaf4f491f5d5fac, type: 3}
+  m_Name: nurse jr.
+  m_EditorClassIdentifier: 
+  NameDefault: nurse jr.
+  Icon: {fileID: 0}
+  Salary: 35845
+  HoursPerWeek: 40
+  Difficulty: 0
+  CountYear: 3
+  PossibleOrganizations:
+  - {fileID: 11400000, guid: 19b4422ad26d60c49b9f15db323d7ddc, type: 2}
+  PersonRequirement:
+    Age: 18
+    TotalWorkExperience: 0
+    Conviction: 0
+  PositionChainRequirement:
+    Experience: 0
+  ParametersRequirements:
+  - Parameter: 24
+    Value: 1
+  - Parameter: 26
+    Value: 2
+  - Parameter: 27
+    Value: 1
+  PositionsRequirementGroups: []
+  EducationRequirementGroups:
+  - Requirements:
+    - GraduationResult: 0
+      PercentGrade: 0
+      StudyDirection: 24
+    CheckType: 1
+  PromotionsDefault:
+  - {fileID: 11400000, guid: 9cc05cb61b9a5de4fb228a28b3f9486e, type: 2}
+  SpecialPromotions: []

@@ -1,0 +1,101 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 12:37:49",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "Math quiz",
+    "Question": "I have to answer this problem. '50 + 100 x 0 - 13 = ' What is the answer?",
+    "OptionText": [
+        {
+            "Text": "-13"
+        },
+        {
+            "Text": "37"
+        },
+        {
+            "Text": "137"
+        },
+        {
+            "Text": "0"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "This is the wrong answer.",
+            "DiaryEntry": "-13 was the wrong answer, but I definitely arrived there and di some kind of math. I wonder where I went wrong."
+        },
+        {
+            "Result": "This is the right answer!",
+            "DiaryEntry": "My teacher %FullName:NPC:1% is proud of me for getting this one right since it tripped up a lot of people in class. And I'm glad I figured it out!"
+        },
+        {
+            "Result": "This is the wrong answer.",
+            "DiaryEntry": "I realize a lot of people in class chose 137 for this question and many of us are confused how this wasn't the right answer."
+        },
+        {
+            "Result": "This is the wrong answer.",
+            "DiaryEntry": "%FullName:NPC:1% is confused why I even thought this was the answer. %Pron:1:1% tells me this was the 'joke option.' Alright, so I got it wrong. You don't have to make me feel worse about it!"
+        }
+    ],
+    "Change": [
+        {},
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {},
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "13",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

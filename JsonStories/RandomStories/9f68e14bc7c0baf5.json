@@ -1,0 +1,134 @@
+{
+    "Description": {
+        "TimeCreated": "23.07.2021 2:36:51",
+        "Comment": ""
+    },
+    "HeaderColor": "Blue",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "I am with %FullName:NPC:1% in a graveyard but %Pron:1:1% doesn't believe in ghosts.",
+    "Question": "Suddenly, a big wooden sign just falls over. What should I do?",
+    "OptionText": [
+        {
+            "Text": "Run away"
+        },
+        {
+            "Text": "Go pick the sign up"
+        },
+        {
+            "Text": "Tell %FullName:NPC:1% to go pick it up."
+        },
+        {
+            "Text": "Say that we should go pick it up together."
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I get out of that haunted graveyard as fast as possible but %FullName:NPC:1% finds this hilarious and tells all our friends.",
+            "DiaryEntry": "%FullName:NPC:1% still doesn't believe in ghosts even after a big wooden sign inexplicably fell over once we got near it. I wasn't about to stick around and mess with any spirits but of course, when I run off, %FullName:NPC:1% says I'm too scared. %Pron:1:1% tells all our friends too and now everyone is making fun of me and I get mad at %Pron:1:2% and we get in a big argument."
+        },
+        {
+            "Result": "As I pick the sign up I feel a whoosh of air and the sign falls back and knocks me down.",
+            "DiaryEntry": "This was definitely the work of a ghost, I know it! %FullName:NPC:1% still doesn't believe it, %Pron:1:1% thinks it was the wind. But %Pron:1:1% helps me get the sign off of me and helps me out of the graveyard because I am somewhat injured now. %Pron:1:1% may still not believe but I absolutely do, especially after that."
+        },
+        {
+            "Result": "%FullName:NPC:1% tries to pick it up when suddenly the sign is pushed back down onto %Pron:1:2%.",
+            "DiaryEntry": "The sign falls on %FullName:NPC:1% and I  help %Pron:1:2% get it off. %Pron:1:1% still doesn't think it's the work of ghosts. %Pron:1:1% thinks I pranked %Pron:1:2% or something and is angry with me. %FullName:NPC:1% tells our friends and of course, they all think I played a great prank. I did nothing! Except pull the sign off of %FullName:NPC:1% and drag %Pron:1:2% out of the graveyard!"
+        },
+        {
+            "Result": "We both are trying to lift the sign when something is forcing it back towards us.",
+            "DiaryEntry": "As %FullName:NPC:1% and I are trying to lift the sign we feel something forcing the sign back towards us. It's as if someone is one the other side pushing the sign back down. We struggle with it for over a minute and finally the force stops and we get the sign up. And we both know at that moment, nothing else could've been doing that except for a ghost!"
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Endurance": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Strength": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Strength": "ValueRef:0:+",
+                    "Wisdom": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "15",
+                "MaxAge": "30"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College:PartTimeJob:FullTimeJob",
+                "MinAge": "15",
+                "MaxAge": "30",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "Description": {
+        "TimeCreated": "30.07.2021 9:56:15",
+        "Comment": ""
+    },
+    "HeaderColor": "Beige",
+    "Category": "Family",
+    "Sentiment": "",
+    "StoryText": "Our kid %FullName:NPC:2% loses %Pron:2:3% job.",
+    "Question": "What should we do?",
+    "OptionText": [
+        {
+            "Text": "Offer that %FullName:NPC:2% stay with us to save money."
+        },
+        {
+            "Text": "Lend %FullName:NPC:2% some money."
+        },
+        {
+            "Text": "Tell %FullName:NPC:1% to call contacts from %Pron:1:3% old job."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "It's actually a joy having %FullName:NPC:2% back around the house and we all grow closer together.",
+            "DiaryEntry": "%FullName:NPC:1% thanks me for making this decision because we both got to reconnect with %FullName:NPC:2% and we allowed %Pron:2:2% to save some money while looking for another job. In the process we even learned quite a bit about %FullName:NPC:1%'s field of work."
+        },
+        {
+            "Result": "We lend %FullName:NPC:2% $2,000 out of our savings so that %Pron:2:1% can survive a few months while looking for work.",
+            "DiaryEntry": "It did feel good to lend the money to %FullName:NPC:2% and me and %FullName:NPC:1% had the extra money saved. This should go a long way in letting %FullName:NPC:2% get back on %Pron:2:3% feet. However, just seeing %Pron:2:2% like this stresses me out and I have begun overeating junk food and just have a ton of bad eating habits now."
+        },
+        {
+            "Result": "%FullName:NPC:1% calls around but is annoyed that I asked %Pron:1:2% to do this.",
+            "DiaryEntry": "I thought %FullName:NPC:1% would be happy to help out %FullName:NPC:2% but I guess %Pron:1:1% didn't want to be asking former coworkers for favors. %Pron:1:1% is annoyed with me but %Pron:1:1% does manage to get %FullName:NPC:2% a job to which %Pron:2:1% is so thankful to us."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:-",
+                    "Wealth": "-2000"
+                }
+            ],
+            "NPC": [
+                {},
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Partner",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "60",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "Kid",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "Retirement",
+                "MinAge": "60",
+                "MaxAge": "",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

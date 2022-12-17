@@ -1,0 +1,101 @@
+{
+    "Description": {
+        "TimeCreated": "17.07.2021 7:52:46",
+        "Comment": ""
+    },
+    "Category": "Gold",
+    "StoryText": "A homeless man runs up to me with both hands behind his back and tells me to pick a hand.",
+    "Question": "Which hand do I choose?",
+    "OptionText": [
+        {
+            "Text": "The left hand."
+        },
+        {
+            "Text": "The right hand."
+        },
+        {
+            "Text": "Neither"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "He holds out his left hand and has $20 in it that he gives to me and runs off.",
+            "DiaryEntry": "This was so weird. A homeless person gave ME money. Before I could say anything he ran off. An just left me with $20. But I have to say, it put a good start to my day."
+        },
+        {
+            "Result": "He holds out his right hand and has a small book philosopher's quotes. He gives it to me and runs off.",
+            "DiaryEntry": "This was so weird. The homeless guy gave me this book and then ran away before I could say anything. So weird! But I actually started reading through the book later that night and there is a lot of insightful stuff in there."
+        },
+        {
+            "Result": "The homeless man gets mad and swings a BOOK at my face and knocks me onto the ground.",
+            "DiaryEntry": "Apparently, in one hand the homeless man had a book and he swung it right at my face, hit me in the eye and knocked me onto the ground. Now, I have a black eye and a bloody nose. What would have happened if I picked that hand?"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wealth": "20"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Appearance": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College:PartTimeJob:FullTimeJob",
+                "MinAge": "17",
+                "MaxAge": "55",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

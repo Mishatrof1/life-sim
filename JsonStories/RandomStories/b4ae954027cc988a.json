@@ -1,0 +1,115 @@
+{
+    "Description": {
+        "TimeCreated": "21.07.2021 6:24:27",
+        "Comment": ""
+    },
+    "HeaderColor": "Yellow",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "I get to work and realize I am almost 30 minutes late.",
+    "Question": "What should I do?",
+    "OptionText": [
+        {
+            "Text": "Walk in the front door and rush off to start working."
+        },
+        {
+            "Text": "Walk in the back door and rush off to start working."
+        },
+        {
+            "Text": "Climb the side of the building and enter through the fire escape."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "No one even notices me come in and I am able to get to work undetected.",
+            "DiaryEntry": "Dodged a bullet there! Luckily, no one was really near the front door so I just snuck right in, started working and started working really hard so that no one would have any reason to think I was later or am not doing a good job."
+        },
+        {
+            "Result": "I go in the back door and my boss %FullName:NPC:1% is back there, sees me and I get in trouble.",
+            "DiaryEntry": "Well, that was dumb! I should've just gone through the front door. I thought I'd be sneaking in the back way but %FullName:NPC:1% is right next to the back door and I get in big trouble. But everyone thinks I am hilarious as I try to sneak in past the boss."
+        },
+        {
+            "Result": "As I am climbing up the side of the building, I slip on a rung of the ladder and fall down and hurt myself.",
+            "DiaryEntry": "My boss %FullName:NPC:1% finds me and ends up taking me to the hospital. I have a lot of cuts and bruises and a twisted ankle. %Pron:1:1% is mad at me for being late but also feels badly for me since I am pretty badly hurt. Everyone else at work thinks I'm hilarious and calls me James Bond now. I'll tell you what, next time I'm late, I'm just walking in the front door."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:1:-",
+                    "Wisdom": "ValueRef:1:+",
+                    "Popularity": "ValueRef:1:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-",
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": "",
+                "MinAge": "30",
+                "MaxAge": "60"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College",
+                "MinAge": "16",
+                "MaxAge": "22",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

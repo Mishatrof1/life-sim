@@ -1,0 +1,122 @@
+{
+    "Description": {
+        "TimeCreated": "26.07.2021 22:34:36",
+        "Comment": ""
+    },
+    "HeaderColor": "Yellow",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "Strong! I can now do the monkey bars, all the way to the end! I'm so proud; I want to show %FirstName:NPC:1%... But %FirstName:NPC:1% can't do them, he gets puffed and has to drop down at the end.",
+    "Question": "Should I show him what I can do or not?",
+    "OptionText": [
+        {
+            "Text": "Yes, do the monkey bars. He's my friend, he'll be happy for me!"
+        },
+        {
+            "Text": "Help him get the 'hang' of it!"
+        },
+        {
+            "Text": "Don't show him. Play something else. "
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I don't know whether he was jealous or just annoyed with himself, but %FirstName:NPC:1% got moody. He didn't congratulate me or anything. We kind of fell out. ",
+            "DiaryEntry": "I suppose you shouldn't show off what you can do, or you should just be more careful about it. I could do the monkey bars, but %FirstName:NPC:1% couldn't, and didn't appreciate me showing him how it was done."
+        },
+        {
+            "Result": "%FirstName:NPC:1% was so chuffed when I offered to help him with the monkey bars, and all he needed was a little lift. I got a chance to demonstrate too, and he high fived me!",
+            "DiaryEntry": "I helped %FirstName:NPC:1% with his monkey bar skills. I love hanging with my mates!"
+        },
+        {
+            "Result": "%FirstName:NPC:1% and I had a funny game of doctors and nurses, and left the park tired and still friends. I wished I could've shown him the monkey bars, but I guess I saved his feelings. ",
+            "DiaryEntry": "Is it always good to be modest? Sometimes I think it's important to show people what you can do! I guess I spared %FirstName:NPC:1%'s feelings, but so what if I can do the monkey bars and he can't!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Strength": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Strength": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Endurance": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "Classmate",
+                "Gender": "Male"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "Kid:PrimarySchool",
+                "MinAge": "4",
+                "MaxAge": "5",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

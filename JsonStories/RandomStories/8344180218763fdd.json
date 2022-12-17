@@ -1,0 +1,119 @@
+{
+    "Description": {
+        "TimeCreated": "25.07.2021 3:54:04",
+        "Comment": ""
+    },
+    "HeaderColor": "Yellow",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "My teacher, %FullName:NPC:1%, keeps giving me really boring books to read at home. But %Pron:1:1% is lovely.",
+    "Question": "What should I do?",
+    "OptionText": [
+        {
+            "Text": "Just read the books, and save %FullName:NPC:1%'s feelings. "
+        },
+        {
+            "Text": "Tell %FullName:NPC:1%. I need to put my reading skills first!"
+        },
+        {
+            "Text": "Switch the books myself, in secret? Save %FullName:NPC:1%'s feelings?"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I am really bored of those books now, but at least %FullName:NPC:1% doesn't know that I am. Sometimes you have to take the hit to save someone else's feelings. She's a great teacher!",
+            "DiaryEntry": "I had to read some boring books, but at least I didn't upset %FullName:NPC:1%. She's such a great teacher!"
+        },
+        {
+            "Result": "I shouldn't have been worried! %FullName:NPC:1% was happy to help - I guess it's not that much trouble, and she seemed really happy that I have an opinion. I now have great books to read! ",
+            "DiaryEntry": "Who knew? Teachers actually LIKE helping their pupils! %FullName:NPC:1% was more than happy to switch my reading books, and now I'm reading like crazy again! "
+        },
+        {
+            "Result": "I switched the books myself! But %FullName:NPC:1% found out and told me that it messed up her system and made work. I have switched to better books, but %FullName:NPC:1% seemed put out. ",
+            "DiaryEntry": "Oh dear, I messed up a bit. %FullName:NPC:1% is still the best teacher I've ever had, which is why I'm sad I made life difficult for her messing about with the reading books. At least I have better books now!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wisdom": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Wisdom": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Wisdom": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": "Female"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "Kid:PrimarySchool",
+                "MinAge": "4",
+                "MaxAge": "5",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

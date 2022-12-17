@@ -1,0 +1,115 @@
+{
+    "Description": {
+        "TimeCreated": "15.07.2021 11:18:49",
+        "Comment": ""
+    },
+    "Category": "Blue",
+    "StoryText": "Me and %FullName:NPC:1% get lost in the woods for a long time and are trying to find something to eat and come across many different mushrooms.",
+    "Question": "What should we do?",
+    "OptionText": [
+        {
+            "Text": "Eat the mushroom that looks like a lion's mane."
+        },
+        {
+            "Text": "Eat the mushroom with lots of long, stringy bits."
+        },
+        {
+            "Text": "Eat the red and white mushroom."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "This mushroom has a decent taste but it is pretty filling and restores some energy. Also, we start to be able to focus better and find our way out of the woods.",
+            "DiaryEntry": "We're so happy we chose that mushroom. We realized later it actually is a mushroom touted for helping you to focus and concentrate. After we ate it we sat down and devised a plan on how to get out of the woods and it worked! I might go back for some more of those mushrooms!"
+        },
+        {
+            "Result": "This mushroom instantly gives us a ton of energy, which is great. We are rejuvenated and able to keep going through the woods and eventually find our way out, even though it takes a while.",
+            "DiaryEntry": "This mushroom gave us so much energy, we even decided to pick up our walk to a brisk jog ad we searched for a way out of the woods. It took a while to get out but we eventually made it out and still felt full of energy."
+        },
+        {
+            "Result": "Uh oh, this is one of THOSE mushrooms. We start to see things and don't know what's going on and just sit down and spend the night in the woods.",
+            "DiaryEntry": "Well, the mushroom eventually made me throw up... several times. I am really hurting the next day. But %FullName:NPC:1% didn't throw up. But we both were having quite the experience, we just camped out in the woods all night and woke up the next morning feeling like we got in touch with the Earth and really learned a lot about ourselves. We were able to survive overnight in the woods!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:1:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-",
+                    "Wisdom": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": null
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": "Same"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College",
+                "MinAge": "17",
+                "MaxAge": "23",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

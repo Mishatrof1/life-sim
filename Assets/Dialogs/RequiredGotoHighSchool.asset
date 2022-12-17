@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3734848298035073437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58fa1190eae693d4dbccd3bc88a756c9, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -712, y: -392}
+  ports:
+    keys:
+    - Enter
+    - Responses
+    - Responses 0
+    values:
+    - _fieldName: Enter
+      _node: {fileID: -3734848298035073437}
+      _typeQualifiedName: DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses
+      _node: {fileID: -3734848298035073437}
+      _typeQualifiedName: System.Collections.Generic.List`1[[DialogSystem.Response,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses 0
+      _node: {fileID: -3734848298035073437}
+      _typeQualifiedName: DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Label: "\u0428\u043A\u043E\u043B\u0430"
+  MessageText: "\u041E\u043A\u043E\u043D\u0447\u0430\u043D\u0438\u0435 \u0441\u0440\u0435\u0434\u043D\u0435\u0439
+    \u0448\u043A\u043E\u043B\u044B, \u043F\u043E\u0441\u0442\u0443\u043F\u043B\u0435\u043D\u0438\u0435
+    \u0432 \u0432\u044B\u0441\u0448\u0443\u044E"
+  Responses:
+  - Label: ok
+  ListConditions: 01000000
+  AgeCondition: 14
+  RelationMin: 0
+  RelationMax: 0
+  SexualityCondition: 0
+  Results:
+  - ResultType: 4
+    ParticipantIndex: 0
+    HappinessChange: 5
+    LookChange: 0
+    SmartChange: 0
+    HealthChange: 0
+    MoneyChange: 0
+    RelationshipChange: 0
+    TypeOfOccupation: 2
+    relationshipType: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b941df93a73d47c6ad5425aa70f00427, type: 3}
+  m_Name: RequiredGotoHighSchool
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -3734848298035073437}
+  CharacterGender: 2

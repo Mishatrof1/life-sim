@@ -1,0 +1,110 @@
+{
+    "Description": {
+        "TimeCreated": "23.07.2021 5:58:10",
+        "Comment": ""
+    },
+    "HeaderColor": "Yellow",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "Late at night %FullName:NPC:1% and I have to go to the janitor's closet in the backroom to get supplies.",
+    "Question": "When we get there we see three floating orbs. What do we do?",
+    "OptionText": [
+        {
+            "Text": "Don't move at all."
+        },
+        {
+            "Text": "Run away."
+        },
+        {
+            "Text": ""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "We stand still and the orbs gently pass through us and we actually end up feeling phenomenal.",
+            "DiaryEntry": "We just stayed put and watched as the orbs slowly moved towards us and floated right through us. Which was unnerving at first but then it was the strangest thing, we both instantly felt phenomenal! %FullName:NPC:1% had a bad knee that didn't hurt anymore! And I had a headache that just went away! Those orbs... they were supernatural... I'm sure of it!"
+        },
+        {
+            "Result": "We take off running and these orbs chase us and fly into us, knocking us out and we both awake in the hospital.",
+            "DiaryEntry": "Not only did these orbs hit us and knock us out... but they did something else to us. Me and %FullName:NPC:1% both awoke in the hospital, with cuts and bruises all over, sick to our stomachs and vomiting and with second degree burns on our faces and necks. What in the world were those things?? I will never run away from something like that again."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:+",
+                    "Wisdom": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Appearance": "ValueRef:1:-",
+                    "Health": "ValueRef:1:-",
+                    "Wisdom": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:+",
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "Colleague",
+                "Gender": "",
+                "MinAge": "16",
+                "MaxAge": "22"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PartTimeJob",
+                "MinAge": "16",
+                "MaxAge": "22",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

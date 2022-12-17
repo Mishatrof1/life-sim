@@ -1,0 +1,130 @@
+{
+    "Description": {
+        "TimeCreated": "21.07.2021 3:47:17",
+        "Comment": ""
+    },
+    "HeaderColor": "Yellow",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "Someone left a whole tray of brownies in the break room and I'm not sure if they're for everyone or not.",
+    "Question": "What should I do?",
+    "OptionText": [
+        {
+            "Text": "Don't eat any brownies"
+        },
+        {
+            "Text": "Eat one brownie"
+        },
+        {
+            "Text": "Eat two brownies."
+        },
+        {
+            "Text": "Eat three brownies."
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I was playing it safe and ate no brownies, but it turns out they WERE for everyone.",
+            "DiaryEntry": "%FullName:NPC:1% made the brownies and left them there for everyone. By the time I found out, they were all gone. But I ate a healthy lunch instead of eating any brownies, so I guess that's good."
+        },
+        {
+            "Result": "I eat one brownie and it's delicious. I later find out they WERE for everyone.",
+            "DiaryEntry": "%FullName:NPC:1% made the brownies for everyone and %Pron:1:1% is glad to hear that I thought the brownie was so delicious. Really put me in a good mood!"
+        },
+        {
+            "Result": "I eat two brownies and it turns out they WERE for everyone. And they were delicious!",
+            "DiaryEntry": "%FullName:NPC:1% made the brownies for everyone and is pleased to hear that I liked them so much. Those things were almost too delicious. They're deadly if you eat too many."
+        },
+        {
+            "Result": "The brownies WERE for everyone but everyone thinks I'm a pig for eating so many.",
+            "DiaryEntry": "So, the brownies were for everyone and %FullName:NPC:1% made them. I loved them, they were so delicious. Obviously since I ate three. But %FullName:NPC:1% gets a little annoyed I ate so many since they were supposed to be for everyone. And everyone else is annoyed with me for pigging out. Whoops!"
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "Colleague",
+                "Gender": "",
+                "MinAge": "16",
+                "MaxAge": "35"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College",
+                "MinAge": "16",
+                "MaxAge": "22",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

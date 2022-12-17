@@ -1,0 +1,122 @@
+{
+    "Description": {
+        "TimeCreated": "19.07.2021 15:01:20",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "My father texts me and tells me to bring home pasta sauce for him to make dinner.",
+    "Question": "What do I get for him?",
+    "OptionText": [
+        {
+            "Text": "The store brand sauce that is cheap"
+        },
+        {
+            "Text": "The expensive sauce with the gold label"
+        },
+        {
+            "Text": "The medium-priced sauce with the red label"
+        },
+        {
+            "Text": "Get him both the expensive sauce and the cheap, store brand sauce"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "My father gets mad at me for bringing him the cheap stuff but everyone ends up loving the pasta and I’m quite pleased, plus I saved some money.",
+            "DiaryEntry": "My father was annoyed that I bought the cheap stuff but I didn’t know which one he wanted and didn’t want to waste so much money. Joke’s on him, it turned out to taste really good!"
+        },
+        {
+            "Result": "My father is glad I got the right pasta sauce and we bond as he makes his pasta.",
+            "DiaryEntry": "Sure, I may have been out a few extra bucks but I was glad I picked the right sauce and had a good time cooking with my dad."
+        },
+        {
+            "Result": "My father is interested in this one because we’ve never tried it. We have a good time making the pasta but the food ends up tasting awful!",
+            "DiaryEntry": "My father and I had a great time cooking and we were both intrigued to try out the new sauce but wow... it was just terrible. Now, we know, red label is out!"
+        },
+        {
+            "Result": "My father laughs but appreciates my initiative. He teaches me the difference between the two sauces and teaches me some cooking tips.",
+            "DiaryEntry": "I’m glad I gave my father options because I didn’t want to bring the wrong sauce to him. I may have wasted some money but I ended up learning a lot about cooking and had a great time!"
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wealth": "5"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wealth": "-3"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:+",
+                    "Wealth": "-8"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Parent:StepParent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Male",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool:College",
+                "MinAge": "",
+                "MaxAge": "",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

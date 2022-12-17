@@ -1,0 +1,122 @@
+{
+    "Description": {
+        "TimeCreated": "29.07.2021 5:23:06",
+        "Comment": ""
+    },
+    "HeaderColor": "Pink",
+    "Category": "Love",
+    "Sentiment": "",
+    "StoryText": "Me and %FullName:NPC:1% are going to go to a restaurant.",
+    "Question": "It's really close so we're trying to decide how to get there. What should we do?",
+    "OptionText": [
+        {
+            "Text": "Drive my car"
+        },
+        {
+            "Text": "Take a cab"
+        },
+        {
+            "Text": "Walk"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "We drive there and have a good time, but I do have to watch how much I drink since I need to drive back.",
+            "DiaryEntry": "%FullName:NPC:1% have a great time at the restaurant and get there really quickly. The beauty of driving, right? The downside? I had to drive back, which meant I had to watch how much I drank. Kind of wishing we didn't take my car just so I could have had a couple more drinks. All in all, a good night though."
+        },
+        {
+            "Result": "We take a cab to the restaurant and back and then I don't have to worry about how much I drink which is nice.",
+            "DiaryEntry": "%FullName:NPC:1% and I had a great time. I was so glad we decided on taking a cab. Sure, it cost a little more, but then I was able to have a bit more alcohol and have a great night. Not monitoring my intake of alcohol or anything. Not like I drank too much or anything! But yeah, this was an excellent night."
+        },
+        {
+            "Result": "Walking seemed like a good idea until we got jumped and mugged!",
+            "DiaryEntry": "Our attackers jumped out of an alley and beat us pretty badly, me especially. They took off with our wallets and left us there. We had to call an ambulance and get this, %FullName:NPC:1% blames me for this! As if I should've known we may have gotten mugged! I'm sitting here in pain and %Pron:1:1% is blaming me for us getting mugged! At least my wallet didn't have too much cash in it."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wealth": "-75"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Wealth": "-115"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Appearance": "ValueRef:0:-",
+                    "Health": "ValueRef:1:-",
+                    "Wealth": "-50"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Relationship": "ValueRef:1:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "SignificantOther",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "18",
+                "MaxAge": "35"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College:PartTimeJob:FullTimeJob",
+                "MinAge": "18",
+                "MaxAge": "35",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

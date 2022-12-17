@@ -1,0 +1,151 @@
+{
+    "Description": {
+        "TimeCreated": "20.07.2021 4:44:25",
+        "Comment": ""
+    },
+    "HeaderColor": "Yellow",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "%FullName:NPC:1% reminds me of %Pron:1:2% party coming up but it's the same day I work.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Just go into work and skip the party"
+        },
+        {
+            "Text": "Ask %FullName:NPC:3% to work my shift."
+        },
+        {
+            "Text": "Put a note up at work asking anyone to take my shift."
+        },
+        {
+            "Text": "Just skip work and go to the party"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FullName:NPC:1% is mad at me but my boss %FullName:NPC:2% is happy with the work I do.",
+            "DiaryEntry": "I make good money working. And I do a good job so %FullName:NPC:2% is happy with me. So, there's that. However, %FullName:NPC:1% is so angry at me. I feel badly I forgot about %Pron:1:2% party but I felt like it was probably too late to do something about it. Plus, I could probably use the money."
+        },
+        {
+            "Result": "%FullName:NPC:3% works it and I get to go to the party and have a great time.",
+            "DiaryEntry": "%FullName:NPC:3% is really grateful I asked %Pron:3:2% because %Pron:3:1% ends up making a lot of money. And I'm happy to go to the party and have a great time with %FullName:NPC:1%. Things seem great between us."
+        },
+        {
+            "Result": "I go to the party assuming my shift is covered but no one saw the note and now my boss %FullName:NPC:2% is mad at me.",
+            "DiaryEntry": "I'm having a good time with %FullName:NPC:1% at the party at first but then my boss %FullName:NPC:2% texts me asking where I am. I find out later no one took my shift because no one saw the note. I try explaining to %FullName:NPC:2% but %Pron:2:1% is so mad at me."
+        },
+        {
+            "Result": "I have a great time at the party, until I find out that I got fired.",
+            "DiaryEntry": "%FullName:NPC:2% fired me for not showing up to work. I thought maybe I might just get yelled at for skipping one day, not get fired! Well, the party was fun at first. %FullName:NPC:1% finds out I got fired and feels badly that it was all over %Pron:1:3% party."
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Wealth": "90"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                },
+                {},
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+",
+                    "Sympathy": "ValueRef:0:+"
+                },
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Relationship": "ValueRef:1:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Crush",
+                "Occupation": "",
+                "Gender": "Opposite",
+                "MinAge": "16",
+                "MaxAge": "22"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "Colleague",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College",
+                "MinAge": "16",
+                "MaxAge": "22",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

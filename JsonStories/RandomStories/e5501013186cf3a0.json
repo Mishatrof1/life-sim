@@ -1,0 +1,122 @@
+{
+    "Description": {
+        "TimeCreated": "19.07.2021 15:47:25",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "My wife wants to go out to dinner but I wanted to watch a hockey game.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Go out to dinner and record the game to watch later"
+        },
+        {
+            "Text": "Tell her I want to stay home and watch the game and order food to be delivered"
+        },
+        {
+            "Text": "Make dinner for the two of you and watch the game during dinner"
+        },
+        {
+            "Text": "Go out to dinner early so that I can come back and see the end of the game"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "The dinner is expensive but my wife and I have a great time, however, someone at the restaurant ruins the game for me and I end up getting in a fight.",
+            "DiaryEntry": "Well, the night went well with my wife and I was looking forward to watching the game at home until someone ruined it and I got carried away and got into a fight. That was kind of dumb of me."
+        },
+        {
+            "Result": "My wife gets annoyed with me but I get to watch the entire game. Also, I saved money on cheap delivery.",
+            "DiaryEntry": "I definitely saved money by ordering cheap delivery and I had a great time watching the game... but I realized by the end of the game how agitated my wife was. Whoops!"
+        },
+        {
+            "Result": "My wife loves the idea and enjoys watching the game with me. However, I burn myself badly when cooking dinner.",
+            "DiaryEntry": "My wife actually loved the idea of eating together and watching the game since I put in the effort to make us dinner. Dinner was delicious, but I burned myself really badly on the stove!"
+        },
+        {
+            "Result": "My wife is happy with me and we have a great time. The dinner is expensive but I get back in time to see the end of the game.",
+            "DiaryEntry": "All in all, I’m glad I made this decision. The game only got interesting at the end anyway and I saw the whole last bit, plus my wife and I had a great night."
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:-",
+                    "Wealth": "-100"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Wealth": "-50"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Partner",
+                "Occupation": "",
+                "Gender": "Female",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "FullTimeJob",
+                "MinAge": "",
+                "MaxAge": "",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

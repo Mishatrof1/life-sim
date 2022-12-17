@@ -1,0 +1,131 @@
+{
+    "Description": {
+        "TimeCreated": "19.07.2021 10:56:49",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "At the arcade with my family and I have an extra token that my brother and my sister both want.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Give it to my brother"
+        },
+        {
+            "Text": "Give it to my sister"
+        },
+        {
+            "Text": "Give the token to some other young kid in the arcade to use"
+        },
+        {
+            "Text": "Decide to keep it myself and use it for a game"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "My sister gets mad at me and storms off, my brother is ecstatic and he wins a bunch of tickets that he shares with me.",
+            "DiaryEntry": "Of course my sister gets mad because I chose my brother but I think it was the right choice because he won big and we got a ton of tickets! Oh, the prizes I can choose now!"
+        },
+        {
+            "Result": "My sister is so happy to play another game but my brother gets so mad that he and I get in a fight.",
+            "DiaryEntry": "Of course my brother gets mad because I choose my sister but he went too far and we end up getting into a fight right in the middle of the arcade! Kind of embarrassing..."
+        },
+        {
+            "Result": "Everyone agrees that this was a nice thing to do and we all get food together, however, I have an allergic reaction to something I eat.",
+            "DiaryEntry": "We all felt good giving the token to another kid there to let him enjoy some more games and I would have felt really great had I not had an awful allergic reaction to the food we then ate!"
+        },
+        {
+            "Result": "My sister gets angry with me but my brother actually finds this hilarious and roots me on while I play my game.",
+            "DiaryEntry": "I’m glad I just kept the token for myself, I wasn’t done playing and my brother rooted me on. I just wish my sister wouldn’t have gotten so mad at me."
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Sibling:StepSibling",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Male",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "Sibling:StepSibling",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Female"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PrimarySchool:MiddleSchool:HighSchool:College",
+                "MinAge": "",
+                "MaxAge": "",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "Description": {
+        "TimeCreated": "19.07.2021 8:45:25",
+        "Comment": ""
+    },
+    "Category": "Cyan",
+    "StoryText": "I'm about to get a massage and I realize I have really bad gas.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Hold it in"
+        },
+        {
+            "Text": "Ask for a moment alone before the massage to secretly relieve myself."
+        },
+        {
+            "Text": ""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "The gas is so uncomfortable that I can't enjoy the massage and later get home and feel sick.",
+            "DiaryEntry": "I spent $50 for a massage that I couldn't enjoy and all the straining and holding it in, I think I injured something. I get home and feel sick to my stomach. Because you're not supposed to hold it in that long, I'm pretty sure!"
+        },
+        {
+            "Result": "The masseuse leaves and as I am relieving myself the masseuse re-enters and freaks out.",
+            "DiaryEntry": "The masseuse re-entered and hears me right in the middle of everything. The masseuse freaks out and they throw me out of the place. Which is a bummer. But I feel better. And maybe it was a sign for me to save my money and not waste it on a massage."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-",
+                    "Wealth": "-50"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College:PartTimeJob:FullTimeJob",
+                "MinAge": "18",
+                "MaxAge": "50",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

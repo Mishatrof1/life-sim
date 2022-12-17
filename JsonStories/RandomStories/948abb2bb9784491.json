@@ -1,0 +1,125 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 16:52:13",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "My kid wants to stay up late and watch a scary movie with me.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Tell %Pron:1:2% that %Pron:1:1% cannot"
+        },
+        {
+            "Text": "Allow %Pron:1:2% to stay up and watch it"
+        },
+        {
+            "Text": "Say %Pron:1:1% can stay up late but we will watch a comedy movie"
+        },
+        {
+            "Text": "Say %Pron:1:1% can stay up late but we will watch an action movie"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%Pron:1:1% gets upset with me and storms off to %Pron:1:2% room but with the peace and quiet I can do some reading.",
+            "DiaryEntry": "My kid was mad I didn’t let %Pron:1:2% stay up or watch the scary movie but I think it would’ve been too much for %Pron:1:2% but I had some nice alone time to read. But I feel badly my kid is so upset with me, I hope this doesn’t last too long."
+        },
+        {
+            "Result": "%Pron:1:1% is happy that I let %Pron:1:2% stay up but %Pron:1:1% gets scared by the movie and is up all night having nightmares and I get no sleep.",
+            "DiaryEntry": "My kid is happy I let %Pron:1:2% watch what %Pron:1:1% wanted but %Pron:1:1% has nightmares all night and I have to stay up with %Pron:1:2% and I slept virtually 0 minutes and feel like garbage!"
+        },
+        {
+            "Result": "%Pron:1:1% gets mad because %Pron:1:1% thinks I treat %Pron:1:2% like a baby and goes to bed early anyway. I watch the movie alone and it’s so dumb.",
+            "DiaryEntry": "I thought my kid would be happy to stay up and watch the comedy movie but %Pron:1:1% thinks I picked that because I treat %Pron:1:2% like a baby. Turns out the movie was stupid and I’m dumber for having watched it now."
+        },
+        {
+            "Result": "%Pron:1:1% is happy I treat %Pron:1:2% like an adult and we have a fantastic time watching the movie together.",
+            "DiaryEntry": "This was the perfect pick! The scary movie might have been too much for my kid but this action movie was still mature but not too scary for %Pron:1:2% and we had a blast watching it."
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Kid:AdoptedKid",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "4",
+                "MaxAge": "14"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "FullTimeJob",
+                "MinAge": "",
+                "MaxAge": "",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "Description": {
+        "TimeCreated": "17.07.2021 13:49:22",
+        "Comment": ""
+    },
+    "Category": "Pink",
+    "StoryText": "Me and %FullName:NPC:1% are on vacation in a new place and are exploring.",
+    "Question": "What town should we go to next?",
+    "OptionText": [
+        {
+            "Text": "Newcastle"
+        },
+        {
+            "Text": "Dover"
+        },
+        {
+            "Text": ""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "We got o this town and we happen to go on the day when everything is closed.",
+            "DiaryEntry": "Apparently, everything in Newcastle is closed on a Monday. Of course, we had no idea. But we both get mad and end up getting into a big argument with one another and the whole day is just ruined."
+        },
+        {
+            "Result": "We had to this town and it turns out there is a big fair and carnival that we attend and it's so much fun.",
+            "DiaryEntry": "We had to pay money to get into this fair but it was totally worth it. I played one of those games where I had to keep swinging a sledgehammer and hitting a weight in order to try to ring the bell at the top and after many swings I finally did it and won a prize for %FullName:NPC:1% and we just have the best time."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Strength": "ValueRef:0:+",
+                    "Wealth": "-30"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Partner",
+                "Occupation": "",
+                "Gender": "Opposite",
+                "MinAge": "30",
+                "MaxAge": "50"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PartTimeJob:FullTimeJob",
+                "MinAge": "30",
+                "MaxAge": "50",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

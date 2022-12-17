@@ -1,0 +1,111 @@
+{
+    "Description": {
+        "TimeCreated": "17.07.2021 5:54:10",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "I am taking a test for Science class and am trying to figure out this question.",
+    "Question": "What is the largest planet in our galaxy?",
+    "OptionText": [
+        {
+            "Text": "Jupiter"
+        },
+        {
+            "Text": "Saturn"
+        },
+        {
+            "Text": "Mercury"
+        },
+        {
+            "Text": "Pluto"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "Jupiter is the right answer! And %FullName:NPC:2% mentions that %Pron:2:1% checked my test for the answer and is thankful I got it right.",
+            "DiaryEntry": "Not only did I pick the right answer of Jupiter but %FullName:NPC:2% mentions that %Pron:2:1% checked what I wrote for my answer and is glad I got it right since I ended up helping %Pron:2:2% out. Didn't even realize I was helping... but happy to help!"
+        },
+        {
+            "Result": "Saturn is the wrong answer.",
+            "DiaryEntry": "Saturn is the wrong answer. Oh well, I knew it was one of the biggest and has a whole bunch of rings. I figured it was a good guess."
+        },
+        {
+            "Result": "Mercury is the wrong answer.",
+            "DiaryEntry": "Mercury is the wrong answer. I also later find out that it is one of the smaller planets... so that wasn't even a good guess. Whoops!"
+        },
+        {
+            "Result": "Pluto is the wrong answer and is, in fact, wrong for more reasons than one!",
+            "DiaryEntry": "My teacher %FullName:NPC:1% informs me in front of the whole class that Pluto is very small and also isn't even considered a planet anymore, so this was a really bad choice! I am embarrassed but %FullName:NPC:2% comforts me and makes me feel better about the fact that I only got one stupid question wrong."
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {},
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {},
+        {},
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Intelligence": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Relationship": "ValueRef:0:+",
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": "",
+                "MinAge": "25",
+                "MaxAge": "64"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "Crush",
+                "Occupation": "",
+                "Gender": "Opposite"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PrimarySchool:MiddleSchool:HighSchool",
+                "MinAge": "8",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

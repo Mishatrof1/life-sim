@@ -1,0 +1,129 @@
+{
+    "Description": {
+        "TimeCreated": "19.07.2021 15:28:30",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "It’s my wife %FirstName:Npc:1%’s birthday.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Take her out to dinner and a movie"
+        },
+        {
+            "Text": "Set up a DIY spa day at home with oils and creams I bought myself"
+        },
+        {
+            "Text": "Take her to the new museum"
+        },
+        {
+            "Text": "Take her out to paintball"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FirstName:Npc:1% loved dinner and the movie was equally as great. But wow was that restaurant expensive!",
+            "DiaryEntry": "This was a fantastic night for %FirstName:Npc:1% and I, the classic dinner and a movie choice was perfect! And sure it hit my wallet a bit hard, but it was worth it."
+        },
+        {
+            "Result": "%FirstName:Npc:1% loved the idea but then had an allergic reaction to some of the oils i bought and it ruined the whole day!",
+            "DiaryEntry": "I honestly thought this was going to be a great gift idea but %FirstName:Npc:1% was furious when she had her allergic reaction to the oils, I guess this was a risky idea!"
+        },
+        {
+            "Result": "%FirstName:Npc:1% didn’t mind the museum but she is annoyed I picked it for us to do on her birthday.",
+            "DiaryEntry": "This ended up being quite a cheap choice and we learned a lot, but %FirstName:Npc:1% wasn’t too thrilled with the birthday gift and I think I may be in some trouble."
+        },
+        {
+            "Result": "At first, %FirstName:Npc:1% was annoyed but then we both ended up loving the experience and can’t wait to go back!",
+            "DiaryEntry": "%FirstName:Npc:1% was skeptical at first but she ended up loving paintball and we’ve probably never been closer!"
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wealth": "-100"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+",
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Strength": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Partner",
+                "Occupation": "",
+                "Gender": "Female",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "FullTimeJob",
+                "MinAge": "",
+                "MaxAge": "",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

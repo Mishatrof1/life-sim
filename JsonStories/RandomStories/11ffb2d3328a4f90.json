@@ -1,0 +1,100 @@
+{
+    "Description": {
+        "TimeCreated": "20.07.2021 11:00:22",
+        "Comment": ""
+    },
+    "HeaderColor": "Yellow",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "My coworker %FullName:NPC:1% tells me %Pron:1:1% is calling out sick to work today to go to an amusement park.",
+    "Question": "%Pron:1:1% tells me I should call out sick as well. What should I do?",
+    "OptionText": [
+        {
+            "Text": "Don't call out sick, go to work."
+        },
+        {
+            "Text": "Call out sick."
+        },
+        {
+            "Text": ""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FullName:NPC:1% is alright with this and I go to work but I feel like I missed out.",
+            "DiaryEntry": "I am somewhat glad I worked, since I was able to earn some money. But I can't help feeling like I missed out on an opportunity to spend some time with %FullName:NPC:1% at an amusement park and %Pron:1:1% seemed to have so much fun. I was just afraid that work would catch on if we both called out sick."
+        },
+        {
+            "Result": "I go to the amusement park and have a great time and no one at work is suspicious at all!",
+            "DiaryEntry": "Me and %FullName:NPC:1% have such a fantastic day together, we really start to connect a lot. And I was afraid we would both get caught if we both called out sick but no one at work suspected a thing. Sure, I didn't make money and instead spent money at the amusement park, but I think it was absolutely worth it!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Wealth": "60"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wealth": "-30"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "Colleague",
+                "Gender": "Opposite",
+                "MinAge": "16",
+                "MaxAge": "22"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College",
+                "MinAge": "16",
+                "MaxAge": "22",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a64de933d4450faeaf4f491f5d5fac, type: 3}
+  m_Name: Fire Battalion Chief
+  m_EditorClassIdentifier: 
+  NameDefault: Battalion Chief
+  Icon: {fileID: 0}
+  Salary:
+    Min: 52000
+    Max: 75000
+  PossibleOrganizations:
+  - {fileID: 11400000, guid: e00e860a64ffd8d4e9a5757fb46d3d61, type: 2}
+  PersonRequirement:
+    Age: 0
+  PositionChainRequirement:
+    Experience: 0
+  ParametersRequirements:
+  - Parameter: 1
+    Value: 75
+  PositionsRequirementGroups:
+  - Requirements:
+    - PositionConfiguration: {fileID: 11400000, guid: ba82c32d3cfb58c428695f6b9e083b41,
+        type: 2}
+      Experience: 3
+    CheckType: 0
+  EducationRequirementGroups:
+  - Requirements:
+    - GraduationResult: 3
+      PercentGrade: 0
+      StudyDirection: 0
+    CheckType: 0
+  PromotionsDefault:
+  - {fileID: 11400000, guid: 2704589260549934e8a6feedd1cba117, type: 2}
+  SpecialPromotions: []

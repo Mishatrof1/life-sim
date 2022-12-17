@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94374ea651f44cb8a880487273e80c38, type: 3}
+  m_Name: JobGenerationSettings
+  m_EditorClassIdentifier: 
+  VacancyCount: 20
+  OrganizationNameSet:
+  - Pacific corp
+  - Trauma inc
+  OrganizationsCount: 3
+  JobsCountPerOrganization: 12
+  RequirementsPart: 0.66
+  ExperiencePart: 0.25
+  ExperianceRangeMin: 1
+  ExperianceRangeMax: 10
+  BaseValueVariants:
+  - EducationResultType: 0
+    ValueRangeMin: 15000
+    ValueRangeMax: 30000
+  - EducationResultType: 1
+    ValueRangeMin: 17500
+    ValueRangeMax: 32500
+  - EducationResultType: 2
+    ValueRangeMin: 27500
+    ValueRangeMax: 42500
+  - EducationResultType: 3
+    ValueRangeMin: 35000
+    ValueRangeMax: 65000
+  BaseValueExperienceMultiplier: 1.5
+  PromotionVariants:
+  - ProductivityRangeMin: 0
+    ProductivityRangeMax: 25
+    PromotionMultiplierRangeMin: 0
+    PromotionMultiplierRangeMax: 0
+  - ProductivityRangeMin: 25
+    ProductivityRangeMax: 65
+    PromotionMultiplierRangeMin: 0
+    PromotionMultiplierRangeMax: 0.03
+  - ProductivityRangeMin: 65
+    ProductivityRangeMax: 75
+    PromotionMultiplierRangeMin: 0.02
+    PromotionMultiplierRangeMax: 0.05
+  - ProductivityRangeMin: 75
+    ProductivityRangeMax: 1000
+    PromotionMultiplierRangeMin: 0.05
+    PromotionMultiplierRangeMax: 0.15

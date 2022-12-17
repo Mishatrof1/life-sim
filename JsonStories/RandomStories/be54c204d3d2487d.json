@@ -1,0 +1,119 @@
+{
+    "Description": {
+        "TimeCreated": "30.07.2021 4:34:47",
+        "Comment": ""
+    },
+    "HeaderColor": "Pink",
+    "Category": "Love",
+    "Sentiment": "",
+    "StoryText": "%FullName:NPC:1% says that %Pron:1:1% wonders if we should take our relationship to the next level.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Get %FullName:NPC:1% a key to my place."
+        },
+        {
+            "Text": "But %FullName:NPC:1% jewelry."
+        },
+        {
+            "Text": "Tell %FullName:NPC:1% we should sit down and talk about it."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FullName:NPC:1% loves this and is so ecstatic.",
+            "DiaryEntry": "It probably was about time I got %FullName:NPC:1% a key to my place and now seemed like the perfect time. And I guess this was the perfect gesture because now %FullName:NPC:1% knows I do care about %Pron:1:2% and am serious about us."
+        },
+        {
+            "Result": "%FullName:NPC:1% gets mad at me and tells me this is not what %Pron:1:1% was thinking.",
+            "DiaryEntry": "I guess I really messed up. I thought %FullName:NPC:1% would love the jewelry. I spent a lot of money on it. But apparently, %Pron:1:1% was thinking of other things when %Pron:1:1% said 'the next level.' We have a big argument and I do get why %Pron:1:1% is mad at me now. At least I know now, this was supposed to be about us and our relationship. Not presents."
+        },
+        {
+            "Result": "We have a long discussion but a very good one and talk about our relationship and what we want.",
+            "DiaryEntry": "This was actually great for me and %FullName:NPC:1% to sit down and have a big talk about this. We both discuss what we want in our relationship and we realize we want the same exact things and decide we should start to progress and move towards our goals, perhaps living together some day, etc. And I feel we're closer now after having this conversation."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Wisdom": "ValueRef:0:+",
+                    "Wealth": "-110"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Relationship": "ValueRef:1:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "SignificantOther",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "22",
+                "MaxAge": "35"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PartTimeJob:FullTimeJob",
+                "MinAge": "22",
+                "MaxAge": "35",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

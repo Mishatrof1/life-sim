@@ -1,0 +1,115 @@
+{
+    "Description": {
+        "TimeCreated": "19.07.2021 11:06:36",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "My sister sneaks out of the house and sneaks back in and needs me to distract my parents so she can return to her room unnoticed.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Tell her I’m not going to help her"
+        },
+        {
+            "Text": "I will try to distract parents by asking a question about homework"
+        },
+        {
+            "Text": "I will try to distract parents by telling them a funny joke I heard"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "My sister tries to sneak in but my parents catch her and she gets mad at me but my parents are happy I didn’t cover for her.",
+            "DiaryEntry": "My sister gets annoyed with me for not covering for her but I didn’t want to get in trouble too! My parents were happy with me, but it’s upsetting my sister got so mad at me. I didn’t tell her to sneak out in the first place!"
+        },
+        {
+            "Result": "My parents tell me to ask my sister since she knows more about this subject at which point they find out she snuck out and ground us both.",
+            "DiaryEntry": "Our parents get mad at us and ground us both since I was trying to cover for my sister and it failed miserably! But my sister and I bond and she appreciates me trying."
+        },
+        {
+            "Result": "The distraction works! My sister gets back into her room unnoticed and she is so grateful she even gives me some cash!",
+            "DiaryEntry": "My funny joke served as a great distraction and my sister avoided getting in trouble! And the cash she gave me was a nice touch... hm, maybe I have stumbled across a new part-time job."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wealth": "10"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Sibling:StepSibling",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Female",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "Parent:StepParent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Female"
+            },
+            {
+                "Relatives": "Parent:StepParent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Male"
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "",
+                "MaxAge": "",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

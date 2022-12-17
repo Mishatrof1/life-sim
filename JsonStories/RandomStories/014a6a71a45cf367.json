@@ -1,0 +1,85 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 16:17:51",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "Geography quiz",
+    "Question": "I have this question on my quiz, 'What is the capital of Mexico?'",
+    "OptionText": [
+        {
+            "Text": "Tijuana"
+        },
+        {
+            "Text": "Cancun"
+        },
+        {
+            "Text": "Mexico City"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "Tijuana is the wrong answer.",
+            "DiaryEntry": "Tijuana is the wrong answer, but I really wasn't sure, I was just guessing."
+        },
+        {
+            "Result": "Cancun is the wrong answer.",
+            "DiaryEntry": "Cancun is the wrong answer, I think that's actually the big vacation spot. So, I probably shouldn't have chosen that."
+        },
+        {
+            "Result": "Mexico City s the right answer!",
+            "DiaryEntry": "Mexico City is the right answer! It almost seemed like a fake answer, which made me hesitate but hey, I picked the right one. I'm happy!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {},
+        {},
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PrimarySchool:MiddleSchool:HighSchool",
+                "MinAge": "8",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

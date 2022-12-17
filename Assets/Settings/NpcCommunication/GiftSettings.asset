@@ -1,0 +1,819 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 650803f74ab04cd3833df702e6ed81b1, type: 3}
+  m_Name: GiftSettings
+  m_EditorClassIdentifier: 
+  _screenTitle: "\u0412\u044B \u0441\u043E\u0431\u0438\u0440\u0430\u0435\u0442\u0435\u0441\u044C
+    \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u043F\u043E\u0434\u0430\u0440\u043E\u043A
+    {NpcFullName}"
+  _giftDonatedMessage: "\u041F\u043E\u0434\u0430\u0440\u043E\u043A \u043F\u043E\u0434\u0430\u0440\u0435\u043D."
+  _notEnoughMoneyMessage: "\u041D\u0435 \u0445\u0432\u0430\u0442\u0430\u0435\u0442
+    \u0434\u0435\u043D\u0435\u0433"
+  _communications:
+  - Text: "\u041D\u0430\u0431\u043E\u0440 \u043A\u0443\u0445\u043E\u043D\u043D\u044B\u0445
+      \u043D\u043E\u0436\u0435\u0439"
+    ReplaceGenderText: []
+    Cost: 775.27466
+    RelationshipDeltaDefault: -4.938408
+  - Text: "\u041F\u0430\u0437\u043B \u0438\u0437 50000 \u0434\u0435\u0442\u0430\u043B\u0435\u0439"
+    ReplaceGenderText: []
+    Cost: 315.8098
+    RelationshipDeltaDefault: 1.2893252
+  - Text: "\u0411\u0430\u043D\u043A\u0430 \u043B\u0435\u0434\u0435\u043D\u0446\u043E\u0432"
+    ReplaceGenderText: []
+    Cost: 256.8874
+    RelationshipDeltaDefault: 9.852177
+  - Text: "\u041F\u043B\u0430\u043D\u0448\u0435\u0442"
+    ReplaceGenderText: []
+    Cost: 482.40057
+    RelationshipDeltaDefault: 8.4030285
+  - Text: "\u0422\u0412-\u043F\u0440\u0438\u0441\u0442\u0430\u0432\u043A\u0430"
+    ReplaceGenderText: []
+    Cost: 336.7262
+    RelationshipDeltaDefault: 6.4924393
+  - Text: "\u041A\u0440\u0435\u043C \u043E\u0442 \u0441\u0442\u0430\u0440\u0435\u043D\u0438\u044F"
+    ReplaceGenderText: []
+    Cost: 914.847
+    RelationshipDeltaDefault: 5.978469
+  - Text: "\u041F\u0435\u043F\u0435\u043B\u044C\u043D\u0438\u0446\u0430"
+    ReplaceGenderText: []
+    Cost: 434.82645
+    RelationshipDeltaDefault: 7.1646147
+  - Text: "\u0411\u0435\u043B\u044C\u0435 \u0438\u0437 \u0431\u0430\u043C\u0431\u0443\u043A\u0430"
+    ReplaceGenderText: []
+    Cost: 402.1816
+    RelationshipDeltaDefault: -4.8647237
+  - Text: "\u041D\u0430\u043F\u043E\u043B\u044C\u043D\u044B\u0435 \u0432\u0435\u0441\u044B"
+    ReplaceGenderText: []
+    Cost: 61.12921
+    RelationshipDeltaDefault: 2.7259572
+  - Text: "\u041D\u0430\u0443\u0448\u043D\u0438\u043A\u0438"
+    ReplaceGenderText: []
+    Cost: 447.15558
+    RelationshipDeltaDefault: -4.1995163
+  - Text: "\u0421\u0438\u0434\u0435\u043D\u0438\u0435 \u0434\u043B\u044F \u0443\u043D\u0438\u0442\u0430\u0437\u0430
+      \u0441 \u0411\u0438\u0434\u0435"
+    ReplaceGenderText: []
+    Cost: 213.15533
+    RelationshipDeltaDefault: -4.0095835
+  - Text: "\u041A\u043E\u0444\u0442\u0430 \u0441 \u043C\u0435\u043C\u043D\u044B\u043C
+      \u043F\u0440\u0438\u043D\u0442\u043E\u043C"
+    ReplaceGenderText: []
+    Cost: 555.5517
+    RelationshipDeltaDefault: 7.5685296
+  - Text: "\u041A\u0443\u0431\u0438\u043A\u0438"
+    ReplaceGenderText: []
+    Cost: 998.3242
+    RelationshipDeltaDefault: 9.060909
+  - Text: "\u0411\u0435\u0441\u043F\u0440\u043E\u0432\u043E\u0434\u043D\u0430\u044F
+      \u043A\u043E\u043B\u043E\u043D\u043A\u0430"
+    ReplaceGenderText: []
+    Cost: 482.84216
+    RelationshipDeltaDefault: -0.81277204
+  - Text: "\u0411\u0440\u0435\u043D\u0434\u043E\u0432\u044B\u0435 \u0434\u0443\u0445\u0438"
+    ReplaceGenderText: []
+    Cost: 993.89667
+    RelationshipDeltaDefault: 4.950736
+  - Text: "\u0411\u0443\u0442\u044B\u043B\u043A\u0430 \u0448\u0430\u043C\u043F\u0430\u043D\u0441\u043A\u043E\u0433\u043E"
+    ReplaceGenderText: []
+    Cost: 658.4459
+    RelationshipDeltaDefault: 5.11019
+  - Text: "\u0411\u0443\u0442\u044B\u043B\u043A\u0430 \u0438\u0437\u0438\u0441\u043A\u0430\u043D\u043D\u043E\u0433\u043E
+      \u0448\u0430\u043C\u043F\u0430\u043D\u0441\u043A\u043E\u0433\u043E"
+    ReplaceGenderText: []
+    Cost: 811.95056
+    RelationshipDeltaDefault: 6.4403796
+  - Text: "\u0411\u0443\u0442\u044B\u043B\u043A\u0430  Dom Perignon"
+    ReplaceGenderText: []
+    Cost: 328.38733
+    RelationshipDeltaDefault: 3.0190296
+  - Text: "\u0411\u0443\u0442\u044B\u043B\u043A\u0430 \u0440\u043E\u043C\u0430"
+    ReplaceGenderText: []
+    Cost: 296.85614
+    RelationshipDeltaDefault: 7.2550473
+  - Text: "\u0411\u0443\u0442\u044B\u043B\u043A\u0430 \u0441\u043A\u043E\u0442\u0447\u0430"
+    ReplaceGenderText: []
+    Cost: 781.95184
+    RelationshipDeltaDefault: 6.1993456
+  - Text: "\u0411\u0443\u0442\u044B\u043B\u043A\u0430 \u0442\u0435\u043A\u0438\u043B\u044B"
+    ReplaceGenderText: []
+    Cost: 511.60968
+    RelationshipDeltaDefault: 7.319343
+  - Text: "\u0414\u0443\u0445\u0438 \u043E\u0442 \u0432\u0435\u0440\u0441\u0430\u0447\u0435"
+    ReplaceGenderText: []
+    Cost: 810.05817
+    RelationshipDeltaDefault: 0.90449405
+  - Text: "\u041F\u0443\u0437\u044B\u0440\u044C \u0432\u043E\u0434\u043A\u0438"
+    ReplaceGenderText: []
+    Cost: 15.990704
+    RelationshipDeltaDefault: 6.977288
+  - Text: "\u0411\u0443\u0442\u044B\u043B\u043A\u0430 \u0432\u0438\u0441\u043A\u0438"
+    ReplaceGenderText: []
+    Cost: 86.245094
+    RelationshipDeltaDefault: -3.3905425
+  - Text: "\u0411\u0443\u0442\u044B\u043B\u043A\u0430 \u0432\u0438\u043D\u0430"
+    ReplaceGenderText: []
+    Cost: 815.0452
+    RelationshipDeltaDefault: 1.4586298
+  - Text: "\u0411\u0443\u043A\u0435\u0442 \u0425\u0440\u0438\u0437\u0430\u043D\u0442\u0435\u043C"
+    ReplaceGenderText: []
+    Cost: 643.1122
+    RelationshipDeltaDefault: 7.677951
+  - Text: "\u0411\u0443\u043A\u0435\u0442 \u0422\u044E\u043B\u044C\u043F\u0430\u043D\u043E\u0432"
+    ReplaceGenderText: []
+    Cost: 570.5613
+    RelationshipDeltaDefault: -1.9329906
+  - Text: "\u0411\u0443\u043A\u0435\u0442 \u043F\u043E\u043B\u0435\u0432\u044B\u0445
+      \u0442\u0440\u0430\u0432"
+    ReplaceGenderText: []
+    Cost: 343.23724
+    RelationshipDeltaDefault: 8.949089
+  - Text: "\u041A\u043E\u0440\u043E\u0431\u043A\u0430 \u0448\u043E\u043A\u043E\u043B\u0430\u0434\u043D\u044B\u0445
+      \u043A\u043E\u043D\u0444\u0435\u0442"
+    ReplaceGenderText: []
+    Cost: 405.58154
+    RelationshipDeltaDefault: 7.5412397
+  - Text: "\u041A\u043E\u0440\u043E\u0431\u043A\u0430 \u0441 \u0442\u0430\u0440\u0430\u043A\u0430\u043D\u0430\u043C\u0438"
+    ReplaceGenderText: []
+    Cost: 244.92293
+    RelationshipDeltaDefault: 2.676794
+  - Text: "\u041A\u043E\u0440\u043E\u0431\u043A\u0430 \u043A\u0443\u0431\u0438\u043D\u0441\u043A\u0438\u0445
+      \u0441\u0438\u0433\u0430\u0440"
+    ReplaceGenderText: []
+    Cost: 952.04596
+    RelationshipDeltaDefault: -0.3670962
+  - Text: "\u042D\u043B\u0435\u043A\u0442\u0440\u043E\u0431\u0440\u0438\u0442\u0432\u0430"
+    ReplaceGenderText: []
+    Cost: 318.09155
+    RelationshipDeltaDefault: -3.1010995
+  - Text: "\u041C\u0430\u0441\u0441\u0430\u0436\u0435\u0440 \u0434\u043B\u044F \u0441\u043F\u0438\u043D\u044B"
+    ReplaceGenderText: []
+    Cost: 353.39005
+    RelationshipDeltaDefault: 4.3027887
+  - Text: "\u041C\u0435\u0442\u043B\u0430"
+    ReplaceGenderText: []
+    Cost: 663.149
+    RelationshipDeltaDefault: 3.7370055
+  - Text: "\u0411\u0443\u043A\u0435\u0442\u0438\u043A \u0430\u043D\u044E\u0442\u0438\u043D\u044B\u0445
+      \u0433\u043B\u0430\u0437\u043E\u043A"
+    ReplaceGenderText: []
+    Cost: 546.83966
+    RelationshipDeltaDefault: 0.22701097
+  - Text: "\u0422\u0435\u043D\u0442 \u0434\u043B\u044F \u043A\u0435\u043C\u043F\u0438\u043D\u0433\u0430"
+    ReplaceGenderText: []
+    Cost: 525.0731
+    RelationshipDeltaDefault: 3.7173266
+  - Text: "\u041A\u043E\u043D\u0441\u0435\u0440\u0432\u043D\u044B\u0439 \u043A\u043B\u044E\u0447"
+    ReplaceGenderText: []
+    Cost: 626.13885
+    RelationshipDeltaDefault: 0.06358433
+  - Text: "\u0411\u0438\u043D\u043E\u043A\u043B\u044C"
+    ReplaceGenderText: []
+    Cost: 650.93365
+    RelationshipDeltaDefault: 8.883237
+  - Text: "\u0413\u0430\u0437\u043E\u0432\u044B\u0439 \u0433\u0440\u0438\u043B\u044C"
+    ReplaceGenderText: []
+    Cost: 497.99503
+    RelationshipDeltaDefault: 1.8387597
+  - Text: "\u0413\u043E\u0440\u0448\u043E\u0447\u0435\u043A-\u043F\u0438\u0442\u043E\u043C\u0435\u0446
+      \u0441 \u0427\u0438\u0430"
+    ReplaceGenderText: []
+    Cost: 823.8859
+    RelationshipDeltaDefault: 2.5841455
+  - Text: "\u041A\u043B\u043E\u0443\u043D\u0441\u043A\u0438\u0439 \u043D\u043E\u0441"
+    ReplaceGenderText: []
+    Cost: 612.52545
+    RelationshipDeltaDefault: 7.2357025
+  - Text: "\u0421\u043E\u043B\u043D\u0446\u0435\u0437\u0430\u0449\u0438\u0442\u043D\u044B\u0435
+      \u043E\u0447\u043A\u0438"
+    ReplaceGenderText: []
+    Cost: 725.1572
+    RelationshipDeltaDefault: 7.7088428
+  - Text: "\u041A\u043E\u043C\u043F\u0440\u0435\u0441\u0441\u0438\u043E\u043D\u043D\u0430\u044F
+      \u043C\u0430\u0441\u043A\u0430 \u0434\u043B\u044F \u043B\u0438\u0446\u0430"
+    ReplaceGenderText: []
+    Cost: 625.8616
+    RelationshipDeltaDefault: 4.243786
+  - Text: "\u041F\u043E\u0432\u0430\u0440\u0441\u043A\u043E\u0439 \u0444\u0430\u0440\u0442\u0443\u043A"
+    ReplaceGenderText: []
+    Cost: 371.93155
+    RelationshipDeltaDefault: -4.5064106
+  - Text: "\u041E\u0445\u043B\u0430\u0436\u0434\u0430\u044E\u0449\u0430\u044F \u043C\u0430\u0441\u043A\u0430
+      \u0434\u043B\u044F \u043B\u0438\u0446\u0430"
+    ReplaceGenderText: []
+    Cost: 299.29492
+    RelationshipDeltaDefault: 4.4538426
+  - Text: "\u0428\u0442\u043E\u043F\u043E\u0440"
+    ReplaceGenderText: []
+    Cost: 940.11395
+    RelationshipDeltaDefault: 6.4019203
+  - Text: "\u041D\u0430\u0431\u043E\u0440 \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u043E\u0432"
+    ReplaceGenderText: []
+    Cost: 259.31314
+    RelationshipDeltaDefault: 0.7314472
+  - Text: "\u041B\u043E\u0431\u0437\u0438\u043A"
+    ReplaceGenderText: []
+    Cost: 684.07056
+    RelationshipDeltaDefault: 4.2290173
+  - Text: "\u0421\u0430\u043D\u0434\u0430\u043B\u0438 \"\u041A\u0440\u043E\u043A\u0441\""
+    ReplaceGenderText: []
+    Cost: 547.3505
+    RelationshipDeltaDefault: -4.9920573
+  - Text: "\u0421\u0435\u0430\u043D\u0441 \u043A\u0440\u0438\u043E\u0442\u0435\u0440\u0430\u043F\u0438\u0438"
+    ReplaceGenderText: []
+    Cost: 549.597
+    RelationshipDeltaDefault: -0.3308649
+  - Text: "\u0414\u0430\u0440\u0442\u0441"
+    ReplaceGenderText: []
+    Cost: 312.6689
+    RelationshipDeltaDefault: 6.1664367
+  - Text: "\u0421\u0443\u0445\u043E\u0446\u0432\u0435\u0442"
+    ReplaceGenderText: []
+    Cost: 866.172
+    RelationshipDeltaDefault: 4.377997
+  - Text: "\u0421\u043E\u043B\u044C \u0434\u043B\u044F \u0432\u0430\u043D\u043D \u0438\u0437
+      \u041C\u0451\u0440\u0442\u0432\u043E\u0433\u043E \u041C\u043E\u0440\u044F"
+    ReplaceGenderText: []
+    Cost: 225.15579
+    RelationshipDeltaDefault: 8.770947
+  - Text: "\u041D\u043E\u0443\u0442\u0431\u0443\u043A"
+    ReplaceGenderText: []
+    Cost: 257.7356
+    RelationshipDeltaDefault: 7.5084352
+  - Text: "\u041B\u0438\u0441\u0442\u043E\u0434\u0443\u0432"
+    ReplaceGenderText: []
+    Cost: 766.5776
+    RelationshipDeltaDefault: 1.8770151
+  - Text: "\u0421\u0435\u0440\u044C\u0433\u0438 \u0441 \u0431\u0440\u0438\u043B\u043B\u0438\u0430\u043D\u0442\u0430\u043C\u0438"
+    ReplaceGenderText: []
+    Cost: 751.55316
+    RelationshipDeltaDefault: 9.651104
+  - Text: "\u0414\u0440\u043E\u043D DJI"
+    ReplaceGenderText: []
+    Cost: 213.97234
+    RelationshipDeltaDefault: 8.663314
+  - Text: "\u0411\u0443\u043A\u0435\u0442 \u0430\u043B\u044B\u0445 \u0440\u043E\u0437"
+    ReplaceGenderText: []
+    Cost: 525.2289
+    RelationshipDeltaDefault: 9.969213
+  - Text: "\u041A\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0439
+      \u043F\u044B\u043B\u0435\u0441\u043E\u0441"
+    ReplaceGenderText: []
+    Cost: 785.7394
+    RelationshipDeltaDefault: 6.3720403
+  - Text: "\u0413\u0440\u0435\u044E\u0449\u0438\u0435 \u043D\u0430\u0443\u0448\u043D\u0438\u043A\u0438"
+    ReplaceGenderText: []
+    Cost: 280.24387
+    RelationshipDeltaDefault: 5.507811
+  - Text: "\u0423\u043C\u043D\u0430\u044F \u043A\u043E\u043B\u043E\u043D\u043A\u0430"
+    ReplaceGenderText: []
+    Cost: 851.06757
+    RelationshipDeltaDefault: -2.6978207
+  - Text: "\u041F\u043B\u0435\u0434 \u0441 \u044D\u043B\u0435\u043A\u0442\u0440\u043E\u043F\u043E\u0434\u043E\u0433\u0440\u0435\u0432\u043E\u043C"
+    ReplaceGenderText: []
+    Cost: 577.76416
+    RelationshipDeltaDefault: 4.17505
+  - Text: "\u042D\u043B\u0435\u043A\u0442\u0440\u0438\u0447\u0435\u0441\u043A\u0430\u044F
+      \u0437\u0443\u0431\u043D\u0430\u044F \u0449\u0435\u0442\u043A\u0430"
+    ReplaceGenderText: []
+    Cost: 186.46153
+    RelationshipDeltaDefault: -2.738499
+  - Text: "\u042D\u043B\u0435\u043A\u0442\u0440\u043E\u043D\u043D\u0430\u044F \u0443\u0434\u0430\u0440\u043D\u0430\u044F
+      \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430"
+    ReplaceGenderText: []
+    Cost: 972.39813
+    RelationshipDeltaDefault: -3.512772
+  - Text: "\u041E\u0442\u043F\u0430\u0440\u0438\u0432\u0430\u0442\u0435\u043B\u044C"
+    ReplaceGenderText: []
+    Cost: 962.5206
+    RelationshipDeltaDefault: 1.0966046
+  - Text: "\u0418\u0441\u043A\u0443\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0439
+      \u043A\u0430\u043A\u0442\u0443\u0441 \u0434\u043B\u044F \u0440\u0430\u0431\u043E\u0447\u0435\u0433\u043E
+      \u0441\u0442\u043E\u043B\u0430"
+    ReplaceGenderText: []
+    Cost: 595.493
+    RelationshipDeltaDefault: 1.2579327
+  - Text: "\u0423\u043C\u043D\u044B\u0435 \u0447\u0430\u0441\u044B"
+    ReplaceGenderText: []
+    Cost: 586.0757
+    RelationshipDeltaDefault: 6.3870344
+  - Text: "\u0424\u043B\u044F\u0436\u043A\u0430"
+    ReplaceGenderText: []
+    Cost: 714.0585
+    RelationshipDeltaDefault: -1.3030632
+  - Text: "\u041C\u0443\u0445\u043E\u0431\u043E\u0439\u043A\u0430"
+    ReplaceGenderText: []
+    Cost: 62.613655
+    RelationshipDeltaDefault: -1.5215237
+  - Text: "\u0413\u0430\u043C\u043C\u0430\u043A \u0434\u043B\u044F \u043D\u043E\u0433"
+    ReplaceGenderText: []
+    Cost: 592.1589
+    RelationshipDeltaDefault: 6.457875
+  - Text: "\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0441\u043A\u0438\u0435 \u0447\u0430\u0441\u044B"
+    ReplaceGenderText: []
+    Cost: 860.74603
+    RelationshipDeltaDefault: 0.631973
+  - Text: "\u0424\u0440\u0435\u043D\u0447-\u043F\u0440\u0435\u0441\u0441 \u0434\u043B\u044F
+      \u043A\u043E\u0444\u0435"
+    ReplaceGenderText: []
+    Cost: 119.42928
+    RelationshipDeltaDefault: 7.2903647
+  - Text: "\u041A\u043E\u0440\u0437\u0438\u043D\u0430 \u0444\u0440\u0443\u043A\u0442\u043E\u0432"
+    ReplaceGenderText: []
+    Cost: 271.40967
+    RelationshipDeltaDefault: -0.62232804
+  - Text: "\u041A\u0430\u043C\u0435\u0440\u0430 \u043C\u043E\u043C\u0435\u043D\u0442\u0430\u043B\u044C\u043D\u043E\u0439
+      \u043F\u0435\u0447\u0430\u0442\u0438"
+    ReplaceGenderText: []
+    Cost: 778.69324
+    RelationshipDeltaDefault: -4.973078
+  - Text: "\u0421\u0430\u0434\u043E\u0432\u044B\u0439 \u0433\u043D\u043E\u043C"
+    ReplaceGenderText: []
+    Cost: 738.3913
+    RelationshipDeltaDefault: -4.507214
+  - Text: "\u042D\u043B\u0435\u043A\u0442\u0440\u043E\u0433\u0440\u0438\u043B\u044C"
+    ReplaceGenderText: []
+    Cost: 524.15265
+    RelationshipDeltaDefault: -1.637295
+  - Text: "\u0413\u043B\u043E\u0431\u0443\u0441"
+    ReplaceGenderText: []
+    Cost: 356.94867
+    RelationshipDeltaDefault: 4.8230934
+  - Text: "\u0417\u043E\u043B\u043E\u0442\u043E\u0435 \u043A\u043E\u043B\u044C\u0446\u043E"
+    ReplaceGenderText: []
+    Cost: 344.43878
+    RelationshipDeltaDefault: 0.7518678
+  - Text: "\u0423\u043C\u043D\u0430\u044F \u043A\u043E\u043B\u043E\u043D\u043A\u0430
+      \u043E\u0442 \u0433\u0443\u0433\u043B\u0430"
+    ReplaceGenderText: []
+    Cost: 47.9476
+    RelationshipDeltaDefault: 3.4340446
+  - Text: "\u0410\u0431\u043E\u043D\u0438\u043C\u0435\u043D\u0442 \u0432 \u0441\u043F\u043E\u0440\u0442\u0437\u0430\u043B"
+    ReplaceGenderText: []
+    Cost: 116.39788
+    RelationshipDeltaDefault: 9.644089
+  - Text: "\u0424\u0435\u043D \u0434\u043B\u044F \u0432\u043E\u043B\u043E\u0441"
+    ReplaceGenderText: []
+    Cost: 326.26453
+    RelationshipDeltaDefault: 5.564688
+  - Text: "\u0421\u0440\u0435\u0434\u0441\u0442\u0432\u043E \u043E\u0442 \u0432\u044B\u043F\u0430\u0434\u0435\u043D\u0438\u044F
+      \u0432\u043E\u043B\u043E\u0441"
+    ReplaceGenderText: []
+    Cost: 983.26996
+    RelationshipDeltaDefault: 2.6180487
+  - Text: "\u0420\u043E\u043A\u0435\u0440\u0441\u043A\u0430\u044F \u0444\u0443\u0442\u0431\u043E\u043B\u043A\u0430"
+    ReplaceGenderText: []
+    Cost: 915.32947
+    RelationshipDeltaDefault: 3.6244328
+  - Text: "\u041F\u0430\u0437\u043B \"\u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440\""
+    ReplaceGenderText: []
+    Cost: 240.10698
+    RelationshipDeltaDefault: -0.32005382
+  - Text: "\u041C\u0430\u0441\u0441\u0430\u0436\u0435\u0440 \"Magic Wand\""
+    ReplaceGenderText: []
+    Cost: 788.34534
+    RelationshipDeltaDefault: 0.7069869
+  - Text: "\u0410\u043F\u043F\u0430\u0440\u0430\u0442 \u0434\u043B\u044F \u043F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u044F
+      \u0445\u043E\u0442-\u0434\u043E\u0433\u043E\u0432"
+    ReplaceGenderText: []
+    Cost: 719.19775
+    RelationshipDeltaDefault: 2.3413463
+  - Text: "\u0427\u0435\u043B\u043E\u0432\u0435\u0447\u0435\u0441\u043A\u0438\u0439
+      \u0447\u0435\u0440\u0435\u043F"
+    ReplaceGenderText: []
+    Cost: 483.80875
+    RelationshipDeltaDefault: -0.86039376
+  - Text: "\u041C\u0443\u043B\u044C\u0442\u0438\u0432\u0430\u0440\u043A\u0430"
+    ReplaceGenderText: []
+    Cost: 188.07693
+    RelationshipDeltaDefault: 9.761499
+  - Text: "\u0414\u0438\u0432\u0430\u043D \u0438\u0437 \u0438\u0442\u0430\u043B\u044C\u044F\u043D\u0441\u043A\u043E\u0439
+      \u043A\u043E\u0436\u0438"
+    ReplaceGenderText: []
+    Cost: 374.36716
+    RelationshipDeltaDefault: 9.087042
+  - Text: "\u0411\u0430\u043D\u043A\u0430 \u043E\u043F\u043E\u043B\u0430\u0441\u043A\u0438\u0432\u0430\u0442\u0435\u043B\u044F
+      \u0434\u043B\u044F \u0440\u0442\u0430"
+    ReplaceGenderText: []
+    Cost: 261.3469
+    RelationshipDeltaDefault: 6.337302
+  - Text: "DVD \u0414\u0436\u0443\u043C\u0430\u043D\u0434\u0436\u0438 \u0432 \u043F\u043E\u0434\u0430\u0440\u043E\u0447\u043D\u043E\u043C
+      \u0431\u043E\u043A\u0441\u0435"
+    ReplaceGenderText: []
+    Cost: 715.2305
+    RelationshipDeltaDefault: 7.635685
+  - Text: "\u041F\u0430\u0440\u043A \u042E\u0440\u0441\u043A\u043E\u0433\u043E \u041F\u0435\u0440\u0438\u043E\u0434\u0430
+      \u043D\u0430 DVD"
+    ReplaceGenderText: []
+    Cost: 239.28548
+    RelationshipDeltaDefault: -4.1524343
+  - Text: "\u041A\u0430\u043F\u0441\u0443\u043B\u044C\u043D\u0430\u044F \u043A\u043E\u0444\u0435\u0432\u0430\u0440\u043A\u0430"
+    ReplaceGenderText: []
+    Cost: 661.1643
+    RelationshipDeltaDefault: -1.0926716
+  - Text: "\u0411\u0440\u0435\u043B\u043E\u043A \u0434\u043B\u044F \u043A\u043B\u044E\u0447\u0435\u0439"
+    ReplaceGenderText: []
+    Cost: 127.46545
+    RelationshipDeltaDefault: 2.2593622
+  - Text: "\u041A\u0430\u043B\u0435\u043D\u0434\u0430\u0440\u044C \u0441 \u043A\u043E\u0442\u044F\u0442\u0430\u043C\u0438"
+    ReplaceGenderText: []
+    Cost: 423.80588
+    RelationshipDeltaDefault: -2.6932397
+  - Text: "\u041D\u0430\u043A\u043E\u043B\u0435\u043D\u043D\u0438\u043A\u0438"
+    ReplaceGenderText: []
+    Cost: 930.11163
+    RelationshipDeltaDefault: 2.9505854
+  - Text: "\u0414\u0436\u0438\u043D\u0441\u043A\u043E\u0432\u044B\u0439 \u0436\u0438\u043B\u0435\u0442"
+    ReplaceGenderText: []
+    Cost: 468.57028
+    RelationshipDeltaDefault: -2.1938388
+  - Text: "\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043B\u0435\u0433\u0433\u0438\u043D\u0441\u044B"
+    ReplaceGenderText: []
+    Cost: 898.9809
+    RelationshipDeltaDefault: 4.3590994
+  - Text: "\u041D\u0430\u0431\u043E\u0440 \u0431\u043E\u043C\u0431\u043E\u0447\u0435\u043A
+      \u0434\u043B\u044F \u0432\u0430\u043D\u043D\u044B"
+    ReplaceGenderText: []
+    Cost: 627.6766
+    RelationshipDeltaDefault: 2.8269963
+  - Text: "\u041B\u0443\u043F\u0430"
+    ReplaceGenderText: []
+    Cost: 98.0222
+    RelationshipDeltaDefault: 3.2689435
+  - Text: "\u041C\u0430\u043D\u0438\u043A\u044E\u0440\u043D\u044B\u0439 \u043D\u0430\u0431\u043E\u0440"
+    ReplaceGenderText: []
+    Cost: 779.78375
+    RelationshipDeltaDefault: 5.235819
+  - Text: "\u041F\u043E\u0434\u0443\u0448\u043A\u0430 \u0441 \u044D\u0444\u0444\u0435\u043A\u0442\u043E\u043C
+      \u043F\u0430\u043C\u044F\u0442\u0438"
+    ReplaceGenderText: []
+    Cost: 450.83
+    RelationshipDeltaDefault: 5.8563123
+  - Text: "\u041A\u043E\u0436\u0430\u043D\u044B\u0439 \u0440\u0435\u043C\u0435\u043D\u044C"
+    ReplaceGenderText: []
+    Cost: 379.68674
+    RelationshipDeltaDefault: 8.711359
+  - Text: "\u041D\u0430\u0441\u0442\u043E\u043B\u044C\u043D\u044B\u0439 \u0441\u0430\u0434
+      \u043A\u0430\u043C\u043D\u0435\u0439"
+    ReplaceGenderText: []
+    Cost: 761.5863
+    RelationshipDeltaDefault: 0.55473256
+  - Text: "\u0418\u043E\u043D\u0438\u0437\u0430\u0442\u043E\u0440 \u0432\u043E\u0437\u0434\u0443\u0445\u0430"
+    ReplaceGenderText: []
+    Cost: 499.26428
+    RelationshipDeltaDefault: -3.3357947
+  - Text: "\u041D\u0430\u0441\u0442\u043E\u043B\u044C\u043D\u0430\u044F \u0438\u0433\u0440\u0430
+      \"\u041C\u043E\u043D\u043E\u043F\u043E\u043B\u0438\u044F\""
+    ReplaceGenderText: []
+    Cost: 646.3589
+    RelationshipDeltaDefault: 0.16574073
+  - Text: "\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u0430\u044F \u0431\u0443\u0442\u044B\u043B\u043A\u0430
+      \u0434\u043B\u044F \u0432\u043E\u0434\u044B"
+    ReplaceGenderText: []
+    Cost: 802.2154
+    RelationshipDeltaDefault: 6.7369175
+  - Text: "\u0423\u043C\u043D\u044B\u0439 \u0442\u0435\u0440\u043C\u043E\u0441\u0442\u0430\u0442"
+    ReplaceGenderText: []
+    Cost: 629.4194
+    RelationshipDeltaDefault: -0.71092534
+  - Text: "\u041F\u043E\u0440\u0442\u0430\u0442\u0438\u0432\u043D\u0430\u044F \u0438\u0433\u0440\u043E\u0432\u0430\u044F
+      \u043F\u0440\u0438\u0441\u0442\u0430\u0432\u043A\u0430"
+    ReplaceGenderText: []
+    Cost: 552.13367
+    RelationshipDeltaDefault: 7.880667
+  - Text: "\u0411\u0435\u0433\u043E\u0432\u0430\u044F \u0434\u043E\u0440\u043E\u0436\u043A\u0430"
+    ReplaceGenderText: []
+    Cost: 204.4369
+    RelationshipDeltaDefault: -2.9709625
+  - Text: "\u041C\u0430\u0448\u0438\u043D\u043A\u0430 \u0434\u043B\u044F \u0441\u0442\u0440\u0438\u0436\u043A\u0438
+      \u0432\u043E\u043B\u043E\u0441 \u0432 \u043D\u043E\u0441\u0443"
+    ReplaceGenderText: []
+    Cost: 521.5557
+    RelationshipDeltaDefault: 4.535657
+  - Text: "\u0411\u043B\u0435\u043D\u0434\u0435\u0440"
+    ReplaceGenderText: []
+    Cost: 503.77277
+    RelationshipDeltaDefault: 3.0220609
+  - Text: "\u0410\u043D\u0442\u0438\u0431\u0430\u043A\u0442\u0435\u0440\u0438\u0430\u043B\u044C\u043D\u044B\u0435
+      \u0441\u0442\u0435\u043B\u044C\u043A\u0438 \u0434\u043B\u044F \u043E\u0431\u0443\u0432\u0438"
+    ReplaceGenderText: []
+    Cost: 153.77411
+    RelationshipDeltaDefault: -3.7801726
+  - Text: "\u0410\u0440\u043E\u043C\u043E\u043B\u0430\u043C\u043F\u0430"
+    ReplaceGenderText: []
+    Cost: 52.216137
+    RelationshipDeltaDefault: 4.567996
+  - Text: "\u0423\u043F\u0430\u043A\u043E\u0432\u043A\u0430 \u0441\u0442\u0435\u0439\u043A\u043E\u0432
+      \"\u041E\u043C\u0430\u0445\u0430\""
+    ReplaceGenderText: []
+    Cost: 733.1482
+    RelationshipDeltaDefault: 7.1352415
+  - Text: "\u0420\u0443\u043B\u043E\u043D \u043E\u0434\u043D\u043E\u0441\u043B\u043E\u0439\u043D\u043E\u0439
+      \u0442\u0443\u0430\u043B\u0435\u0442\u043D\u043E\u0439 \u0431\u0443\u043C\u0430\u0433\u0438"
+    ReplaceGenderText: []
+    Cost: 756.9259
+    RelationshipDeltaDefault: -4.27273
+  - Text: "\u041E\u0447\u043A\u0438 \u0434\u043B\u044F \u0440\u0435\u0437\u043A\u0438
+      \u043B\u0443\u043A\u0430"
+    ReplaceGenderText: []
+    Cost: 979.1622
+    RelationshipDeltaDefault: 0.15622783
+  - Text: "\u0414\u043E\u0441\u043A\u0430 \u0434\u043B\u044F \u043F\u043B\u0430\u0432\u0430\u043D\u0438\u044F
+      \u0441 \u0432\u0435\u0441\u043B\u043E\u043C"
+    ReplaceGenderText: []
+    Cost: 846.3485
+    RelationshipDeltaDefault: -3.0244906
+  - Text: "\u0414\u0436\u0438\u043D\u0441\u044B"
+    ReplaceGenderText: []
+    Cost: 253.68417
+    RelationshipDeltaDefault: 5.937358
+  - Text: "\u041A\u0443\u0440\u0442\u043A\u0430 \u043D\u0430 \u043C\u043E\u043B\u043D\u0438\u0438"
+    ReplaceGenderText: []
+    Cost: 436.59973
+    RelationshipDeltaDefault: -1.7659123
+  - Text: "\u0422\u0430\u0431\u043B\u0435\u0442\u043A\u0438 \u0434\u043B\u044F \u0443\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u0438\u044F
+      \u043F\u0435\u043D\u0438\u0441\u0430"
+    ReplaceGenderText: []
+    Cost: 123.14982
+    RelationshipDeltaDefault: -1.7001479
+  - Text: "\u0411\u0430\u043D\u043D\u044B\u0439 \u0445\u0430\u043B\u0430\u0442 \u0441
+      \u0432\u044B\u0448\u0438\u0432\u043A\u043E\u0439 \u0438\u043C\u0435\u043D\u0438"
+    ReplaceGenderText: []
+    Cost: 863.2884
+    RelationshipDeltaDefault: 5.6525826
+  - Text: "\u0417\u0430\u0440\u044F\u0434\u043A\u0430 \u0434\u043B\u044F \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0430"
+    ReplaceGenderText: []
+    Cost: 834.1503
+    RelationshipDeltaDefault: 6.8690286
+  - Text: "\u041E\u0440\u0433\u0430\u043D\u0430\u0439\u0437\u0435\u0440 \u0434\u043B\u044F
+      \u0442\u0430\u0431\u043B\u0435\u0442\u043E\u043A"
+    ReplaceGenderText: []
+    Cost: 831.0326
+    RelationshipDeltaDefault: 7.130989
+  - Text: "\u0410\u043D\u0442\u0438\u0441\u0442\u0440\u0435\u0441\u0441 \"\u0412\u044B\u0434\u0430\u0432\u0438
+      \u043F\u0440\u044B\u0449\""
+    ReplaceGenderText: []
+    Cost: 180.31761
+    RelationshipDeltaDefault: 4.687656
+  - Text: "\u0411\u0438\u043B\u044C\u044F\u0440\u0434\u043D\u044B\u0439 \u0441\u0442\u043E\u043B"
+    ReplaceGenderText: []
+    Cost: 161.32513
+    RelationshipDeltaDefault: 7.9639416
+  - Text: "\u0410\u0432\u0442\u043E\u043C\u0430\u0442 \u0441 \u043F\u043E\u043F-\u043A\u043E\u0440\u043D\u043E\u043C"
+    ReplaceGenderText: []
+    Cost: 861.1176
+    RelationshipDeltaDefault: 5.909717
+  - Text: "\u041F\u0435\u0440\u0435\u043D\u043E\u0441\u043D\u043E\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0440"
+    ReplaceGenderText: []
+    Cost: 159.16959
+    RelationshipDeltaDefault: 0.12767482
+  - Text: "\u041A\u0430\u043B\u0435\u043D\u0434\u0430\u0440\u044C \u0441 \u0449\u0435\u043D\u043A\u0430\u043C\u0438"
+    ReplaceGenderText: []
+    Cost: 975.63983
+    RelationshipDeltaDefault: 7.7560067
+  - Text: "\u041A\u0440\u043E\u043B\u0438\u0447\u044C\u044F \u043B\u0430\u043F\u043A\u0430"
+    ReplaceGenderText: []
+    Cost: 153.27925
+    RelationshipDeltaDefault: 7.0597067
+  - Text: "\u0420\u0430\u0434\u0443\u0436\u043D\u044B\u0439 \u0431\u0440\u0435\u043B\u043E\u043A
+      \u043D\u0430 \u043A\u043B\u044E\u0447\u0438"
+    ReplaceGenderText: []
+    Cost: 429.88812
+    RelationshipDeltaDefault: 6.2050996
+  - Text: "\u0424\u0443\u0442\u0431\u043E\u043B\u043A\u0430 \u0432 \u0440\u0430\u0434\u0443\u0436\u043D\u044B\u0445
+      \u0446\u0432\u0435\u0442\u0430\u0445"
+    ReplaceGenderText: []
+    Cost: 290.7485
+    RelationshipDeltaDefault: -4.0356174
+  - Text: "\u041A\u043E\u0436\u0430\u043D\u044B\u0439 \u043A\u043E\u0448\u0435\u043B\u0435\u043A"
+    ReplaceGenderText: []
+    Cost: 439.854
+    RelationshipDeltaDefault: 3.5022943
+  - Text: "\u041E\u0447\u043A\u0438 \u0434\u043B\u044F \u0447\u0442\u0435\u043D\u0438\u044F"
+    ReplaceGenderText: []
+    Cost: 217.34735
+    RelationshipDeltaDefault: 3.6624308
+  - Text: "\u041D\u0430\u0431\u043E\u0440 \u0430\u043A\u043A\u0443\u043C\u0443\u043B\u044F\u0442\u043E\u0440\u043E\u0432
+      \u0441 \u0437\u0430\u0440\u044F\u0434\u043D\u044B\u043C \u0443\u0441\u0442\u0440\u0439\u043E\u0441\u0442\u0432\u043E\u043C"
+    ReplaceGenderText: []
+    Cost: 533.82605
+    RelationshipDeltaDefault: 7.3621798
+  - Text: "\u0424\u0435\u043D-\u0440\u0430\u0441\u0441\u0447\u0451\u0441\u043A\u0430"
+    ReplaceGenderText: []
+    Cost: 74.62574
+    RelationshipDeltaDefault: 8.407223
+  - Text: "\u0412\u0445\u043E\u0434\u043D\u043E\u0439 \u0432\u0438\u0434\u0435\u043E\u0437\u0432\u043E\u043D\u043E\u043A"
+    ReplaceGenderText: []
+    Cost: 380.04147
+    RelationshipDeltaDefault: 7.7080903
+  - Text: "\u0420\u043E\u0431\u043E\u0442-\u043F\u044B\u043B\u0435\u0441\u043E\u0441"
+    ReplaceGenderText: []
+    Cost: 791.08215
+    RelationshipDeltaDefault: 3.4853513
+  - Text: "\u041B\u044E\u0431\u043E\u0432\u043D\u044B\u0439 \u0440\u043E\u043C\u0430\u043D"
+    ReplaceGenderText: []
+    Cost: 400.6478
+    RelationshipDeltaDefault: 6.084152
+  - Text: "\u0414\u0440\u0435\u043B\u044C-\u0448\u0443\u0440\u0443\u043F\u043E\u0432\u0451\u0440\u0442"
+    ReplaceGenderText: []
+    Cost: 262.64023
+    RelationshipDeltaDefault: 1.7499335
+  - Text: "\u0421\u043C\u0430\u0440\u0442-\u0442\u0432"
+    ReplaceGenderText: []
+    Cost: 658.7067
+    RelationshipDeltaDefault: 2.4318926
+  - Text: "\u0428\u0430\u0440\u0444"
+    ReplaceGenderText: []
+    Cost: 455.561
+    RelationshipDeltaDefault: -1.8086703
+  - Text: "\u0410\u0440\u043E\u043C\u043E\u0441\u0432\u0435\u0447\u0430"
+    ReplaceGenderText: []
+    Cost: 531.6913
+    RelationshipDeltaDefault: -0.267833
+  - Text: "\u0412\u0435\u043B\u043E\u0441\u0438\u043F\u0435\u0434"
+    ReplaceGenderText: []
+    Cost: 198.71855
+    RelationshipDeltaDefault: -1.127295
+  - Text: "\u041A\u043D\u0438\u0433\u0430 \"\u043F\u043E\u043C\u043E\u0433\u0438
+      \u0441\u0435\u0431\u0435 \u0441\u0430\u043C\""
+    ReplaceGenderText: []
+    Cost: 248.16368
+    RelationshipDeltaDefault: -1.6492398
+  - Text: "\u0428\u0432\u0435\u0439\u043D\u044B\u0439 \u043D\u0430\u0431\u043E\u0440"
+    ReplaceGenderText: []
+    Cost: 521.1922
+    RelationshipDeltaDefault: -0.09651494
+  - Text: "\u0412\u043F\u0438\u0442\u044B\u0432\u0430\u044E\u0449\u0430\u044F \u043A\u0443\u0445\u043E\u043D\u043D\u0430\u044F
+      \u0442\u0440\u044F\u043F\u043A\u0430"
+    ReplaceGenderText: []
+    Cost: 700.50336
+    RelationshipDeltaDefault: 7.7738323
+  - Text: "\u0413\u0430\u043D\u0442\u0435\u043B\u044F-\u0442\u0440\u0435\u043D\u0430\u0436\u0435\u0440
+      \"\u043F\u043E\u0442\u0440\u044F\u0441\u0438 \u043C\u0435\u043D\u044F\""
+    ReplaceGenderText: []
+    Cost: 826.7636
+    RelationshipDeltaDefault: 8.523417
+  - Text: "\u041E\u0431\u0443\u0447\u0430\u044E\u0449\u0430\u044F \u0438\u0433\u0440\u0443\u0448\u043A\u0430
+      \"\u0421\u043E\u0440\u0442\u0438\u0440\u0443\u0439 \u043F\u043E \u0444\u043E\u0440\u043C\u0435\""
+    ReplaceGenderText: []
+    Cost: 589.2354
+    RelationshipDeltaDefault: 0.88778424
+  - Text: "\u0421\u0443\u0448\u0435\u043D\u0430\u044F \u0433\u043E\u043B\u043E\u0432\u0430"
+    ReplaceGenderText: []
+    Cost: 255.46805
+    RelationshipDeltaDefault: 8.986446
+  - Text: "\u041E\u0434\u043D\u0430 \u0433\u0432\u043E\u0437\u0434\u0438\u043A\u0430"
+    ReplaceGenderText: []
+    Cost: 102.82449
+    RelationshipDeltaDefault: 7.1416106
+  - Text: "\u041E\u0434\u043D\u0430 \u0430\u043B\u0430\u044F \u0440\u043E\u0437\u0430"
+    ReplaceGenderText: []
+    Cost: 937.11316
+    RelationshipDeltaDefault: -2.2090077
+  - Text: "\u0421\u043F\u043E\u0440\u0442\u043F\u0438\u0442 \u0434\u043B\u044F \u043F\u043E\u0445\u0443\u0434\u0435\u043D\u0438\u044F"
+    ReplaceGenderText: []
+    Cost: 530.38684
+    RelationshipDeltaDefault: 9.897561
+  - Text: "\u0423\u043C\u043D\u044B\u0439 \u043C\u0430\u0442 \u0434\u043B\u044F \u0439\u043E\u0433\u0438"
+    ReplaceGenderText: []
+    Cost: 481.2493
+    RelationshipDeltaDefault: -3.9891775
+  - Text: "\u041F\u0440\u0435\u0437\u0435\u0440\u0432\u0430\u0442\u0438\u0432\u044B
+      \u043E\u0441\u043E\u0431\u043E \u043C\u0430\u043B\u043E\u0433\u043E \u0440\u0430\u0437\u043C\u0435\u0440\u0430"
+    ReplaceGenderText: []
+    Cost: 42.454033
+    RelationshipDeltaDefault: 7.0373516
+  - Text: "\u041C\u044B\u043B\u044C\u043D\u0438\u0446\u0430"
+    ReplaceGenderText: []
+    Cost: 60.762577
+    RelationshipDeltaDefault: 8.872778
+  - Text: "\u041C\u044F\u0447 \u0434\u043B\u044F \u0444\u0443\u0442\u0431\u043E\u043B\u0430"
+    ReplaceGenderText: []
+    Cost: 242.95773
+    RelationshipDeltaDefault: 0.5727155
+  - Text: "\u041F\u0430\u0440\u0430 \u043D\u043E\u0441\u043A\u043E\u0432"
+    ReplaceGenderText: []
+    Cost: 647.25653
+    RelationshipDeltaDefault: 2.9528577
+  - Text: "\u0423\u043C\u043D\u0430\u044F \u043A\u043E\u043B\u043E\u043D\u043A\u0430
+      \"Sonos\""
+    ReplaceGenderText: []
+    Cost: 891.6377
+    RelationshipDeltaDefault: -2.177154
+  - Text: "\u041D\u0430\u0431\u043E\u0440 \u043F\u0440\u0438\u043F\u0440\u0430\u0432"
+    ReplaceGenderText: []
+    Cost: 825.40875
+    RelationshipDeltaDefault: 9.431003
+  - Text: "\u0422\u0443\u0430\u043B\u0435\u0442\u043D\u0430\u044F \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u0430
+      \"\u041F\u043E\u0437\u0430 \u043E\u0440\u043B\u0430\""
+    ReplaceGenderText: []
+    Cost: 110.3779
+    RelationshipDeltaDefault: -0.7339101
+  - Text: "\u042F\u0449\u0438\u043A \u0434\u043B\u044F \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u043E\u0432"
+    ReplaceGenderText: []
+    Cost: 620.7656
+    RelationshipDeltaDefault: 6.4044666
+  - Text: "\u041A\u0438\u0433\u0443\u0440\u0443\u043C\u0438 \"\u0417\u0432\u0451\u0437\u0434\u043D\u044B\u0435
+      \u0432\u043E\u0439\u043D\u044B\""
+    ReplaceGenderText: []
+    Cost: 324.9173
+    RelationshipDeltaDefault: 3.6861043
+  - Text: "\u041F\u043E\u0434\u0430\u0440\u0430\u0447\u043D\u0430\u044F \u043A\u0430\u0440\u0442\u0430
+      \u043A\u043E\u0444\u0435\u0439\u043D\u0438"
+    ReplaceGenderText: []
+    Cost: 554.241
+    RelationshipDeltaDefault: 5.307668
+  - Text: "\u0411\u043E\u043C\u0431\u0430-\u0432\u043E\u043D\u0443\u0447\u043A\u0430"
+    ReplaceGenderText: []
+    Cost: 608.18555
+    RelationshipDeltaDefault: -2.6478727
+  - Text: "\u041C\u044F\u0447 - \u0430\u043D\u0442\u0438\u0441\u0442\u0440\u0435\u0441\u0441"
+    ReplaceGenderText: []
+    Cost: 176.46625
+    RelationshipDeltaDefault: 6.251257
+  - Text: "\u0412\u044B\u043A\u0438\u0434\u043D\u043E\u0439 \u043D\u043E\u0436"
+    ReplaceGenderText: []
+    Cost: 487.66724
+    RelationshipDeltaDefault: 3.553521
+  - Text: "\u0427\u0443\u0447\u0435\u043B\u043E \u043E\u043B\u0435\u043D\u044F"
+    ReplaceGenderText: []
+    Cost: 403.0182
+    RelationshipDeltaDefault: 7.15051
+  - Text: "\u0417\u0430\u0432\u0430\u0440\u043D\u0438\u0439 \u0434\u043B\u044F \u0447\u0430\u044F"
+    ReplaceGenderText: []
+    Cost: 775.20917
+    RelationshipDeltaDefault: -4.8478723
+  - Text: "\u041D\u0430\u0431\u043E\u0440 \u0434\u043B\u044F \u043E\u0442\u0431\u0435\u043B\u0438\u0432\u0430\u043D\u0438\u044F
+      \u0437\u0443\u0431\u043E\u0432"
+    ReplaceGenderText: []
+    Cost: 317.08148
+    RelationshipDeltaDefault: 1.4578016
+  - Text: "\u0422\u043E\u0441\u0442\u0435\u0440"
+    ReplaceGenderText: []
+    Cost: 740.4057
+    RelationshipDeltaDefault: 3.909443
+  - Text: "\u0417\u0443\u0431\u043D\u0430\u044F \u0449\u0451\u0442\u043A\u0430"
+    ReplaceGenderText: []
+    Cost: 936.7098
+    RelationshipDeltaDefault: 5.8287516
+  - Text: "\u0420\u0430\u0437\u0434\u0435\u043B\u044C\u043D\u0430\u044F \u043F\u0438\u0436\u0430\u043C\u0430"
+    ReplaceGenderText: []
+    Cost: 969.3873
+    RelationshipDeltaDefault: 3.699928
+  - Text: "\u0412\u0430\u0437\u0430 \u0441 \u043E\u0440\u0445\u0438\u0434\u0435\u044F\u043C\u0438"
+    ReplaceGenderText: []
+    Cost: 608.96954
+    RelationshipDeltaDefault: -2.0572982
+  - Text: "\u041F\u043E\u0434\u0430\u0440\u0430\u0447\u043D\u0430\u044F \u043A\u0430\u0440\u0442\u0430
+      \u0441 \u0434\u0435\u043D\u044C\u0433\u0430\u043C\u0438"
+    ReplaceGenderText: []
+    Cost: 57.120792
+    RelationshipDeltaDefault: 3.4336526
+  - Text: "\u0411\u043B\u0435\u043D\u0434\u0435\u0440 \"\u0437\u0434\u043E\u0440\u043E\u0432\u0430\u044F
+      \u0441\u043C\u0435\u0441\u044C\""
+    ReplaceGenderText: []
+    Cost: 817.326
+    RelationshipDeltaDefault: 8.3058
+  - Text: "\u041F\u0440\u043E\u0438\u0433\u0440\u044B\u0432\u0430\u0442\u0435\u043B\u044C
+      \u0431\u0435\u043B\u043E\u0433\u043E \u0448\u0443\u043C\u0430"
+    ReplaceGenderText: []
+    Cost: 687.4648
+    RelationshipDeltaDefault: 2.972018
+  - Text: "\u041E\u043F\u0430\u0432\u0448\u0438\u0439 \u043F\u043E\u0434\u0441\u043E\u043B\u043D\u0443\u0445"
+    ReplaceGenderText: []
+    Cost: 619.16833
+    RelationshipDeltaDefault: -1.1257737
+  - Text: "\u0414\u0435\u043A\u0430\u043D\u0442\u0435\u0440 \u0434\u043B\u044F \u0432\u0438\u043D\u0430"
+    ReplaceGenderText: []
+    Cost: 664.5373
+    RelationshipDeltaDefault: -0.46730924
+  - Text: "\u0428\u0435\u0440\u0441\u0442\u044F\u043D\u043E\u0439 \u0441\u0432\u0438\u0442\u0435\u0440"
+    ReplaceGenderText: []
+    Cost: 603.2856
+    RelationshipDeltaDefault: -1.9300044
+  - Text: "\u0426\u0432\u0435\u0442\u043E\u0447\u043D\u044B\u0439 \u0432\u0435\u043D\u043E\u043A"
+    ReplaceGenderText: []
+    Cost: 684.38153
+    RelationshipDeltaDefault: 5.3756857
+  - Text: "\u041A\u0440\u0435\u043C \u043E\u0442 \u043C\u043E\u0440\u0449\u0438\u043D"
+    ReplaceGenderText: []
+    Cost: 102.71726
+    RelationshipDeltaDefault: -1.9859393
+  - Text: "\u0418\u0433\u0440\u043E\u0432\u0430\u044F \u043A\u043E\u043D\u0441\u043E\u043B\u044C"
+    ReplaceGenderText: []
+    Cost: 580.5322
+    RelationshipDeltaDefault: 4.3913164
+  - Text: "\u0418\u0433\u0440\u0443\u0448\u043A\u0430 \"\u043F\u043E\u044E\u0449\u0438\u0439
+      \u043E\u0433\u0443\u0440\u0435\u0446\""
+    ReplaceGenderText: []
+    Cost: 747.5783
+    RelationshipDeltaDefault: -0.5557556

@@ -1,0 +1,114 @@
+{
+    "Description": {
+        "TimeCreated": "20.07.2021 7:15:53",
+        "Comment": ""
+    },
+    "HeaderColor": "Yellow",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "My boss %FullName:NPC:1% asks me if I want to do some training through work tomorrow.",
+    "Question": "What should I do?",
+    "OptionText": [
+        {
+            "Text": "Say no, I'll just do my normal work."
+        },
+        {
+            "Text": "I'll do the training to learn how to train others."
+        },
+        {
+            "Text": "Take the training on management"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "A lot of other people do the training so I have a lot of work to do, a lot of moving boxes around.",
+            "DiaryEntry": "It's a long day, especially since so many other people did training. I ended up having so much extra work to do. So many boxes had to be moved around and organized and I got to do all of it! Lucky me, right? I am just glad for this long day to be done with."
+        },
+        {
+            "Result": "The training goes over how to train other employees and I learn a lot.",
+            "DiaryEntry": "%FullName:NPC:1% is glad I took some training and now I am a certified trainer and can train new employees. The training course was really insightful and I learned a lot. I am ready to teach!"
+        },
+        {
+            "Result": "The training on management is really interesting and after I finish my boss %FullName:NPC:1% gives me a raise and a promotion.",
+            "DiaryEntry": "My raise kicked in immediately and I earned $30 for doing the training. And my boss %FullName:NPC:1% is proud of me for taking this step. Wow, I am so glad I took this class. Also, it's going to be great to take steps towards management and be able to put that on my resume."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:+",
+                    "Strength": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:+",
+                    "Wealth": "30"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": "",
+                "MinAge": "30",
+                "MaxAge": "60"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College",
+                "MinAge": "16",
+                "MaxAge": "22",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

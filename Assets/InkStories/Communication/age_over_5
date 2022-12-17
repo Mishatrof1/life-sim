@@ -1,0 +1,12 @@
+=== age_over_5
+  * [Измазаться своими экскрементами-10]
+    ~Relationship -= 10
+      -> Result 
+   * [Пукнуть и засмеяться +5]
+    ~Relationship += 5
+      -> Result 
+   * [Привлечь к себе внимание криком]
+    ~Relationship -= 5
+      -> Result 
+ 
+ -> Result 

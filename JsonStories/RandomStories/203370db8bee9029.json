@@ -1,0 +1,121 @@
+{
+    "Description": {
+        "TimeCreated": "30.07.2021 10:12:44",
+        "Comment": ""
+    },
+    "HeaderColor": "Beige",
+    "Category": "Family",
+    "Sentiment": "",
+    "StoryText": "My kid is in town visiting me and wants to do some outdoor activity today since it's nice.",
+    "Question": "What should we do?",
+    "OptionText": [
+        {
+            "Text": "Go golfing"
+        },
+        {
+            "Text": "Play tennis"
+        },
+        {
+            "Text": "Go canoeing "
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "We have a great time golfing and we both end up doing very well!",
+            "DiaryEntry": "Not only was golfing fun and we bond a lot, but %FullName:NPC:1% got some sun and tad bit of exercise in from walking all over the greens. We even did a little running and jogging from one hole to another for fun. It was an overall great day, I'm so glad we decided on golf!"
+        },
+        {
+            "Result": "We play for just a bit before I trip and fall and seriously hurt my hip.",
+            "DiaryEntry": "%FullName:NPC:1% has to take me to the hospital I hurt my hip so badly. It turns out it was a fracture. Just great. We were just trying to have a nice time on the tennis court and I have to go and get seriously injured. But %FullName:NPC:1% does such a great job taking care of me."
+        },
+        {
+            "Result": "We end up arguing almost the entire time we are out in the canoe",
+            "DiaryEntry": "This is an activity we never did before and we will never do again. %FullName:NPC:1% and I kept trying to get the other to go about everything our way and it just resulted in a lot of arguing and a lot of confusion over where we were even heading to. I am so annoyed, %Pron:1:1% can be so stubborn sometimes. I'm also quite sore after that whole trip!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:1:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:1:+",
+                    "Sympathy": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Kid",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "30",
+                "MaxAge": "40"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "Retirement",
+                "MinAge": "60",
+                "MaxAge": "",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

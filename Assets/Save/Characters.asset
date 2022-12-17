@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b644a25a819b497794d4c3e7f4146702, type: 3}
+  m_Name: Characters
+  m_EditorClassIdentifier: 
+  Character:
+    Id: 926b9ce3-0d87-4e68-aaea-aace4f86c786
+    AvatarSpriteIndex: 18
+    BirthDate:
+      _totalMonths: 2532
+    Birthday: 334
+    BirthLocationId: 920474c2-ba21-4f8a-8e7a-6a8117020173
+    FirstName: Noor
+    LastName: Rich
+    Gender: 1
+    ParametersSave:
+    - Id: Balance
+      Value: 100000
+      Min: -3.4028235e+38
+      Max: 3.4028235e+38
+    - Id: Looks
+      Value: 100
+      Min: 0
+      Max: 100
+    - Id: Health
+      Value: 69
+      Min: 0
+      Max: 100
+    - Id: Smarts
+      Value: 26
+      Min: 0
+      Max: 100
+    - Id: Happiness
+      Value: 93
+      Min: 0
+      Max: 100
+    - Id: Strength
+      Value: 18
+      Min: 0
+      Max: 100
+    - Id: Willpower
+      Value: 37
+      Min: 0
+      Max: 100
+    - Id: Endurance
+      Value: 42.581093
+      Min: 0
+      Max: 100
+    - Id: Kindness
+      Value: -13
+      Min: -50
+      Max: 50
+    - Id: Conformity
+      Value: 0
+      Min: -50
+      Max: 50
+    Appearance:
+      Age: 0
+      Race: 1
+      Sex: 1
+      LipsType: 1
+      EyesType: 2
+      HairType: 0
+      BrowsType: 0
+      FaceType: 1
+      EyesColor: {r: 1, g: 1, b: 1, a: 1}
+      HairColor: {r: 0.35, g: 0.35, b: 0.35, a: 1}
+      LipsColor: {r: 1, g: 0.58, b: 0.53, a: 1}
+      SkinColor: {r: 1, g: 0.9, b: 0.73, a: 1}
+    AvailableLocations:
+    - 6ff306db-793d-4f1c-a59f-d1e221477dff
+    CurrentLocation: 6ff306db-793d-4f1c-a59f-d1e221477dff
+    CurrentOccupation: 
+    OccupationHistory: []
+    EducationResultTypes: 
+    EducationResults: 
+    Balance: 0
+    Logs: []
+    AgeLog:
+      YearLogs:
+      - WorldDate:
+          _totalMonths: 2532
+        Records:
+        - Priority: 100
+          Text: "\u042F \u0440\u043E\u0434\u0438\u043B\u0430\u0441\u044C Female \u0432
+            \u0433\u043E\u0440\u043E\u0434\u0435 Moscow, Russian Federation"
+        - Priority: 100
+          Text: "\u041C\u043E\u0439 \u0434\u0435\u043D\u044C \u0440\u043E\u0436\u0434\u0435\u043D\u0438\u044F
+            1 \u0434\u0435\u043A\u0430\u0431\u0440\u044F. \u042F \u0421\u0442\u0440\u0435\u043B\u0435\u0446"
+        - Priority: 100
+          Text: "\u041C\u0435\u043D\u044F \u0437\u043E\u0432\u0443\u0442 Noor Rich"
+        - Priority: 100
+          Text: "\u041C\u043E\u0439 \u043E\u0442\u0435\u0446 Ezra, \u0435\u043C\u0443
+            19"
+        - Priority: 100
+          Text: "\u041C\u043E\u044F \u043C\u0430\u043C\u0430 Lyra, \u0435\u0439 23"
+      - WorldDate:
+          _totalMonths: 2544
+        Records:
+        - Priority: 100
+          Text: "\u041C\u0435\u043D\u044F \u0432\u0441\u0451 \u0432\u0440\u0435\u043C\u044F
+            \u043F\u0440\u0435\u0441\u043B\u0435\u0434\u0443\u0435\u0442 \u0437\u0430\u043F\u0430\u0445
+            \u043E\u0432\u0441\u044F\u043D\u043A\u0438 \u0441 \u044F\u0431\u043B\u043E\u043A\u0430\u043C\u0438."
+    InkStoryHistory: []
+    GraduationResultSaves: []
+    StressDelta: 0
+    ProdInc: 0
+    ProdDec: 0

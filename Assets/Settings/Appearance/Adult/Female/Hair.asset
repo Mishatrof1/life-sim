@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b1f4e9e4da47f8ba6bbbb3c586b254, type: 3}
+  m_Name: Hair
+  m_EditorClassIdentifier: 
+  SlotList:
+  - Slots:
+    - Name: hair_front
+      Attachment: hair_front
+      Region: hair_front
+      ColorGroup: {fileID: 11400000, guid: c1c70cae89039ce4ead833f1fc20d654, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: hair_front_static
+      Attachment: hair_front_static
+      Region: 
+      ColorGroup: {fileID: 11400000, guid: c1c70cae89039ce4ead833f1fc20d654, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: hair_shadow
+      Attachment: hair_shadow
+      Region: hair_shadow
+      ColorGroup: {fileID: 11400000, guid: 703314cf61947e6449acc30ec98ba70e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: hair_back
+      Attachment: hair_back
+      Region: hair_back
+      ColorGroup: {fileID: 11400000, guid: c1c70cae89039ce4ead833f1fc20d654, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+  - Slots:
+    - Name: hair_front
+      Attachment: hair_front
+      Region: 
+      ColorGroup: {fileID: 11400000, guid: c1c70cae89039ce4ead833f1fc20d654, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: hair_front_static
+      Attachment: hair_front_static
+      Region: hair_front_static
+      ColorGroup: {fileID: 11400000, guid: c1c70cae89039ce4ead833f1fc20d654, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: hair_shadow
+      Attachment: hair_shadow
+      Region: 
+      ColorGroup: {fileID: 11400000, guid: 703314cf61947e6449acc30ec98ba70e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: hair_back
+      Attachment: hair_back
+      Region: 
+      ColorGroup: {fileID: 11400000, guid: c1c70cae89039ce4ead833f1fc20d654, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1

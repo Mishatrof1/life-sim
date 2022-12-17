@@ -1,0 +1,137 @@
+{
+    "Description": {
+        "TimeCreated": "20.07.2021 4:53:15",
+        "Comment": ""
+    },
+    "HeaderColor": "Yellow",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "My work needs people to work the upcoming holidays and I have to choose one.",
+    "Question": "Which one do I choose?",
+    "OptionText": [
+        {
+            "Text": "Christmas Eve"
+        },
+        {
+            "Text": "Christmas Day"
+        },
+        {
+            "Text": "New Year's Eve"
+        },
+        {
+            "Text": "New Year's Day"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I work Christmas Eve and end up missing %FullName:NPC:1%'s party that %Pron:1:1% invited me to.",
+            "DiaryEntry": "%FullName:NPC:1% is so mad at me for picking Christmas Eve and missing %Pron:1:3% party. I am wishing I picked a different day now too. I forgot about the party! And most of my shift I ended up having to lug boxes around and rearrange stuff. What a day! At least I got some money."
+        },
+        {
+            "Result": "I feel bummed out for missing out on my friends and family's activities this day, but I make a bunch of money.",
+            "DiaryEntry": "%FullName:NPC:1% has a party on Christmas Eve that I go to and that's fun, but missing Christmas Day entirely because I had to work, this just bums me out. The only redeeming factor is that I made a ton of money."
+        },
+        {
+            "Result": "I work New Year's Eve and still get out with plenty of time to hang out with friends!",
+            "DiaryEntry": "This turned out to be a good holiday season! %FullName:NPC:1% had %Pron:1:3% Christmas Eve party, I was off Christmas Day, worked New Year's Eve and still had time to hang out with friends. I think I made the right choice for work!"
+        },
+        {
+            "Result": "I get to do everything I want over the holidays, but I am so wiped out working New Year's Day. All I want to do is sleep!",
+            "DiaryEntry": "%FullName:NPC:1%'s Christmas Eve party, a long Christmas Day, a VERY LONG New Year's Eve... this was a great time. But I hardly slept and then had to go into work New Year's Day. I just want the day to be over so I can go home. But hey, I had a good time. Even if I am feeling a slight bit ill."
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Strength": "ValueRef:0:+",
+                    "Wealth": "100"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Wealth": "150"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wealth": "75"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:-",
+                    "Strength": "ValueRef:0:-",
+                    "Wealth": "50"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Crush",
+                "Occupation": "",
+                "Gender": "Opposite",
+                "MinAge": "16",
+                "MaxAge": "22"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College",
+                "MinAge": "16",
+                "MaxAge": "22",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "Description": {
+        "TimeCreated": "17.07.2021 8:09:41",
+        "Comment": ""
+    },
+    "Category": "Gold",
+    "StoryText": "I'm at the store and they're out of my creamer that I use for coffee.",
+    "Question": "What replacement should I get?",
+    "OptionText": [
+        {
+            "Text": "The brand name option."
+        },
+        {
+            "Text": "An expensive non-dairy creamer"
+        },
+        {
+            "Text": ""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I take this home and use it and it's curdled and I get really sick.",
+            "DiaryEntry": "The brand name option was really cheap so I thought it might be a good choice but it turned out to be a horrible choice! This is what I get for settling for a brand name and going for something cheap! Never again! Saving money was not worth throwing up for two days!"
+        },
+        {
+            "Result": "This creamer is expensive and it is made from oats, but it's delicious and healthy!",
+            "DiaryEntry": "This creamer was 4 times as expensive as the other choice but I really love it. And it's really healthy too, I actually feel good after having it. Now I can have coffee for every meal!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:1:-",
+                    "Wisdom": "ValueRef:0:+",
+                    "Wealth": "-2"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:+",
+                    "Wealth": "-8"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College:PartTimeJob:FullTimeJob",
+                "MinAge": "18",
+                "MaxAge": "65",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

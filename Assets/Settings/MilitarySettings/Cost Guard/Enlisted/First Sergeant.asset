@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9394f50c7a24c7d4ab204f89c74b230b, type: 3}
+  m_Name: First Sergeant
+  m_EditorClassIdentifier: 
+  NameDefault: First Sergeant
+  EasyName: 1SG
+  Icon: {fileID: 21300000, guid: cef2f7707d6cc5a44b3f8205588db9b2, type: 3}
+  CurrentSalary: 0
+  HoursPerWeek: 0
+  Difficulty: 0
+  typeClass: 7
+  PossibleOrganizations:
+  - {fileID: 11400000, guid: 631b73186d140fd4cb4526b046709052, type: 2}
+  PersonRequirement:
+    MinAge: 20
+    MaxAge: 27
+    TotalWorkExperience: 0
+  PositionChainRequirement:
+    Experience: 0
+  ParametersRequirements: []
+  PositionsRequirementGroups: []
+  EducationRequirementGroups: []
+  PromotionsDefault:
+  - {fileID: 0}
+  SpecialPromotions: []

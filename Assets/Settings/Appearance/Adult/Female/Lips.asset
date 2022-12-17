@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b1f4e9e4da47f8ba6bbbb3c586b254, type: 3}
+  m_Name: Lips
+  m_EditorClassIdentifier: 
+  SlotList:
+  - Slots:
+    - Name: fear_lips
+      Attachment: fear_lips
+      Region: fear_lips
+      ColorGroup: {fileID: 11400000, guid: 60060973c40144f4eb9b5f13ea84d17e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: amazing_lips
+      Attachment: amazing_lips
+      Region: amazing_lips
+      ColorGroup: {fileID: 11400000, guid: 60060973c40144f4eb9b5f13ea84d17e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: smile_lips
+      Attachment: smile_lips
+      Region: smile_lips
+      ColorGroup: {fileID: 11400000, guid: 60060973c40144f4eb9b5f13ea84d17e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: amazing_mouth
+      Attachment: amazing_mouth
+      Region: amazing_mouth
+      ColorGroup: {fileID: 11400000, guid: 703314cf61947e6449acc30ec98ba70e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: anger_lips
+      Attachment: anger_lips
+      Region: anger_lips
+      ColorGroup: {fileID: 11400000, guid: 60060973c40144f4eb9b5f13ea84d17e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: laugh_lips
+      Attachment: laugh_lips
+      Region: laugh_lips
+      ColorGroup: {fileID: 11400000, guid: 60060973c40144f4eb9b5f13ea84d17e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: neutral_lips
+      Attachment: neutral_lips
+      Region: neutral_lips
+      ColorGroup: {fileID: 11400000, guid: 60060973c40144f4eb9b5f13ea84d17e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: sad_lips
+      Attachment: sad_lips
+      Region: sad_lips
+      ColorGroup: {fileID: 11400000, guid: 60060973c40144f4eb9b5f13ea84d17e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: displeasure_lips
+      Attachment: displeasure_lips
+      Region: displeasure_lips
+      ColorGroup: {fileID: 11400000, guid: 60060973c40144f4eb9b5f13ea84d17e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: suffering_lips
+      Attachment: suffering_lips
+      Region: suffering_lips
+      ColorGroup: {fileID: 11400000, guid: 60060973c40144f4eb9b5f13ea84d17e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: laugh_mouth
+      Attachment: laugh_mouth
+      Region: laugh_mouth
+      ColorGroup: {fileID: 11400000, guid: 703314cf61947e6449acc30ec98ba70e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: fear_mouth
+      Attachment: fear_mouth
+      Region: fear_mouth
+      ColorGroup: {fileID: 11400000, guid: 703314cf61947e6449acc30ec98ba70e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: smile_mouth
+      Attachment: smile_mouth
+      Region: smile_mouth
+      ColorGroup: {fileID: 11400000, guid: 703314cf61947e6449acc30ec98ba70e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: boring_lips
+      Attachment: boring_lips
+      Region: boring_lips
+      ColorGroup: {fileID: 11400000, guid: 60060973c40144f4eb9b5f13ea84d17e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: anger_mouth
+      Attachment: anger_mouth
+      Region: anger_mouth
+      ColorGroup: {fileID: 11400000, guid: 703314cf61947e6449acc30ec98ba70e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: suffering_mouth
+      Attachment: suffering_mouth
+      Region: suffering_mouth
+      ColorGroup: {fileID: 11400000, guid: 703314cf61947e6449acc30ec98ba70e, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1

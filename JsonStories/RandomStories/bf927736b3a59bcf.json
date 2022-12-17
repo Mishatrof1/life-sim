@@ -1,0 +1,137 @@
+{
+    "Description": {
+        "TimeCreated": "28.07.2021 3:54:47",
+        "Comment": ""
+    },
+    "HeaderColor": "Pink",
+    "Category": "Love",
+    "Sentiment": "",
+    "StoryText": "I want to take %FullName:NPC:1% out for %Pron:1:2% birthday.",
+    "Question": "But I'm a little worried about spending too much money. What should I do?",
+    "OptionText": [
+        {
+            "Text": "Movie and dessert afterwards"
+        },
+        {
+            "Text": "Chinese restaurant and horse-drawn carriage ride"
+        },
+        {
+            "Text": "Take %FullName:NPC:1% to the fancy Italian restaurant."
+        },
+        {
+            "Text": "Take %FullName:NPC:1% to a spa day at a discount spa."
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "Me and %FullName:NPC:1% go see a movie then have a delicious dessert and she is quite happy with the night.",
+            "DiaryEntry": "This was one of my cheaper ideas so I am happy with that. Didn't have to break the bank. And it went well! %FullName:NPC:1% and I enjoyed the movie and had a delicious dessert, so all in all, I think it was a pretty good birthday for %Pron:1:2%. Can't complain about movies and dessert, right?"
+        },
+        {
+            "Result": "The Chinese restaurant and the carriage ride were moderately priced and we had a really good time with both!",
+            "DiaryEntry": "This wasn't the cheapest option but it also wasn't the most expensive option. And it went well, %FullName:NPC:1% enjoyed dinner and really loved the horse drawn carriage. I'll admit, it did seem pretty romantic to me too. And we happened to see a lot of our friends while on the carriage and everyone now thinks I'm this real smooth operator."
+        },
+        {
+            "Result": "This place is pricey but %FullName:NPC:1% absolutely loves it and had been dying to go, so it was worth it.",
+            "DiaryEntry": "Alright, this was an expensive meal for me but %FullName:NPC:1% was so happy that I took %Pron:1:2% there, it definitely scored me some major points. And the restaurant really was incredible. I just may have to tighten up the purse strings after that visit. Who knew food could even cost that much for just two people?!"
+        },
+        {
+            "Result": "It's a discount spa for a reason, they're awful. They end up hurting us both during a couples massage.",
+            "DiaryEntry": "%FullName:NPC:1% is so mad at me for choosing this cheap place. I thought it would still be alright! But the employees clearly didn't know what they were doing. They tried massaging us and hurt us both. Our backs are in such pain now, it's awful. What a terrible day... I'm so upset."
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:-",
+                    "Wealth": "-40"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:+",
+                    "Wealth": "-60"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Wealth": "-90"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:1:-",
+                    "Wealth": "-40"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "SignificantOther",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "15",
+                "MaxAge": "22"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College:PartTimeJob",
+                "MinAge": "15",
+                "MaxAge": "22",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

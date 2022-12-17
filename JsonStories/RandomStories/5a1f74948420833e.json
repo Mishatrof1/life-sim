@@ -1,0 +1,108 @@
+{
+    "Description": {
+        "TimeCreated": "17.07.2021 7:45:34",
+        "Comment": ""
+    },
+    "Category": "Gold",
+    "StoryText": "I am buying a lottery ticket.",
+    "Question": "What numbers should I pick?",
+    "OptionText": [
+        {
+            "Text": "5 17 6 33 2"
+        },
+        {
+            "Text": "12 19 3 9 1"
+        },
+        {
+            "Text": "4 23 87 7 4"
+        },
+        {
+            "Text": "18 5 82 3 10"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "This ticket wins no money",
+            "DiaryEntry": "I didn't win anything, oh well, it was only 5 bucks. What was the harm in trying, right?"
+        },
+        {
+            "Result": "I actually won a bit of money because some of the numbers were correct!",
+            "DiaryEntry": "Hey, I won $50 and I will take it! Not bad at all! I forgot that you don't always have to get all the numbers right to win some money."
+        },
+        {
+            "Result": "I won a decent amount of money! I got some of the numbers right!",
+            "DiaryEntry": "Wow! I won $250 because I got some specific numbers correct even though I didn't get all the numbers correct! That's not bad at all!"
+        },
+        {
+            "Result": "The cashier calls the police on me and I am arrested!",
+            "DiaryEntry": "Apparently, three people before me came in and asked for those exact numbers and it was part of some scam. So, when I asked for those numbers they thought I was with the scammers, they called the police on me and when the police arrived they tackled me to the ground and arrested me and now I need to make bail!"
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Wealth": "-5"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wealth": "+50"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Wealth": "250"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-",
+                    "Wealth": "-100"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College:PartTimeJob:FullTimeJob",
+                "MinAge": "18",
+                "MaxAge": "65",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

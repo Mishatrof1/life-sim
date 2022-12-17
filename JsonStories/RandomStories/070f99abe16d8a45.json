@@ -1,0 +1,116 @@
+{
+    "Description": {
+        "TimeCreated": "17.07.2021 10:00:12",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "I am going to my eccentric boss's place for a work party but my car is in the shop.",
+    "Question": "What rental care should I pick out?",
+    "OptionText": [
+        {
+            "Text": "Green sedan"
+        },
+        {
+            "Text": "Blue hatchback"
+        },
+        {
+            "Text": "A red truck"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "My boss sees the green car and tells me geniuses pick green. %Pron:1:1% becomes impressed with me.",
+            "DiaryEntry": "%FullName:NPC:1% is so impressed with my green car. %Pron:1:1% thinks I am some sort of genius now and spends much of the night talking to me."
+        },
+        {
+            "Result": "My boss immediately tells me that %Pron:1:1% doesn't like my car.",
+            "DiaryEntry": "%FullName:NPC:1% doesn't like my rental car and holds it against me for some reason. %Pron:1:1% barely talks to me all night. However, I find an interesting philosophy book in the back seat which I read through later on and find $20 inside of it also! My boss may not like my rental car, but I do!"
+        },
+        {
+            "Result": "The truck winds up being the same one my boss used to have.",
+            "DiaryEntry": "%FullName:NPC:1% loves that I have %Pron:1:3% old truck and talks to me ALL night. %Pron:1:1% is even telling me that %Pron:1:1% is going to give me a promotion and a riase! This was my lucky truck!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Intelligence": "ValueRef:0:+",
+                    "Wealth": "20"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": "",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PartTimeJob:FullTimeJob",
+                "MinAge": "25",
+                "MaxAge": "55",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

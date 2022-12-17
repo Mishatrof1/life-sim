@@ -1,0 +1,84 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 12:28:27",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "Math quiz",
+    "Question": "I'm taking a math quiz and the question is, 'If 5x + 3 = 33, then what does x equal?'",
+    "OptionText": [
+        {
+            "Text": "5"
+        },
+        {
+            "Text": "6"
+        },
+        {
+            "Text": "7"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "5 is the wrong answer.",
+            "DiaryEntry": "5 is the wrong answer, and I realize I do not get algebra."
+        },
+        {
+            "Result": "6 is the right answer.",
+            "DiaryEntry": "6 is the right answer! I knew it! My studying paid off... or I am a good guesser!"
+        },
+        {
+            "Result": "7 is the wrong answer.",
+            "DiaryEntry": "7 is the wrong answer and I realize that I have guessed wrong. I wish I were a better guesser... or just knew more of this material."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {},
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ]
+        },
+        {},
+        {}
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "13",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,136 @@
+{
+    "Description": {
+        "TimeCreated": "19.07.2021 9:04:35",
+        "Comment": ""
+    },
+    "Category": "Pink",
+    "StoryText": "I'm at %FullName:NPC:1%'s house, alone with %Pron:1:2% dad, %FullName:NPC:2% talking.",
+    "Question": "%FullName:NPC:2% farts and leaves and %FullName:NPC:1% enters right after. What do I do?",
+    "OptionText": [
+        {
+            "Text": "Blame %Pron:1:2% dad"
+        },
+        {
+            "Text": "Act like I don't smell anything"
+        },
+        {
+            "Text": "Find something to spray to mask the smell"
+        },
+        {
+            "Text": "Say that it is my new prescription deodorant"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FullName:NPC:1% yells at %Pron:1:2% dad but now %FullName:NPC:2% is upset with me.",
+            "DiaryEntry": "Things are ok with me and %FullName:NPC:1% because %Pron:1:1% did believe me even though %FullName:NPC:2% denied it. But now whenever I go over to their place, things are awkward between me and %FullName:NPC:2%."
+        },
+        {
+            "Result": "%FullName:NPC:1% thinks I am the one who farted and like I am just covering it up.",
+            "DiaryEntry": "%FullName:NPC:1% thinks I farted now, great. I should've just blamed %Pron:1:2% dad. Now, %Pron:1:1% doesn't really want to hang out with me and is avoiding talking to me. Because, as %Pron:1:1% says, I didn't even own up to it. Should I have just said I farted even though I didn't?"
+        },
+        {
+            "Result": "%FullName:NPC:1% asks what I am doing and then realizes it's because of the smell.",
+            "DiaryEntry": "%FullName:NPC:1% immediately kicks me out of the house and then ends up telling a bunch of our friends the next day what I did and everyone is making fun of me now. It smelled awful I was just trying to mask the smell! But that doesn't mean I did it!"
+        },
+        {
+            "Result": "%FullName:NPC:1% buys this and just seems to think all is fine.",
+            "DiaryEntry": "Wow, prescription deodorant. I don't know where  came up with that but I am remembering that one. %FullName:NPC:1% was totally fine with it and the smell eventually went away. %Pron:1:1% did tell me %Pron:1:1% felt badly for my condition. So... now I have a condition, I guess..."
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Sympathy": "ValueRef:0:+"
+                },
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Crush",
+                "Occupation": "",
+                "Gender": "Opposite",
+                "MinAge": "13",
+                "MaxAge": "18"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": "Male"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "13",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

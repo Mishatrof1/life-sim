@@ -1,0 +1,149 @@
+{
+    "Description": {
+        "TimeCreated": "29.07.2021 11:49:23",
+        "Comment": ""
+    },
+    "HeaderColor": "Pink",
+    "Category": "Friends:Love",
+    "Sentiment": "",
+    "StoryText": "I'm with %FullName:NPC:1% and %FullName:NPC:2% and we're trying to pick a bar to go to.",
+    "Question": "Where should we go to?",
+    "OptionText": [
+        {
+            "Text": "Choose %FullName:NPC:1%'s favorite bar."
+        },
+        {
+            "Text": "Choose %FullName:NPC:2%'s favorite bar."
+        },
+        {
+            "Text": "Choose my favorite bar"
+        },
+        {
+            "Text": "Choose a new bar"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FullName:NPC:1% loves the choice, %FullName:NPC:2% is a little annoyed.",
+            "DiaryEntry": "This place is pricey but it was worth it because %FullName:NPC:1% loves it there. %FullName:NPC:2% was a little annoyed I just picked %Pron:1:2% favorite bar, as if I was sucking up or something. But you can't always please everyone right?"
+        },
+        {
+            "Result": "%FullName:NPC:2% loves the choice and %FullName:NPC:1% actually gets mad at me.",
+            "DiaryEntry": "%FullName:NPC:1% tells me I always do this and choose stuff that %FullName:NPC:2% likes over %Pron:1:2%. I don't think that I do that, but whatever. It doesn't matter, we end up getting into an argument over it. So dumb. I don't know why %Pron:1:1% can't just enjoy %Pron:1:5%."
+        },
+        {
+            "Result": "Everyone loves this place, so I really picked right.",
+            "DiaryEntry": "Don't mind saying so myself, I have the best taste. Not only is my favorite place the best, but everyone enjoys it. So, everyone can have a good time together. Not always the case when we go to other places. So, I'm just going to keep choosing my favorite bar as it is the crowd pleaser."
+        },
+        {
+            "Result": "Everyone has fun here but something is wrong with one of my drinks and I get sick.",
+            "DiaryEntry": "Well, this seemed like a happy compromise until I tried some new drink on their menu and get seriously sick from it. And not like, I drank too much, kind of sick. They put something weird in that drink. I do not want to come back to this bar ever again. I don't know what they're putting in their drinks but it's not anything you're supposed to ingest."
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Wealth": "-40"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:1:+"
+                },
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Wealth": "-25"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wealth": "-30"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-",
+                    "Wealth": "-20"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+",
+                    "Sympathy": "ValueRef:0:+"
+                },
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+",
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "SignificantOther",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "21",
+                "MaxAge": "30"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "College:PartTimeJob:FullTimeJob",
+                "MinAge": "21",
+                "MaxAge": "30",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "Description": {
+        "TimeCreated": "26.07.2021 15:07:37",
+        "Comment": ""
+    },
+    "HeaderColor": "Beige",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "My mom wants me off my tablet... she keeps frowning at me, and looking sad. But I am nearly at a new high score on this game! And she hasn't told me to get off outright yet.",
+    "Question": "Shall I continue playing?",
+    "OptionText": [
+        {
+            "Text": "Play for a little longer until Mom actually tells me to stop. "
+        },
+        {
+            "Text": "Sneak off into another room to carry on playing. "
+        },
+        {
+            "Text": "Turn off the tablet. I don't want square eyes. "
+        },
+        {
+            "Text": "Hide in the cupboard under the stairs and smash this new record!"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I chose to ignore my Mom's subtle clues and then she yelled at me. I turned off the machine really quickly then! I didn't reach a new high score, and Mom's mad. ",
+            "DiaryEntry": "Turns out you should always pay attention to your parent's subtle clues. I ignored my mom's wish to get me off my tablet and got told off. "
+        },
+        {
+            "Result": "When I snuck off into my bedroom, I won myself at least another five minutes before my mom hunted me down. New high score! But Mom was furious! I'm not allowed my tablet for a week. ",
+            "DiaryEntry": "A simple trade: tablet time in exchange for being in your mom's bad books. Books is all I'll be looking at for a week now anyway, so I guess I can work it out."
+        },
+        {
+            "Result": "I switched off the tablet and my mom was immediately happier. No high score for me - I was going to top the leader board! Never mind, I had a good time running around outside instead. ",
+            "DiaryEntry": "I chose my mom and exercise over letting my eyes go square on my tablet. Healthy choices, people!"
+        },
+        {
+            "Result": "It was dark and creepy in there, but my mom couldn't find me! I absolutely smashed the new high score: I'm the best player in the country. When my mom found me though, I've never seen her so angry...",
+            "DiaryEntry": "I know I shouldn't have done it, but hiding in the cupboard under the stairs gave me time to get a killer high score on my game. I don't know if mom will ever trust me to use the tablet again, but I'm going to enjoy the respect of being top of the country for a while. "
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Popularity": "ValueRef:1:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:1:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:-",
+                    "Popularity": "ValueRef:1:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Parent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Female"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "Kid:PrimarySchool",
+                "MinAge": "4",
+                "MaxAge": "5",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

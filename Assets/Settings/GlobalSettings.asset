@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bce538f23d94103bc41dcbbaeed5640, type: 3}
+  m_Name: GlobalSettings
+  m_EditorClassIdentifier: 
+  LogSets:
+  - {fileID: 4900000, guid: f5285c995294b274980be1f2e1c253af, type: 3}
+  - {fileID: 4900000, guid: c9ef2a2b74733814da74d346cf05d93e, type: 3}
+  - {fileID: 4900000, guid: eeebbd0212280744a8b62914cd6d713d, type: 3}
+  - {fileID: 4900000, guid: adb332f95d44dc04cb28562fc3ad2e09, type: 3}
+  - {fileID: 4900000, guid: 7da4cd5890fc3f44cbbdf796296ac181, type: 3}
+  - {fileID: 4900000, guid: bf882c79c05651849b6d0b72f37e14c2, type: 3}
+  - {fileID: 4900000, guid: daffb702680d1de4f82d49b587d1c595, type: 3}
+  - {fileID: 4900000, guid: 909860e4b2cd1d941a2e2bf6718952e8, type: 3}
+  localizations:
+  - language: 10
+    jSon: {fileID: 4900000, guid: 13c899bf9a4e427408093fddba8afa91, type: 3}
+  DisableStories: 1
+  MaxCharacterParameters: 0
+  ResetSaveOnStart: 1
+  StartBalance: 100000

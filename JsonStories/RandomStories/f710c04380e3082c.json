@@ -1,0 +1,106 @@
+{
+    "Description": {
+        "TimeCreated": "22.07.2021 5:46:22",
+        "Comment": ""
+    },
+    "HeaderColor": "Blue",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "I'm sleeping over my friend %FullName:NPC:1%'s house and %Pron:1:1% tells me that %Pron:1:3% attic is haunted.",
+    "Question": "What should we do?",
+    "OptionText": [
+        {
+            "Text": "Bring a Ouija Board into the attic after %FullName:NPC:1%'s parents go to sleep."
+        },
+        {
+            "Text": "Burn incense in the attic after %FullName:NPC:1%'s parents go to bed."
+        },
+        {
+            "Text": "Just stay in %FullName:NPC:1%'s room and go nowhere near the attic."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "We use the Ouija Board and receive the message \"Get out\" and we freak out and rush out but both fall down the stairs.",
+            "DiaryEntry": "After we fall down the attic stairs %FullName:NPC:1%'s parents come and check on us and get us back to bed. We are all banged up and bleeding, get a few bandages, so we're fine there. But we cannot sleep the rest of the night we are so freaked out. That is not a friendly spirit in the attic."
+        },
+        {
+            "Result": "We burn the incense and leave and the rest of the night is quiet.",
+            "DiaryEntry": "%FullName:NPC:1% is so happy and keeps thanking me. %Pron:1:1% said that %Pron:1:1% had been hearing noises every night for months, this was the first quiet night. The incense must have done the trick and gotten the spirit to leave."
+        },
+        {
+            "Result": "During the night we hear noises above us, someone coming down the attic steps, I get so scared I wet my sleeping bag.",
+            "DiaryEntry": "%FullName:NPC:1% found it hilarious that I wet myself but it was scary! %Pron:1:1% goes and tells a ton of our friends at school and now everyone is making fun of me and I am so mad at %Pron:1:2%. I'm never sleeping over there again!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        null,
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": "Same",
+                "MinAge": "8",
+                "MaxAge": "18"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PrimarySchool:MiddleSchool:HighSchool",
+                "MinAge": "8",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a64de933d4450faeaf4f491f5d5fac, type: 3}
+  m_Name: Postman
+  m_EditorClassIdentifier: 
+  NameDefault: Postman
+  Icon: {fileID: 0}
+  Salary:
+    Min: 20000
+    Max: 30000
+  HoursPerWeek: 40
+  Difficulty: 1
+  PossibleOrganizations:
+  - {fileID: 11400000, guid: df3398be7a5673d4e83348358c2bf21f, type: 2}
+  PersonRequirement:
+    Age: 21
+    TotalWorkExperience: 0
+  PositionChainRequirement:
+    Experience: 0
+  ParametersRequirements: []
+  PositionsRequirementGroups:
+  - Requirements:
+    - PositionConfiguration: {fileID: 11400000, guid: acfa73a4c5b5a534e9c7de311e038400,
+        type: 2}
+      Experience: 2
+    CheckType: 0
+  EducationRequirementGroups:
+  - Requirements:
+    - GraduationResult: 1
+      PercentGrade: 0
+      StudyDirection: 0
+    CheckType: 0
+  PromotionsDefault:
+  - {fileID: 11400000, guid: 706f436b37a5c6148838f58ca1951ca9, type: 2}
+  SpecialPromotions: []

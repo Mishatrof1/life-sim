@@ -1,0 +1,120 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 16:41:38",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "On ‘Bring Your Kid To Work Day’ my kid is in the office with me.",
+    "Question": "What should I have %Pron:1:2% do?",
+    "OptionText": [
+        {
+            "Text": "Type up emails for me"
+        },
+        {
+            "Text": "Pull up a chair and teach %Pron:1:2% what I am doing"
+        },
+        {
+            "Text": "Draw pictures of my coworkers"
+        },
+        {
+            "Text": "Let %Pron:1:2% choose to do whatever %Pron:1:1% wants"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "We have a fun time together but my kid sends out an unprofessional email on my behalf.",
+            "DiaryEntry": "My kid and I have a fun time and I’m glad %Pron:1:1% enjoyed %Pron:1:5% but I probably should’nt have had %Pron:1:2% send out emails because one of those emails was unprofessional and went to an important client. Can I blame it on ‘Take Your Kid To Work Day’?"
+        },
+        {
+            "Result": "My kid gets really interested in what I’m doing and we bond and have a good time and %Pron:1:1% actually helps me finish my work quickly.",
+            "DiaryEntry": "It was great having my kid pull up a chair and work with me and %Pron:1:1% really seemed to absorb a lot. And %Pron:1:1% is so smart that %Pron:1:1% caught on quickly and helped me finish my work fast!"
+        },
+        {
+            "Result": "My kid draws a picture of my boss that is unflattering, all my coworkers find it hilarious but my boss gets angry and I chastise my kid.",
+            "DiaryEntry": "I had to give my kid a stern talking to which really upset %Pron:1:2% but the unflattering picture %Pron:1:1% drew of my boss was really bad and got my boss quite angry. Everyone else seemed to love it and cheered me on quietly on the side."
+        },
+        {
+            "Result": "My kid offers to help everyone in the office and brings my boss and coworkers snacks from the kitchen and they all love it!",
+            "DiaryEntry": "My kid was great today, helping everyone out however %Pron:1:1% could, bringing people snacks, they all loved %Pron:1:2% and now they all love me too!"
+        }
+    ],
+    "Change": [
+        {
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Kid:AdoptedKid",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "6",
+                "MaxAge": "14"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "FullTimeJob",
+                "MinAge": "",
+                "MaxAge": "",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

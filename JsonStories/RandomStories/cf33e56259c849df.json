@@ -1,0 +1,124 @@
+{
+    "Description": {
+        "TimeCreated": "28.07.2021 3:13:48",
+        "Comment": ""
+    },
+    "HeaderColor": "Pink",
+    "Category": "Friends:Love",
+    "Sentiment": "",
+    "StoryText": "I want to surprise %FullName:NPC:1% with a gift.",
+    "Question": "I need to buy the gift without %Pron:1:2% knowing. What should I do?",
+    "OptionText": [
+        {
+            "Text": "Tell %FullName:NPC:1% I am going to hang out with %FullName:NPC:2% and then go buy the gift."
+        },
+        {
+            "Text": "Ask %FullName:NPC:2% to buy the gift for me."
+        },
+        {
+            "Text": "Tell %FullName:NPC:1% I am going to the movies alone, then get the gift."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FullName:NPC:1% calls %FullName:NPC:2% to tell me I forgot my cell phone and I'm not there and %Pron:1:1% thinks I'm cheating.",
+            "DiaryEntry": "Unfortunately, I forgot my cell phone and %FullName:NPC:1% wanted to let me know but when %Pron:1:1% called %FullName:NPC:2% and I wasn't there, %Pron:1:1% assumed the worst. %Pron:1:1% thinks I am cheating or something and is so mad at me now. I'm trying to explain it was to get %Pron:1:2% gift but it just sounds like an excuse now."
+        },
+        {
+            "Result": "I give %FullName:NPC:2% money to buy the gift and am able to surprise %FullName:NPC:1% completely.",
+            "DiaryEntry": "%FullName:NPC:1% is so happy when I surprise %Pron:1:2% with the gift. %Pron:1:1% is so astonished because I never even left %Pron:1:2% sight. And I'm so thankful to %FullName:NPC:2% for helping me out, what a true friend. %Pron:2:1% even got a little tip out of it for helping me out and coming through."
+        },
+        {
+            "Result": "%FullName:NPC:1% is originally mad thinking I want to watch a movie without %Pron:1:2% but once %Pron:1:1% gets the gift %Pron:1:1% is even happier.",
+            "DiaryEntry": "It started off a little rocky because %FullName:NPCL1% was mad at me and thought I was being selfish for wanting to go to the movies alone. And even though things started off bad, it ended up in an even better surprise when I came back early with the gift. %Pron:1:1% was so happy with me and absolutely loved the surprise!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Wealth": "-60"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Relationship": "ValueRef:1:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wealth": "-75"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Wealth": "-60"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Partner",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "25",
+                "MaxAge": "45"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "FullTimeJob",
+                "MinAge": "25",
+                "MaxAge": "45",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+=== age_over_5_friends
+
+* [Сходить на прогулку]
+    ~Relationship += 5
+ -> Result
+* [Побывать на концерте]
+    ~Relationship += 5
+ -> Result
+* [Вместе тренироваться в спортзале]
+    ~Relationship += 5
+    ~Health += 10
+ -> Result
+* [Посмотреть кино]
+~Relationship += 5
+ -> Result

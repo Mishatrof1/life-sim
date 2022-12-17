@@ -1,0 +1,129 @@
+{
+    "Description": {
+        "TimeCreated": "19.07.2021 9:33:51",
+        "Comment": ""
+    },
+    "Category": "Pink",
+    "StoryText": "I'm hanging out with %FullName:NPC:1% and %Pron:1:2% friends and one of them says something and they all laugh.",
+    "Question": "I laugh too but they tell me it was an inside joke. What do I say?",
+    "OptionText": [
+        {
+            "Text": "\"It just sounded funny.\""
+        },
+        {
+            "Text": "\"It just reminded me of an inside joke I have with my friends.\""
+        },
+        {
+            "Text": "\"Oh, I thought you said something else.\""
+        },
+        {
+            "Text": "\"I wasn't laughing. That's how I cough.\""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "They all don't believe me and %FullName:NPC:1% becomes embarrassed by me.",
+            "DiaryEntry": "I just looked like I was trying too hard in front of everyone. And %FullName:NPC:1% was definitely embarrassed by me in front of %Pron:1:2% friends. I feel so stupid. I definitely was trying too hard!"
+        },
+        {
+            "Result": "They buy it! So, does %FullName:NPC:1%!",
+            "DiaryEntry": "I was definitely trying too hard at first but after that I kind of relax and ease it up. Thank goodness for my quick thinking. After that I'm more relaxed and have a good time with %FullName:NPC:1% and %Pron:1:2% friends."
+        },
+        {
+            "Result": "They ask me what I thought they said and  can't think of anything!",
+            "DiaryEntry": "Once I can't think of anything to follow that \"Brilliant\" statement up, they all start laughing at me because it's apparent I was just trying too hard. %FullName:NPC:1% is embarrassed by me and all %Pron:1:2% friends are making fun of me to everyone else."
+        },
+        {
+            "Result": "They all think this is a joke and start cracking up and tell me I'm hilarious!",
+            "DiaryEntry": "Wow! Not only did I save myself from embarrassment but I actually earned myself a lot of \"cool points.\" Wait, do cool people say that? Regardless, %FullName:NPC:1% and %Pron:1:2% friends think I am hilarious now."
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Crush",
+                "Occupation": "",
+                "Gender": "Opposite",
+                "MinAge": "12",
+                "MaxAge": "22"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool:College",
+                "MinAge": "12",
+                "MaxAge": "22",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

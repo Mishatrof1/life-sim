@@ -1,0 +1,116 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 3:52:41",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "My boss %FullName:NPC:1% asks me to stay late to help finish a project and says %Pron:1:1% will give me $200. But I'm hungry and have leftovers waiting at home.",
+    "Question": "What should I do?",
+    "OptionText": [
+        {
+            "Text": "Say no, I need to go home to eat."
+        },
+        {
+            "Text": "Accept the offer."
+        },
+        {
+            "Text": "Tell my boss that %Pron:1:1% can buy me dinner and I'll stay."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FullName:NPC:1% gets mad that I don't stay and help with %Pron:1:3% project but I go home and have a healthy dinner and have a stress-free night.",
+            "DiaryEntry": "%FullName:NPC:1% gets mad at me as if this is my project. It isn't, this is %Pron:1:3% project that %Pron:1:1% is behind on. And I just don't feel like working overtime. I go home and have my healthy leftovers and have a nice night and unwind after work. Just the way I like."
+        },
+        {
+            "Result": "%FullName:NPC:1% gives me $200 cash, so no taxes here. I stay late and help %Pron:1:2% with the project but I am drained by the end of it and starving and feel weak.",
+            "DiaryEntry": "%FullName:NPC:1% is so thankful I stayed and helped %Pron:1:2%. Really got %Pron:1:2% out of a jam. I don't really mind because $200 is worth it, however, I haven't eaten in so long and we're at work for a while, I'm starting to feel weak and faint and I'm wishing I ate something."
+        },
+        {
+            "Result": "I'd rather have food than the money. %FullName:NPC:1% buys me dinner and we stay and finish %Pron:1:3% project and %Pron:1:1% is so thankful.",
+            "DiaryEntry": "So, %FullName:NPC:1% and I finish %Pron:1:3% project, %Pron:1:1% buys me a big dinner that is delicious so I can save my leftovers for another day. But whatever %Pron:1:1% bought me was so unhealthy. It's alright, it tasted good. And really I just needed to eat something, I couldn't go that long without eating anything."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:1:-",
+                    "Wealth": "200"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": null,
+                    "Relationship": null
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PartTimeJob:FullTimeJob",
+                "MinAge": "23",
+                "MaxAge": "45",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b1f4e9e4da47f8ba6bbbb3c586b254, type: 3}
+  m_Name: Brows
+  m_EditorClassIdentifier: 
+  SlotList:
+  - Slots:
+    - Name: fear_brows
+      Attachment: fear_brows
+      Region: fear_brows
+      ColorGroup: {fileID: 11400000, guid: c1c70cae89039ce4ead833f1fc20d654, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: anger_brows
+      Attachment: anger_brows
+      Region: anger_brows
+      ColorGroup: {fileID: 11400000, guid: c1c70cae89039ce4ead833f1fc20d654, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: eyebrow_R
+      Attachment: eyebrow_R
+      Region: eyebrow_R
+      ColorGroup: {fileID: 11400000, guid: c1c70cae89039ce4ead833f1fc20d654, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: eyebrow_L
+      Attachment: eyebrow_L
+      Region: eyebrow_L
+      ColorGroup: {fileID: 11400000, guid: c1c70cae89039ce4ead833f1fc20d654, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: suffering_brows
+      Attachment: suffering_brows
+      Region: suffering_brows
+      ColorGroup: {fileID: 11400000, guid: c1c70cae89039ce4ead833f1fc20d654, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1
+    - Name: displeasure_brows
+      Attachment: displeasure_brows
+      Region: displeasure_brows
+      ColorGroup: {fileID: 11400000, guid: c1c70cae89039ce4ead833f1fc20d654, type: 2}
+      IgnoreChanges: 1
+      Offset: {x: 0, y: 0}
+      Scale: 1

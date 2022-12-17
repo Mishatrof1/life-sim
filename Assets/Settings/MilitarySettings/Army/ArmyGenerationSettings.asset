@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc05328f54b155c40954a5d33597defc, type: 3}
+  m_Name: ArmyGenerationSettings
+  m_EditorClassIdentifier: 
+  VacancyCount: 15
+  OrganizationNameSet:
+  - Army
+  OrganizationsCount: 3
+  JobsCountPerOrganization: 0
+  RequirementsPart: 0.22
+  ExperiencePart: 0.665
+  ExperianceRangeMin: 12000
+  ExperianceRangeMax: 15000
+  BaseValueVariants: []
+  BaseValueExperienceMultiplier: 0
+  PromotionVariants: []

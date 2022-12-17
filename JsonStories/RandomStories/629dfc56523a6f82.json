@@ -1,0 +1,103 @@
+{
+    "Description": {
+        "TimeCreated": "23.07.2021 6:09:41",
+        "Comment": ""
+    },
+    "HeaderColor": "Cyan",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "I'm home alone and watching TV and I fall asleep.",
+    "Question": "When I wake up the channel has been changed to the History channel. What do I do?",
+    "OptionText": [
+        {
+            "Text": "Change the channel back to my channel."
+        },
+        {
+            "Text": "Turn the TV off."
+        },
+        {
+            "Text": "Just go back to sleep."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I change the channel back, and then it changes back to the History channel again. And I get the feeling I am not alone.",
+            "DiaryEntry": "After the channel changes back on its own, I notice I can feel someone or something sitting beside me on the couch. Though I look and no one is there. I don't change the channel, I leave it. I watch an entire program on the History channel and then once it's done the TV turns off. And then I cannot sleep at all that night and am so sleep deprived the next day."
+        },
+        {
+            "Result": "I turn the TV off and it immediately EXPLODES!",
+            "DiaryEntry": "Okay, I am fairly certain I was not alone. There was some supernatural or paranormal stuff happening. For the channel to be changing and then for the TV to explode because I turned it off... someone or something was there and didn't like what I was doing. That was a horrible feeling. Not to mention, I have to buy a new TV now!"
+        },
+        {
+            "Result": "I go back to sleep on the couch but I wake up hours later and all the windows have been opened and I get sick.",
+            "DiaryEntry": "This was the weirdest experience. I thought maybe the TV channels changing was in my head but then after I went to sleep and all the windows were opened... and I know I had closed them before... that really makes me wonder. Maybe I wasn't truly alone that night. But right now I am so sick I just need to focus on getting better."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-",
+                    "Wisdom": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Wisdom": "ValueRef:0:+",
+                    "Wealth": "-300"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool:College:PartTimeJob:FullTimeJob",
+                "MinAge": "12",
+                "MaxAge": "50",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,117 @@
+{
+    "Description": {
+        "TimeCreated": "17.07.2021 13:39:43",
+        "Comment": ""
+    },
+    "Category": "Blue",
+    "StoryText": "I'm out at a bar with %FullName:NPC:1% and we are trying to decide on drinks.",
+    "Question": "What drinks should we get?",
+    "OptionText": [
+        {
+            "Text": "The Flying Dutchman."
+        },
+        {
+            "Text": "The Sorcerer's Wand."
+        },
+        {
+            "Text": "The Pink Pig Lady"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "This drink is extremely expensive but delicious and has quite the kick.",
+            "DiaryEntry": "Me and %FullName:NPC:1% enjoy our Flying Dutchmans... Flying Dutchmen? Either way, they were really good. But REALLY expensive."
+        },
+        {
+            "Result": "These drinks aren't too badly priced but they are way too strong for us.",
+            "DiaryEntry": "Me and %FullName:NPC:1% felt the full effect of The Sorcerer's Wands that we had... and then we had a really deep, meaningful conversation and really connected on another level. It would have been a great night had we not both gotten sick later on."
+        },
+        {
+            "Result": "These drinks were so cheap, but we hardly feel anything. They taste pretty good though.",
+            "DiaryEntry": "These turn out to be healthy alcoholic drinks... which I had never heard of. They use all sorts of different ingredients that you don't normally see in drinks. But we don't feel too much from them. But we have a good time drinking these and having good conversation and hey, saving some money while we're at it!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wealth": "-15"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:-",
+                    "Wealth": "-10"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:+",
+                    "Wealth": "-5"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": "Same",
+                "MinAge": "21",
+                "MaxAge": "35"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PartTimeJob:FullTimeJob",
+                "MinAge": "21",
+                "MaxAge": "35",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "Description": {
+        "TimeCreated": "17.07.2021 13:24:27",
+        "Comment": ""
+    },
+    "Category": "Cyan",
+    "StoryText": "I'm going on a date with %FullName:NPC:1%.",
+    "Question": "Which jacket should I wear?",
+    "OptionText": [
+        {
+            "Text": "My red jacket"
+        },
+        {
+            "Text": "My brown jacket"
+        },
+        {
+            "Text": ""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "My red jacket had $40 in it from the last time I wore it, so we use that to make our meal extravagant.",
+            "DiaryEntry": "That was like finding a free $40 which was great. I was going to be skimping on dinner but with the extra money I was able to get us everything we wanted plus a big lavish dessert after the meal. And %FullName:NPC:1% loved it!"
+        },
+        {
+            "Result": "My brown jacket has a hole in it and I look like a mess now.",
+            "DiaryEntry": "%FullName:NPC:1% clearly did not like that I showed up with a hole in my jacket. I do look like a mess. Because of this %Pron:1:1% wants to cute the date short and go home. So, I could tell right then and there that the date wasn't going well. And it was even more apparent when %Pron:1:1% told all %Pron:1:2% friends too."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Health": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Crush",
+                "Occupation": "",
+                "Gender": "Opposite",
+                "MinAge": "13",
+                "MaxAge": "18"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "13",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

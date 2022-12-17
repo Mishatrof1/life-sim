@@ -1,0 +1,125 @@
+{
+    "Description": {
+        "TimeCreated": "20.07.2021 7:00:42",
+        "Comment": ""
+    },
+    "HeaderColor": "Yellow",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "I'm done with work but my boss %FullName:NPC:2% asks if I can stay and help %Pron:2:2% with some other things that need to be done.",
+    "Question": "I'm supposed to go to %FullName:NPC:1%'s house and hang out with friends. What should I do?",
+    "OptionText": [
+        {
+            "Text": "Just go to %FullName:NPC:1%'s house."
+        },
+        {
+            "Text": "Help %FullName:NPC:2% take all the trash out."
+        },
+        {
+            "Text": "Help %FullName:NPC:2% and clean the bathrooms."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "My boss is fine with this and I go have a fun time with %FullName:NPC:1% and our friends.",
+            "DiaryEntry": "I know I could've gotten some extra money if I stayed but I just didn't feel like it. I was done with work and just wanted to go hang out with %FullName:NPC:1% and our other friends. And it was a fun time and a good way to unwind after work."
+        },
+        {
+            "Result": "The trash bags rip open and spill all over me, but I also find $75 in the trash!",
+            "DiaryEntry": "%FullName:NPC:2% is happy I helped %Pron:2:2% out and paid me $50 extra. In addition to that, I found $75 in the trash. But it came at the cost of spilling stinky trash all over myself so when I get to %FullName:NPC:1%'s house all our other friends are disgusted by me and how badly I smell."
+        },
+        {
+            "Result": "I make $50 for cleaning the bathrooms but it makes me late to %FullName:NPC:1%'s house.",
+            "DiaryEntry": "Well, I got the extra $50 and %FullName:NPC:2% is happy with me for helping out but now I wish I didn't do it because it took me so long that I wind us being really late to get to %FullName:NPC:1%'s place and %Pron:1:1% is annoyed with me now."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:-",
+                    "Wealth": "125"
+                }
+            ],
+            "NPC": [
+                {},
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Wealth": "50"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": "Same",
+                "MinAge": "15",
+                "MaxAge": "22"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College",
+                "MinAge": "15",
+                "MaxAge": "22",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

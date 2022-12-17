@@ -1,0 +1,139 @@
+{
+    "Description": {
+        "TimeCreated": "19.07.2021 13:16:57",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "My father made me an appointment to get my car inspected but my acquaintance %FirstName:Npc:2% is having a pool party.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Go to the appointment, skip the pool party"
+        },
+        {
+            "Text": "Call and cancel the appointment and go to the pool party"
+        },
+        {
+            "Text": "Push the appointment to tomorrow and go to the pool party"
+        },
+        {
+            "Text": "Don’t call, just go to the pool party"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "My father is proud of me and buys me a jacket but %FirstName:Npc:2% and other kids get annoyed at me for not showing.",
+            "DiaryEntry": "%FirstName:Npc:2% and other kids at the pool party got mad at me for not showing, but I feel good knowing my father is proud of me, and this jacket is a nice reward!"
+        },
+        {
+            "Result": "My dad gets upset with me but doesn’t really talk much to me when I get home, though I have fun at the pool party.",
+            "DiaryEntry": "I had a great time with %FirstName:Npc:2% and everyone else but coming home and seeing my father so quiet and annoyed really made me feel awful."
+        },
+        {
+            "Result": "My father’s proud of me for being responsible, %FirstName:Npc:2% and other kids become closer to me but I get into an accident on the way to my rescheduled appointment.",
+            "DiaryEntry": "Everyone was happy with me, my father, all the kids at the pool party, but the accident I got in the next morning ruined my mood... and my car..."
+        },
+        {
+            "Result": "My father gets mad at me and grounds me when I return but I have a blast at the pool party!",
+            "DiaryEntry": "Sometimes the price you have to pay for being popular is to have your father be annoyed with you and ground you. Hopefully not permanently or anything..."
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Appearance": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Parent:StepParent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Male",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "Classmate",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool",
+                "MinAge": "",
+                "MaxAge": "",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,186 @@
+{
+ "ok": "Ok",
+ "yes": "Yes",
+ "no": "No",
+ "cancel": "Cancel",
+ "test": "test",
+ "work_in_progress": "work in progress",
+ "age_string": "years old",
+ "materialstatus_single":"single",
+ "years_old":"years old",
+ "age":"Age",
+ "years":"years",
+ "months":"months",
+ "sex":"Sex",
+ "sex_title":"You had sex with %NpcFullName%",
+ "sex_player_enjoy":"Your enjoyment:",
+ "sex_npc_enjoy":"Parthner enjoyment",
+ 
+ 
+ "vacancy_header":"Apply for this open position today!",
+ "vacancy_title":"Title",
+ "vacancy_employer":"Employer",
+ "vacancy_salary":"Salary",
+ "vacancy_requirement":"Education req",
+ "vacancy_requirement_with":"with",
+ "vacancy_requirement_and":"and one of",
+ "vacancy_experience":"Work exp",
+ 
+ "vacancy_hired":"Вы устроились на должность",
+ "vacancy_reject":"Вам не удалось устроиться на должность",
+ "vacancy_try":"Попробовать устроиться",
+ "occupation_work_harde_btn_title": "Work harder",
+ "occupation_work_harder_pp_header": "Work harder",
+ "occupation_work_harder_pp": "Try to work harder",
+ "occupation_work_harder_result_pp": "Worked harder",
+ "occupation_work_harder_pp_cooldown": "Too tired",
+ "occupation_work_harder_dyary_entry": "Worked harder",
+ "occupation_work_chillout_btn_title": "Skip work",
+ "occupation_work_chillout_pp_header": "Chill out",
+ "occupation_work_chillout_pp": "Try to chill out on work",
+ "occupation_work_chillout_result_pp": "Chilled on work",
+ "occupation_work_chillout_pp_cooldown": "The boss is watching",
+ "occupation_work_chillout_diary_entry": "Chilled on work",
+ "occupation_colleagues_btn_title":"Co-Workers",
+ "ocuupation_profile_btn_descr":"Hours",
+ 
+ "ocuupation_hours_btn_title":"Hours",
+ "ocuupation_hours_btn_descr":"Adjust your weekly hours",
+ "ocuupation_schedule_btn_title":"Schedule",
+ "ocuupation_schedule_btn_descr":"Stress",
+ 
+ "ocuupation_resign_pp":"Вы уверены, что хотите уйти с этой работы?",
+ "ocuupation_fired_pp":"Вас уволили с должности",
+ "ocuupation_promotion_pp":"Вас повысили в должности до",
+ 
+ "occupation_salary_raise_diary_entry":"I have been given a raise of %SalaryPercentIncrement% %. My Salary is now %Salary%",
+ 
+ "occupation_school_drop_out_pp_header":"Drop out",
+ "occupation_school_faculty_pp_header":"School faculty",
+ "occupation_school_nurse_pp_header":"School nurse",
+ "occupation_school_library_pp_header":"School library",
+ "occupation_school_administration_pp_header":"School administration",
+ 
+ "occupation_school_drop_out_pp":"Drop out of school",
+ 
+ "occupation_faculty_pp":"Faculty is closed today",
+ "occupation_nurse_pp":"Nurse is on vacation today",
+ "occupation_library_pp":"Me at 3:00 a.m. : Why don't I go to get the library? Library at 3:15 a.m. : CLOSED",
+ "occupation_administration_pp":"Administration is closed for renovations",
+ "occupation_study_harder_pp": "Studied harder",
+ "occupation_study_harder_pp_cooldown": "Too tired",
+ "occupation_study_chillout_pp": "Skipped lessons",
+ "occupation_study_chillout_pp_cooldown": "To much of skipped lessions",
+ 
+ "occupation_study_harder_pp_header":"Study harder",
+ "occupation_study_chillout_pp_header":"Skip lessons",
+ "occupation_study_harder_pp":"Try to study harder",
+ "occupation_study_chillout_pp":"Try to skip lessons",
+ 
+ "occupation_drop_out_pp_header":"Drop out",
+ "occupation_class_btn_title":"Class",
+ "occupation_profile_btn_descr":"Grades",
+ "occupation_end_diary_entry":"Я закончил %EducationService%. Теперь у меня есть %Graduation% с %Grade% средним балом",
+ 
+  //Elementary school
+ 
+ "occupation_elementary_school_screen_btn_title":"Private Primary school",
+ "occupation_elementary_school_profile_btn_title":"Private Primary school",
+ "occupation_elementary_school_profile_btn_descr":"Private Primary school",
+ 
+ //Middle school
+ 
+ "occupation_middle_school_screen_btn_title":"Middle school",
+ "occupation_middle_school_profile_btn_title":"Middle school",
+ "occupation_middle_school_profile_btn_descr":"Middle school",
+ 
+ //High school
+ 
+ "occupation_high_school_screen_btn_title":"High school",
+ "occupation_high_school_profile_btn_title":"High school",
+ "occupation_high_school_profile_btn_descr":"High school",
+ 
+ //College
+ 
+ "occupation_college_faculty_pp_header":"Community college faculty",
+ "occupation_college_nurse_pp_header":"Community college nurse",
+ "occupation_college_library_pp_header":"Community college library",
+ "occupation_college_administration_pp_header":"Community college administration",
+ 
+ "occupation_college_drop_out_pp":"Drop out of community college",
+ 
+ "occupation_college_screen_btn_title":"Community college",
+ "occupation_college_profile_btn_title":"Community college",
+ "occupation_college_profile_btn_descr":"Community college",
+ 
+ //University
+ 
+ "occupation_university_faculty_pp_header":"University faculty",
+ "occupation_university_nurse_pp_header":"University nurse",
+ "occupation_university_library_pp_header":"University library",
+ "occupation_university_administration_pp_header":"University administration",
+ 
+ "occupation_university_drop_out_pp":"Drop out of university",
+ 
+ "occupation_university_screen_btn_title":"University",
+ "occupation_university_profile_btn_title":"University",
+ "occupation_university_profile_btn_descr":"University",
+ 
+ /////
+ 
+ "occupation_change": "Now I'am study in",
+ "occupation_productivity": "Productivity",
+ "occupation_grades": "Grades",
+ "occupation_class": "Class",
+ 
+ "occupation_job": "Job",
+ 
+ "occupation_school": "School",
+ "occupation_elementary_school": "Elementary school",
+ "occupation_middle_school": "Middle school",
+ "occupation_high_school": "High school",
+ "occupation_college": "Community college",
+ "occupation_university": "University",
+ 
+ "occupation_end_school": "School graduation",
+ "occupation_end_college": "College graduation",
+ "occupation_end_university": "University graduation",
+ "occupation_end_whats_next": "What's next?",
+ "occupation_end_goto_college": "Go to college",
+ "occupation_end_goto_university": "Go to university",
+ "occupation_end_goto_job": "Try to find a job",
+ "occupation_end_take_time": "Take time to think",
+ 
+ "communication_accept": "Accept",
+ "communication_refuse": "Refuse",
+ "communication_make_gift": "Make gift",
+ "communication_ask_money": "Ask money",
+ "communication_player_quote": "You said:",
+ "parametr_age": "Age",
+ "occupation_university_grade_choose": "It's time to choose your major",
+ "communication_bubble_npc_0": "Hi!",
+ "communication_bubble_npc_1": "How are you?",
+ "communication_bubble_npc_2": "How are you doing?",
+ "communication_bubble_npc_3": "How is everything?",
+ "communication_bubble_npc_4": "Hello!",
+ "new_character": "New character",
+ "you_dead_pp_title": "You dead",
+ "you_dead_pp": "Good night, sweet prince...",
+ "action_screen_relationship_collegues": "Collegues",
+ "action_screen_relationship_parents": "Parents",
+ "action_screen_relationship_friends": "Friends",
+ "action_screen_relationship_lovers": "Lovers",
+ "action_screen_relationship_enemies": "Enemies",
+ "vacancy_accept": "Perfect fit!",
+ "vacancy_accept_organization": "Welcome to",
+ "vacancy_accept_job": "Title",
+ "vacancy_accept_position": "Employer",
+ "vacancy_accept_salary": "Salary",
+ "vacancy_accept_hours": "Weekly hours",
+ "vacancy_denied": "Rejected",
+ "vacancy_denied_description": "You are not qualified for this job",
+ "occupation_status_classmate": "classmate",
+ "occupation_status_colleague": "colleague",
+ "occupation_status_unknown": "unknown"
+
+}

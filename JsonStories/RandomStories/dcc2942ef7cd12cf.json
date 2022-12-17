@@ -1,0 +1,115 @@
+{
+    "Description": {
+        "TimeCreated": "18.07.2021 8:23:31",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "I am hanging out with some classmates before class when I see this annoying person walk by and I comment on how this person is annoying.",
+    "Question": "It turns out this is %FullName:NPC:1%'s sibling so, what should I say now?",
+    "OptionText": [
+        {
+            "Text": "\"I'm just messing with you!\""
+        },
+        {
+            "Text": "\"So, you know what I mean, huh?\""
+        },
+        {
+            "Text": "\"Don't worry, everyone's sibling is annoying.\""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "Nobody buys this, especially %FullName:NPC:1%, and now they all think I'm a jerk.",
+            "DiaryEntry": "I suppose I shouldn't have commented on random people when talking to classmates I don't know so well. You never know who is related to who. Now, %FullName:NPC:1% thinks I'm a jerk, as do many of my other classmates."
+        },
+        {
+            "Result": "When I say this jokingly, %FullName:NPC:1% laughs about it and agrees with me.",
+            "DiaryEntry": "Whoa, saved myself there! Not wavering and just being lighthearted and funny about it, %FullName:NPC:1% and everyone else got a good laugh about it and didn't think I genuinely despised this person... even though I kind of do. That's a smart way to get myself out of a jam!"
+        },
+        {
+            "Result": "Everyone except %FullName:NPC:1% laughs about this.",
+            "DiaryEntry": "Every one of my classmates was laughing about this and telling me I'm so funny, except for %FullName:NPC:1% who is staring daggers at me the rest of the day. Oops! At least everyone else is on my side."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "Classmate",
+                "Gender": "",
+                "MinAge": "8",
+                "MaxAge": "18"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PrimarySchool:MiddleSchool:HighSchool",
+                "MinAge": "8",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

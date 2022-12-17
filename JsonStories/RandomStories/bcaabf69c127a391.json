@@ -1,0 +1,115 @@
+{
+    "Description": {
+        "TimeCreated": "18.07.2021 9:44:43",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "After a date with %FullName:NPC:1% from the office, we are back at %Pron:1:2% place and my stomach starts grumbling.",
+    "Question": "What should I do?",
+    "OptionText": [
+        {
+            "Text": "Nothing, it will probably go away."
+        },
+        {
+            "Text": "Head to %Pron:1:2% bathroom and try to wait it out."
+        },
+        {
+            "Text": "Ask if %FullName:NPC:1% has any antacids."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "We start to kiss and my stomach grumbles and %FullName:NPC:1% is completely turned off.",
+            "DiaryEntry": "I was really hoping it would just go away but right as we start to kiss my stomach grumbles even louder... several times. %FullName:NPC:1% is completely turned off and says we should call it a night. I am so embarrassed and so annoyed with myself. What did I eat at dinner?!"
+        },
+        {
+            "Result": "I end up being in %FullName:NPC:1%'s bathroom for so long %Pron:1:1% gets weirded out.",
+            "DiaryEntry": "%FullName:NPC:1% thinks it's weird that I spend so much time in the bathroom and asks me to leave once I come out. Also %Pron:1:1% tells everyone in our office about the situation and now everyone thinks I'm a creep!"
+        },
+        {
+            "Result": "I'm embarrassed at first but %FullName:NPC:1% tells me not to worry and gets me some antacids.",
+            "DiaryEntry": "Wow, I just asked %FullName:NPC:1% and it wasn't all that embarrassing at all. %Pron:1:1% provides me with an antacid and my stomach growling goes away. And then we continue to have a great rest of the night!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Crush",
+                "Occupation": "",
+                "Gender": "Opposite",
+                "MinAge": "22",
+                "MaxAge": "35"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PartTimeJob:FullTimeJob",
+                "MinAge": "22",
+                "MaxAge": "35",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

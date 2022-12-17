@@ -1,0 +1,122 @@
+{
+    "Description": {
+        "TimeCreated": "21.07.2021 6:08:30",
+        "Comment": ""
+    },
+    "HeaderColor": "Yellow",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "%FullName:NPC:1% is going to get coffee and asks if I want one too.",
+    "Question": "I've already had two coffees today. What should I say?",
+    "OptionText": [
+        {
+            "Text": "\"No.\""
+        },
+        {
+            "Text": "\"Yes.\""
+        },
+        {
+            "Text": "\"What about a lemonade?\""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FullName:NPC:1% is a little upset and thinks I'm not interested in %Pron:1:2%",
+            "DiaryEntry": "That was stupid of me! I should've just said yes. %FullName:NPC:1% thinks I'm not interested in %Pron:1:2% now and I actually am. I was just not really wanting another coffee after having two... maybe I should've asked for a lemonade instead? Well, at least I was able to get a lot of work done... since %FullName:NPC:1% wasn't talking to me much after that."
+        },
+        {
+            "Result": "%FullName:NPC:1% is so nice to bring me a coffee, but now I'm too hyper and can't focus at work.",
+            "DiaryEntry": "I thank %FullName:NPC:1% for being so nice and we work together the rest of our shift and have a great time. We even schedule a date later! However, I'm so hyper that I can't focus on my work and our boss %FullName:NPC:2% is getting angry with me."
+        },
+        {
+            "Result": "%FullName:NPC:1% goes out of %Pron:1:3% way to go to a place that has lemonade!",
+            "DiaryEntry": "%FullName:NPC:1% is so sweet, driving somewhere else to get me a lemonade. And it's this super healthy and refreshing lemonade. Delicious! I can't believe it! We end up making a date later on too. "
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Health": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "Colleague",
+                "Gender": "Opposite",
+                "MinAge": "16",
+                "MaxAge": "22"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College",
+                "MinAge": "16",
+                "MaxAge": "22",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

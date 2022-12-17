@@ -1,0 +1,95 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 13:23:13",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "I have this question on my geography quiz",
+    "Question": "'What is the most populated country in the world?'",
+    "OptionText": [
+        {
+            "Text": "China"
+        },
+        {
+            "Text": "India"
+        },
+        {
+            "Text": "United States"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "China is the right answer!",
+            "DiaryEntry": "China was the right answer! I knew that one, so glad I nailed it... or at least guessed right. Either way, I picked right on the quiz."
+        },
+        {
+            "Result": "India is the wrong answer.",
+            "DiaryEntry": "India is the wrong answer but it's the second most populated country and is just behind China... so I was close. Not a bad guess, I suppose."
+        },
+        {
+            "Result": "United States is the wrong answer.",
+            "DiaryEntry": "So, United States was the wrong answer, it's the third most populated country and %FullName:NPC:1% laughs at me and makes fun of me for picking that. %Pron:1:1% thinks I'm an idiot and we end up getting into a big argument. I don't need to take %Pron:1:3% crap about one wrong answer. What a jerk!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ]
+        },
+        {},
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {}
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": "Same"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PrimarySchool:MiddleSchool:HighSchool",
+                "MinAge": "8",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

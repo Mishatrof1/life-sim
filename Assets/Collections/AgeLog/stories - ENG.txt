@@ -1,0 +1,343 @@
+Brief for the scriptwriter This is an idle life simulator about the periods of life. There is the button "+age", clicking on which you will add one year to the character's age. Each click trigger an event connected with the age. At the moment of "growing-up" (after clicking the button) players will get pop up notification with the event description. The player must choose between 3 variants of actions for each event. Each action leads to definite consequence. Consequences are divided into 4 groups, specifying the life sphere which can be effected by the action: relationship, health, happiness and appearence (attraction).   Target audience: teenage players, 16+. The story should be engaging to the target audience.  Narration genre: an absorbing, challenging story about the life periods. Must contain some comic (trash) situations understandable for teenagers. Humor should be dirty, nasty etc. The narration must contain love stories, parties, sex, pregnance, abortions and so on.													33	6	198									
+															1 980,00	$								
+															19,8	day								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+(1 - 3 age)																								
+Age - story number	stories (1-3 age) - 1				stories (1-3 age) - 2				stories (1-3 age) - 3				stories (1-3 age) - 4				stories (1-3 age) - 5				stories (1-3 age) - 6			
+Event	Your mom just cooked porrige for you. What would you do?				Your mom takes you to the hospital for vaccination. You look at the huge syringe in nurse's hand...				stories				stories				stories				stories			
+Options	Eat with pleasure	Be naughty	Spit out the porrige	option 4	Throw a fit	Try to escape	Calm down and wait	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	You ate all the porrige with pleasure.	You tried to be naughty, but mom is uncompromising, so you had to eat all the porrige.	Your mouth is full of food, you decided to spit it out and splash your mom's face and clothes with porrige. Whoops!		Your hysterics didn't work! You were grabbed and got an injection.	You've released from the mother's hands and ran to the exit. Oh no, the door is closed, and you are too short to reach the door handle. Mom caught you and you got an injection.	You weathered this challenge heroically and got the sweets form the nurse.		text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships	plus 5 (mom)		minus 5 (mom)		plus 5 (mom)																			
+Health																								
+Happiness							plus 5 (yummy!)																	
+Appearence																								
+																								
+(4 - 6 age)																								
+Age - story number	stories (4-6 age) - 1				stories (4-6 age) - 2				stories (4-6 age) - 3				stories (4-6 age) - 4				stories (4-6 age) - 5				stories (4-6 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(7 - 9 age)																								
+Age - story number	stories (7-9 age) - 1				stories (7-9 age) - 2				stories (7-9 age) - 3				stories (7-9 age) - 4				stories (7-9 age) - 5				stories (7-9 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(10 - 12 age)																								
+Age - story number	stories (10-12 age) - 1				stories (10-12 age) - 2				stories (10-12 age) - 3				stories (10-12 age) - 4				stories (10-12 age) - 5				stories (10-12 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(13 - 15 age)																								
+Age - story number	stories (13-15 age) - 1				stories (13-15 age) - 2				stories (13-15 age) - 3				stories (13-15 age) - 4				stories (13-15 age) - 5				stories (13-15 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(16 - 18 age)																								
+Age - story number	stories (16-17 age) - 1				stories (16-17 age) - 2				stories (16-17 age) - 3				stories (16-17 age) - 4				stories (16-17 age) - 5				stories (16-17 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(19 - 20 age)																								
+Age - story number	stories (19-20 age) - 1				stories (19-20 age) - 2				stories (19-20 age) - 3				stories (19-20 age) - 4				stories (19-20 age) - 5				stories (19-20 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(21 - 22 age)																								
+Age - story number	stories (21-22 age) - 1				stories (21-22 age) - 2				stories (21-22 age) - 3				stories (21-22 age) - 4				stories (21-22 age) - 5				stories (21-22 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(23 - 24 age)																								
+Age - story number	stories (23-24 age) - 1				stories (23-24 age) - 2				stories (23-24 age) - 3				stories (23-24 age) - 4				stories (23-24 age) - 5				stories (23-24 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(25 - 26 age)																								
+Age - story number	stories (25-26 age) - 1				stories (25-26 age) - 2				stories (25-26 age) - 3				stories (25-26 age) - 4				stories (25-26 age) - 5				stories (25-26 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(27 - 28 age)																								
+Age - story number	stories (27-28 age) - 1				stories (27-28 age) - 2				stories (27-28 age) - 3				stories (27-28 age) - 4				stories (27-28 age) - 5				stories (27-28 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(29 - 30 age)																								
+Age - story number	stories (29-30 age) - 1				stories (29-30 age) - 2				stories (29-30 age) - 3				stories (29-30 age) - 4				stories (29-30 age) - 5				stories (29-30 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(31 - 32 age)																								
+Age - story number	stories (31-32 age) - 1				stories (31-32 age) - 2				stories (31-32 age) - 3				stories (31-32 age) - 4				stories (31-32 age) - 5				stories (31-32 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(33 - 34 age)																								
+Age - story number	stories (33-34 age) - 1				stories (33-34 age) - 2				stories (33-34 age) - 3				stories (33-34 age) - 4				stories (33-34 age) - 5				stories (33-34 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(35 - 36 age)																								
+Age - story number	stories (35 - 36 age) - 1				stories (35 - 36 age) - 2				stories (35 - 36 age) - 3				stories (35 - 36 age) - 4				stories (35 - 36 age) - 5				stories (35 - 36 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(37 - 38 age)																								
+Age - story number	stories (37 - 38 age) - 1				stories (37 - 38 age) - 2				stories (37 - 38 age) - 3				stories (37 - 38 age) - 4				stories (37 - 38 age) - 5				stories (37 - 38 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(39 - 40 age)																								
+Age - story number	stories (39 - 40 age) - 1				stories (39 - 40 age) - 2				stories (39 - 40 age) - 3				stories (39 - 40 age) - 4				stories (39 - 40 age) - 5				stories (39 - 40 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(41 - 42 age)																								
+Age - story number	stories (41 - 42 age) - 1				stories (41 - 42 age) - 2				stories (41 - 42 age) - 3				stories (41 - 42 age) - 4				stories (41 - 42 age) - 5				stories (41 - 42 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(43 - 44 age)																								
+Age - story number	stories (43 - 44 age) - 1				stories (43 - 44 age) - 2				stories (43 - 44 age) - 3				stories (43 - 44 age) - 4				stories (43 - 44 age) - 5				stories (43 - 44 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(45 - 46 age)																								
+Age - story number	stories (45 - 46 age) - 1				stories (45 - 46 age) - 2				stories (45 - 46 age) - 3				stories (45 - 46 age) - 4				stories (45 - 46 age) - 5				stories (45 - 46 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(47 - 48 age)																								
+Age - story number	stories (47 - 48 age) - 1				stories (47 - 48 age) - 2				stories (47 - 48 age) - 3				stories (47 - 48 age) - 4				stories (47 - 48 age) - 5				stories (47 - 48 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(48 - 50 age)																								
+Age - story number	stories (48 - 50 age) - 1				stories (48 - 50 age) - 2				stories (48 - 50 age) - 3				stories (48 - 50 age) - 4				stories (48 - 50 age) - 5				stories (48 - 50 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(51 - 60 age)																								
+Age - story number	stories (51 - 60 age) - 1				stories (51 - 60 age) - 2				stories (51 - 60 age) - 3				stories (51 - 60 age) - 4				stories (51 - 60 age) - 5				stories (51 - 60 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+Age - story number	stories (51 - 60 age) - 7				stories (51 - 60 age) - 8				stories (51 - 60 age) - 9				stories (51 - 60 age) - 10				stories (51 - 60 age) - 11				stories (51 - 60 age) - 12			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+Age - story number	stories (51 - 60 age) - 13				stories (51 - 60 age) - 14				stories (51 - 60 age) - 15				stories (51 - 60 age) - 16				stories (51 - 60 age) - 17				stories (51 - 60 age) - 18			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(61 - 70 age)																								
+Age - story number	stories (61 - 70 age) - 1				stories (61 - 70 age) - 2				stories (61 - 70 age) - 3				stories (61 - 70 age) - 4				stories (61 - 70 age) - 5				stories (61 - 70 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+Age - story number	stories (61 - 70 age) - 7				stories (61 - 70 age) - 8				stories (61 - 70 age) - 9				stories (61 - 70 age) - 10				stories (61 - 70 age) - 11				stories (61 - 70 age) - 12			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+Age - story number	stories (61 - 70 age) - 13				stories (61 - 70 age) - 14				stories (61 - 70 age) - 15				stories (61 - 70 age) - 16				stories (61 - 70 age) - 17				stories (61 - 70 age) - 18			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(71 - 80 age)																								
+Age - story number	stories (71 - 80 age) - 1				stories (71 - 80 age) - 2				stories (71 - 80 age) - 3				stories (71 - 80 age) - 4				stories (71 - 80 age) - 5				stories (71 - 80 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+Age - story number	stories (71 - 80 age) - 7				stories (71 - 80 age) - 8				stories (71 - 80 age) - 9				stories (71 - 80 age) - 10				stories (71 - 80 age) - 11				stories (71 - 80 age) - 12			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+Age - story number	stories (71 - 80 age) - 13				stories (71 - 80 age) - 14				stories (71 - 80 age) - 15				stories (71 - 80 age) - 16				stories (71 - 80 age) - 17				stories (71 - 80 age) - 18			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+(81 - 120 age)																								
+Age - story number	stories (81 - 120 age) - 1				stories (81 - 120 age) - 2				stories (81 - 120 age) - 3				stories (81 - 120 age) - 4				stories (81 - 120 age) - 5				stories (81 - 120 age) - 6			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+Age - story number	stories (81 - 120 age) - 7				stories (81 - 120 age) - 8				stories (81 - 120 age) - 9				stories (81 - 120 age) - 10				stories (81 - 120 age) - 11				stories (81 - 120 age) - 12			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								
+																								
+Age - story number	stories (81 - 120 age) - 13				stories (81 - 120 age) - 14				stories (81 - 120 age) - 15				stories (81 - 120 age) - 16				stories (81 - 120 age) - 17				stories (81 - 120 age) - 18			
+Event	stories				stories				stories				stories				stories				stories			
+Options	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4	option 1	option 2	option 3	option 4
+Event result description	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log	text log
+Relationships																								
+Health																								
+Happiness																								
+Appearence																								

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 354bad64288b1a04c9b2b32fe1a782c3, type: 3}
+  m_Name: NotRequiredDialogInkSet
+  m_EditorClassIdentifier: 
+  InkSets:
+  - {fileID: 4900000, guid: ea3e01d8e47b34047a9956b8a79e6d5a, type: 3}
+  - {fileID: 4900000, guid: 3a80c45e8e0a0d441bfe23e051e0ba25, type: 3}
+  - {fileID: 4900000, guid: 271ec77e2018f074684a2958d8041843, type: 3}
+  - {fileID: 4900000, guid: 9c80f4cabc49cd24b9a8e14f3e8f8780, type: 3}
+  - {fileID: 4900000, guid: 9287e09921e86e94cba86aadfb63a716, type: 3}
+  - {fileID: 4900000, guid: 25b35b7f37f660b43a33ecce19db1b88, type: 3}
+  - {fileID: 4900000, guid: 8b7a48ccc69538a4694af0881f483dd5, type: 3}
+  - {fileID: 4900000, guid: 2e1837116e10dd6498e37fc2a4e5cef7, type: 3}
+  - {fileID: 4900000, guid: 7d8e06b76e1a6f748b771fa895741fc0, type: 3}
+  - {fileID: 4900000, guid: b2d1749d177cdce49a716b247d25da39, type: 3}

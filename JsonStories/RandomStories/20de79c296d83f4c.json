@@ -1,0 +1,118 @@
+{
+    "Description": {
+        "TimeCreated": "19.07.2021 8:51:43",
+        "Comment": ""
+    },
+    "Category": "Pink",
+    "StoryText": "I'm at %FullName:NPC:1%'s place and drop food on the crotch of my pants.",
+    "Question": "The dog comes over and starts licking it. What do I do?",
+    "OptionText": [
+        {
+            "Text": "Do nothing, the dog will finish soon."
+        },
+        {
+            "Text": "Move away from the dog"
+        },
+        {
+            "Text": "Push the dog away from me"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FullName:NPC:1% sees me letting the dog do this and thinks I'm a weirdo and kicks me out.",
+            "DiaryEntry": "Not only does %FullName:NPC:1% think I am weird and kicks me out, but %Pron:1:1% tells a bunch of our mutual friends so now everyone thinks I'm a freak. I was just trying to let the dog finish and hoping it would eventually stop!"
+        },
+        {
+            "Result": "The dog keeps following me and eventually %FullName:NPC:1% realizes what's going on and gets the dog for me.",
+            "DiaryEntry": "%FullName:NPC:1% finds the whole thing funny and eventually helps me get the dog away. %Pron:1:1% gets me something to clean my pants and we have a laugh over the whole thing."
+        },
+        {
+            "Result": "%FullName:NPC:1% gets mad at me for pushing %Pron:1:2% dog like I do.",
+            "DiaryEntry": "%FullName:NPC:1% gets mad at me because it looks like I'm just pushing the dog. %Pron:1:1% actually slaps me in the face and gives me a bruise. I explain what happened but just end up leaving. This was too much for me."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:1:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Appearance": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Crush",
+                "Occupation": "",
+                "Gender": "Opposite",
+                "MinAge": "16",
+                "MaxAge": "35"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College:PartTimeJob:FullTimeJob",
+                "MinAge": "16",
+                "MaxAge": "35",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

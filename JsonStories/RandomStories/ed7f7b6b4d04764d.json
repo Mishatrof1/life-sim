@@ -1,0 +1,110 @@
+{
+    "Description": {
+        "TimeCreated": "18.07.2021 10:28:14",
+        "Comment": ""
+    },
+    "Category": "Pink",
+    "StoryText": "I'm at a party and approach %FullName:NPC:1% and slap %Pron:1:2% on the butt, but it turns out to be %FullName:NPC:2%.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Say it was a mistake, you thought %Pron:2:1% was %FullName:NPC:1%."
+        },
+        {
+            "Text": "Just pretend like everything is normal."
+        },
+        {
+            "Text": ""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FullName:NPC:2% doesn't mind and is forgiving but %FullName:NPC:1% is mad that I confused the two.",
+            "DiaryEntry": "%FullName:NPC:2% doesn't mind and even thinks it's funny. However, %FullName:NPC:1% is really mad at me for confusing the two. But they're wearing almost exactly the same outfit and have similar body types! That argument is not helping me though!"
+        },
+        {
+            "Result": "%FulName:NPC:2% doesn't seem to mind and is even laughing and %FullName:NPC:1% thinks it's funny too.",
+            "DiaryEntry": "Wow, I just pretended like I meant it and everyone is totally fine with it. They even all think it was funny of me. If only they knew it was a complete mistake... but I'll never tell anyone!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Partner",
+                "Occupation": "",
+                "Gender": "Opposite",
+                "MinAge": "30",
+                "MaxAge": "45"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": "Opposite"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PartTimeJob:FullTimeJob",
+                "MinAge": "30",
+                "MaxAge": "45",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

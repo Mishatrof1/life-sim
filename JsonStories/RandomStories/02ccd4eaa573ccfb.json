@@ -1,0 +1,106 @@
+{
+    "Description": {
+        "TimeCreated": "23.07.2021 5:51:55",
+        "Comment": ""
+    },
+    "HeaderColor": "Blue",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "I'm going to be sleeping over %FullName:NPC:1%'s house but %Pron:1:1% tells me that %Pron:1:1% has a ghost in %Pron:1:3% house.",
+    "Question": "All of our friends laugh and make fun of %Pron:1:2%. What should I do?",
+    "OptionText": [
+        {
+            "Text": "Tell %FullName:NPC:1% it's probably just %Pron:1:3% imagination."
+        },
+        {
+            "Text": "Tell %FullName:NPC:1% we will get proof of the ghost."
+        },
+        {
+            "Text": ""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I go to %FullName:NPC:1%'s house and we see the ghost and I tell our friends and they don't believe me!",
+            "DiaryEntry": "%FullName:NPC:1% was right! %Pron:1:1% does have a ghost in %Pron:1:3% house! And we saw the thing so I make sure to tell our friends the next time I see them so they don't think %FullName:NPC:1% is crazy but now they just think we are both crazy and call us little babies for being so scared. Real mature of them!"
+        },
+        {
+            "Result": "At first everyone laughs at me too but when we actually get video proof they all apologize and are in awe of what we show them.",
+            "DiaryEntry": "I believed %FullName:NPC:1% and decided we should get proof to show everyone. They thought I was crazy at first but %FullName:NPC:1% and I saw the ghost at %Pron:1:3% house and we were ready. We got a video of it and showed everyone. They all apologized to us... and now everyone wants to talk to us and see the video of the ghost."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+",
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": "Same",
+                "MinAge": "8",
+                "MaxAge": "17"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PrimarySchool:MiddleSchool:HighSchool",
+                "MinAge": "8",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

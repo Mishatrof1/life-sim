@@ -1,0 +1,111 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 16:35:46",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "I have this question on my math quiz",
+    "Question": "'What does x equal if 3x = 2x + 8?'",
+    "OptionText": [
+        {
+            "Text": "8"
+        },
+        {
+            "Text": "4"
+        },
+        {
+            "Text": "0"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "8 is the right answer!",
+            "DiaryEntry": "8 is the right answer and %FullName:NPC:1% told me after the test that %Pron:1:1% was copying off of me on that question because %Pron:1:1% didn't know so %Pron:1:1% is glad we both got it right and tells everyone I'm so smart."
+        },
+        {
+            "Result": "4 is the wrong answer.",
+            "DiaryEntry": "4 is the wrong answer and %FullName:NPC:1% tells me %Pron:1:1% was copying off of me and now is mad at me for getting the answer wrong because that means %Pron:1:1% also got it wrong. This is my fault??"
+        },
+        {
+            "Result": "0 is the wrong answer.",
+            "DiaryEntry": "0 is the wrong answer but %FullName:NPC:1% tells me that %Pron:1:1% saw that I put 0 and %Pron:1:1% was thinking 0 was the right answer too. We both have a good laugh over the fact that we both got it wrong and that %Pron:1:1% even tried to confirm with me what I put, thinking I was going to get it right!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Intelligence": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "Classmate",
+                "Gender": "Same",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "13",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

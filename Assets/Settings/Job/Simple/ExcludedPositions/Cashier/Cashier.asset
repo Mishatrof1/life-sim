@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a64de933d4450faeaf4f491f5d5fac, type: 3}
+  m_Name: Cashier
+  m_EditorClassIdentifier: 
+  NameDefault: Cashier
+  Icon: {fileID: 0}
+  Salary:
+    Min: 30000
+    Max: 45000
+  PossibleOrganizations:
+  - {fileID: 11400000, guid: 00c3983555aaf074fa1c254baa5fab61, type: 2}
+  PersonRequirement:
+    Age: 0
+  PositionChainRequirement:
+    Experience: 0
+  ParametersRequirements: []
+  PositionsRequirementGroups:
+  - Requirements:
+    - PositionConfiguration: {fileID: 11400000, guid: b5ffff5b81f359c4b93a98380c4a7059,
+        type: 2}
+      Experience: 0
+    CheckType: 0
+  EducationRequirementGroups:
+  - Requirements:
+    - GraduationResult: 3
+      PercentGrade: 100
+      StudyDirection: 5
+    - GraduationResult: 2
+      PercentGrade: 85
+      StudyDirection: 28
+    CheckType: 1
+  - Requirements:
+    - GraduationResult: 4
+      PercentGrade: 0
+      StudyDirection: 29
+    - GraduationResult: 4
+      PercentGrade: 10
+      StudyDirection: 0
+    CheckType: 0
+  PromotionsDefault:
+  - {fileID: 11400000, guid: f97a3c24c95be1742a25674bcc5da8ab, type: 2}
+  SpecialPromotions: []

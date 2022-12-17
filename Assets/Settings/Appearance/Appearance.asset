@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd71718932eb46f18acf846542667ff0, type: 3}
+  m_Name: Appearance
+  m_EditorClassIdentifier: 
+  AppearanceSettings:
+  - Gender: 1
+    MinAge: 0
+    MaxAge: 100
+    AppearanceGroups:
+    - {fileID: 11400000, guid: bac0ff9d8c81e0c498f02ed228eb4a65, type: 2}
+    - {fileID: 11400000, guid: e2125c68d3b79a447ab0d2f30a97ce99, type: 2}
+    - {fileID: 11400000, guid: 645a26bfcab6bd54794591867e4b6c78, type: 2}
+    - {fileID: 11400000, guid: 79c265491e5101e4f80cd24b425dc653, type: 2}
+    - {fileID: 11400000, guid: c8bbefc26e3a5a44a9c328b96f0cd0a6, type: 2}
+    - {fileID: 11400000, guid: 442bd7d6bed07c846a50667e5a1cf785, type: 2}
+    - {fileID: 11400000, guid: 58a72b41023ea5740b19d99eb46512f8, type: 2}
+  - Gender: 0
+    MinAge: 0
+    MaxAge: 100
+    AppearanceGroups:
+    - {fileID: 11400000, guid: bac0ff9d8c81e0c498f02ed228eb4a65, type: 2}
+    - {fileID: 11400000, guid: e2125c68d3b79a447ab0d2f30a97ce99, type: 2}
+    - {fileID: 11400000, guid: 645a26bfcab6bd54794591867e4b6c78, type: 2}
+    - {fileID: 11400000, guid: 79c265491e5101e4f80cd24b425dc653, type: 2}
+    - {fileID: 11400000, guid: c8bbefc26e3a5a44a9c328b96f0cd0a6, type: 2}
+    - {fileID: 11400000, guid: 442bd7d6bed07c846a50667e5a1cf785, type: 2}
+    - {fileID: 11400000, guid: 58a72b41023ea5740b19d99eb46512f8, type: 2}

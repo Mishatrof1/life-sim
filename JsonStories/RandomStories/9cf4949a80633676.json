@@ -1,0 +1,127 @@
+{
+    "Description": {
+        "TimeCreated": "19.07.2021 16:08:16",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "My husband is sick and asks me to get his oil changed for his car at the dealership.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Bring it to the dealership even though it’s expensive."
+        },
+        {
+            "Text": "Bring it to the place around the corner that’s cheaper"
+        },
+        {
+            "Text": "Bring it somewhere else to get the oil changed and get it washed"
+        },
+        {
+            "Text": "Bring it to the dealership where I got my car and get a discount"
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "It costs a lot but they do a good job and my husband appreciates it and even orders delivery from my favorite restaurant.",
+            "DiaryEntry": "I brought my husband’s car to his dealership and they did a great job. It cost a lot of money but it was worth it, my husband was happy and even ordered us food from my favorite restaurant! Pretty good day overall!"
+        },
+        {
+            "Result": "My husband gets annoyed that I went to the cheap place because they don’t do a good job. But I saved some money.",
+            "DiaryEntry": "I thought it would be a good idea to just save some money at the cheap place but my husband was really annoyed with me and then we got into a fight. Maybe I should’ve just spent the money."
+        },
+        {
+            "Result": "My husband is so happy with the gesture of getting his car washed as well, unfortunately, I catch a cold from someone at that place.",
+            "DiaryEntry": "I think it was a good call to bring his car in somewhere to also get it washed and he definitely was really happy with the gesture. However, I got sick from someone at that place and now both my husband and I are sick!"
+        },
+        {
+            "Result": "They scratch my husband’s car and he gets mad at me for not just bringing it where he asked me to but they did gift me a bottle of wine at the dealership.",
+            "DiaryEntry": "I’m kind of glad I went to my dealership because not only did I get a discount but they had a deal going on where I got a free bottle of wine! Although, they scratched my husband’s car and now he’s so mad at me... maybe wine will fix it?"
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wealth": "-250"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Wealth": "-100"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-",
+                    "Wealth": "-200"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wealth": "-150"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Partner",
+                "Occupation": "",
+                "Gender": "Male",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "FullTimeJob",
+                "MinAge": "",
+                "MaxAge": "",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

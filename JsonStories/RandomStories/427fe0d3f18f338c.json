@@ -1,0 +1,131 @@
+{
+    "Description": {
+        "TimeCreated": "18.07.2021 7:06:32",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "I'm playing in a school basketball game in front of all my classmates and I can feel my shorts are sliding down.",
+    "Question": "What should I do?",
+    "OptionText": [
+        {
+            "Text": "Just ignore it and keep playing"
+        },
+        {
+            "Text": "Grab my shorts and hold on"
+        },
+        {
+            "Text": "Grab my shorts and run to the bathroom"
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FullName:NPC:1% passes the ball to me, my shorts fall down but I score the game-winning shot.",
+            "DiaryEntry": "I'm so embarrassed, my shorts fell down in front of everyone! But I still caught the ball and made the game-winning shot. So, everyone is cheering me on for that and because they found it hilarious when my shorts dropped. I still just cannot believe it."
+        },
+        {
+            "Result": "I hold onto my shorts so they don't fall but %FullName:NPC:1% passes the ball to me and hits me in the face and we end up losing the game.",
+            "DiaryEntry": "Well, %FullName:NPC:1% and everyone else at the school is mad at me, but I talk to %FullName:NPC:2% later on and explain to %Pron:2:2% what happened and %Pron:2:1% understands and comforts and consoles me. It does make me feel much better."
+        },
+        {
+            "Result": "I run to the bathroom in hopes I can fix my shorts but running off the court in the middle of the game loses us the game.",
+            "DiaryEntry": "Everyone thinks I ran t the bathroom because I had to use the toilet and now they're all laughing at me and making fun of me. Even %FullName:NPC:2% thinks this is the case. I'm so embarrassed. I explain the situation to %FullName:NPC:1% and %Pron:1:1% gets it and tries to comfort me and make me feel better."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Athleticism": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Appearance": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Relationship": "ValueRef:0:+",
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+",
+                    "Sympathy": "ValueRef:0:+"
+                },
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": "Same",
+                "MinAge": "12",
+                "MaxAge": "18"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "Crush",
+                "Occupation": "",
+                "Gender": "Opposite"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "12",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

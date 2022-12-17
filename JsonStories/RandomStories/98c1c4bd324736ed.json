@@ -1,0 +1,117 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 4:06:35",
+        "Comment": ""
+    },
+    "Category": "Blue",
+    "StoryText": "Me and %FullName:NPC:1% are getting ready to golf when the employees of the place tell us there are no golf carts right now.",
+    "Question": "What should we do?",
+    "OptionText": [
+        {
+            "Text": "Golf anyway and just walk to each hole."
+        },
+        {
+            "Text": "Wait for golf carts to become available."
+        },
+        {
+            "Text": "Offer to pay an employee $50 each for a golf cart."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "This isn't so bad and in fact, we get some good exercise in walking from hole to hole. Plus, we get some sun.",
+            "DiaryEntry": "%FullName:NPC:1% and I just walk from hole to hole. We wanted to get to golfing right away and we don't mind walking. In fact, we get some sun and a bit of exercise in and everything turns out alright. I feel like the sun tan on my skin has even gotten me looking a bit more appealing too."
+        },
+        {
+            "Result": "We sit on a bench and wait a while until a golf cart is available to us. Finally one is available but sitting in one spot for so long we both get sunburnt.",
+            "DiaryEntry": "We're actually really happy to be able to use the golf cart because it's so much fun to drive. However, once we're done golfing %FullName:NPC:1% and I realize we got really bad sun burn. Really bad. It's painful. We look like lobsters in golf pants."
+        },
+        {
+            "Result": "We offer the employee money and he gets us a golf cart. Then, we get to golfing right away.",
+            "DiaryEntry": "Turns out if you flash some money golf carts just magically appear out of nowhere. I guess they keep some saved on the side. %FullName:NPC:1% is so glad I thought of us bribing the employee, we got to golfing right away and with a cart! It did cost us some money and maybe we could've used the exercise, but oh well, the carts are fun!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Appearance": "ValueRef:0:+",
+                    "Health": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Appearance": "ValueRef:0:-",
+                    "Health": "ValueRef:1:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:-",
+                    "Wealth": "-50"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": null,
+                    "Relationship": null
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": "Same"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College:PartTimeJob:FullTimeJob",
+                "MinAge": "16",
+                "MaxAge": "50",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

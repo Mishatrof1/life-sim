@@ -1,0 +1,120 @@
+{
+    "Description": {
+        "TimeCreated": "23.07.2021 19:22:02",
+        "Comment": ""
+    },
+    "HeaderColor": "Beige",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "Dad cooked lasagne, my favourite! But what's this on the side... broccoli?",
+    "Question": "I hate broccoli! What should I do?",
+    "OptionText": [
+        {
+            "Text": "Thank Dad for cooking, and eat all the broccoli. "
+        },
+        {
+            "Text": "Tell Dad that he should know that I hate broccoli! "
+        },
+        {
+            "Text": "Hide some of the broccoli under my knife and fork. "
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "Dad doesn't cook that often, so I put on a brave face and tried to eat all the broccoli, every last scrap. I ended up puking a bit... and dad was a little upset, though proud I'd tried. ",
+            "DiaryEntry": "Dad cooked my favourite meal and, although I tried to eat all my broccoli to stop myself seeming ungrateful, it backfired and I was ill. Dad was a little sad, but impressed too."
+        },
+        {
+            "Result": "When I told Dad that I hated broccoli, he looked surprised and a little hurt. He then gave me a long talk about healthy eating. By the time I got to each the lasagne, it was cold! Yuk!",
+            "DiaryEntry": "I shouldn't have been so mean to my dad about the broccoli today. He was sad, and I had to each some of the broccoli anyway. Yuk!"
+        },
+        {
+            "Result": "I gobbled up the lasagne that Dad cooked and it was delicious. I managed to hide half the broccoli and, because he didn't do the washing up, Dad never found out. Win all around!",
+            "DiaryEntry": "The oldest tricks are the best. It's amazing how much of your most-hated vegetable you can hide under a simple knife and fork! And I got away with it, too!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Wisdom": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Endurance": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Parent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Male"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "Kid:PrimarySchool",
+                "MinAge": "3",
+                "MaxAge": "5",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

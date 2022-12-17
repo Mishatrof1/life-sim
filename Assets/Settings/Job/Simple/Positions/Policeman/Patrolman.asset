@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a64de933d4450faeaf4f491f5d5fac, type: 3}
+  m_Name: Patrolman
+  m_EditorClassIdentifier: 
+  NameDefault: Patrolman
+  Icon: {fileID: 0}
+  Salary:
+    Min: 30000
+    Max: 45000
+  PossibleOrganizations:
+  - {fileID: 11400000, guid: 3f0de69f67319694eb471ca3d24c4fee, type: 2}
+  PersonRequirement:
+    Age: 0
+  PositionChainRequirement:
+    Experience: 0
+  ParametersRequirements: []
+  PositionsRequirementGroups:
+  - Requirements:
+    - PositionConfiguration: {fileID: 11400000, guid: 9b79dde7380c83e4e94a695a728e660d,
+        type: 2}
+      Experience: 2
+    CheckType: 0
+  EducationRequirementGroups:
+  - Requirements:
+    - GraduationResult: 2
+      PercentGrade: 0
+      StudyDirection: 0
+    CheckType: 0
+  PromotionsDefault:
+  - {fileID: 11400000, guid: f8063ba9c456eb244bd65370c79311e2, type: 2}
+  SpecialPromotions: []

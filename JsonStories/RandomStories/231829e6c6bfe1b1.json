@@ -1,0 +1,132 @@
+{
+    "Description": {
+        "TimeCreated": "19.07.2021 8:34:59",
+        "Comment": ""
+    },
+    "Category": "Pink",
+    "StoryText": "I'm on a date with %FullName:NPC:1% and I use the bathroom.",
+    "Question": "When I use the sink, the water sprays out all over my crotch. What should I do?",
+    "OptionText": [
+        {
+            "Text": "Tie my shirt around my waist"
+        },
+        {
+            "Text": "Don't do anything different"
+        },
+        {
+            "Text": "Wet my entire pants with water so there isn't a wet spot only on my crotch"
+        },
+        {
+            "Text": "Climb out the bathroom window, run to a store for another pair of pants."
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "It's a nice restaurant so %FullName:NPC:1% is embarrassed that I dressed myself this way.",
+            "DiaryEntry": "%FullName:NPC:1% is embarrassed that %Pron:1:1% is at a table with me in this nice restaurant since I have my shirt tied around my waist. I explained to %Pron:1:2% the situation and I was trying to not embarrass myself but %Pron:1:1% isn't having any of it and ends the date early."
+        },
+        {
+            "Result": "So many people in the restaurant laugh at me but %FullName:NPC:1% understands it was from the sink.",
+            "DiaryEntry": "I'm just happy that %FullName:NPC:1% understands and I am just trying to ignore everyone else in the restaurant who is screaming out that I look like I wet myself. But it's hard to ignore them."
+        },
+        {
+            "Result": "I exit the bathroom and at first no one notices until I sit down and water is leaking everywhere.",
+            "DiaryEntry": "%FullName:NPC:1% is mortified as people start filming me and I end up being all over the internet because I emerged from the bathroom with soaking wet pants. Those videos get too many views. And I try to explain to %FullName:NPC:1% but %Pron:1:1% is so embarrassed and wants to leave."
+        },
+        {
+            "Result": "I ran to a nearby store, purchased another pair of pants and returned with those.",
+            "DiaryEntry": "%FullName:NPC:1% immediately notices the new pants so I have to explain what happened to %Pron:1:2% and %Pron:1:1% finds this hilarious and can't stop laughing and we end up having a great rest of the night."
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+",
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Popularity": "ValueRef:1:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Relationship": "ValueRef:1:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Wealth": "-50"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Crush",
+                "Occupation": "",
+                "Gender": "Opposite",
+                "MinAge": "18",
+                "MaxAge": "35"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "HighSchool:College:PartTimeJob:FullTimeJob",
+                "MinAge": "18",
+                "MaxAge": "35",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

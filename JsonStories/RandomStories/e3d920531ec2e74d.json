@@ -1,0 +1,92 @@
+{
+    "Description": {
+        "TimeCreated": "17.07.2021 13:29:40",
+        "Comment": ""
+    },
+    "Category": "Yellow",
+    "StoryText": "I'm going to take a Philosophy class and am trying to decide which one to take.",
+    "Question": "Which professor should I go with?",
+    "OptionText": [
+        {
+            "Text": "Professor Johnson"
+        },
+        {
+            "Text": "Professor Jackson"
+        },
+        {
+            "Text": ""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "The first day of class Professor Johnson assigns us a load of homework.",
+            "DiaryEntry": "Wow, first day of class and I got a load of homework. This is a bummer, my whole weekend is ruined. But there is a lot of interesting things assigned to us and I suppose I do learn a lot."
+        },
+        {
+            "Result": "Professor Jackson feels e learn best by being out in the world so the first day we are to just go wander the campus and ponder some things.",
+            "DiaryEntry": "At first this felt like a free period and I was so happy to just be able to wander around outside but then I realized the point was to really ponder some critical questions in life and I really become enlightened. This might've been the best class I ever had. And I wasn't even in a class!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Intelligence": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Wisdom": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "College",
+                "MinAge": "18",
+                "MaxAge": "23",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "Description": {
+        "TimeCreated": "17.07.2021 9:22:05",
+        "Comment": ""
+    },
+    "Category": "Gold",
+    "StoryText": "I'm trying to decide what game I want to put money on.",
+    "Question": "Which team should I gamble on?",
+    "OptionText": [
+        {
+            "Text": "$50 on the Giants to win"
+        },
+        {
+            "Text": "$50 on the Jets to win."
+        },
+        {
+            "Text": "$50 on the Cardinals to win."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "The Giants lose.",
+            "DiaryEntry": "The Giants were favored but they still lost. Oh well, there goes $50. I'm not really quite lucky with gambling, am I?"
+        },
+        {
+            "Result": "The Jets win and I make $200!",
+            "DiaryEntry": "Yes! I just won $200! Lucky me! I don't think the Jets were really favored to win so that was really lucky for me!"
+        },
+        {
+            "Result": "The Cardinals win big in a huge upset but before I can cash my ticket out someone jumps me and steals it.",
+            "DiaryEntry": "I can't believe it! I was about to win a bunch of money and then someone stole my ticket! Not before they bashed my face in and knocked me to the ground though. I am so mad, I must have been talking too loudly about my winning ticket, I think next time I need to shut my mouth when I gamble."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Wealth": "-50"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wealth": "200"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Appearance": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-",
+                    "Wisdom": "ValueRef:0:+",
+                    "Wealth": "-50"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "",
+                "MaxAge": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "College:PartTimeJob:FullTimeJob",
+                "MinAge": "18",
+                "MaxAge": "48",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

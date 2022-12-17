@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ad579455bea0644194a032f7e85b0cc, type: 3}
+  m_Name: ArmySettings
+  m_EditorClassIdentifier: 
+  Configurations:
+  - {fileID: 11400000, guid: f4f2acf4a8cb4fa43ab7a79879461161, type: 2}
+  - {fileID: 11400000, guid: f780a9bc2cdb28e47871fc08c9ebd383, type: 2}
+  - {fileID: 11400000, guid: 4cde6a49199980143b565b6e56dbd4c0, type: 2}
+  salary: {fileID: 11400000, guid: 7ae43169adacf5140a47b19c18fcb8ff, type: 2}

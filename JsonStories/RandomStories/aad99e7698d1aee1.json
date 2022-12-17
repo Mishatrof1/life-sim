@@ -1,0 +1,120 @@
+{
+    "Description": {
+        "TimeCreated": "25.07.2021 3:42:23",
+        "Comment": ""
+    },
+    "HeaderColor": "Yellow",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "It's my birthday party and I am writing out my list of who I'm going to invite...",
+    "Question": "Should I invite %FirstName:NPC:1%, the class bully?",
+    "OptionText": [
+        {
+            "Text": "No way. He is a bully! We stand up to bullies!"
+        },
+        {
+            "Text": "Invite him - keep your friends close, and your enemies closer. "
+        },
+        {
+            "Text": "Don't invite %FirstName:NPC:1%, but tell him it was an accident. "
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "When %FirstName:NPC:1% found out that he didn't get an invite, he cornered me in the playground. I told him that it was what he deserved and before he could do anything, I went inside. It's not over. ",
+            "DiaryEntry": "I stood up to a bully today! %FirstName:NPC:1% was not invited to my party, and it was worth it just to see the look on his face. But... I've made %FirstName:NPC:1% more of an enemy than ever now. "
+        },
+        {
+            "Result": "%FirstName:NPC:1% was happy to have been invited, but at the party he was at his usual tricks. Nothing really bad happened, but a lot of my friends wondered why I had let him come. ",
+            "DiaryEntry": "I invited the class bully, %FirstName:NPC:1%, to my party. My popularity with the rest of the class took a real bashing, but at least %FirstName:NPC:1% is less likely to duck my head in the toilet again. "
+        },
+        {
+            "Result": "I tried to tell %FirstName:NPC:1% that I had forgotten to write him an invite, but he didn't believe me. My classmates think I was going to invite the guy who has been making their lives awful. Oh no!",
+            "DiaryEntry": "White lies can backfire - better to be straight with people, especially if they are bullies who you are not inviting to your party. I guess I've learned my lesson. "
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wisdom": "ValueRef:1:+",
+                    "Popularity": "ValueRef:1:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:1:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Popularity": "ValueRef:1:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Wisdom": "ValueRef:0:+",
+                    "Popularity": "ValueRef:1:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:2:-"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Enemy",
+                "Occupation": "Classmate",
+                "Gender": "Male"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "Kid:PrimarySchool",
+                "MinAge": "4",
+                "MaxAge": "5",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

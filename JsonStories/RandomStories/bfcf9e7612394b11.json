@@ -1,0 +1,123 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 17:19:53",
+        "Comment": ""
+    },
+    "Category": "Beige",
+    "StoryText": "My kid wants to take the day off from school.",
+    "Question": "What should I do?",
+    "OptionText": [
+        {
+            "Text": "Tell %Pron:1:2% I’ll take off from work and we will go to the beach."
+        },
+        {
+            "Text": "Tell %Pron:1:2% I’ll take off from work and we will go to a basketball game"
+        },
+        {
+            "Text": "Tell %Pron:1:2% %Pron:1:1% has to go to school and I still go to work."
+        },
+        {
+            "Text": "Tell %Pron:1:2% %Pron:1:1% can come in to work with me and we’ll leave early and go paintballing."
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "We have a nice, relaxing day off at the beach together. I fall behind in work and also I do get sunburned.",
+            "DiaryEntry": "This was a relaxing day, it was nice to take a day off from work even if I fell behind a little bit. My kid and I bonded, but I am going to have to work extra to catch up at work, plus, I got really sunburned. Oh, the pain!"
+        },
+        {
+            "Result": "We go to the game and have a fantastic time but we end up on TV and my boss sees and is livid I lied and said I was sick.",
+            "DiaryEntry": "This was a fantastic day, watching the game and hanging out with my kid, that is until my boss spotted us on TV. After saying I was sick, wow am I in trouble now."
+        },
+        {
+            "Result": "My kid gets annoyed with me because %Pron:1:1% feels like %Pron:1:1% deserves a day off, I go into work per usual.",
+            "DiaryEntry": "My kid is annoyed I didn’t let %Pron:1:2% take a day off but %Pron:1:1% really should be in school, plus I really wanted to get ahead in work and get a lot of stuff done, which I did."
+        },
+        {
+            "Result": "My kid enjoys coming into work with me, I get enough work done and we have a blast playing paintball!",
+            "DiaryEntry": "My kid was happy to get a day off, even if it meant spending half of it with me at work. And then we were able to skip out early and play paintball! It was great but I am in bad shape now with so many bruises!"
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "Kid:AdoptedKid",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "",
+                "MinAge": "6",
+                "MaxAge": "15"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "FullTimeJob",
+                "MinAge": "",
+                "MaxAge": "",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

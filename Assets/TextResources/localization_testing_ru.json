@@ -1,0 +1,184 @@
+{
+ "ok": "Ok (RU)",
+ "yes": "Yes (RU)",
+ "no": "No (RU)",
+ "cancel": "Cancel (RU)",
+ "test": "test (RU)",
+ "work_in_progress": "work in progress (RU)",
+ "age_string": "years old (RU)",
+ "materialstatus_single":"single (RU)",
+ "years_old":"years old (RU)",
+ "age":"Age (RU)",
+ "years":"years (RU)",
+ "months":"months (RU)",
+ "sex":"Sex (RU)",
+ "sex_title":"You had sex with %NpcFullName% (RU)",
+ "sex_player_enjoy":"Your enjoyment: (RU)",
+ "sex_npc_enjoy":"Parthner enjoyment (RU)",
+ 
+ 
+ "vacancy_header":"Apply for this open position today! (RU)",
+ "vacancy_title":"Title (RU)",
+ "vacancy_employer":"Employer (RU)",
+ "vacancy_salary":"Salary (RU)",
+ "vacancy_requirement":"Education req (RU)",
+ "vacancy_requirement_with":"with (RU)",
+ "vacancy_requirement_and":"and one of (RU)",
+ "vacancy_experience":"Work exp (RU)",
+ 
+ "vacancy_hired":"Вы устроились на должность (RU)",
+ "vacancy_reject":"Вам не удалось устроиться на должность (RU)",
+ "vacancy_try":"Попробовать устроиться (RU)",
+ "occupation_work_harde_btn_title": "Work harder (RU)",
+ "occupation_work_harder_pp_header": "Work harder (RU)",
+ "occupation_work_harder_pp": "Try to work harder (RU)",
+ "occupation_work_harder_result_pp": "Worked harder (RU)",
+ "occupation_work_harder_pp_cooldown": "Too tired (RU)",
+ "occupation_work_harder_dyary_entry": "Worked harder (RU)",
+ "occupation_work_chillout_btn_title": "Skip work (RU)",
+ "occupation_work_chillout_pp_header": "Chill out (RU)",
+ "occupation_work_chillout_pp": "Try to chill out on work (RU)",
+ "occupation_work_chillout_result_pp": "Chilled on work (RU)",
+ "occupation_work_chillout_pp_cooldown": "The boss is watching (RU)",
+ "occupation_work_chillout_diary_entry": "Chilled on work (RU)",
+ "occupation_colleagues_btn_title":"Co-Workers (RU)",
+ "ocuupation_profile_btn_descr":"Hours (RU)",
+ 
+ "ocuupation_hours_btn_title":"Hours (RU)",
+ "ocuupation_hours_btn_descr":"Adjust your weekly hours (RU)",
+ "ocuupation_schedule_btn_title":"Schedule (RU)",
+ "ocuupation_schedule_btn_descr":"Stress (RU)",
+ 
+ "ocuupation_resign_pp":"Вы уверены, что хотите уйти с этой работы? (RU)",
+ "ocuupation_fired_pp":"Вас уволили с должности (RU)",
+ "ocuupation_promotion_pp":"Вас повысили в должности до (RU)",
+ 
+ "occupation_salary_raise_diary_entry":"I have been given a raise of %SalaryPercentIncrement% %. My Salary is now %Salary% (RU)",
+ 
+ "occupation_school_drop_out_pp_header":"Drop out (RU)",
+ "occupation_school_faculty_pp_header":"School faculty (RU)",
+ "occupation_school_nurse_pp_header":"School nurse (RU)",
+ "occupation_school_library_pp_header":"School library (RU)",
+ "occupation_school_administration_pp_header":"School administration (RU)",
+ 
+ "occupation_school_drop_out_pp":"Drop out of school (RU)",
+ 
+ "occupation_faculty_pp":"Faculty is closed today (RU)",
+ "occupation_nurse_pp":"Nurse is on vacation today (RU)",
+ "occupation_library_pp":"Me at 3:00 a.m. : Why don't I go to get the library? Library at 3:15 a.m. : CLOSED (RU)",
+ "occupation_administration_pp":"Administration is closed for renovations (RU)",
+ "occupation_study_harder_pp": "Studied harder (RU)",
+ "occupation_study_harder_pp_cooldown": "Too tired (RU)",
+ "occupation_study_chillout_pp": "Skipped lessons (RU)",
+ "occupation_study_chillout_pp_cooldown": "To much of skipped lessions (RU)",
+ 
+ "occupation_study_harder_pp_header":"Study harder (RU)",
+ "occupation_study_chillout_pp_header":"Skip lessons (RU)",
+ "occupation_study_harder_pp":"Try to study harder (RU)",
+ "occupation_study_chillout_pp":"Try to skip lessons (RU)",
+ 
+ "occupation_drop_out_pp_header":"Drop out (RU)",
+ "occupation_class_btn_title":"Class (RU)",
+ "occupation_profile_btn_descr":"Grades (RU)",
+ "occupation_end_diary_entry":"Я закончил %EducationService%. Теперь у меня есть %Graduation% с %Grade% средним балом (RU)",
+ 
+  //Elementary school
+ 
+ "occupation_elementary_school_screen_btn_title":"Private Primary school (RU)",
+ "occupation_elementary_school_profile_btn_title":"Private Primary school (RU)",
+ "occupation_elementary_school_profile_btn_descr":"Private Primary school (RU)",
+ 
+ //Middle school
+ 
+ "occupation_middle_school_screen_btn_title":"Middle school (RU)",
+ "occupation_middle_school_profile_btn_title":"Middle school (RU)",
+ "occupation_middle_school_profile_btn_descr":"Middle school (RU)",
+ 
+ //High school
+ 
+ "occupation_high_school_screen_btn_title":"High school (RU)",
+ "occupation_high_school_profile_btn_title":"High school (RU)",
+ "occupation_high_school_profile_btn_descr":"High school (RU)",
+ 
+ //College
+ 
+ "occupation_college_faculty_pp_header":"Community college faculty (RU)",
+ "occupation_college_nurse_pp_header":"Community college nurse (RU)",
+ "occupation_college_library_pp_header":"Community college library (RU)",
+ "occupation_college_administration_pp_header":"Community college administration (RU)",
+ 
+ "occupation_college_drop_out_pp":"Drop out of community college (RU)",
+ 
+ "occupation_college_screen_btn_title":"Community college (RU)",
+ "occupation_college_profile_btn_title":"Community college (RU)",
+ "occupation_college_profile_btn_descr":"Community college (RU)",
+ 
+ //University
+ 
+ "occupation_university_faculty_pp_header":"University faculty (RU)",
+ "occupation_university_nurse_pp_header":"University nurse (RU)",
+ "occupation_university_library_pp_header":"University library (RU)",
+ "occupation_university_administration_pp_header":"University administration (RU)",
+ 
+ "occupation_university_drop_out_pp":"Drop out of university (RU)",
+ 
+ "occupation_university_screen_btn_title":"University (RU)",
+ "occupation_university_profile_btn_title":"University (RU)",
+ "occupation_university_profile_btn_descr":"University (RU)",
+ 
+ /////
+ 
+ "occupation_change": "Now I'am study in (RU)",
+ "occupation_productivity": "Productivity (RU)",
+ "occupation_grades": "Grades (RU)",
+ "occupation_class": "Class (RU)",
+ 
+ "occupation_job": "Job (RU)",
+ 
+ "occupation_school": "School (RU)",
+ "occupation_elementary_school": "Elementary school (RU)",
+ "occupation_middle_school": "Middle school (RU)",
+ "occupation_high_school": "High school (RU)",
+ "occupation_college": "Community college (RU)",
+ "occupation_university": "University (RU)",
+ 
+ "occupation_end_school": "School graduation (RU)",
+ "occupation_end_college": "College graduation (RU)",
+ "occupation_end_university": "University graduation (RU)",
+ "occupation_end_whats_next": "What's next? (RU)",
+ "occupation_end_goto_college": "Go to college (RU)",
+ "occupation_end_goto_university": "Go to university (RU)",
+ "occupation_end_goto_job": "Try to find a job (RU)",
+ "occupation_end_take_time": "Take time to think (RU)",
+ 
+ "communication_accept": "Accept (RU)",
+ "communication_refuse": "Refuse (RU)",
+ "communication_make_gift": "Make gift (RU)",
+ "communication_player_quote": "You said: (RU)",
+ "parametr_age": "Age (RU)",
+ "occupation_university_grade_choose": "It's time to choose your major (RU)",
+ "communication_bubble_npc_0": "Hi! (RU)",
+ "communication_bubble_npc_1": "How are you? (RU)",
+ "communication_bubble_npc_2": "How are you doing? (RU)",
+ "communication_bubble_npc_3": "How is everything? (RU)",
+ "communication_bubble_npc_4": "Hello! (RU)",
+ "new_character": "New character (RU)",
+ "you_dead_pp_title": "You dead (RU)",
+ "you_dead_pp": "Good night, sweet prince... (RU)",
+ "action_screen_relationship_collegues": "Collegues (RU)",
+ "action_screen_relationship_parents": "Parents (RU)",
+ "action_screen_relationship_friends": "Friends (RU)",
+ "action_screen_relationship_lovers": "Lovers (RU)",
+ "action_screen_relationship_enemies": "Enemies (RU)",
+ "vacancy_accept": "Perfect fit! (RU)",
+ "vacancy_accept_organization": "Welcome to (RU)",
+ "vacancy_accept_job": "Title (RU)",
+ "vacancy_accept_position": "Employer (RU)",
+ "vacancy_accept_salary": "Salary (RU)",
+ "vacancy_accept_hours": "Weekly hours (RU)",
+ "vacancy_denied": "Rejected (RU)",
+ "vacancy_denied_description": "You are not qualified for this job (RU)",
+ "occupation_status_classmate": "classmate (RU)",
+ "occupation_status_colleague": "colleague (RU)",
+ "occupation_status_unknown": "unknown"
+}

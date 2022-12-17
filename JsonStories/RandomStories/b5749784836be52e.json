@@ -1,0 +1,150 @@
+{
+    "Description": {
+        "TimeCreated": "26.07.2021 15:31:49",
+        "Comment": ""
+    },
+    "HeaderColor": "Yellow",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "It's Active Day at school and I've done everything on the assault course so far. But the climbing wall is really high and that pool of sloppy mud at the bottom looks gross.",
+    "Question": "Will my friends laugh at me if I ask for help, or chicken out?",
+    "OptionText": [
+        {
+            "Text": "Chicken out. I hate heights and I really don't want to get muddy. "
+        },
+        {
+            "Text": "Ask for help from %FirstName:NPC:1%. A little help, I bet I can do it!"
+        },
+        {
+            "Text": "Ask %FullName:NPC:2% for help over the wall. "
+        },
+        {
+            "Text": "Do it solo. I've got this. "
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I decided not to do the climbing wall. Instead, I was able to cheer on %FirstName:NPC:1% while he was doing it, and I could tell it gave him a boost. My classmates laughed a bit, but I don't care. ",
+            "DiaryEntry": "I chickened out on the climbing wall, which isn't like me usually, but at least it gave me a chance to spur on %FirstName:NPC:1%. He did really well! "
+        },
+        {
+            "Result": "%FirstName:NPC:1% was happy to help me when I got to the top and my legs started wobbling. But he wasn't strong enough to catch me when I slipped, and I ended up head first in that sloppy mud. Ouch! ",
+            "DiaryEntry": "I may've looked like an idiot when I slipped of the climbing wall into that mud, but actually my classmates didn't give me a hard time. %FirstName:NPC:1% gave himself a hard time for failing to catch me, but it wasn't his fault. Whatever doesn't kill you, makes you... muddier!"
+        },
+        {
+            "Result": "%FullName:NPC:1% got me over the top of the high wall, and when I slipped, grabbed me. When I reached the bottom, I felt giddy but stronger. One of my idiot classmates made a comment, but, whatever. ",
+            "DiaryEntry": "Since when did getting your teacher's help mean you should be laughed at? The kid that made a comment about that didn't do the climbing wall at all, I noticed, so I guess he can work out which of us is the better person. "
+        },
+        {
+            "Result": "I'm brave, but being a coward has its advantages. I attacked that wall. It was going great! I slipped; the mud took me into it's comforting embrace. A little winded, at least I've had a go, right?",
+            "DiaryEntry": "I made my friends and teacher proud today, having a go at that climbing wall! I don't think I'll ever make a professional climber, but I might make a good mud wrestler! "
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:-",
+                    "Wisdom": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Appearance": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-",
+                    "Strength": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Strength": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {},
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Appearance": "ValueRef:0:-",
+                    "Health": "ValueRef:0:-",
+                    "Strength": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "Classmate",
+                "Gender": "Male"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "HigherInPosition",
+                "Gender": "Male"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PrimarySchool",
+                "MinAge": "4",
+                "MaxAge": "5",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

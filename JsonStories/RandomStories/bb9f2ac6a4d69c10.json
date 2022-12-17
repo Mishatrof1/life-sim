@@ -1,0 +1,139 @@
+{
+    "Description": {
+        "TimeCreated": "29.07.2021 11:39:48",
+        "Comment": ""
+    },
+    "HeaderColor": "Pink",
+    "Category": "Love:Violence",
+    "Sentiment": "",
+    "StoryText": "I'm at a bar with %FullName:NPC:1% and some random guy insults her.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Tell her we should just ignore him."
+        },
+        {
+            "Text": "Go up to the guy and tell him to apologize."
+        },
+        {
+            "Text": "Go yell at the guy and insult him back."
+        },
+        {
+            "Text": "Go punch the guy in the eye."
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "%FullName:NPC:1% gets angry with me for not standing up for her.",
+            "DiaryEntry": "Not only did %FullName:NPC:1% get angry with me for doing nothing and not standing up for her, but she tells a bunch of our friends too and now they all think I'm lame and like I was scared of the guy. I just didn't want to start anything with some random guy, who knows what he may have been capable of?"
+        },
+        {
+            "Result": "The guy listens to me and actually does go apologize to %FullName:NPC:1%.",
+            "DiaryEntry": "%FullName:NPC:1% is so proud of me for standing up to the guy and telling him to apologize. She even tells all our friends what a great guy I am. I was a little nervous telling the guy to do that, but I was firm and honest with him and he seemed to respect that and agreed. I guess it was a good lesson in how to handle situations like that."
+        },
+        {
+            "Result": "The guy immediately starts to fight me and I have to fight him off along with his friend.",
+            "DiaryEntry": "So, I yelled at this guy and insulted him and he attacked me! We get into a fight in the middle of the bar and then his friend even comes in and attacks me too. Luckily, some people pulled them off of me because I wasn't going to be able to handle both of them. I got pretty banged up but at least I stood up for %FullName:NPC:1%. And she loves that I did it and tells EVERYONE."
+        },
+        {
+            "Result": "His reaction to me punching him is to leave. Later when we leave the bar, the guy is waiting with his friend and they shoot me and drive off.",
+            "DiaryEntry": "I thought I was so cool, punching this guy in the eye and sending him off. It turns out, him and his friend just waited for me outside with their guns. It was such a scary experience. I had to go to the emergency room, the doctors said had one of the bullets been an inch to the left I would've died. I definitely learned a lesson, do NOT engage with strangers."
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Popularity": "ValueRef:0:-"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Wisdom": "ValueRef:0:+",
+                    "Popularity": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:-",
+                    "Strength": "ValueRef:1:+",
+                    "Popularity": "ValueRef:1:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Health": "ValueRef:3:-",
+                    "Strength": "ValueRef:1:-",
+                    "Wisdom": "ValueRef:3:+",
+                    "Popularity": "ValueRef:1:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:1:+",
+                    "Sympathy": "ValueRef:2:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "SignificantOther",
+                "Occupation": "",
+                "Gender": "Female",
+                "MinAge": "21",
+                "MaxAge": "30"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "College:PartTimeJob:FullTimeJob",
+                "MinAge": "21",
+                "MaxAge": "30",
+                "Gender": "Male",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

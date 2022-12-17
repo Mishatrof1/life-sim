@@ -1,0 +1,107 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 1:52:30",
+        "Comment": ""
+    },
+    "Category": "Pink",
+    "StoryText": "Me and %FullName:NPC:1% are walking through the city together when we come across a gang of five guys who are getting ready to jump us.",
+    "Question": "What do I do?",
+    "OptionText": [
+        {
+            "Text": "Tell %FullName:NPC:1% we need to both run as fast as we can."
+        },
+        {
+            "Text": "Tell %FullName:NPC:1% to run off and I am going to try to fight off this gang."
+        },
+        {
+            "Text": ""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "We take off running and the gang chases us but we run as fast as we can and they eventually give up and we get away.",
+            "DiaryEntry": "%FullName:NPC:1% and I are both happy to have gotten away but we were both so scared for a minute. That was too close! We were both just about out of breath when the gang finally gave up. We're not walking that way anymore!"
+        },
+        {
+            "Result": "%FullName:NPC:1% runs off and gets help. Thankfully she did because I stood no match for the five guys who pummeled me and even knocked me unconscious.",
+            "DiaryEntry": "I wake up in the hospital with a concussion, broken ribs, cuts and bruises all over, the doctors say I was fairly close to death. If %FullName:NPC:1% hadn't gotten help immediately, I could've died. She is so thankful I saved her and stays with me in the hospital as I recover. We grow closer but wow am I in massive pain!"
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:+",
+                    "Endurance": "ValueRef:0:+",
+                    "Athleticism": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:-",
+                    "Health": "ValueRef:2:-",
+                    "Strength": "ValueRef:0:-",
+                    "Wisdom": "ValueRef:0:+",
+                    "Popularity": "ValueRef:2:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:1:+",
+                    "Sympathy": "ValueRef:1:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Crush",
+                "Occupation": "",
+                "Gender": "Female"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool:College",
+                "MinAge": "13",
+                "MaxAge": "23",
+                "Gender": "Male",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

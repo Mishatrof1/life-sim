@@ -1,0 +1,121 @@
+{
+    "Description": {
+        "TimeCreated": "29.07.2021 3:49:54",
+        "Comment": ""
+    },
+    "HeaderColor": "Pink",
+    "Category": "Love",
+    "Sentiment": "",
+    "StoryText": "%FullName:NPC:1% says that we haven't spent much time together lately.",
+    "Question": "She wants us to do something this weekend and wants me to pick something. What should I pick?",
+    "OptionText": [
+        {
+            "Text": "Tell her I'll take her to her favorite restaurant"
+        },
+        {
+            "Text": "Tell her I'll take her to a museum"
+        },
+        {
+            "Text": "Surprise %FullName:NPC:1% with tickets to a play."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "Not until after the dinner does %FullName:NPC:1% express that she's upset with this choice.",
+            "DiaryEntry": "Instead of telling me before, %FullName:NPC:1% waits until I spend a bunch of money on a big, expensive meal and then tells me that she's upset. Apparently, we go here too often and this is what I always decide that we should do when she wants to spend time. And she wants me to try harder and be more creative. Jeez, she couldn't have said that before?!"
+        },
+        {
+            "Result": "We have a great time at this museum that we both have never been to.",
+            "DiaryEntry": "%FullName:NPC:1% really enjoys the museum, as do I. She is also really happy that I chose something different from the usual of restaurants and movies and what not. And I am glad I chose the museum too, I hadn't been to one in a while and had forgotten how much I love attending museums and learning from them."
+        },
+        {
+            "Result": "%FullName:NPC:1% loves the idea of going to this play and loves that I surprised her!",
+            "DiaryEntry": "Surprising %FullName:NPC:1% was probably my best option. I think doing something like that, surprising her, really lit a little spark in our relationship. I wanted to let her know we can still have surprises... and she loved the idea of the play! So, I really did a good job with this one."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Wealth": "-120"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Intelligence": "ValueRef:0:+",
+                    "Wealth": "-40"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Wealth": "-70"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:1:+",
+                    "Relationship": "ValueRef:1:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Partner",
+                "Occupation": "",
+                "Gender": "Female",
+                "MinAge": "25",
+                "MaxAge": "65"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PartTimeJob:FullTimeJob",
+                "MinAge": "25",
+                "MaxAge": "65",
+                "Gender": "Male",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

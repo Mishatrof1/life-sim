@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eab8b94a7cd666b4daa05dede0463069, type: 3}
+  m_Name: AgeStageSettings
+  m_EditorClassIdentifier: 
+  _stages:
+  - _ageStage: 1
+    _yearMin: 0
+    _yearMax: 3
+    _dummySpriteMale: {fileID: 21300000, guid: 94149e73b5e5bfb49af062ee26e54086, type: 3}
+    _dummySpriteFemale: {fileID: 21300000, guid: 89c1685f15298c54d8ba95da9e962a50,
+      type: 3}
+  - _ageStage: 2
+    _yearMin: 4
+    _yearMax: 12
+    _dummySpriteMale: {fileID: 21300000, guid: d73dd71e1cbaa274cb93eb4d4c501da2, type: 3}
+    _dummySpriteFemale: {fileID: 21300000, guid: 08c8eef42b41ea34e823b484b9ed78af,
+      type: 3}
+  - _ageStage: 3
+    _yearMin: 13
+    _yearMax: 17
+    _dummySpriteMale: {fileID: 21300000, guid: 3ce53b236e8ea384baec526f7b8a9c67, type: 3}
+    _dummySpriteFemale: {fileID: 21300000, guid: ad1bca43784a7264c8471a738d49e1ca,
+      type: 3}
+  - _ageStage: 4
+    _yearMin: 18
+    _yearMax: 49
+    _dummySpriteMale: {fileID: 21300000, guid: e1cf11ca695d9504caed35cce1a23364, type: 3}
+    _dummySpriteFemale: {fileID: 0}
+  - _ageStage: 5
+    _yearMin: 50
+    _yearMax: 1000
+    _dummySpriteMale: {fileID: 21300000, guid: cf377570ea966844985c1b4bc0079076, type: 3}
+    _dummySpriteFemale: {fileID: 21300000, guid: f102d50fde9fa4f4084343af542124f8,
+      type: 3}
+  - _ageStage: 0
+    _yearMin: -1
+    _yearMax: -1
+    _dummySpriteMale: {fileID: 0}
+    _dummySpriteFemale: {fileID: 0}

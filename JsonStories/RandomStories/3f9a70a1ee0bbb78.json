@@ -1,0 +1,125 @@
+{
+    "Description": {
+        "TimeCreated": "16.07.2021 2:09:07",
+        "Comment": ""
+    },
+    "Category": "Blue",
+    "StoryText": "I'm supposed to go home for dinner but both %FullName:NPC:1% and %FullName:NPC:2% invite me to dinners with them separately.",
+    "Question": "What should I do?",
+    "OptionText": [
+        {
+            "Text": "Go to dinner with %FullName:NPC:1%"
+        },
+        {
+            "Text": "Go to dinner with %FullName:NPC:2%"
+        },
+        {
+            "Text": "Go home for dinner and save my money."
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "We go to a barbecue place and it's delicious and so bad for you. Both %FullName:NPC:2% and %Full:Name:NPC:3% are disappointed I didn't have dinner with them.",
+            "DiaryEntry": "%FullName:NPC:3% is upset I didn't come home for dinner. %FullName:NPC:2% is upset I didn't take %Pron:2:2% up on %Pron:2:2% offer. Everybody, I can only be one place at a time! At least me and %FullName:NPC:1% had a great time! Oh, but I feel so fat now."
+        },
+        {
+            "Result": "%FullName:NPC:3% and %FullName:NPC:1% both understand that I want to go out with %FullName:NPC:2% and aren't mad. We eat at a great French restaurant but it is expensive!",
+            "DiaryEntry": "Wow, me and %FullName:NPC:2% had an amazing time! I'm so glad I went with %Pron:2:2%. The food was delicious, very fattening though. And quite expensive. I didn't realize I would be spending so much money. But I guess it's worth it."
+        },
+        {
+            "Result": "Both %FullName:NPC:1% and %FullName:NPC:2% understand and both say we should plan for another time. %FullName:NPC:3% makes a healthy and delicious dinner for us and we have a nice night.",
+            "DiaryEntry": "%FullName:NPC:3% is happy I still came home for dinner and actually I am too. I saved money and didn't spend a bunch eating out. And our dinner was really healthy and still tasty. I didn't feel so tired and out of it after dinner, I felt good! I should probably eat like this more often."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:-",
+                    "Wealth": "-30"
+                }
+            ],
+            "NPC": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                },
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                },
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Health": "ValueRef:0:-",
+                    "Wealth": "-70"
+                }
+            ],
+            "NPC": [
+                {},
+                {
+                    "Happiness": "ValueRef:0:+",
+                    "Relationship": "ValueRef:0:+"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Health": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {},
+                {},
+                {}
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Friend",
+                "Occupation": "",
+                "Gender": "Same"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "Crush",
+                "Occupation": "",
+                "Gender": "Opposite"
+            },
+            {
+                "Relatives": "Parent",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": "Female"
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "MiddleSchool:HighSchool",
+                "MinAge": "13",
+                "MaxAge": "18",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

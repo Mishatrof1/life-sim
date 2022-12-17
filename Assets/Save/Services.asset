@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68498271a1834d8a90fb240c817446ff, type: 3}
+  m_Name: Services
+  m_EditorClassIdentifier: 
+  WorkServices: []
+  SimpleWorkServices: []
+  MilitaryServices:
+  - Id: b9b4dbb3-59a2-4707-8e80-1b3e5ea90494
+    OrganizationId: a403a586-5a13-4a46-8e9b-536f4c2ca495
+    HoursPerWeek: 0
+    BefriendProbability: 0
+    Salary: 0
+    PositionConfigurationIndex: 0
+    DislikeFactor: 0.87215036
+    TargetDislikeFactor: 0
+    Productivity: Infinity
+  EducationServices:
+  - Id: 7ada84b6-f99b-42d9-89be-8a44d5dea29b
+    OrganizationId: c3779ebd-ba99-41d0-b1a0-867470f30bd9
+    HoursPerWeek: 30
+    BefriendProbability: 0
+    Type: 1
+    ResultType: 0
+    Cost: 0
+    DurationMonths: 48
+    _gradesSaves: []
+    StudyDirection: 
+    Productivity: 0.78349787
+  - Id: c9e93027-c77c-4940-b266-50e8c54c3b4e
+    OrganizationId: 3d216134-a205-4371-bb5a-ae2d41b35b5c
+    HoursPerWeek: 30
+    BefriendProbability: 0
+    Type: 2
+    ResultType: 0
+    Cost: 0
+    DurationMonths: 48
+    _gradesSaves: []
+    StudyDirection: 
+    Productivity: 0.78349787
+  - Id: 35eec35d-40db-4e1a-bbef-ae053e0e7e50
+    OrganizationId: 5ee1f3d5-7bff-49d5-8e88-61b649edc0f7
+    HoursPerWeek: 30
+    BefriendProbability: 0
+    Type: 3
+    ResultType: 0
+    Cost: 0
+    DurationMonths: 48
+    _gradesSaves: []
+    StudyDirection: 
+    Productivity: 0.78349787
+  - Id: cd35384d-69d7-40fc-a8dd-d67df4f10edb
+    OrganizationId: a16eaa5b-3969-4232-97a8-2272a53e5f85
+    HoursPerWeek: 35
+    BefriendProbability: 60
+    Type: 5
+    ResultType: 0
+    Cost: 0
+    DurationMonths: 24
+    _gradesSaves: []
+    StudyDirection: 
+    Productivity: 0
+  - Id: 521a46b5-8ec1-43a8-b881-9d380996b100
+    OrganizationId: c6490341-de22-4eb7-ae2e-1def70d766c2
+    HoursPerWeek: 40
+    BefriendProbability: 60
+    Type: 6
+    ResultType: 0
+    Cost: 0
+    DurationMonths: 48
+    _gradesSaves: []
+    StudyDirection: 
+    Productivity: 0

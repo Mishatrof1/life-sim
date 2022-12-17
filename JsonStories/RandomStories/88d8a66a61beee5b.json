@@ -1,0 +1,105 @@
+{
+    "Description": {
+        "TimeCreated": "22.07.2021 5:59:34",
+        "Comment": ""
+    },
+    "HeaderColor": "Pink",
+    "Category": "",
+    "Sentiment": "",
+    "StoryText": "I am home alone and the lights go out in the house.",
+    "Question": "I think I hear someone whispering my name. What should I do?",
+    "OptionText": [
+        {
+            "Text": "Leave the house!"
+        },
+        {
+            "Text": "Light a candle"
+        },
+        {
+            "Text": ""
+        },
+        {
+            "Text": ""
+        }
+    ],
+    "OptionResult": [
+        {
+            "Result": "I go to an all night coffee place until %FullName:NPC:1% gets home, then I return.",
+            "DiaryEntry": "%FullName:NPC:1% is annoyed that I just left because the lights went out and didn't call and let %Pron:1:2% know or anything. I was just thankful to get out of that house. Something weird was happening. I honestly felt like it was haunted in that moment. When I get back, the lights come back on, which is very strange."
+        },
+        {
+            "Result": "I light a candle and see a face appear suddenly in the light and it scares me and I faint.",
+            "DiaryEntry": "%FullName:NPC:1% comes home and finds me unconscious and wakes me up. I burned myself with the candle and hurt my back when I fell. I tell %Pron:1:2% exactly what happened and we both agree that we think it was a ghost, considering all the doors and windows were locked, no one could have gotten in there with me."
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        },
+        {
+            "Result": "",
+            "DiaryEntry": ""
+        }
+    ],
+    "Change": [
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:-"
+                }
+            ]
+        },
+        {
+            "Character": [
+                {
+                    "Happiness": "ValueRef:0:-",
+                    "Health": "ValueRef:1:-",
+                    "Wisdom": "ValueRef:0:+"
+                }
+            ],
+            "NPC": [
+                {
+                    "Relationship": "ValueRef:0:+",
+                    "Sympathy": "ValueRef:0:+"
+                }
+            ]
+        }
+    ],
+    "Condition": {
+        "NPC": [
+            {
+                "Relatives": "",
+                "Relationship": "Partner",
+                "Occupation": "",
+                "Gender": "Opposite",
+                "MinAge": "22",
+                "MaxAge": "50"
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            },
+            {
+                "Relatives": "",
+                "Relationship": "",
+                "Occupation": "",
+                "Gender": ""
+            }
+        ],
+        "Character": [
+            {
+                "Occupation": "PartTimeJob:FullTimeJob",
+                "MinAge": "22",
+                "MaxAge": "50",
+                "Gender": "",
+                "SexualPreferences": ""
+            }
+        ]
+    }
+}

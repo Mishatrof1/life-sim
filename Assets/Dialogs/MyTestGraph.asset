@@ -1,0 +1,936 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5787938204287842817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58fa1190eae693d4dbccd3bc88a756c9, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -2200, y: -2312}
+  ports:
+    keys:
+    - Enter
+    - Responses
+    - Responses 0
+    - Responses 1
+    - Responses 2
+    - Responses 3
+    values:
+    - _fieldName: Enter
+      _node: {fileID: -5787938204287842817}
+      _typeQualifiedName: Other.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses
+      _node: {fileID: -5787938204287842817}
+      _typeQualifiedName: System.Collections.Generic.List`1[[Other.DialogSystem.Response,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses 0
+      _node: {fileID: -5787938204287842817}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Enter
+        node: {fileID: 7836746084794020045}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Responses 1
+      _node: {fileID: -5787938204287842817}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Enter
+        node: {fileID: 3051108228220557955}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Responses 2
+      _node: {fileID: -5787938204287842817}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Enter
+        node: {fileID: -3530303640158394817}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Responses 3
+      _node: {fileID: -5787938204287842817}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Enter
+        node: {fileID: 6881124788589129539}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Label: "\u0417\u043E\u043E\u043F\u0430\u0440\u043A"
+  MessageText: "\u0422\u0435\u0431\u044F \u0432\u0437\u044F\u043B\u0438 \u0432 \u0437\u043E\u043E\u043F\u0430\u0440\u043A"
+  Responses:
+  - Label: "\u041F\u043E\u043A\u043E\u0440\u043C\u0438\u0442\u044C \u0432\u043E\u043B\u043A\u0430"
+  - Label: "\u041F\u043E\u043A\u043E\u0440\u043C\u0438\u0442\u044C \u043C\u0435\u0434\u0432\u0435\u0434\u044F"
+  - Label: "\u041F\u043E\u043A\u043E\u0440\u043C\u0438\u0442\u044C \u0434\u0435\u0432\u043E\u0447\u043A\u0443"
+  - Label: "\u0421\u044A\u0435\u0441\u0442\u044C \u0432\u0441\u0451 \u0441\u0430\u043C\u043E\u043C\u0443"
+  ListConditions: 01000000
+  AgeCondition: 5
+  RelationMin: 0
+  RelationMax: 0
+  SexualityCondition: 0
+  Results:
+  - ResultType: 0
+    ParticipantIndex: 0
+    HappinessChange: 0
+    LookChange: 0
+    SmartChange: 0
+    HealthChange: 0
+    MoneyChange: 0
+    RelationshipChange: 0
+    TypeOfOccupation: 0
+    relationshipType: 0
+--- !u!114 &-5512981447525572064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58fa1190eae693d4dbccd3bc88a756c9, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -232, y: -1496}
+  ports:
+    keys:
+    - Enter
+    - Responses
+    - Responses 0
+    values:
+    - _fieldName: Enter
+      _node: {fileID: -5512981447525572064}
+      _typeQualifiedName: Other.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Responses 1
+        node: {fileID: 4481846186808420467}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses
+      _node: {fileID: -5512981447525572064}
+      _typeQualifiedName: System.Collections.Generic.List`1[[Other.DialogSystem.Response,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses 0
+      _node: {fileID: -5512981447525572064}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Label: "\u041E\u0431\u043C\u0435\u043D\u044F\u0442\u044C \u0449\u0435\u043D\u043A\u0430
+    \u0434\u0440\u0443\u0433\u0443 \u043D\u0430 \u0447\u0442\u043E-\u0442\u043E \u043F\u043E\u043B\u0435\u0437\u043D\u043E\u0435"
+  MessageText: "\u0422\u044B \u043E\u0431\u043C\u0435\u043D\u044F\u043B \u0449\u0435\u043D\u043A\u0430
+    \u043D\u0430 \u043A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u044E \u0444\u0438\u043B\u044C\u043C\u043E\u0432
+    \u0434\u043B\u044F \u0432\u0437\u0440\u043E\u0441\u043B\u044B\u0445. \u0418 \u0445\u043E\u0442\u044F
+    \u0442\u044B \u043D\u0435 \u0434\u043E \u043A\u043E\u043D\u0446\u0430 \u0437\u043D\u0430\u0435\u0448\u044C
+    \u0437\u0430\u0447\u0435\u043C, \u0432 \u0431\u0443\u0434\u0443\u0449\u0435\u043C
+    \u0442\u0435\u0431\u0435 \u044D\u0442\u043E \u0442\u043E\u0447\u043D\u043E \u043A\u0430\u043A-\u0442\u043E
+    \u043F\u0440\u0438\u0433\u043E\u0434\u0438\u0442\u0441\u044F."
+  Responses:
+  - Label: Ok
+  ListConditions: 01000000
+  AgeCondition: 7
+  RelationMin: 0
+  RelationMax: 0
+  SexualityCondition: 0
+  Results: []
+--- !u!114 &-3530303640158394817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58fa1190eae693d4dbccd3bc88a756c9, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1144, y: -1192}
+  ports:
+    keys:
+    - Enter
+    - Responses
+    - Responses 0
+    values:
+    - _fieldName: Enter
+      _node: {fileID: -3530303640158394817}
+      _typeQualifiedName: Other.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Responses 2
+        node: {fileID: -5787938204287842817}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses
+      _node: {fileID: -3530303640158394817}
+      _typeQualifiedName: System.Collections.Generic.List`1[[Other.DialogSystem.Response,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses 0
+      _node: {fileID: -3530303640158394817}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Label: "\u0414\u0435\u0432\u043E\u0447\u043A\u0430"
+  MessageText: "\u0414\u0435\u0432\u043E\u0447\u043A\u0430 \u043F\u043E\u043B\u043E\u0436\u0438\u0442\u0435\u043B\u044C\u043D\u043E
+    \u043E\u0446\u0435\u043D\u0438\u043B\u0430 \u0442\u0432\u043E\u0439 \u043F\u043E\u0441\u0442\u0443\u043F\u043E\u043A,
+    \u0430 \u0432\u043E\u0442 \u0435\u0435 \u043C\u0430\u043C\u0430 \u0431\u044B\u043B\u0430
+    \u0432 \u0431\u0435\u0448\u0435\u043D\u0441\u0442\u0432\u0435. \u041E\u0447\u0435\u043D\u044C
+    \u0433\u043B\u0443\u043F\u0430\u044F \u0442\u0435\u0442\u044F. \u041A\u043E\u0440\u043C
+    \u0434\u043B\u044F \u0436\u0438\u0432\u043E\u0442\u043D\u044B\u0445 \u0442\u043E\u0436\u0435
+    \u0435\u0434\u0430."
+  Responses:
+  - Label: Ok
+  ListConditions: 01000000
+  AgeCondition: 5
+  RelationMin: 0
+  RelationMax: 0
+  SexualityCondition: 0
+  Results: []
+--- !u!114 &-1890931460927794884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58fa1190eae693d4dbccd3bc88a756c9, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1384, y: -664}
+  ports:
+    keys:
+    - Enter
+    - Responses
+    - Responses 0
+    values:
+    - _fieldName: Enter
+      _node: {fileID: -1890931460927794884}
+      _typeQualifiedName: Other.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Responses 1
+        node: {fileID: 2724255140857953792}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses
+      _node: {fileID: -1890931460927794884}
+      _typeQualifiedName: System.Collections.Generic.List`1[[Other.DialogSystem.Response,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses 0
+      _node: {fileID: -1890931460927794884}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Label: "\u0420\u043E\u0434\u0438\u0442\u0435\u043B\u0438"
+  MessageText: "\u041A\u0430\u0436\u0435\u0442\u0441\u044F \u0432\u044B \u0441\u043C\u043E\u0433\u043B\u0438
+    \u0443\u0431\u0435\u0434\u0438\u0442\u044C \u043A\u043E\u043C\u0438\u0441\u0441\u0438\u044E,
+    \u0447\u0442\u043E \u044D\u0442\u043E \u0431\u044B\u043B\u043E \u043F\u0440\u043E\u0441\u0442\u043E
+    \u043D\u0435\u0434\u043E\u0440\u0430\u0437\u0443\u043C\u0435\u043D\u0438\u0435.
+    \u041D\u043E \u043E\u0442 \u043F\u043E\u0440\u043A\u0438 \u0442\u0435\u0431\u044F
+    \u044D\u0442\u043E \u043D\u0435 \u0441\u043F\u0430\u0441\u043B\u043E."
+  Responses:
+  - Label: Ok
+  ListConditions: 01000000
+  AgeCondition: 6
+  RelationMin: 0
+  RelationMax: 0
+  SexualityCondition: 0
+  Results: []
+--- !u!114 &-332211552357065156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58fa1190eae693d4dbccd3bc88a756c9, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -568, y: -1336}
+  ports:
+    keys:
+    - Enter
+    - Responses
+    - Responses 0
+    values:
+    - _fieldName: Enter
+      _node: {fileID: -332211552357065156}
+      _typeQualifiedName: Other.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Responses 2
+        node: {fileID: 4481846186808420467}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses
+      _node: {fileID: -332211552357065156}
+      _typeQualifiedName: System.Collections.Generic.List`1[[Other.DialogSystem.Response,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses 0
+      _node: {fileID: -332211552357065156}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Label: "\u041E\u0442\u0434\u0430\u0442\u044C \u0449\u0435\u043D\u043A\u0430 \u0432
+    \u043F\u0438\u0442\u043E\u043C\u043D\u0438\u043A"
+  MessageText: "\u0429\u0435\u043D\u043E\u043A \u0441\u043C\u043E\u0442\u0440\u0435\u043B
+    \u043D\u0430 \u0442\u0435\u0431\u044F \u043C\u0438\u043B\u044B\u043C\u0438 \u0438
+    \u0432\u0435\u0440\u043D\u044B\u043C\u0438 \u0433\u043B\u0430\u0437\u0430\u043C\u0438.
+    \u0410 \u0442\u044B \u0441\u0434\u0430\u043B \u0435\u0433\u043E \u0432 \u043F\u0440\u0438\u044E\u0442.
+    \u042D\u0445, \u043D\u0430\u0434\u043E \u0431\u044B\u043B\u043E \u043A\u043E\u0440\u043C\u0438\u0442\u044C
+    \u043C\u0435\u0434\u0432\u0435\u0434\u044F."
+  Responses:
+  - Label: Ok
+  ListConditions: 01000000
+  AgeCondition: 7
+  RelationMin: 0
+  RelationMax: 0
+  SexualityCondition: 0
+  Results: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ab3ef769833d84bbfe83d924d46e10, type: 3}
+  m_Name: MyTestGraph
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -5787938204287842817}
+  - {fileID: 7836746084794020045}
+  - {fileID: 3051108228220557955}
+  - {fileID: -3530303640158394817}
+  - {fileID: 6881124788589129539}
+  - {fileID: 2724255140857953792}
+  - {fileID: 6519826868949624623}
+  - {fileID: -1890931460927794884}
+  - {fileID: 4481846186808420467}
+  - {fileID: 2075483466293083910}
+  - {fileID: -5512981447525572064}
+  - {fileID: -332211552357065156}
+--- !u!114 &2075483466293083910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58fa1190eae693d4dbccd3bc88a756c9, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -248, y: -1992}
+  ports:
+    keys:
+    - Enter
+    - Responses
+    - Responses 0
+    values:
+    - _fieldName: Enter
+      _node: {fileID: 2075483466293083910}
+      _typeQualifiedName: Other.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Responses 0
+        node: {fileID: 4481846186808420467}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses
+      _node: {fileID: 2075483466293083910}
+      _typeQualifiedName: System.Collections.Generic.List`1[[Other.DialogSystem.Response,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses 0
+      _node: {fileID: 2075483466293083910}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Label: "\u0417\u0430\u0431\u0440\u0430\u0442\u044C \u0449\u0435\u043D\u043A\u0430
+    \u0441\u0435\u0431\u0435"
+  MessageText: "\u0422\u044B \u043D\u0430\u0437\u0432\u0430\u043B \u043F\u0441\u0430 
+    \u0413\u0430\u0440\u0433\u0443\u043B\u044F  \u0438 \u0432\u044B \u043E\u0447\u0435\u043D\u044C
+    \u0431\u044B\u0441\u0442\u0440\u043E \u043F\u043E\u0434\u0440\u0443\u0436\u0438\u043B\u0438\u0441\u044C."
+  Responses:
+  - Label: Ok
+  ListConditions: 01000000
+  AgeCondition: 7
+  RelationMin: 0
+  RelationMax: 0
+  SexualityCondition: 0
+  Results: []
+--- !u!114 &2724255140857953792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58fa1190eae693d4dbccd3bc88a756c9, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1608, y: -1160}
+  ports:
+    keys:
+    - Enter
+    - Responses
+    - Responses 0
+    - Responses 1
+    values:
+    - _fieldName: Enter
+      _node: {fileID: 2724255140857953792}
+      _typeQualifiedName: Other.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Responses 0
+        node: {fileID: 6881124788589129539}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses
+      _node: {fileID: 2724255140857953792}
+      _typeQualifiedName: System.Collections.Generic.List`1[[Other.DialogSystem.Response,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses 0
+      _node: {fileID: 2724255140857953792}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Enter
+        node: {fileID: 6519826868949624623}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Responses 1
+      _node: {fileID: 2724255140857953792}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Enter
+        node: {fileID: -1890931460927794884}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Label: "\u041A\u043E\u043C\u0438\u0441\u0441\u0438\u044F"
+  MessageText: "\u041A \u0432\u0430\u043C \u043F\u0440\u0438\u0448\u043B\u0430 \u043A\u043E\u043C\u0438\u0441\u0441\u0438\u044F
+    \u0438\u0437 \u0441\u043E\u0446. \u043E\u043F\u0435\u043A\u0438, \u043F\u043E
+    \u0437\u0430\u044F\u0432\u043B\u0435\u043D\u0438\u044E, \u0447\u0442\u043E \u0442\u0432\u043E\u0438
+    \u0440\u043E\u0434\u0438\u0442\u0435\u043B\u0438 \u043A\u043E\u0440\u043C\u044F\u0442
+    \u0442\u0435\u0431\u044F \u043A\u043E\u0440\u043C\u043E\u043C \u0434\u043B\u044F
+    \u0436\u0438\u0432\u043E\u0442\u043D\u044B\u0445"
+  Responses:
+  - Label: "\u0421\u043A\u0430\u0437\u0430\u0442\u044C \u043F\u0440\u0430\u0432\u0434\u0443"
+  - Label: "\u0417\u0430\u0449\u0438\u0449\u0430\u0442\u044C \u0441\u0432\u043E\u0438\u0445
+      \u0440\u043E\u0434\u0438\u0442\u0435\u043B\u0435\u0439"
+  ListConditions: 01000000
+  AgeCondition: 6
+  RelationMin: 0
+  RelationMax: 0
+  SexualityCondition: 0
+  Results: []
+--- !u!114 &3051108228220557955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58fa1190eae693d4dbccd3bc88a756c9, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1816, y: -2008}
+  ports:
+    keys:
+    - Enter
+    - Responses
+    - Responses 0
+    values:
+    - _fieldName: Enter
+      _node: {fileID: 3051108228220557955}
+      _typeQualifiedName: Other.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Responses 1
+        node: {fileID: -5787938204287842817}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses
+      _node: {fileID: 3051108228220557955}
+      _typeQualifiedName: System.Collections.Generic.List`1[[Other.DialogSystem.Response,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses 0
+      _node: {fileID: 3051108228220557955}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Label: "\u041C\u0435\u0434\u0432\u0435\u0434\u044C"
+  MessageText: "\u0422\u044B \u043F\u0440\u043E\u0441\u0443\u043D\u0443\u043B \u0440\u0443\u043A\u0443,
+    \u0447\u0442\u043E\u0431\u044B \u043D\u0430\u0441\u044B\u043F\u0430\u0442\u044C
+    \u043A\u043E\u0440\u043C\u0430, \u043D\u043E \u043F\u043E\u0445\u043E\u0436\u0435
+    \u043C\u0438\u0448\u043A\u0430 \u0440\u0435\u0448\u0438\u043B, \u0447\u0442\u043E
+    \u043A\u043E\u0440\u043C \u044D\u0442\u043E \u0442\u044B."
+  Responses:
+  - Label: Ok
+  ListConditions: 01000000
+  AgeCondition: 5
+  RelationMin: 0
+  RelationMax: 0
+  SexualityCondition: 0
+  Results: []
+--- !u!114 &4481846186808420467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58fa1190eae693d4dbccd3bc88a756c9, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -632, y: -1976}
+  ports:
+    keys:
+    - Enter
+    - Responses
+    - Responses 0
+    - Responses 1
+    - Responses 2
+    values:
+    - _fieldName: Enter
+      _node: {fileID: 4481846186808420467}
+      _typeQualifiedName: Other.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Responses 0
+        node: {fileID: 7836746084794020045}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses
+      _node: {fileID: 4481846186808420467}
+      _typeQualifiedName: System.Collections.Generic.List`1[[Other.DialogSystem.Response,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses 0
+      _node: {fileID: 4481846186808420467}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Enter
+        node: {fileID: 2075483466293083910}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Responses 1
+      _node: {fileID: 4481846186808420467}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Enter
+        node: {fileID: -5512981447525572064}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Responses 2
+      _node: {fileID: 4481846186808420467}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Enter
+        node: {fileID: -332211552357065156}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Label: "\u0429\u0435\u043D\u043E\u043A"
+  MessageText: "\u0412\u0441\u043F\u043E\u043C\u0438\u043D\u0430\u044F \u043A\u0430\u043A
+    \u0442\u044B \u043A\u043E\u0440\u043C\u0438\u043B \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E
+    \u043B\u0435\u0442 \u043D\u0430\u0437\u0430\u0434 \u0432\u043E\u043B\u043A\u0430,
+    \u0442\u0432\u043E\u0438 \u0440\u043E\u0434\u0438\u0442\u0435\u043B\u0438 \u043F\u043E\u0434\u0430\u0440\u0438\u043B\u0438
+    \u0442\u0435\u0431\u0435 \u0449\u0435\u043D\u043A\u0430, \u0441 \u043A\u043E\u043B\u043E\u043A\u043E\u043B\u044C\u0447\u0438\u043A\u043E\u043C
+    \u043D\u0430 \u0448\u0435\u0435"
+  Responses:
+  - Label: "\u0417\u0430\u0431\u0440\u0430\u0442\u044C \u0449\u0435\u043D\u043A\u0430
+      \u0441\u0435\u0431\u0435"
+  - Label: "\u041E\u0431\u043C\u0435\u043D\u044F\u0442\u044C \u0449\u0435\u043D\u043A\u0430
+      \u0434\u0440\u0443\u0433\u0443 \u043D\u0430 \u0447\u0442\u043E-\u0442\u043E
+      \u043F\u043E\u043B\u0435\u0437\u043D\u043E\u0435"
+  - Label: "\u041E\u0442\u0434\u0430\u0442\u044C \u0449\u0435\u043D\u043A\u0430 \u0432
+      \u043F\u0438\u0442\u043E\u043C\u043D\u0438\u043A"
+  ListConditions: 01000000
+  AgeCondition: 7
+  RelationMin: 0
+  RelationMax: 0
+  SexualityCondition: 0
+  Results: []
+--- !u!114 &6519826868949624623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58fa1190eae693d4dbccd3bc88a756c9, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1000, y: -664}
+  ports:
+    keys:
+    - Enter
+    - Responses
+    - Responses 0
+    values:
+    - _fieldName: Enter
+      _node: {fileID: 6519826868949624623}
+      _typeQualifiedName: Other.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Responses 0
+        node: {fileID: 2724255140857953792}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses
+      _node: {fileID: 6519826868949624623}
+      _typeQualifiedName: System.Collections.Generic.List`1[[Other.DialogSystem.Response,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses 0
+      _node: {fileID: 6519826868949624623}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Label: "\u041F\u0440\u0430\u0432\u0434\u0430"
+  MessageText: "\u041A\u0430\u0436\u0435\u0442\u0441\u044F \u0442\u044B \u043F\u0435\u0440\u0435\u0441\u0442\u0430\u0440\u0430\u043B\u0441\u044F.
+    \u0422\u0432\u043E\u0438\u0445 \u0440\u043E\u0434\u0438\u0442\u0435\u043B\u0435\u0439
+    \u043B\u0438\u0448\u0430\u044E\u0442 \u0440\u043E\u0434\u0438\u0442\u0435\u043B\u044C\u0441\u043A\u0438\u0445
+    \u043F\u0440\u0430\u0432, \u0430 \u0442\u0435\u0431\u044F \u0437\u0430\u0431\u0438\u0440\u0430\u044E\u0442
+    \u0432 \u043F\u0440\u0438\u044E\u0442."
+  Responses:
+  - Label: Ok
+  ListConditions: 01000000
+  AgeCondition: 6
+  RelationMin: 0
+  RelationMax: 0
+  SexualityCondition: 0
+  Results: []
+--- !u!114 &6881124788589129539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58fa1190eae693d4dbccd3bc88a756c9, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -2120, y: -1832}
+  ports:
+    keys:
+    - Enter
+    - Responses
+    - Responses 0
+    values:
+    - _fieldName: Enter
+      _node: {fileID: 6881124788589129539}
+      _typeQualifiedName: Other.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Responses 3
+        node: {fileID: -5787938204287842817}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses
+      _node: {fileID: 6881124788589129539}
+      _typeQualifiedName: System.Collections.Generic.List`1[[Other.DialogSystem.Response,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses 0
+      _node: {fileID: 6881124788589129539}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Enter
+        node: {fileID: 2724255140857953792}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Label: "\u0421\u0435\u0431\u0435"
+  MessageText: "\u041A\u043E\u0440\u043C \u0434\u043B\u044F \u0436\u0438\u0432\u043E\u0442\u043D\u044B\u0445
+    \u043D\u0435 \u0441\u0430\u043C\u0430\u044F \u0432\u043A\u0443\u0441\u043D\u0430\u044F
+    \u043F\u0438\u0449\u0430, \u0437\u0430\u0442\u043E \u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E
+    \u0441\u044B\u0442\u043D\u0430\u044F. \u041A\u0430\u043A\u0430\u044F-\u0442\u043E
+    \u0442\u0435\u0442\u044F \u043D\u0430\u0447\u0430\u043B\u0430 \u0444\u043E\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u0440\u043E\u0432\u0430\u0442\u044C
+    \u0442\u0432\u043E\u044E \u0442\u0440\u0430\u043F\u0438\u0437\u0443, \u0430 \u0442\u044B
+    \u0435\u0439 \u0440\u0430\u0434\u043E\u0441\u0442\u043D\u043E \u043F\u043E\u0437\u0438\u0440\u043E\u0432\u0430\u043B."
+  Responses:
+  - Label: Ok
+  ListConditions: 01000000
+  AgeCondition: 5
+  RelationMin: 0
+  RelationMax: 0
+  SexualityCondition: 0
+  Results: []
+--- !u!114 &7836746084794020045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58fa1190eae693d4dbccd3bc88a756c9, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1784, y: -2376}
+  ports:
+    keys:
+    - Enter
+    - Responses
+    - Responses 0
+    values:
+    - _fieldName: Enter
+      _node: {fileID: 7836746084794020045}
+      _typeQualifiedName: Other.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Responses 0
+        node: {fileID: -5787938204287842817}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses
+      _node: {fileID: 7836746084794020045}
+      _typeQualifiedName: System.Collections.Generic.List`1[[Other.DialogSystem.Response,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Responses 0
+      _node: {fileID: 7836746084794020045}
+      _typeQualifiedName: Other.DialogSystem.Response, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Enter
+        node: {fileID: 4481846186808420467}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Label: "\u0412\u043E\u043B\u043A"
+  MessageText: "\u0412\u043E\u043B\u043A \u0436\u0430\u0434\u043D\u043E \u043F\u0440\u043E\u0433\u043B\u043E\u0442\u0438\u043B
+    \u043A\u043E\u0440\u043C \u0438 \u043D\u0430\u0447\u0430\u043B \u0432\u0438\u043B\u044F\u0442\u044C
+    \u0445\u0432\u043E\u0441\u0442\u043E\u043C. \u041A\u0430\u0436\u0435\u0442\u0441\u044F
+    \u0442\u0432\u043E\u0438 \u0440\u043E\u0434\u0438\u0442\u0435\u043B\u0438 \u044D\u0442\u043E
+    \u0437\u0430\u043C\u0435\u0442\u0438\u043B\u0438 \u0438 \u0447\u0442\u043E-\u0442\u043E
+    \u0437\u0430\u0434\u0443\u043C\u0430\u043B\u0438."
+  Responses:
+  - Label: Ok
+  ListConditions: 01000000
+  AgeCondition: 5
+  RelationMin: 0
+  RelationMax: 0
+  SexualityCondition: 0
+  Results:
+  - ResultType: 0
+    ParticipantIndex: 0
+    HappinessChange: 1
+    LookChange: 0
+    SmartChange: 0
+    HealthChange: 0
+    MoneyChange: 0
+    RelationshipChange: 0
+    TypeOfOccupation: 0
+    relationshipType: 0
